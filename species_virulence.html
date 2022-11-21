@@ -1,0 +1,238 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Non-Tuberculosis-Mycobateria-database</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  </head>
+  <body class="bg-light">
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+      <div class="container">
+        <a href="./home.html" class="navbar-brand">NTM-DB</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navmenu">
+          <ul class="navbar-nav">
+            <div class="dropdown">
+              <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Browse
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="./species_table.html">Species</a></li>
+                <li><a class="dropdown-item" href="./strains_table.html">Strians</a></li>
+                <li><a class="dropdown-item" href="./Gene_table.html">Genes</a></li>
+              </ul>
+            </div>
+            <li class="nav-item"><a class="nav-link" href="./search/search.html">Search</a></li>
+            <li class="nav-item"><div class="nav-link">Analysis</div></li>
+            <li class="nav-item"><div class="nav-link">Download</div></li>
+            <li class="nav-item"><div class="nav-link">Documentation</div></li>
+          </ul>
+        </div>
+        <div class="collapse navbar-colleps"></div>
+      </div>
+    </nav>
+    <div class="container p-3">
+        <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="./home.html">Home</a></li>
+          <li class="breadcrumb-item"><a href="./species_table.html">Browse:Species</a></li>
+        </ol>
+      </nav>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-3">
+          <form action="">
+            <h5 class="my-3">Taxonmy</h5>
+            <div class="row my-1">
+              <label for="#" class="form-label col-sm-3 col-form-label p-1">Genus.</label>
+              <div class="col-9">
+                <select name="Genus" id="Genus" class="form-select my-1">
+                  <option selected>Select Genus</option>
+                  <option value="Mycobaterium">Mycobacterium</option>
+                  <option value="Mycobacterium">Mycobacteroides</option>
+                  <option value="Mycolicibater">Mycolicibater</option>
+                  <option value="Mycolicibaterium">Mycolicibaterium</option>
+                  <option value="Mycolicibacillus">Mycolicibacillus</option>
+                </select>
+              </div>
+            </div>
+            <div class="row my-1">
+              <label for="#" class="form-label col-sm-3 col-form-label p-1">Species.</label>
+              <div class="col-sm-9">
+                <input type="Species" class="form-control my-1" id="TaxSpecies" placeholder="eg. M.abscessus">
+              </div>
+            </div>
+            <div class="row my-1">
+              <label for="#" class="form-label col-sm-5 col-form-label p-1">Sub.Species. </label>
+              <div class="col-sm-7">
+                <input type="Species" class="form-control my-1" id="TaxSpecies" placeholder="eg. sub.bollitii">
+              </div>
+            </div>
+
+            <h5 class="my-3">Source</h5>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="Source" id="Source1" checked>
+              <label class="form-check-label" for="Source1">
+                ALL
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="Source" id="Source2" >
+              <label class="form-check-label" for="Source2">
+                Human
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="Source" id="Source3" >
+              <label class="form-check-label" for="Source3">
+                Animal
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="Source" id="Source4" >
+              <label class="form-check-label" for="Source4">
+                Environment
+              </label>
+            </div>
+
+
+            <h5 class="my-3">Growth Type</h5>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="Growth Type" id="Growth Type1" checked>
+              <label class="form-check-label" for="Growth Type1">
+                Rapid
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="Growth Type" id="Growth Type2">
+              <label class="form-check-label" for="Growth Type2">
+                Slow
+              </label>
+            </div>
+    
+
+            <h5 class="my-3">Pathogenicity</h5>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="Pathogenicity" id="Pathogenicity1" checked>
+              <label class="form-check-label" for="Pathogenicity1">
+                ALL
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="Pathogenicity" id="Pathogenicity2">
+              <label class="form-check-label" for="Pathogenicity2">
+                Pathogenic
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="Pathogenicity" id="Pathogenicity3" >
+              <label class="form-check-label" for="Pathogenicity3">
+                Opportunity-Pathogenic
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="Pathogenicity" id="Pathogenicity4" >
+              <label class="form-check-label" for="Pathogenicity4">
+                Non-Pathogenic
+              </label>
+            </div>
+            <br><p align="center"><input type="button" value="Reset" > <input type="button" value="Submit" ></p>
+          </form>
+        </div>
+        <div class="col-9">
+            <div class="container">
+              <p><b>Table legends: </b><br>Source:     <font color="#8A0808">Human source; </font>   <font color="#07257c">Animal source; </font>  <font color="#dbcb98">Environment source</font>
+                <br>Growth Type:     <font color="#fa8258">Rapid;</font>      <font color="#00e6e6">Slow</font>
+                <br>Pathogenicity:  <font color="#237123"> NP=non-pathogenic;</font>   <font color="#ffbf00">OP=opportunistic pathogens;</font>   <font color="#1d46bc">P=pathogens;</font>   <font color="#949494">U=unknown</font></p>
+                 
+              <p><br><i>169 NTM species found</i></p>
+              <input type="button" value="General" onclick="window.location.href='./species_table.html'">
+              <input type="button" value="Resistance" onclick="window.location.href='./species_resistance.html'">
+              <input type="button" value="Virulence">
+              <div style="overflow: auto; width: 100%;">
+                <table class="table table-striped">
+                    <thead text-align="center">
+                      <tr>
+                        <th scope="col">Select</th>
+                        <th scope="col">Species</th>
+                        <th scope="col">Adherence</th>
+                        <th scope="col">Invasion</th>
+                        <th scope="col">Motility</th>
+                        <th scope="col">Exotoxin</th>
+                        <th scope="col">Exoenzyme</th>
+                        <th scope="col">Immune modulation</th>
+                        <th scope="col">Biofilm</th>
+                        <th scope="col">Stress survival</th>
+                        <th scope="col">Post-translational modification</th>
+                        
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th><input type="checkbox" onclick="swapCheck()" /></th>
+                        <td align="center"><a href="./species_page.html">Mycobacterium abscess</a></td>
+                        <td align="center">76.47%</td>
+                        <td align="center">0%</td>
+                        <td align="center">0%</td>
+                        <td align="center">0%</td>
+                        <td align="center">12.07%</td>
+                        <td align="center">0%</td>
+                        <td align="center">38.79%</td>
+                        <td align="center">0%</td>
+                        <td align="center">0%</td>
+                      </tr>
+                      <tr>
+                        <th><input type="checkbox" onclick="swapCheck()" /></th>
+                        <td align="center"><a href="./species_page.html">Mycobacterium avium</a></td>
+                        <td align="center">59.58%	</td>
+                        <td align="center">0%</td>
+                        <td align="center">60.16%</td>
+                        <td align="center">21.11%</td>
+                        <td align="center">12.77%</td>
+                        <td align="center">0%</td>
+                        <td align="center">0%</td>
+                        <td align="center">0%</td>
+                        <td align="center">12.07%</td>
+                      </tr>
+                      <tr>
+                        <th><input type="checkbox" onclick="swapCheck()" /></th>
+                        <td align="center"><a href="./species_page.html">Mycobacterium intracellulare</a></td>
+                        <td align="center">6.67%</td>
+                        <td align="center">0%</td>
+                        <td align="center">80%</td>
+                        <td align="center">0%</td>
+                        <td align="center">73.33%</td>
+                        <td align="center">0%</td>
+                        <td align="center">16.67%</td>
+                        <td align="center">12.89%</td>
+                        <td align="center">11%</td>
+                      </tr>
+                      <tr>
+                        <th><input type="checkbox" onclick="swapCheck()" /></th>
+                        <td align="center"><a href="./species_page.html">Mycobacterium ulcerans</a></td>
+                        <td align="center">30.14%</td>
+                        <td align="center">0%</td>
+                        <td align="center">19.86%</td>
+                        <td align="center">25%</td>
+                        <td align="center">6%</td>
+                        <td align="center">100%</td>
+                        <td align="center">13.48%</td>
+                        <td align="center">8%</td>
+                        <td align="center">20%</td>
+                      </tr>
+                    </tbody>
+                  </table>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  </body>
+</html>

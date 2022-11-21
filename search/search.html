@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Non-Tuberculosis-Mycobateria-database</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  </head>
+  <body class="bg-light">
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+      <div class="container">
+        <a href="../home.html" class="navbar-brand">NTM-DB</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navmenu">
+          <ul class="navbar-nav">
+            <div class="dropdown">
+              <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Browse
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="../species_table.html">Species</a></li>
+                <li><a class="dropdown-item" href="../strains_table.html">Strians</a></li>
+                <li><a class="dropdown-item" href="../Gene_table.html">Genes</a></li>
+              </ul>
+            </div>
+            <li class="nav-item"><a class="nav-link" href="search.html">Search</a></li>
+            <li class="nav-item"><div class="nav-link">Analysis</div></li>
+            <li class="nav-item"><div class="nav-link">Download</div></li>
+            <li class="nav-item"><div class="nav-link">Documentation</div></li>
+          </ul>
+        </div>
+        <div class="collapse navbar-colleps"></div>
+      </div>
+    </nav>
+    <div class="container p-3">
+        <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="../home.html">Home</a></li>
+          <li class="breadcrumb-item"><a href="./search.html">Search</a></li>
+        </ol>
+      </nav>
+    </div>
+    
+ 
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-1"></div>
+        <div class="col-sm-10">
+          <h2 class="my-3"><b>Search By</b></h2>
+          <!-- Taxonomy -->
+          <h4 class="my-3">Taxonomy</h4>
+          <div class="row">
+            <div class="col-sm-9">
+              <div class="row my-1">
+                <div class="col-sm-1">
+                </div>
+                <label for="#" class="form-label col-sm-2 col-form-label p-1">Genus.</label>
+                <div class="col-sm-6">
+                  <select name="Genus" id="Genus" class="form-select my-1">
+                    <option selected>Select Genus</option>
+                    <option value="Mycobaterium">Mycobacterium</option>
+                    <option value="Mycobacterium">Mycobacteroides</option>
+                    <option value="Mycolicibater">Mycolicibater</option>
+                    <option value="Mycolicibaterium">Mycolicibaterium</option>
+                    <option value="Mycolicibacillus">Mycolicibacillus</option>
+                  </select>
+                </div>
+              </div>
+              <div class="row my-1">
+                <div class="col-sm-1">
+                </div>
+                <label for="#" class="form-label col-sm-2 col-form-label p-1">Species.</label>
+                <div class="col-sm-6">
+                  <input type="Species" class="form-control my-1" id="TaxSpecies" placeholder="eg. M.abscessus">
+                </div>
+              </div>
+              <div class="row my-1">
+                <div class="col-sm-1">
+                </div>
+                <label for="#" class="form-label col-sm-2 col-form-label p-1">Sub.Species. </label>
+                <div class="col-sm-6">
+                  <input type="Species" class="form-control my-1" id="TaxSpecies" placeholder="eg. sub.bollitii">
+                </div>
+              </div>
+              <div class="row my-1">
+                <div class="col-sm-1">
+                </div>
+                <label for="#" class="form-label col-sm-2 col-form-label p-1">Taxonomy ID</label>
+                <div class="col-sm-6">
+                  <input type="Species" class="form-control my-1" id="TaxSpecies" placeholder="eg. 36809">
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-3">
+              <h5><embed src="../img/fire.svg" type="image/svg+xml" /> Hot species</h5>
+              <a href="../species_page.html">Mycobacterium ulcerans</a></br>
+              <a href="../species_page.html">Mycobacterium abscessus</a></br>
+              <a href="../species_page.html">Mycobacterium avium</a>
+            </div>
+          </div>
+          <!-- Genes -->
+          <h4 class="my-3">Genes</h4>
+          <div class="row">
+            <div class="col-sm-9">
+              <div class="row my-1">
+                <div class="col-sm-1">
+                </div>
+                <label for="#" class="form-label col-sm-2 col-form-label p-1">Gene Name</label>
+                <div class="col-sm-6">
+                  <input type="Genes" class="form-control my-1" id="Genes" placeholder="eg. mtrA">
+                </div>
+              </div>
+              <div class="row my-1">
+                <div class="col-sm-1">
+                </div>
+                <label for="#" class="form-label col-sm-2 col-form-label p-1">Gene ID</label>
+                <div class="col-sm-6">
+                  <input type="Genes" class="form-control my-1" id="Genes" placeholder="eg. IPR000001	">
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-3">
+              <h5><embed src="../img/fire.svg" type="image/svg+xml" /> Hot genes</h5>
+              <a href="https://www.ncbi.nlm.nih.gov/gene/75269877">rsmH</a></br>
+              <a href="https://www.ncbi.nlm.nih.gov/gene/66745917">JN179_RS15485</a></br>
+              <a href="https://www.ncbi.nlm.nih.gov/gene/75270771">BJP76_RS14230</a>
+            </div>
+          </div>
+          <!-- Resistance -->    
+          <h4 class="my-3">Resistance</h4>
+          <div class="row">
+            <div class="col-sm-9">
+              <div class="row my-1">
+                <div class="col-sm-1">
+                </div>
+                <label for="#" class="form-label col-sm-2 col-form-label p-1">Drug Class</label>
+                <div class="col-sm-6">
+                  <select name="Resistance" id="Resistance" class="form-select my-1">
+                    <option selected>Select Drug Class</option>
+                    <option value="Mycobaterium">Aminocoumarin antibiotic</option>
+                    <option value="Mycobaterium">Aminoglycoside antibiotic</option>
+                    <option value="Mycobaterium">Carbapenem</option>
+                    <option value="Mycobaterium">Cephamycin</option>
+                    <option value="Mycobaterium">Diaminopyrimidine antibiotic</option>
+                    <option value="Mycobaterium">...</option>
+                  </select>
+                </div>
+              </div>
+              <div class="row my-1">
+                <div class="col-sm-1">
+                </div>
+                <label for="#" class="form-label col-sm-2 col-form-label p-1"><a href="./search_mech_species.html">Mechanism</a></label>
+                <div class="col-sm-6">
+                  <select name="Resistance" id="Resistance" class="form-select my-1">
+                    <option selected>Select Mechanism</option>
+                    <option value="Mycobaterium">Antibiotic efflux</option>
+                    <option value="Mycobaterium">...</option>
+                  </select>
+                </div>
+              </div>
+              <div class="row my-1">
+                <div class="col-sm-1">
+                </div>
+                <label for="#" class="form-label col-sm-2 col-form-label p-1"><a href="https://www.ncbi.nlm.nih.gov/gene/75269877">Resistance Gene</a></label>
+                <div class="col-sm-6">
+                  <input type="Resistance" class="form-control my-1" id="Resistance" placeholder="eg. mtrA">
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-3">
+              <h5><embed src="../img/fire.svg" type="image/svg+xml" /> Hot drug classes</h5>
+              <a href="./search_resis_species.html">Aminocoumarin antibiotic</a></br>
+              <a href="./search_resis_species.html">Carbapenem</a></br>
+              <a href="./search_resis_species.html">Diaminopyrimidine antibiotic</a>
+            </div>
+          </div>
+          <!-- Virulence -->
+          <h4 class="my-3">Virulence</h4>
+          <div class="row">
+            <div class="col-sm-9">
+              <div class="row my-1">
+                <div class="col-sm-1">
+                </div>
+                <label for="#" class="form-label col-sm-2 col-form-label p-1">VF Category</label>
+                <div class="col-sm-6">
+                  <select name="Virulence" id="Virulence" class="form-select my-1">
+                    <option selected>Select VF Category</option>
+                    <option value="Mycobacterium">Invasion</option>
+                    <option value="Mycobacterium">Effector delivery system</option>
+                    <option value="Mycobacterium">Motility</option>
+                    <option value="Mycobacterium">Exoenzyme</option>
+                    <option value="Mycobacterium">Exotoxin</option>
+                  </select>
+                </div>
+              </div>
+              <div class="row my-1">
+                <div class="col-sm-1">
+                </div>
+                <label for="#" class="form-label col-sm-2 col-form-label p-1"><a href="https://www.ncbi.nlm.nih.gov/gene/75269877">Virulence Gene</a></label>
+                <div class="col-sm-6">
+                  <input type="Virulence" class="form-control my-1" id="Virulence" placeholder="eg. relA">
+                </div>
+              </div>
+            </div>  
+            <div class="col-sm-3">
+              <h5><embed src="../img/fire.svg" type="image/svg+xml"/> Hot VF categories</h5>
+              <a href="./search_vfc_species.html">Invasion</a></br>
+              <a href="./search_vfc_species.html">Adherence</a>
+            </div>  
+          </div>
+        </div>
+      </div>    
+         
+      <br><p align="center"><br><input type="button" style='font-size:20px' value="Reset" > &nbsp; &nbsp; <input type="button" style='font-size:20px' value="Search"></p> 
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>  
+  </body>
+</html>

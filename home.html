@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Non-Tuberculosis-Mycobateria-database</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  </head>
+  <body class="bg-light">
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+      <div class="container">
+        <a href="./home.html" class="navbar-brand">NTM-DB</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navmenu">
+          <ul class="navbar-nav">
+            <div class="dropdown">
+              <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Browse
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="./species_table.html">Species</a></li>
+                <li><a class="dropdown-item" href="./strain_page.html">Strians</a></li>
+                <li><a class="dropdown-item" href="./Gene_table.html">Genes</a></li>
+              </ul>
+            </div>
+            <li class="nav-item"><a class="nav-link" href="./search/search.html">Search</a></li>
+            <li class="nav-item"><div class="nav-link">Analysis</div></li>
+            <li class="nav-item"><div class="nav-link">Download</div></li>
+            <li class="nav-item"><div class="nav-link">Documentation</div></li>
+          </ul>
+        </div>
+        <div class="collapse navbar-colleps"></div>
+      </div>
+    </nav>
+    <section class="p-3 bg-light" > <!-- padding -->
+      <div class="container">
+        <div class="d-flex"> <!-- display flexible -->
+          <div class="row">
+            <p class="my-2">
+              Nontuberculous mycobacteria (NTM) are mycobacteria other than M. tuberculosis (the cause of tuberculosis) and M. leprae (the cause of leprosy).NTM are also referred to as atypical mycobacteria, mycobacteria other than tuberculosis (MOTT), or environmental mycobacteria.
+            </p>
+            <p class="my-2">
+              NTM-DB aims to provide a one-stop solution to xxx , xxx and xxx. Bench scientists can also use this database as a convenient tool for phylogenetic analysis as well as for functional comparative analysis of bacterial genomes.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-6">
+            <h3 class="my-4">Quick Search</h3>
+            <div class="input-group">
+              <input type="text" class="form-control" >
+              <button class="btn btn-primary btn-lg">Search</button>
+            </div>
+            <div class="my-2">
+              <a href="" class="p-1">Mycobater avium</a>
+              <a href="" class="p-1">GCA_000016005.1</a>
+              <a href="" class="p-1">dnaA</a>
+            </div>
+          </div>
+          <div class="col-xl-6">
+            <div class="row">
+              <div class="col-4">
+                <div href="#" class="card" style="width: 12rem;">
+                  <img src="./img/species.png" class="card-img-top p-3" alt="...">
+                  <div class="card-body text-center">
+                    <p><b>169 Species</b></p>
+                  </div>
+                </div>
+              </div>              
+              <div class="col-4">
+                <div href="#" class="card" style="width: 12rem;">
+                  <img src="./img/genome.png" class="card-img-top p-3" alt="...">
+                  <div class="card-body text-center">
+                    <p><b>13,653 Strians</b></p>
+                  </div>
+                </div>
+              </div>              
+              <div class="col-4">
+                <div href="#" class="card" style="width: 12rem;">
+                  <img src="./img/gene.png" class="card-img-top p-3" alt="...">
+                  <div class="card-body text-center">
+                    <p><b>xxxx Genes</b></p>
+                  </div>
+                </div>
+              </div>              
+               
+                           
+          </div>
+        </div>
+      </div>
+      <div class="row p-3">
+        <div class="col-xl-6">
+          <img src="./img/Most_popular_strain.png" alt="showcase" class="w-100">
+        </div>
+      </div>
+    </section>
+
+      
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  </body>
+</html>
