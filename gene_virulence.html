@@ -25,10 +25,19 @@
                 <li><a class="dropdown-item" href="./Gene_table.html">Genes</a></li>
               </ul>
             </div>
-            <li class="nav-item"><a class="nav-link" href="./search/search.html">Search</a></li>
-            <li class="nav-item"><a class="nav-link" href="./analysis.html">Analysis</a></li>
-            <li class="nav-item"><a class="nav-link" href="./download.html">Download</a></li>
-            <li class="nav-item"><a class="nav-link" href="./documentation.html">Documentation</a></li>
+            <div class="dropdown">
+              <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Search
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="./search/search_species.html">Species</a></li>
+                <li><a class="dropdown-item" href="./search/search_strains.html">Strians</a></li>
+                <li><a class="dropdown-item" href="./search/search_genes.html">Genes</a></li>
+              </ul>
+            </div>
+            <li class="nav-item"><div class="nav-link">Analysis</div></li>
+            <li class="nav-item"><div class="nav-link">Download</div></li>
+            <li class="nav-item"><div class="nav-link">Documentation</div></li>
           </ul>
         </div>
         <div class="collapse navbar-colleps"></div>
@@ -164,7 +173,7 @@
                 </tr>
               </tbody>
               </table>
-              <p align="right">xx strains selected for <button type="button" background-color: palevioletred>Download</button></p>
+              <p align="right">xx genes selected for <button type="button" background-color: palevioletred>Download</button></p>
         </div>
       </div>
     </div>
