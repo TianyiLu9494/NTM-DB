@@ -57,241 +57,280 @@
       <div class="row">
         <div class="col-sm-1"></div>
         <div class="col-sm-10">
-          <h2 class="my-3"><b>Search For Strains</b></h2>
-          
-          <!-- Taxonomy -->
-          <h4 class="my-3">Taxonomy</h4>
           <div class="row">
-            <div class="row my-1">
-              <div class="col-sm-1">
-              </div>
-              <label for="#" class="form-label col-sm-2 col-form-label p-1">Genus.</label>
-              <div class="col-sm-8">
-                <select name="Genus" id="Genus" class="form-select my-1">
-                  <option selected>All Genera</option>
-                  <option value="Mycobaterium">Mycobacterium</option>
-                  <option value="Mycobacterium">Mycobacteroides</option>
-                  <option value="Mycolicibater">Mycolicibater</option>
-                  <option value="Mycolicibaterium">Mycolicibaterium</option>
-                  <option value="Mycolicibacillus">Mycolicibacillus</option>
-                </select>
+            <div class="col-3">
+              <h2 class="my-1"><b> Search For</b></h2>
+            </div>
+            <div class="col-6">
+              <div class="btn-group" role="group" aria-label="Basic mixed styles example">
+                <a type="button" class="btn btn-outline-dark" href="./search_species.html"><h5><b>Species</b></h5></a>
+                <a type="button" class="btn btn-dark" href="./search_strains.html"><h5><b>Strains</b></h5></a>
+                <a type="button" class="btn btn-outline-dark" href="./search_genes.html"><h5><b>Genes</b></h5></a>
               </div>
             </div>
-            <div class="row my-1">
-              <div class="col-sm-1">
-              </div>
-              <label for="#" class="form-label col-sm-2 col-form-label p-1">Species.</label>
-              <div class="col-sm-8">
-                <input type="Species" class="form-control my-1" id="TaxSpecies" placeholder="eg. M.abscessus">
-              </div>
-            </div>
-              
-            <div class="row my-1">
-              <div class="col-sm-1">
-              </div>
-              <label for="#" class="form-label col-sm-2 col-form-label p-1">Taxonomy ID</label>
-              <div class="col-sm-8">
-                <input type="Species" class="form-control my-1" id="TaxSpecies" placeholder="eg. 36809">
-              </div>
-            </div>
-          </div>
+          </div><br>
           
-          <!-- Basic Conditions -->
-          <h4 class="my-3">Basic Conditions</h4>
-          <div class="row">
-            <div class="col-sm-1"></div>
-            <div class="col-sm-3">
-              <!-- Basic Conditions - Growth Type -->
-              <h5 class="my-3">Growth Type</h5>
-              <div class="form-check">
-                <input class="form-check-input" type="radio" name="Growth Type" id="Growth Type2" checked>
-                <label class="form-check-label" for="Growth Type2">Both</label>
-              </div>
-              <div class="form-check">
-                <input class="form-check-input" type="checkbox" name="Growth Type" id="Growth Type1" >
-                <label class="form-check-label" for="Growth Type1">Rapid</label>
-              </div>
-              <div class="form-check">
-                <input class="form-check-input" type="checkbox" name="Growth Type" id="Growth Type2">
-                <label class="form-check-label" for="Growth Type2">Slow</label>
-              </div>
-              <br>
-              <!-- Basic Conditions - Country -->
-              <br><h5 class="my-3">Country</h5>
-              <div class="col-sm-10">
-                <select name="Country" id="Country" class="form-select my-1">
-                <option selected>All Countries</option>
-                <option value="China">China</option>
-                <option value="MSA">USA</option>
-                <option value="UK">UK</option>
-                <option value="AU">Australia</option>
-                <option value="Others">······</option>
-              </select>
-              </div>
-            </div>  
+          
+          <div class="card">     
+            <div class="card-body">
+              <!-- Taxonomy -->
+              <div class="container">
+                <div class="row">
+                  <div class="card border-secondary">
+                    <div class="card-header border-secondary text-bg-secondary"><h4 class="my-3">Taxonomy</h4></div>
+                    <div class="row">
+                      <div class="row my-1">
+                        <div class="col-sm-1">
+                        </div>
+                        <label for="#" class="form-label col-sm-2 col-form-label p-1">Genus.</label>
+                        <div class="col-sm-8">
+                          <select name="Genus" id="Genus" class="form-select my-1">
+                            <option selected>All Genera</option>
+                            <option value="Mycobaterium">Mycobacterium</option>
+                            <option value="Mycobacterium">Mycobacteroides</option>
+                            <option value="Mycolicibater">Mycolicibater</option>
+                            <option value="Mycolicibaterium">Mycolicibaterium</option>
+                            <option value="Mycolicibacillus">Mycolicibacillus</option>
+                          </select>
+                        </div>
+                      </div>
+                      <div class="row my-1">
+                        <div class="col-sm-1">
+                        </div>
+                        <label for="#" class="form-label col-sm-2 col-form-label p-1">Species.</label>
+                        <div class="col-sm-8">
+                          <input type="Species" class="form-control my-1" id="TaxSpecies1" placeholder="eg. M.abscessus">
+                        </div>
+                      </div>
+                        
+                      <div class="row my-1">
+                        <div class="col-sm-1">
+                        </div>
+                        <label for="#" class="form-label col-sm-2 col-form-label p-1">Taxonomy ID</label>
+                        <div class="col-sm-8">
+                          <input type="Species" class="form-control my-1" id="TaxSpecies2" placeholder="eg. 36809">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div><br>
+          
+              <!-- Basic Conditions -->
+              <div class="container">
+                <div class="row">
+                  <div class="card border-secondary">
+                    <div class="card-header border-secondary text-bg-secondary"><h4 class="my-3">Basic Conditions</h4></div>
+                    <div class="row">
+                      <div class="col-sm-1"></div>
+                      <div class="col-sm-3">
+                        <!-- Basic Conditions - Growth Type -->
+                        <h5 class="my-3">Growth Type</h5>
+                        <div class="form-check">
+                          <input class="form-check-input" type="radio" name="Growth Type" id="Growth Type2" checked>
+                          <label class="form-check-label" for="Growth Type2">Both</label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" name="Growth Type" id="Growth Type1" >
+                          <label class="form-check-label" for="Growth Type1">Rapid</label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" name="Growth Type" id="Growth Type2">
+                          <label class="form-check-label" for="Growth Type2">Slow</label>
+                        </div>
+                        <br>
+                        <!-- Basic Conditions - Country -->
+                        <br><h5 class="my-3">Country</h5>
+                        <div class="col-sm-10">
+                          <select name="Country" id="Country" class="form-select my-1">
+                          <option selected>All Countries</option>
+                          <option value="China">China</option>
+                          <option value="MSA">USA</option>
+                          <option value="UK">UK</option>
+                          <option value="AU">Australia</option>
+                          <option value="Others">······</option>
+                        </select>
+                        </div>
+                      </div>  
 
-            <div class="col-sm-3">
-              <!-- Basic Conditions - Pathogenicity -->
-              <h5 class="my-3">Pathogenicity</h5>
-              <div class="form-check">
-                <input class="form-check-input" type="radio" name="Pathogenicity" id="Pathogenicity1" checked>
-                <label class="form-check-label" for="Pathogenicity1">All</label>
-              </div>
-              <div class="form-check">
-                <input class="form-check-input" type="checkbox" name="Pathogenicity" id="Pathogenicity2">
-                <label class="form-check-label" for="Pathogenicity2">Pathogenic</label>
-              </div>
-              <div class="form-check">
-                <input class="form-check-input" type="checkbox" name="Pathogenicity" id="Pathogenicity3" >
-                <label class="form-check-label" for="Pathogenicity3">Opportunity-Pathogenic</label>
-              </div>
-              <div class="form-check">
-                <input class="form-check-input" type="checkbox" name="Pathogenicity" id="Pathogenicity4" >
-                <label class="form-check-label" for="Pathogenicity4">Non-Pathogenic</label>
-              </div>
-              <!-- Basic Conditions - Collection Year -->
-              <br><h5 class="my-3">Collection Year</h5>
-              <div class="row">
-                <label for="#" class="form-label col-2 col-form-label p-1">Min.</label>
-                <div class="col-9">
-                  <input type="range" class="form-range" min="1950" max="2022" id="customRange2">
+                      <div class="col-sm-4">
+                        <!-- Basic Conditions - Pathogenicity -->
+                        <h5 class="my-3">Pathogenicity</h5>
+                        <div class="form-check">
+                          <input class="form-check-input" type="radio" name="Pathogenicity" id="Pathogenicity1" checked>
+                          <label class="form-check-label" for="Pathogenicity1">All</label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" name="Pathogenicity" id="Pathogenicity2">
+                          <label class="form-check-label" for="Pathogenicity2">Pathogenic</label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" name="Pathogenicity" id="Pathogenicity3" >
+                          <label class="form-check-label" for="Pathogenicity3">Opportunity-Pathogenic</label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" name="Pathogenicity" id="Pathogenicity4" >
+                          <label class="form-check-label" for="Pathogenicity4">Non-Pathogenic</label>
+                        </div>
+                        <!-- Basic Conditions - Collection Year -->
+                        <br><h5 class="my-3">Collection Year</h5>
+                        <div class="row">
+                          <label for="#" class="form-label col-2 col-form-label p-1">Min.</label>
+                          <div class="col-9">
+                            <input type="range" class="form-range" min="1950" max="2022" id="customRange2">
+                          </div>
+                        </div>
+                        <div class="row">
+                          <label for="#" class="form-label col-2 col-form-label p-1">Max.</label>
+                          <div class="col-9">
+                            <input type="range" class="form-range" min="1950" max="2022" id="customRange2">
+                          </div>
+                        </div>
+                      </div>  
+                    
+                      <div class="col-sm-4">    
+                        <!-- Basic Conditions - Host -->
+                        <h5 class="my-3">Host</h5>
+                        <div class="form-check">
+                          <input class="form-check-input" type="radio" name="Host" id="Host1" checked>
+                          <label class="form-check-label" for="Host1">All </label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" name="SoHosturce" id="Host2" >
+                          <label class="form-check-label" for="Host2">Human</label>
+                          <div class="col-sm-9">
+                            <select name="Genus" id="Genus" class="form-select my-1">
+                              <option selected></option>
+                              <option value="Mycobaterium">Pulmonary</option>
+                              <option value="Mycobacterium">Extrapulmonary</option>
+                            </select>
+                          </div>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" name="Host" id="Host3" >
+                          <label class="form-check-label" for="Host3">Animal </label>
+                          <div class="col-sm-9">
+                            <select name="Genus" id="Genus" class="form-select my-1">
+                              <option selected></option>
+                              <option value="Mycobacterium">Fishes</option>
+                              <option value="Mycobacterium">Birds</option>
+                              <option value="Mycobacterium">Livestocks</option>
+                            </select>
+                          </div>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" name="Host" id="Host4" >
+                          <label class="form-check-label" for="Host4">Environment</label>
+                          <div class="col-sm-9">
+                            <select name="Genus" id="Genus" class="form-select my-1">
+                              <option selected></option>
+                              <option value="Mycobaterium">Wild</option>
+                              <option value="Mycobacterium">Farm</option>
+                              <option value="Mycobacterium">Urban</option>
+                            </select>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-              </div>
-              <div class="row">
-                <label for="#" class="form-label col-2 col-form-label p-1">Max.</label>
-                <div class="col-9">
-                  <input type="range" class="form-range" min="1950" max="2022" id="customRange2">
-                </div>
-              </div>
-            </div>  
-                
-            <div class="col-sm-4">    
-              <!-- Basic Conditions - Host -->
-              <h5 class="my-3">Host</h5>
-              <div class="form-check">
-                <input class="form-check-input" type="radio" name="Host" id="Host1" checked>
-                <label class="form-check-label" for="Host1">All </label>
-              </div>
-              <div class="form-check">
-                <input class="form-check-input" type="checkbox" name="SoHosturce" id="Host2" >
-                <label class="form-check-label" for="Host2">Human</label>
-                <div class="col-sm-9">
-                  <select name="Genus" id="Genus" class="form-select my-1">
-                    <option selected></option>
-                    <option value="Mycobaterium">Pulmonary</option>
-                    <option value="Mycobacterium">Extrapulmonary</option>
-                  </select>
-                </div>
-              </div>
-              <div class="form-check">
-                <input class="form-check-input" type="checkbox" name="Host" id="Host3" >
-                <label class="form-check-label" for="Host3">Animal </label>
-                <div class="col-sm-9">
-                  <select name="Genus" id="Genus" class="form-select my-1">
-                    <option selected></option>
-                    <option value="Mycobacterium">Fishes</option>
-                    <option value="Mycobacterium">Birds</option>
-                    <option value="Mycobacterium">Livestocks</option>
-                  </select>
-                </div>
-              </div>
-              <div class="form-check">
-                <input class="form-check-input" type="checkbox" name="Host" id="Host4" >
-                <label class="form-check-label" for="Host4">Environment</label>
-                <div class="col-sm-9">
-                  <select name="Genus" id="Genus" class="form-select my-1">
-                    <option selected></option>
-                    <option value="Mycobaterium">Wild</option>
-                    <option value="Mycobacterium">Farm</option>
-                    <option value="Mycobacterium">Urban</option>
-                  </select>
-                </div>
-              </div>
-            </div>
-              
-          </div>
+              </div><br>
           
           
-          <!-- Resistance -->    
-          <h4 class="my-3">Resistance</h4>
-          <div class="row">
-            <div class="row my-1">
-              <div class="col-sm-1">
-              </div>
-              <label for="#" class="form-label col-sm-2 col-form-label p-1">Drug Class</label>
-              <div class="col-sm-8">
-                <select name="Resistance" id="Resistance" class="form-select my-1">
-                  <option selected>All Drug Classes</option>
-                  <option value="Mycobaterium">Aminocoumarin antibiotic</option>
-                  <option value="Mycobaterium">Aminoglycoside antibiotic</option>
-                  <option value="Mycobaterium">Carbapenem</option>
-                  <option value="Mycobaterium">Cephamycin</option>
-                  <option value="Mycobaterium">Diaminopyrimidine antibiotic</option>
-                  <option value="Mycobaterium">...</option>
-                </select>
-              </div>
-            </div>
-            <div class="row my-1">
-              <div class="col-sm-1">
-              </div>
-              <label for="#" class="form-label col-sm-2 col-form-label p-1">Mechanism</label>
-              <div class="col-sm-8">
-                <select name="Resistance" id="Resistance" class="form-select my-1">
-                  <option selected>All Mechanisms</option>
-                  <option value="Mycobaterium">Antibiotic efflux</option>
-                  <option value="Mycobaterium">...</option>
-                </select>
-              </div>
-            </div>
-            <div class="row my-1">
-              <div class="col-sm-1">
-              </div>
-              <label for="#" class="form-label col-sm-2 col-form-label p-1">Resistance Gene</label>
-              <div class="col-sm-8">
-                <input type="Resistance" class="form-control my-1" id="Resistance" placeholder="eg. mtrA">
-              </div>
-            </div>
-          </div>
+              <!-- Resistance -->    
+              <div class="container">
+                <div class="row">
+                  <div class="card border-secondary">
+                    <div class="card-header border-secondary text-bg-secondary"><h4 class="my-3">Resistance</h4></div>
+                    <div class="row">
+                      <div class="row my-1">
+                        <div class="col-sm-1">
+                        </div>
+                        <label for="#" class="form-label col-sm-2 col-form-label p-1">Drug Class</label>
+                        <div class="col-sm-8">
+                          <select name="Resistance" id="Resistance" class="form-select my-1">
+                            <option selected>All Drug Classes</option>
+                            <option value="Mycobaterium">Aminocoumarin antibiotic</option>
+                            <option value="Mycobaterium">Aminoglycoside antibiotic</option>
+                            <option value="Mycobaterium">Carbapenem</option>
+                            <option value="Mycobaterium">Cephamycin</option>
+                            <option value="Mycobaterium">Diaminopyrimidine antibiotic</option>
+                            <option value="Mycobaterium">...</option>
+                          </select>
+                        </div>
+                      </div>
+                      <div class="row my-1">
+                        <div class="col-sm-1">
+                        </div>
+                        <label for="#" class="form-label col-sm-2 col-form-label p-1">Mechanism</label>
+                        <div class="col-sm-8">
+                          <select name="Resistance" id="Resistance" class="form-select my-1">
+                            <option selected>All Mechanisms</option>
+                            <option value="Mycobaterium">Antibiotic efflux</option>
+                            <option value="Mycobaterium">...</option>
+                          </select>
+                        </div>
+                      </div>
+                      <div class="row my-1">
+                        <div class="col-sm-1">
+                        </div>
+                        <label for="#" class="form-label col-sm-2 col-form-label p-1">Resistance Gene</label>
+                        <div class="col-sm-8">
+                          <input type="Resistance" class="form-control my-1" id="Resistance" placeholder="eg. mtrA">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div><br>
           
-          <!-- Virulence -->
-          <h4 class="my-3">Virulence</h4>
-          <div class="row">
-            <div class="row my-1">
-              <div class="col-sm-1">
-              </div>
-              <label for="#" class="form-label col-sm-2 col-form-label p-1">VF Category</label>
-              <div class="col-sm-8">
-                <select name="Virulence" id="Virulence" class="form-select my-1">
-                  <option selected>All VF Categories</option>
-                  <option value="Mycobacterium">Invasion</option>
-                  <option value="Mycobacterium">Effector delivery system</option>
-                  <option value="Mycobacterium">Motility</option>
-                  <option value="Mycobacterium">Exoenzyme</option>
-                  <option value="Mycobacterium">Exotoxin</option>
-                </select>
-              </div>
-            </div>
-                
-            <div class="row my-1">
-              <div class="col-sm-1">
-              </div>
-              <label for="#" class="form-label col-sm-2 col-form-label p-1">Product</label>
-              <div class="col-sm-8">
-                <select name="Virulence" id="Virulence" class="form-select my-1">
-                  <option selected>All Products</option>
-                  <option value="Mycobacterium">ESAT-6-like protein</option>
-                  <option value="Mycobacterium">DNA repair protein RecN</option>
-                  <option value="Mycobacterium">...</option>
-                </select>
-              </div>
-            </div>
-            
-            <div class="row my-1">
-              <div class="col-sm-1">
-              </div>
-              <label for="#" class="form-label col-sm-2 col-form-label p-1">Virulence Gene</label>
-              <div class="col-sm-8">
-                <input type="Virulence" class="form-control my-1" id="Virulence" placeholder="eg. relA">
+              <!-- Virulence -->
+              <div class="container">
+                <div class="row">
+                  <div class="card border-secondary">
+                    <div class="card-header border-secondary text-bg-secondary"><h4 class="my-3">Virulence</h4></div>
+                    <div class="row">
+                      <div class="row my-1">
+                        <div class="col-sm-1">
+                        </div>
+                        <label for="#" class="form-label col-sm-2 col-form-label p-1">VF Category</label>
+                        <div class="col-sm-8">
+                          <select name="Virulence" id="Virulence1" class="form-select my-1">
+                            <option selected>All VF Categories</option>
+                            <option value="Mycobacterium">Invasion</option>
+                            <option value="Mycobacterium">Effector delivery system</option>
+                            <option value="Mycobacterium">Motility</option>
+                            <option value="Mycobacterium">Exoenzyme</option>
+                            <option value="Mycobacterium">Exotoxin</option>
+                          </select>
+                        </div>
+                      </div>
+                          
+                      <div class="row my-1">
+                        <div class="col-sm-1">
+                        </div>
+                        <label for="#" class="form-label col-sm-2 col-form-label p-1">Product</label>
+                        <div class="col-sm-8">
+                          <select name="Virulence" id="Virulence2" class="form-select my-1">
+                            <option selected>All Products</option>
+                            <option value="Mycobacterium">ESAT-6-like protein</option>
+                            <option value="Mycobacterium">DNA repair protein RecN</option>
+                            <option value="Mycobacterium">...</option>
+                          </select>
+                        </div>
+                      </div>
+                      
+                      <div class="row my-1">
+                        <div class="col-sm-1">
+                        </div>
+                        <label for="#" class="form-label col-sm-2 col-form-label p-1">Virulence Gene</label>
+                        <div class="col-sm-8">
+                          <input type="Virulence" class="form-control my-1" id="Virulence3" placeholder="eg. relA">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
