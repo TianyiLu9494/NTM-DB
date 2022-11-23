@@ -129,15 +129,58 @@
         <div class="card-body">
           <div class="container">
             <div class="row">
-              <div class="col-4">
-                <div class="card">
+              <div class="col-xxl-5">
+                <div class="card border-secondary">
                   <div class="card-header border-secondary text-bg-secondary">Analysis summary</div>
+                  <div class="card-body">
+                    <ul>
+                      <li>Analyzed genomes:24</li>
+                      <li>Exclude genomes:0</li>
+                      <li>Pan-genome:xxx Families; xxx Genes</li>
+                      <li>Core-genome:xxx Families; xxx Genes</li>
+                      <li>Variable-genome:xxx Families; xxx Genes</li>
+                    </ul>
+                  </div>
                 </div>
               </div>            
-              <div class="col-4">
-                <div class="card">
+              <div class="col-xxl-5">
+                <div class="card border-secondary">
                   <div class="card-header border-secondary text-bg-secondary">Main Result</div>
+                  <div class="card-body">
+                    <table class="table">
+                      <thead>
+                        <tr>
+                          <th scope="col">Component</th>
+                          <th scope="col">Sequence</th>
+                          <th scope="col">Annotation</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>Pan-genome</td>
+                          <td> <button class="mx-1">nuc</button><button class="mx-1">prot</button></td>
+                          <td><button>csv</button></td>
+                        </tr>
+                        <tr>
+                          <td>Core-genome</td>
+                          <td> <button class="mx-1">nuc</button><button class="mx-1">prot</button></td>
+                          <td><button>csv</button></td>
+                        </tr>
+                        <tr>
+                          <td>Variable-genome</td>
+                          <td> <button class="mx-1">nuc</button><button class="mx-1">prot</button></td>
+                          <td><button>csv</button></td>
+                        </tr>
+                        <tr>
+                          <td>Strain-specific-genome</td>
+                          <td> <button class="mx-1">nuc</button><button class="mx-1">prot</button></td>
+                          <td><button>csv</button></td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
                 </div>
+                
               </div>            
             </div>
             <h4 class="card-title">Result</h4>
