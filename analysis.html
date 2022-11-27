@@ -93,32 +93,34 @@
                 </div>
                 <button  type="button" class="btn btn-secondary my-2" >Analysis</button>
               </div>
-              <div class="col-6">
-                <div class="card border-danger">
-                  <div class="card-header border-danger text-bg-danger">Exclude the genome of selected organisms</div>
-                  <div class="card-body">
-                    <h4 class="card-title">Select Species</h5>
-                    <select class="form-select" size="4" multiple="multiple" aria-label="size 3 select example">
-                      <option value="1">Mycobacterium avium</option>
-                      <option value="2">Mycobacterium kansasii</option>
-                      <option value="3">Mycobacterium ulcerans</option>
-                      <option value="4">Mycobacterium intracellulare</option>
-                      <option value="5">Mycobacterium lepraemurium</option>
-                      <option value="6">Mycobacteroides abscessus</option>
-                      <option value="7">Mycobacteroides chelonae</option>
-                    </select>
-                    <h5 class="card-title">Select Strains</h5>
-                    <select class="form-select" size="4" multiple="multiple" aria-label="size 3 select example">
-                      <option selected>ALL</option>
-                      <option value="1">GCA_000014165.1</option>
-                      <option value="2">GCA_000016005.1</option>
-                      <option value="3">GCA_000026685.1</option>
-                      <option value="4">GCA_000069185.1</option>
-                      <option value="5">GCA_000240345.2</option>
-                    </select>
+              <!--
+                <div class="col-6">
+                  <div class="card border-danger">
+                    <div class="card-header border-danger text-bg-danger">Exclude the genome of selected organisms</div>
+                    <div class="card-body">
+                      <h4 class="card-title">Select Species</h5>
+                      <select class="form-select" size="4" multiple="multiple" aria-label="size 3 select example">
+                        <option value="1">Mycobacterium avium</option>
+                        <option value="2">Mycobacterium kansasii</option>
+                        <option value="3">Mycobacterium ulcerans</option>
+                        <option value="4">Mycobacterium intracellulare</option>
+                        <option value="5">Mycobacterium lepraemurium</option>
+                        <option value="6">Mycobacteroides abscessus</option>
+                        <option value="7">Mycobacteroides chelonae</option>
+                      </select>
+                      <h5 class="card-title">Select Strains</h5>
+                      <select class="form-select" size="4" multiple="multiple" aria-label="size 3 select example">
+                        <option selected>ALL</option>
+                        <option value="1">GCA_000014165.1</option>
+                        <option value="2">GCA_000016005.1</option>
+                        <option value="3">GCA_000026685.1</option>
+                        <option value="4">GCA_000069185.1</option>
+                        <option value="5">GCA_000240345.2</option>
+                      </select>
+                    </div>
                   </div>
                 </div>
-              </div>
+              -->
             </div>
           </div>
         </div>
@@ -128,18 +130,43 @@
       <div class="card"> <!-- card for analysis result-->
         <div class="card-body">
           <div class="container">
+            <h4 class="card-title">Result</h4>
             <div class="row">
               <div class="col-xxl-5">
                 <div class="card border-secondary">
                   <div class="card-header border-secondary text-bg-secondary">Analysis summary</div>
                   <div class="card-body">
-                    <ul>
-                      <li>Analyzed genomes:24</li>
-                      <li>Exclude genomes:0</li>
-                      <li>Pan-genome:xxx Families; xxx Genes</li>
-                      <li>Core-genome:xxx Families; xxx Genes</li>
-                      <li>Variable-genome:xxx Families; xxx Genes</li>
-                    </ul>
+                    <table class="table">
+                      <thead>
+                        <tr>
+                          <th>Analyzed xx genomes</th>
+                          <th>Families</th>
+                          <th>Genes</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>Pan-genome</td>
+                          <td>xxx</td>
+                          <td>xxx</td>
+                        </tr>                        
+                        <tr>
+                          <td>Core-genome</td>
+                          <td>xxx</td>
+                          <td>xxx</td>
+                        </tr>                        
+                        <tr>
+                          <td>Variable-genome</td>
+                          <td>xxx</td>
+                          <td>xxx</td>
+                        </tr>                        
+                        <tr>
+                          <td>Strain-specific-genome</td>
+                          <td>xxx</td>
+                          <td>xxx</td>
+                        </tr>                        
+                      </tbody>
+                    </table>
                   </div>
                 </div>
               </div>            
@@ -158,23 +185,23 @@
                       <tbody>
                         <tr>
                           <td>Pan-genome</td>
-                          <td> <button class="mx-1">nuc</button><button class="mx-1">prot</button></td>
-                          <td><button>csv</button></td>
+                          <td> <button class="mx-1 btn-sm">nuc</button><button class="mx-1 btn-sm">prot</button></td>
+                          <td><button class="mx-1 btn-sm">csv</button></td>
                         </tr>
                         <tr>
                           <td>Core-genome</td>
-                          <td> <button class="mx-1">nuc</button><button class="mx-1">prot</button></td>
-                          <td><button>csv</button></td>
+                          <td> <button class="mx-1 btn-sm">nuc</button><button class="mx-1 btn-sm">prot</button></td>
+                          <td><button class="mx-1 btn-sm">csv</button></td>
                         </tr>
                         <tr>
                           <td>Variable-genome</td>
-                          <td> <button class="mx-1">nuc</button><button class="mx-1">prot</button></td>
-                          <td><button>csv</button></td>
+                          <td> <button class="mx-1 btn-sm">nuc</button><button class="mx-1 btn-sm">prot</button></td>
+                          <td><button class="mx-1 btn-sm">csv</button></td>
                         </tr>
                         <tr>
                           <td>Strain-specific-genome</td>
-                          <td> <button class="mx-1">nuc</button><button class="mx-1">prot</button></td>
-                          <td><button>csv</button></td>
+                          <td> <button class="mx-1 btn-sm">nuc</button><button class="mx-1 btn-sm">prot</button></td>
+                          <td><button class="mx-1 btn-sm">csv</button></td>
                         </tr>
                       </tbody>
                     </table>
@@ -183,14 +210,30 @@
                 
               </div>            
             </div>
-            <h4 class="card-title">Result</h4>
-            <h6>Pan-Genome Curve</h6>
+            <h5>Pan-Genome Curve</h6>
             <div class="row my-2">
-              <img src="img/pangenome_curve.png" alt="..." class="img-fluid">
+              <div class="col-10">
+                <img src="img/pangenome_curve.png" alt="..." class="img-fluid">
+              </div>
             </div>
             <div class="row my-2">
-              <img src="img/pan_new_gene_curve.png" alt="..." class="img-fluid">
+              <div class="col-10">
+                <img src="img/pan_new_gene_curve.png" alt="..." class="img-fluid">
+              </div>
             </div>
+
+            <h5>KEGG Function Annotation</h5>
+            <div class="row">
+              <div class="col-10">
+                <p align="center"><img src="./img/KEGG.png"  width="650px" height="650px" alt="..." class="img-fluid"></p>
+              </div>
+            </div>
+            <h5><br>COG Function Annotation</h5>
+            <img src="./img/COG.png" alt="..." class="img-fluid">
+            
+            <h5 id="list-item-5"><br><b>Pan-Resistom</b></h5>
+            <p align="center"><img src="./img/Resistom.png" width="850px" height="850px" alt="..." class="img-fluid"></p>
+            
           </div>
         </div>
       </div>
