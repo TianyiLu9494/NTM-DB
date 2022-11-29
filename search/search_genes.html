@@ -113,32 +113,55 @@
                     <div class="card-header border-secondary text-bg-secondary"><h4 class="my-3">Basic Conditions</h4></div>
                     <div class="row">
                       <div class="col-sm-1"></div>
-                      <div class="col-sm-3">
-                        <!-- Basic Conditions - GO Terms -->
+                      <div class="col-sm-4">
+                        <!-- GO Terms -->
                         <h5 class="my-3">GO Terms</h5>
                         <div class="form-check">
                           <input class="form-check-input" type="radio" name="GO Terms" id="GO Terms1" checked>
                           <label class="form-check-label" for="GO Terms1">
-                            All
+                            ALL
                           </label>
                         </div>
                         <div class="form-check">
-                          <input class="form-check-input" type="radio" name="GO Terms" id="GO Terms2">
+                          <input class="form-check-input" type="checkbox" name="GO Terms" id="GO Terms2">
                           <label class="form-check-label" for="GO Terms2">
                             Biological Process
                           </label>
                         </div>
+                        <div class="col-lg-9">
+                          <select name="BP" id="BP" class="form-select my-1">
+                            <option selected></option>
+                            <option value="Mycobaterium">Regulation of DNA-templated transcription</option>
+                            <option value="Mycobacterium">Pilus assembly</option>
+                          </select>
+                        </div>
+                        
                         <div class="form-check">
-                          <input class="form-check-input" type="radio" name="GO Terms" id="GO Terms3">
+                          <input class="form-check-input" type="checkbox" name="GO Terms" id="GO Terms3">
                           <label class="form-check-label" for="GO Terms3">
                             Molecular Function
                           </label>
                         </div>
+                        <div class="col-lg-9">
+                          <select name="MF" id="MF" class="form-select my-1">
+                            <option selected></option>
+                            <option value="Mycobaterium">DNA Binding</option>
+                            <option value="Mycobacterium">Nuclear steroid receptor activity</option>
+                          </select>
+                        </div>
+                        
                         <div class="form-check">
-                          <input class="form-check-input" type="radio" name="GO Terms" id="GO Terms4">
+                          <input class="form-check-input" type="checkbox" name="GO Terms" id="GO Terms4">
                           <label class="form-check-label" for="GO Terms4">
                             Cellular Component
                           </label>
+                        </div>
+                        <div class="col-lg-9">
+                          <select name="CC" id="CC" class="form-select my-1">
+                            <option selected></option>
+                            <option value="Mycobaterium">Nucleus</option>
+                            <option value="Mycobacterium">Membrane</option>
+                          </select>
                         </div>
                       </div>  
                       
@@ -152,37 +175,37 @@
                           </label>
                         </div>
                         <div class="form-check">
-                          <input class="form-check-input" type="radio" name="Type" id="Type1" >
+                          <input class="form-check-input" type="checkbox" name="Type" id="Type1" >
                           <label class="form-check-label" for="Type2">
                             Family
                           </label>
                         </div>
                         <div class="form-check">
-                          <input class="form-check-input" type="radio" name="Type" id="Type3" >
+                          <input class="form-check-input" type="checkbox" name="Type" id="Type3" >
                           <label class="form-check-label" for="Type3">
                             Domain
                           </label>
                         </div>
                         <div class="form-check">
-                          <input class="form-check-input" type="radio" name="Type" id="Type4" >
+                          <input class="form-check-input" type="checkbox" name="Type" id="Type4" >
                           <label class="form-check-label" for="Type4">
                             Homologhous Superfamily
                           </label>
                         </div>
                         <div class="form-check">
-                          <input class="form-check-input" type="radio" name="Type" id="Type5" >
+                          <input class="form-check-input" type="checkbox" name="Type" id="Type5" >
                           <label class="form-check-label" for="Type5">
                             Repeat
                           </label>
                         </div>
                         <div class="form-check">
-                          <input class="form-check-input" type="radio" name="Type" id="Type6" >
+                          <input class="form-check-input" type="checkbox" name="Type" id="Type6" >
                           <label class="form-check-label" for="Type6">
                             Homologhous Superfamily
                           </label>
                         </div>
                         <div class="form-check">
-                          <input class="form-check-input" type="radio" name="Type" id="Type7" >
+                          <input class="form-check-input" type="checkbox" name="Type" id="Type7" >
                           <label class="form-check-label" for="Type7">
                             Conserved Site / Acitive Site / Binding Site / PTM
                           </label>
