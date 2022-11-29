@@ -51,121 +51,111 @@
           <p><i>567 genes found</i></p>
           <div style="overflow: auto; width: 100%;">
             <table class="table table-striped">
-                <thead>
-                  <tr>
-                    <th scope="col">Select</th>
-                    <th scope="col">Accession</th>
-                    <th scope="col">Gene Name</th>
-                    <th scope="col">Type</th>
-                    <th scope="col">NTM Species</th>
-                    <th scope="col">NTM Strains</th>
-                    <th scope="col">Function</th>
-                    <th scope="col">GO Terms<br><img src="../img/BP-MF-CC.png"></th>
-                    <th scope="col">Species Hitted</th>
-                    <th scope="col">Strains Hitted</th>
-                    <th scope="col">Resistant To</th>
-                    <th scope="col">CARD Description</th>
-                    <th scope="col">Mechanism</th>
-                    <th scope="col">CARD Organism</th>
-                    <th scope="col">VF Category</th>
-                    <th scope="col">VF Product</th>
-                    <th scope="col">VFDB Organism</th>
-                    <th scope="col">Related Genes</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <th><input type="checkbox" onclick="swapCheck()" /></th>
-                    <td align="center">IPR000001</td>
-                    <td align="center">Kringle</td>
-                    <td align="center">F</td>
-                    <td align="center">2</td>
-                    <td align="center">6</td>
-                    <td align="center">Bind mediators</td>
-                    <td><img src="../img/GO-1.png" alt="" /></td>
-                    <td align="center"><a href="./species_table.html">11</a></td>
-                    <td align="center"><a href="./strains_table.html">48</a></td>
-                    <td>ARO:3000158:azithromycin
-                        ARO:0000054:penicillin
-                        ARO:0000006:erythromycin</td>
-                    <td>MtrA is a transcriptional activator of the MtrCDE multidrug efflux pump of Neisseria gonorrhoeae.</td>
-                    <td align="center">antibiotic efflux</td>
-                    <td align="center">Mycobacterium tuberculosis</td>
-                    <td align="center">Invasion; Adherence</td>
-                    <td>ESAT-6-like protein;<br>DNA repair protein RecN</td>
-                    <td>Mycobacterium abscessus 3A-0119-R WGS NZ_AKUX</td>
-                    <td align="center">fbpA; fbpB; fbpC; fbpD</td>
-                  </tr>
-                  <tr>
-                    <th><input type="checkbox" onclick="swapCheck()" /></th>
-                    <td align="center">IPR000010</td>
-                    <td align="center">mtrA</td>
-                    <td align="center">D</td>
-                    <td align="center">1</td>
-                    <td align="center">1</td>
-                    <td align="center">Regulate proteolytic activity</td>
-                    <td><img src="../img/GO-2.png" alt="" /></td>
-                    <td align="center"><a href="./species_table.html">11</a></td>
-                    <td align="center"><a href="./strains_table.html">48</a></td>
-                    <td>ARO:3000158:azithromycin
-                        ARO:0000054:penicillin
-                        ARO:0000006:erythromycin</td>
-                    <td align="center">...</td>
-                    <td align="center">antibiotic efflux</td>
-                    <td align="center">Mycobacterium tuberculosis</td>
-                    <td align="center">Invasion; Adherence</td>
-                    <td>ESAT-6-like protein;<br>DNA repair protein RecN</td>
-                    <td>Mycobacterium abscessus 3A-0119-R WGS NZ_AKUX</td>
-                    <td align="center">fbpA; fbpB; fbpC; fbpD</td>
-                  </tr>
-                  <tr>
-                    <th><input type="checkbox" onclick="swapCheck()" /></th>
-                    <td align="center">IPR000018</td>
-                    <td align="center">P2Y purinoceptor 4</td>
-                    <td align="center">D</td>
-                    <td align="center">5</td>
-                    <td align="center">16</td>
-                    <td align="center">Bind mediators</td>
-                    <td><img src="../img/GO-3.png" alt="" /></td>
-                    <td align="center"><a href="./species_table.html">11</a></td>
-                    <td align="center"><a href="./strains_table.html">48</a></td>
-                    <td>ARO:3000158:azithromycin
-                        ARO:0000054:penicillin
-                        ARO:0000006:erythromycin</td>
-                    <td align="center">...</td>
-                    <td align="center">antibiotic efflux</td>
-                    <td align="center">Mycobacterium tuberculosis</td>
-                    <td align="center">Invasion; Adherence</td>
-                    <td>...</td>
-                    <td>Mycobacterium abscessus 3A-0119-R WGS NZ_AKUX</td>
-                    <td align="center">fbpA; fbpB; fbpC; fbpD</td>
-                  </tr>
-                  <tr>
-                    <th><input type="checkbox" onclick="swapCheck()" /></th>
-                    <td align="center">IPR000019</td>
-                    <td align="center">Cbb domain</td>
-                    <td align="center">D</td>
-                    <td align="center">1</td>
-                    <td align="center">2</td>
-                    <td align="center">DNA binding</td>
-                    <td><img src="../img/GO-4.png" alt="" /></td>
-                    <td align="center"><a href="./species_table.html">11</a></td>
-                    <td align="center"><a href="./strains_table.html">48</a></td>
-                    <td>ARO:3000158:azithromycin
-                        ARO:0000054:penicillin
-                        ARO:0000006:erythromycin</td>
-                    <td align="center">...</td>
-                    <td align="center">antibiotic efflux</td>
-                    <td align="center">Mycobacterium tuberculosis</td>
-                    <td align="center">Invasion; Adherence</td>
-                    <td>...</td>
-                    <td>Mycobacterium abscessus 3A-0119-R WGS NZ_AKUX</td>
-                    <td align="center">fbpA; fbpB; fbpC; fbpD</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-            <p align="right">xx strains selected, <button type="button" background-color: palevioletred>add to Cart</button></p>
+              <thead>
+                <tr>
+                  <th scope="col">Select</th>
+                  <th scope="col">Accession</th>
+                  <th scope="col">Gene Name</th>
+                  <th scope="col">Type</th>
+                  <th scope="col">NTM Species</th>
+                  <th scope="col">NTM Strains</th>
+                  <th scope="col">Function</th>
+                  <th scope="col">GO Terms<br><img src="./img/BP-MF-CC.png"></th>
+                  <th scope="col">Resistant To</th>
+                  <th scope="col">CARD Description</th>
+                  <th scope="col">Mechanism</th>
+                  <th scope="col">CARD Organism</th>
+                  <th scope="col">VF Category</th>
+                  <th scope="col">VF Product</th>
+                  <th scope="col">VFDB Organism</th>
+                  <th scope="col">Related Genes</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th><input type="checkbox" onclick="swapCheck()" /></th>
+                  <td align="center">IPR000001</td>
+                  <td align="center">Kringle</td>
+                  <td align="center">F</td>
+                  <td align="center"><a href="./species_table.html">2</a></td>
+                  <td align="center"><a href="./strains_table.html">6</a></td>
+                  <td align="center">Bind mediators</td>
+                  <td><img src="./img/GO-1.png" alt="" /></td>
+                  <td>ARO:3000158:azithromycin
+                      ARO:0000054:penicillin
+                      ARO:0000006:erythromycin</td>
+                  <td>MtrA is a transcriptional activator of the MtrCDE multidrug efflux pump of Neisseria gonorrhoeae.</td>
+                  <td align="center">antibiotic efflux</td>
+                  <td align="center">Mycobacterium tuberculosis</td>
+                  <td align="center">Invasion; Adherence</td>
+                  <td>ESAT-6-like protein;<br>DNA repair protein RecN</td>
+                  <td>Mycobacterium abscessus 3A-0119-R WGS NZ_AKUX</td>
+                  <td align="center">fbpA; fbpB; fbpC; fbpD</td>
+                </tr>
+                <tr>
+                  <th><input type="checkbox" onclick="swapCheck()" /></th>
+                  <td align="center">IPR000010</td>
+                  <td align="center">mtrA</td>
+                  <td align="center">D</td>
+                  <td align="center"><a href="./species_table.html">1</a></td>
+                  <td align="center"><a href="./strains_table.html">1</a></td>
+                  <td align="center">Regulate proteolytic activity</td>
+                  <td><img src="./img/GO-2.png" alt="" /></td>
+                  <td>ARO:3000158:azithromycin
+                      ARO:0000054:penicillin
+                      ARO:0000006:erythromycin</td>
+                  <td align="center">...</td>
+                  <td align="center">antibiotic efflux</td>
+                  <td align="center">Mycobacterium tuberculosis</td>
+                  <td align="center">Invasion; Adherence</td>
+                  <td>ESAT-6-like protein;<br>DNA repair protein RecN</td>
+                  <td>Mycobacterium abscessus 3A-0119-R WGS NZ_AKUX</td>
+                  <td align="center">fbpA; fbpB; fbpC; fbpD</td>
+                </tr>
+                <tr>
+                  <th><input type="checkbox" onclick="swapCheck()" /></th>
+                  <td align="center">IPR000018</td>
+                  <td align="center">P2Y purinoceptor 4</td>
+                  <td align="center">D</td>
+                  <td align="center"><a href="./species_table.html">5</a></td>
+                  <td align="center"><a href="./strains_table.html">16</a></td>
+                  <td align="center">Bind mediators</td>
+                  <td><img src="./img/GO-3.png" alt="" /></td>
+                  <td>ARO:3000158:azithromycin
+                      ARO:0000054:penicillin
+                      ARO:0000006:erythromycin</td>
+                  <td align="center">...</td>
+                  <td align="center">antibiotic efflux</td>
+                  <td align="center">Mycobacterium tuberculosis</td>
+                  <td align="center">Invasion; Adherence</td>
+                  <td>...</td>
+                  <td>Mycobacterium abscessus 3A-0119-R WGS NZ_AKUX</td>
+                  <td align="center">fbpA; fbpB; fbpC; fbpD</td>
+                </tr>
+                <tr>
+                  <th><input type="checkbox" onclick="swapCheck()" /></th>
+                  <td align="center">IPR000019</td>
+                  <td align="center">Cbb domain</td>
+                  <td align="center">D</td>
+                  <td align="center"><a href="./species_table.html">1</a></td>
+                  <td align="center"><a href="./strains_table.html">2</a></td>
+                  <td align="center">DNA binding</td>
+                  <td><img src="./img/GO-4.png" alt="" /></td>
+                  <td>ARO:3000158:azithromycin
+                      ARO:0000054:penicillin
+                      ARO:0000006:erythromycin</td>
+                  <td align="center">...</td>
+                  <td align="center">antibiotic efflux</td>
+                  <td align="center">Mycobacterium tuberculosis</td>
+                  <td align="center">Invasion; Adherence</td>
+                  <td>...</td>
+                  <td>Mycobacterium abscessus 3A-0119-R WGS NZ_AKUX</td>
+                  <td align="center">fbpA; fbpB; fbpC; fbpD</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <p align="right">xx strains selected, <button type="button" background-color: palevioletred>add to Cart</button></p>
         </div>
 
     </div>
