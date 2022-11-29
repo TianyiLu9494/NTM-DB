@@ -47,33 +47,8 @@
       <div class="row">
         <div class="col-3"> <!-- filter -->
           <form action="">
-            <div class="row my-1">
-                <nav class="navbar bg-primary">
-                    <div class="container-fluid">
-                        <a href="./Gene_table.html" class="navbar-brand link-light">Gene Function</a>
-                        <span class="badge bg-secondary">xxx</span>
-                    </div>
-                </nav>
-            </div>
-            <div class="row my-1">
-                <nav class="navbar bg-danger">
-                    <div class="container-fluid">
-                        <a href="./gene_resistance.html" class="navbar-brand link-light">Resistance</a>
-                        <span class="badge bg-secondary">xxx</span>
-                    </div>
-                </nav>
-            </div>
-            <div class="row my-1">
-                <nav class="navbar bg-success">
-                    <div class="container-fluid">
-                        <a href="./gene_virulence.html" class="navbar-brand link-light">Virulence</a>
-                        <span class="badge bg-secondary">xxx</span>
-                    </div>
-                </nav>
-            </div>
-            <hr>
 
-            <h5 class="my-3">Type</h5>
+            <h5 class="my-3"><b>Type</b></h5>
             <div class="form-check">
               <input class="form-check-input" type="radio" name="Type" id="Type1" checked>
               <label class="form-check-label" for="Type1">
@@ -140,7 +115,7 @@
             </div>
             
             <!-- GO Terms -->
-            <h5 class="my-3">GO Terms</h5>
+            <h5 class="my-3"><b>GO Terms</b></h5>
             <div class="form-check">
               <input class="form-check-input" type="radio" name="GO Terms" id="GO Terms1" checked>
               <label class="form-check-label" for="GO Terms1">
@@ -189,6 +164,80 @@
               </select>
             </div>
 
+            <!-- Resistance -->
+            <h5 class="my-3"><b>Resistance</b></h5>
+            <div class="row my-1">
+              <label for="#" class="form-label col-sm-4 col-form-label p-1">Resistant to </label>
+              <div class="col-8">
+                <select name="" id="Genus" class="form-select my-1">
+                  <option selected>Select Drug class</option>
+                  <option value="Mycobaterium">aminocoumarin</option>
+                  <option value="Mycobacterium">aminoglycoside</option>4
+                  <option value="Mycolicibater">antibacterial free fatty</option>
+                  <option value="Mycolicibaterium">carbapenem</option>
+                  <option value="Mycolicibacillus">cephalosporin</option>
+                  <option value="Mycolicibacillus">···</option>
+                </select>
+              </div>
+            </div>
+            <div class="row my-1">
+              <label for="#" class="form-label col-sm-4 col-form-label p-1">Mechanism </label>
+              <div class="col-8">
+                <select name="" id="Genus" class="form-select my-1">
+                  <option selected>Select Mechanism</option>
+                  <option value="Mycobaterium">antibiotic efflux</option>
+                  <option value="antibiotic inactivation">antibiotic inactivation</option>
+                  <option value="antibiotic target alteration">antibiotic target alteration</option>
+                  <option value="antibiotic target protection">antibiotic target protection</option>
+                  <option value="antibiotic target replacement">antibiotic target replacement</option>
+                  <option value="reduced permeability to antibiotic">reduced permeability to antibiotic</option>
+                  <option value="resistance by absence">resistance by absence</option>
+                </select>
+              </div>
+            </div>
+            <div class="row my-1">
+              <label for="#" class="form-label col-sm-4 col-form-label p-1">Gene name</label>
+              <div class="col-sm-8">
+                <input type="Gene" class="form-control my-1" id="Resistance Gene" placeholder="eg. mtrA">
+              </div>
+            </div>
+
+            <!-- Virulence -->
+            <h5 class="my-3"><b>Virulence</b></h5>
+            <div class="row my-1">
+              <label for="#" class="form-label col-sm-4 col-form-label p-1">VF Category </label>
+              <div class="col-8">
+                <select name="" id="Genus" class="form-select my-1">
+                  <option selected>Select VF Category</option>
+                  <option value="Mycobaterium">Invasion</option>
+                  <option value="Mycobacterium">Effector delivery system</option>
+                  <option value="Mycolicibater">Motility</option>
+                  <option value="Mycolicibaterium">Exoenzyme</option>
+                  <option value="Mycolicibacillus">Exotoxin</option>
+                  <option value="Mycolicibacillus">···</option>
+                </select>
+              </div>
+            </div>
+            <div class="row my-1">
+              <label for="#" class="form-label col-sm-4 col-form-label p-1">Product </label>
+              <div class="col-8">
+                <select name="" id="Genus" class="form-select my-1">
+                  <option selected>Select Product</option>
+                  <option value="Mycobaterium">ESAT-6-like protein</option>
+                  <option value="antibiotic inactivation">DNA repair protein RecN</option>
+                  <option value="antibiotic target alteration">Others</option>
+                </select>
+              </div>
+            </div>
+            <div class="row my-1">
+              <label for="#" class="form-label col-sm-4 col-form-label p-1">Gene name</label>
+              <div class="col-sm-8">
+                <input type="Gene" class="form-control my-1" id="Resistance Gene" placeholder="eg. mtrA">
+              </div>
+            </div>
+
+
+
             <br><p align="center"><input type="button" value="Reset" > <input type="button" value="Submit"></p>
           </form>
         </div>
@@ -197,62 +246,122 @@
           <p>Type:   F=Family; D=Domain; H=Homologhous Superfamily; R=Repeat; S=Conserved Site / Acitive Site / Binding Site / PTM
             <br>GO Terms:    BP= Biological process category; MF=Molecular function category; CC=Cellular component category
           <p><i>567 genes found</i></p>
-          <table class="table table-striped">
-              <thead>
-                <tr>
-                  <th scope="col">Select</th>
-                  <th scope="col">Type</th>
-                  <th scope="col">Accession</th>
-                  <th scope="col">Gene Name</th>
-                  <th scope="col">NTM Species</th>
-                  <th scope="col">NTM Strains</th>
-                  <th scope="col">Function</th>
-                  <th scope="col">GO Terms<br><img src="./img/BP-MF-CC.png"></th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <th><input type="checkbox" onclick="swapCheck()" /></th>
-                  <td align="center">F</td>
-                  <td align="center">IPR000001</td>
-                  <td align="center">Kringle</td>
-                  <td align="center">2</td>
-                  <td align="center">6</td>
-                  <td align="center">Bind mediators</td>
-                  <td><img src="./img/GO-1.png" alt="" /></td>
-                </tr>
-                <tr>
-                  <th><input type="checkbox" onclick="swapCheck()" /></th>
-                  <td align="center">D</td>
-                  <td align="center">IPR000010</td>
-                  <td align="center">Cystatin domain</td>
-                  <td align="center">1</td>
-                  <td align="center">1</td>
-                  <td align="center">Regulate proteolytic activity</td>
-                  <td><img src="./img/GO-2.png" alt="" /></td>
-                </tr>
-                <tr>
-                  <th><input type="checkbox" onclick="swapCheck()" /></th>
-                  <td align="center">D</td>
-                  <td align="center">IPR000018</td>
-                  <td align="center">P2Y purinoceptor 4</td>
-                  <td align="center">5</td>
-                  <td align="center">16</td>
-                  <td align="center">Bind mediators</td>
-                  <td><img src="./img/GO-3.png" alt="" /></td>
-                </tr>
-                <tr>
-                  <th><input type="checkbox" onclick="swapCheck()" /></th>
-                  <td align="center">D</td>
-                  <td align="center">IPR000019</td>
-                  <td align="center">Cbb domain</td>
-                  <td align="center">1</td>
-                  <td align="center">2</td>
-                  <td align="center">DNA binding</td>
-                  <td><img src="./img/GO-4.png" alt="" /></td>
-                </tr>
-              </tbody>
-            </table>
+          <div style="overflow: auto; width: 100%;">
+            <table class="table table-striped">
+                <thead>
+                  <tr>
+                    <th scope="col">Select</th>
+                    <th scope="col">Accession</th>
+                    <th scope="col">Gene Name</th>
+                    <th scope="col">Type</th>
+                    <th scope="col">NTM Species</th>
+                    <th scope="col">NTM Strains</th>
+                    <th scope="col">Function</th>
+                    <th scope="col">GO Terms<br><img src="./img/BP-MF-CC.png"></th>
+                    <th scope="col">Species Hitted</th>
+                    <th scope="col">Strains Hitted</th>
+                    <th scope="col">Resistant To</th>
+                    <th scope="col">CARD Description</th>
+                    <th scope="col">Mechanism</th>
+                    <th scope="col">CARD Organism</th>
+                    <th scope="col">VF Category</th>
+                    <th scope="col">VF Product</th>
+                    <th scope="col">VFDB Organism</th>
+                    <th scope="col">Related Genes</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th><input type="checkbox" onclick="swapCheck()" /></th>
+                    <td align="center">IPR000001</td>
+                    <td align="center">Kringle</td>
+                    <td align="center">F</td>
+                    <td align="center">2</td>
+                    <td align="center">6</td>
+                    <td align="center">Bind mediators</td>
+                    <td><img src="./img/GO-1.png" alt="" /></td>
+                    <td align="center"><a href="./species_table.html">11</a></td>
+                    <td align="center"><a href="./strains_table.html">48</a></td>
+                    <td>ARO:3000158:azithromycin
+                        ARO:0000054:penicillin
+                        ARO:0000006:erythromycin</td>
+                    <td>MtrA is a transcriptional activator of the MtrCDE multidrug efflux pump of Neisseria gonorrhoeae.</td>
+                    <td align="center">antibiotic efflux</td>
+                    <td align="center">Mycobacterium tuberculosis</td>
+                    <td align="center">Invasion; Adherence</td>
+                    <td>ESAT-6-like protein;<br>DNA repair protein RecN</td>
+                    <td>Mycobacterium abscessus 3A-0119-R WGS NZ_AKUX</td>
+                    <td align="center">fbpA; fbpB; fbpC; fbpD</td>
+                  </tr>
+                  <tr>
+                    <th><input type="checkbox" onclick="swapCheck()" /></th>
+                    <td align="center">IPR000010</td>
+                    <td align="center">mtrA</td>
+                    <td align="center">D</td>
+                    <td align="center">1</td>
+                    <td align="center">1</td>
+                    <td align="center">Regulate proteolytic activity</td>
+                    <td><img src="./img/GO-2.png" alt="" /></td>
+                    <td align="center"><a href="./species_table.html">11</a></td>
+                    <td align="center"><a href="./strains_table.html">48</a></td>
+                    <td>ARO:3000158:azithromycin
+                        ARO:0000054:penicillin
+                        ARO:0000006:erythromycin</td>
+                    <td align="center">...</td>
+                    <td align="center">antibiotic efflux</td>
+                    <td align="center">Mycobacterium tuberculosis</td>
+                    <td align="center">Invasion; Adherence</td>
+                    <td>ESAT-6-like protein;<br>DNA repair protein RecN</td>
+                    <td>Mycobacterium abscessus 3A-0119-R WGS NZ_AKUX</td>
+                    <td align="center">fbpA; fbpB; fbpC; fbpD</td>
+                  </tr>
+                  <tr>
+                    <th><input type="checkbox" onclick="swapCheck()" /></th>
+                    <td align="center">IPR000018</td>
+                    <td align="center">P2Y purinoceptor 4</td>
+                    <td align="center">D</td>
+                    <td align="center">5</td>
+                    <td align="center">16</td>
+                    <td align="center">Bind mediators</td>
+                    <td><img src="./img/GO-3.png" alt="" /></td>
+                    <td align="center"><a href="./species_table.html">11</a></td>
+                    <td align="center"><a href="./strains_table.html">48</a></td>
+                    <td>ARO:3000158:azithromycin
+                        ARO:0000054:penicillin
+                        ARO:0000006:erythromycin</td>
+                    <td align="center">...</td>
+                    <td align="center">antibiotic efflux</td>
+                    <td align="center">Mycobacterium tuberculosis</td>
+                    <td align="center">Invasion; Adherence</td>
+                    <td>...</td>
+                    <td>Mycobacterium abscessus 3A-0119-R WGS NZ_AKUX</td>
+                    <td align="center">fbpA; fbpB; fbpC; fbpD</td>
+                  </tr>
+                  <tr>
+                    <th><input type="checkbox" onclick="swapCheck()" /></th>
+                    <td align="center">IPR000019</td>
+                    <td align="center">Cbb domain</td>
+                    <td align="center">D</td>
+                    <td align="center">1</td>
+                    <td align="center">2</td>
+                    <td align="center">DNA binding</td>
+                    <td><img src="./img/GO-4.png" alt="" /></td>
+                    <td align="center"><a href="./species_table.html">11</a></td>
+                    <td align="center"><a href="./strains_table.html">48</a></td>
+                    <td>ARO:3000158:azithromycin
+                        ARO:0000054:penicillin
+                        ARO:0000006:erythromycin</td>
+                    <td align="center">...</td>
+                    <td align="center">antibiotic efflux</td>
+                    <td align="center">Mycobacterium tuberculosis</td>
+                    <td align="center">Invasion; Adherence</td>
+                    <td>...</td>
+                    <td>Mycobacterium abscessus 3A-0119-R WGS NZ_AKUX</td>
+                    <td align="center">fbpA; fbpB; fbpC; fbpD</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
             <p align="right">xx strains selected, <button type="button" background-color: palevioletred>add to Cart</button></p>
         </div>
       </div>

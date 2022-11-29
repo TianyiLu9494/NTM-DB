@@ -196,9 +196,6 @@
         <div class="col-9">
           <p><b>Table legends: </b><br> *:  NTM specific genes</p>
           <p><br><i>13, 653 strains found</i></p>
-          <input type="button" value="General" >
-          <input type="button" value="Resistance" onclick="window.location.href='./strains_resistance.html'">
-          <input type="button" value="Virulence" onclick="window.location.href='./strains_virulence.html'">
           <div style="overflow: auto; width: 100%;">
             <table class="table table-striped">
                 <thead>
@@ -213,6 +210,13 @@
                     <th scope="col">Collection Year</th>
                     <th scope="col">Country</th>
                     <th scope="col">Representative Strain</th>
+                    <th scope="col">CARD Organism</th>
+                    <th scope="col">CARD Prefect Hits</th>
+                    <th scope="col">CARD Strict Hits</th>
+                    <th scope="col">Drug Classes</th>
+                    <th scope="col">Virulence Genes</th>
+                    <th scope="col">VF Category</th>
+                    <th scope="col">VF Product</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -227,6 +231,15 @@
                     <td align="center">2001</td>
                     <td align="center">Russia</td>
                     <td align="center">CIP 104536</td>
+                    <td>Mycobacterium avium subsp. paratuberculosis</td>
+                    <td>mfpA, AAC(2')-Ic, mtrA, efpA</td>
+                    <td>RbpA, mtrA, Mycobacterium tuberculosis intrinsic murA conferring resistance to fosfomycin, Mycobacterium avium 23S rRNA with mutation conferring resistance to clarithromycin, Mycobacterium tuberculosis 23S rRNA mutation conferring resistance to capreomycin, qacG</td>
+                    <td>ARO:3000158:azithromycin
+                        ARO:0000054:penicillin
+                        ARO:0000006:erythromycin</td>
+                    <td>mtrA; mtrB*; mtrC</td>
+                    <td>Invasion;<br>Effector delivery system;<br>Motility;<br>Exoenzyme</td>
+                    <td>ESAT-6-like protein; DNA repair protein RecN</td>  
                   </tr>
                   <tr>
                     <th><input type="checkbox" onclick="swapCheck()" /></th>
@@ -239,6 +252,13 @@
                     <td align="center">2006</td>
                     <td align="center">Mozambique</td>
                     <td align="center">DSM 43491; L948; NCTC 13031</td>
+                    <td align="center">···</td>
+                    <td align="center">···</td>
+                    <td align="center">···</td>
+                    <td align="center">···</td>   
+                    <td>mtrA; mtrD*</td>
+                    <td>Invasion;<br>Motility;<br>Exotoxin</td>
+                    <td>DNA repair protein RecN</td>
                   </tr>
                   <tr>
                     <th><input type="checkbox" onclick="swapCheck()" /></th>
@@ -251,6 +271,13 @@
                     <td align="center">xxxx</td>
                     <td align="center">USA</td>
                     <td align="center">Hauduroy L948</td>
+                    <td align="center">···</td>
+                    <td align="center">···</td>
+                    <td align="center">···</td>
+                    <td align="center">···</td>   
+                    <td>mtrA; mtrD*</td>
+                    <td>Post-translational modification;<br>Stress survival;<br>Exotoxin</td>
+                    <td>DNA repair protein RecN</td>
                   </tr>
                   <tr>
                     <th><input type="checkbox" onclick="swapCheck()" /></th>
@@ -263,11 +290,18 @@
                     <td align="center">xxxx</td>
                     <td align="center">United Kingdom</td>
                     <td align="center">JCM 13569</td>
+                    <td align="center">···</td>
+                    <td align="center">···</td>
+                    <td align="center">···</td>
+                    <td align="center">···</td>   
+                    <td>mtrA; mtrD*</td>
+                    <td>Biofilm; Nutritional/Metabolic factor;<br>Exotoxin;<br>Regulation</td>
+                    <td>DNA repair protein RecN</td>
                     </tr>
                   </tbody>
                 </table>
               </div>
-              <p align="right">xx strains selected， <button type="button" background-color: palevioletred>add to Cart</button></p>
+              <p align="right">xx strains selected,  <button type="button" background-color: palevioletred>add to Cart</button></p>
               
         </div>
       </div>
