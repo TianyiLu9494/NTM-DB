@@ -44,9 +44,10 @@
     </nav>
     </div>
 
-    <div class="container">  <!-- main content -->
+    <div class="container-fluid">  <!-- main content -->
         <div class="row">
-            <div class="col-3"> <!-- nav side bar -->
+            <div class="col-1"></div>
+            <div class="col-2"> <!-- nav side bar -->
                 <div id="list-example" class="list-group sticky-top">
                     <a class="list-group-item list-group-item-action" href="#list-item-1">Overview</a>
                     <a class="list-group-item list-group-item-action" href="#list-item-2">MLST-types</a>
@@ -57,16 +58,21 @@
                 </div>
             </div>
 
-            <div class="col-9 p-3">
+            <div class="col-7 p-3">
                 <div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-offset="0" class="scrollspy-example" tabindex="0">
-                    
-                  
                     <h3 id="list-item-1"><b>Overview</b></h3>
                     <p>Mycobacterium abscessus (also called M. abscessus) is a bacterium distantly related to the ones that cause tuberculosis and Hansen's Disease (Leprosy). It is part of a group of environmental mycobacteria and is found in water, soil, and dust. It has been known to contaminate medications and products, including medical devices. </p>
-                    
-                    <h5>Type strain</h5>  
-                    <p>ATCC 19977; CCUG 20993; CIP 104536; DSM 43491; DSM 44196; Hauduroy L948; JCM 13569; L948; NCTC 13031; TMC 1543</p><br>
-                    
+                    <div class="row">
+                      <div class="col-xxl-4">
+                        <div class="card" id="host" style="width: 425px;height:400px;"></div>
+                      </div>
+                      <div class="col-xxl-4">
+                        <div class="card" id="resistance" style="width: 425px;height:400px;"></div>
+                      </div>
+                      <div class="col-xxl-4">
+                        <div class="card" id="vf" style="width: 425px;height:400px;"></div>
+                      </div>
+                    </div>                    
                     <h5>Analysed Strain Information</h5>
                     <div style="overflow: auto; width: 100%;"> <!-- table for strains -->
                       <table class="table table-striped">
@@ -246,7 +252,173 @@
     </div>
 
 
-      
+    <script src="echarts.js"></script>
+    <script type="text/javascript">
+      // Initialize the echarts instance based on the prepared dom
+      var myChart = echarts.init(document.getElementById('host'));
+
+      // Specify the configuration items and data for the chart
+      var data = [
+            {
+              name: 'Human',
+              children: [
+                {
+                  name: 'NTM-PD',
+                  value: 15,
+                },
+                {
+                  name: 'Extrapulmonary disease',
+                  value: 5,
+                }
+              ]
+            },
+            {
+              name: 'Annimal',
+              children: [
+                {
+                  name: "Live-stoke",
+                  value:3
+                },
+                {
+                  name: "Aviums",
+                  value: 2
+                },
+                {
+                  name: "Fishes",
+                  value:0.5
+                }
+              ]
+            },
+            {
+              name: "Environment",
+              children: [
+                {
+                  name: "Urban",
+                  value: 2
+                },
+                {
+                  name:"Farm",
+                  value: 1
+                },
+                {
+                  name: "Wild",
+                  value: 0.5
+                }
+                ]
+            }
+          ];
+          option = {
+            toolbox: {
+          show: true,
+          feature: {
+            mark: { show: false },
+            dataView: { show: true, readOnly: false },
+            restore: { show: false },
+            saveAsImage: { show: true }
+          }
+        },
+            series: {
+              type: 'sunburst',
+              // emphasis: {
+              //     focus: 'ancestor'
+              // },
+              data: data,
+              radius: [0, '90%'],
+              label: {
+                rotate: 'radial'
+              }
+            }
+          };
+
+      // Display the chart using the configuration items and data just specified.
+      myChart.setOption(option);
+    </script>
+    <script type="text/javascript">
+            // Initialize the echarts instance based on the prepared dom
+      var myChart = echarts.init(document.getElementById('resistance'));
+
+            // Specify the configuration items and data for the chart
+      option = {
+        legend: {
+          top: 'bottom'
+        },
+        toolbox: {
+          show: true,
+          feature: {
+            mark: { show: false },
+            dataView: { show: true, readOnly: false },
+            restore: { show: false },
+            saveAsImage: { show: true }
+          }
+        },
+        series: [
+          {
+            name: 'Nightingale Chart',
+            type: 'pie',
+            radius: [15, '75%'],
+            center: ['50%', '50%'],
+            roseType: 'area',
+            itemStyle: {
+              borderRadius: 6
+            },
+            data: [
+              { value: 44, name: 'DrugClass 1' },
+              { value: 38, name: 'DrugClass 2' },
+              { value: 32, name: 'DrugClass 3' },
+              { value: 30, name: 'DrugClass 4' },
+              { value: 28, name: 'DrugClass 5' },
+              { value: 26, name: 'DrugClass 6' },
+              { value: 22, name: 'Other DrugClass' }
+            ]
+          }
+        ]
+      };
+      // Display the chart using the configuration items and data just specified.
+      myChart.setOption(option);
+    </script>
+    <script type="text/javascript">
+            // Initialize the echarts instance based on the prepared dom
+      var myChart = echarts.init(document.getElementById('vf'));
+
+            // Specify the configuration items and data for the chart
+      option = {
+        legend: {
+          top: 'bottom'
+        },
+        toolbox: {
+          show: true,
+          feature: {
+            mark: { show: false },
+            dataView: { show: true, readOnly: false },
+            restore: { show: false },
+            saveAsImage: { show: true }
+          }
+        },
+        series: [
+          {
+            name: 'Nightingale Chart',
+            type: 'pie',
+            radius: [15, '75%'],
+            center: ['50%', '50%'],
+            roseType: 'area',
+            itemStyle: {
+              borderRadius: 8
+            },
+            data: [
+              { value: 44, name: 'VF-Class 1' },
+              { value: 38, name: 'VF-Class 2' },
+              { value: 32, name: 'VF-Class 3' },
+              { value: 30, name: 'VF-Class 4' },
+              { value: 28, name: 'VF-Class 5' },
+              { value: 26, name: 'VF-Class 6' },
+              { value: 22, name: 'Other VF Class' }
+            ]
+          }
+        ]
+      };
+      // Display the chart using the configuration items and data just specified.
+      myChart.setOption(option);
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
   </body>
 </html>
