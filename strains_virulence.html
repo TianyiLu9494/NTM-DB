@@ -46,7 +46,7 @@
       <div class="row">
         <div class="col-3"><!-- filter -->
           <form action="">
-            <h5 class="my-3">Taxonmy</h5>
+            <h5 class="my-3"><b>Taxonmy</b></h5>
             <div class="row my-1">
               <label for="#" class="form-label col-sm-3 col-form-label p-1">Genus.</label>
               <div class="col-9">
@@ -55,7 +55,7 @@
                   <option value="Mycobaterium">Mycobacterium</option>
                   <option value="Mycobacterium">Mycobacteroides</option>
                   <option value="Mycolicibater">Mycolicibater</option>
-                  <option value="Mycolicibaterium">Mycolicibaterium</option>
+                  <option value="Mycolicibacterium">Mycolicibacterium</option>
                   <option value="Mycolicibacillus">Mycolicibacillus</option>
                 </select>
               </div>
@@ -73,7 +73,51 @@
               </div>
             </div>
 
-            <h5 class="my-3">Host</h5>
+            <h5 class="my-3"><b>Disease</b></h5>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="Disease" id="Disease1" checked>
+              <label class="form-check-label" for="Disease1">
+                ALL
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" name="Disease" id="Disease2">
+              <label class="form-check-label" for="Disease2">
+                Lung
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" name="Disease" id="Disease3">
+              <label class="form-check-label" for="Disease3">
+                Endocarditis
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" name="Disease" id="Disease4">
+              <label class="form-check-label" for="Disease4">
+                Osteopathy
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" name="Disease" id="Disease5">
+              <label class="form-check-label" for="Disease5">
+                Soft tissue sarcoma
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" name="Disease" id="Disease6>
+              <label class="form-check-label" for="Disease6">
+                Disseminated Disease
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" name="Disease" id="Disease7">
+              <label class="form-check-label" for="Disease7">
+                Other
+              </label>
+            </div>
+
+            <h5 class="my-3"><b>Host</b></h5>
             <div class="form-check">
               <input class="form-check-input" type="radio" name="Source" id="Source1" checked>
               <label class="form-check-label" for="Source1">
@@ -81,7 +125,7 @@
               </label>
             </div>
             <div class="form-check">
-              <input class="form-check-input" type="radio" name="Source" id="Source2" >
+              <input class="form-check-input" type="checkbox" name="Source" id="Source2" >
               <label class="form-check-label" for="Source2">
                 Human
               </label>
@@ -94,7 +138,7 @@
               </select>
             </div>
             <div class="form-check">
-              <input class="form-check-input" type="radio" name="Source" id="Source3" >
+              <input class="form-check-input" type="checkbox" name="Source" id="Source3" >
               <label class="form-check-label" for="Source3">
                 Animal
               </label>
@@ -108,7 +152,7 @@
               </select>
             </div>
             <div class="form-check">
-              <input class="form-check-input" type="radio" name="Source" id="Source4" >
+              <input class="form-check-input" type="checkbox" name="Source" id="Source4" >
               <label class="form-check-label" for="Source4">
                 Environment
               </label>
@@ -122,7 +166,7 @@
               </select>
             </div>
 
-            <h5 class="my-3">Country</h5>
+            <h5 class="my-3"><b>Country</b></h5>
             <select name="Country" id="Country" class="form-select my-1">
               <option selected>Select Country</option>
               <option value="China">China</option>
@@ -132,7 +176,7 @@
               <option value="Others">······</option>
             </select>
 
-            <h5 class="my-3">Collection Year</h5>
+            <h5 class="my-3"><b>Collection Year</b></h5>
 
             <div class="row">
               <label for="#" class="form-label col-2 col-form-label p-1">Min.</label>
@@ -202,7 +246,7 @@
                   </tbody>
                 </table>
               </div>
-              <p align="right">xx strains selected， <button type="button" background-color: palevioletred>add to Cart</button></p>
+              <p align="right">xx strains selected, <button type="button" background-color: palevioletred>add to Cart</button></p>
         </div>
       </div>
     </div>

@@ -48,32 +48,145 @@
       <div class="row">
         <div class="col-3">
           <form action="">
+            
+            <h5 class="my-3"><b>Type</b></h5>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="Type" id="Type1" checked>
+              <label class="form-check-label" for="Type1">
+                ALL
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" name="Type" id="Type1" >
+              <label class="form-check-label" for="Type2">
+                Family
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" name="Type" id="Type3" >
+              <label class="form-check-label" for="Type3">
+                Domain
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" name="Type" id="Type4" >
+              <label class="form-check-label" for="Type4">
+                Homologhous Superfamily
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" name="Type" id="Type5" >
+              <label class="form-check-label" for="Type5">
+                Repeat
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" name="Type" id="Type6" >
+              <label class="form-check-label" for="Type6">
+                Homologhous Superfamily
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" name="Type" id="Type7" >
+              <label class="form-check-label" for="Type7">
+                Conserved Site / Acitive Site / Binding Site / PTM
+              </label>
+            </div>
+
+
+
+        
+            
+            <!-- GO Terms -->
+            <h5 class="my-3"><b>GO Terms</b></h5>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="GO Terms" id="GO Terms1" checked>
+              <label class="form-check-label" for="GO Terms1">
+                ALL
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" name="GO Terms" id="GO Terms2">
+              <label class="form-check-label" for="GO Terms2">
+                Biological Process
+              </label>
+            </div>
+            <div class="col-lg-9">
+              <select name="BP" id="BP" class="form-select my-1">
+                <option selected></option>
+                <option value="Mycobaterium">Regulation of DNA-templated transcription</option>
+                <option value="Mycobacterium">Pilus assembly</option>
+              </select>
+            </div>
+            
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" name="GO Terms" id="GO Terms3">
+              <label class="form-check-label" for="GO Terms3">
+                Molecular Function
+              </label>
+            </div>
+            <div class="col-lg-9">
+              <select name="MF" id="MF" class="form-select my-1">
+                <option selected></option>
+                <option value="Mycobaterium">DNA Binding</option>
+                <option value="Mycobacterium">Nuclear steroid receptor activity</option>
+              </select>
+            </div>
+            
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" name="GO Terms" id="GO Terms4">
+              <label class="form-check-label" for="GO Terms4">
+                Cellular Component
+              </label>
+            </div>
+            <div class="col-lg-9">
+              <select name="CC" id="CC" class="form-select my-1">
+                <option selected></option>
+                <option value="Mycobaterium">Nucleus</option>
+                <option value="Mycobacterium">Membrane</option>
+              </select>
+            </div>
+
+            <!-- Resistance -->
+            <h5 class="my-3"><b>Resistance</b></h5>
             <div class="row my-1">
-                <nav class="navbar bg-primary">
-                    <div class="container-fluid">
-                        <a href="./Gene_table.html" class="navbar-brand link-light">Gene Function</a>
-                        <span class="badge bg-secondary">xxx</span>
-                    </div>
-                </nav>
+              <label for="#" class="form-label col-sm-4 col-form-label p-1">Resistant to </label>
+              <div class="col-8">
+                <select name="" id="Genus" class="form-select my-1">
+                  <option selected>Select Drug class</option>
+                  <option value="Mycobaterium">aminocoumarin</option>
+                  <option value="Mycobacterium">aminoglycoside</option>4
+                  <option value="Mycolicibater">antibacterial free fatty</option>
+                  <option value="Mycolicibaterium">carbapenem</option>
+                  <option value="Mycolicibacillus">cephalosporin</option>
+                  <option value="Mycolicibacillus">···</option>
+                </select>
+              </div>
             </div>
             <div class="row my-1">
-                <nav class="navbar bg-danger">
-                    <div class="container-fluid">
-                        <a href="./gene_resistance.html" class="navbar-brand link-light">Resistance</a>
-                        <span class="badge bg-secondary">xxx</span>
-                    </div>
-                </nav>
+              <label for="#" class="form-label col-sm-4 col-form-label p-1">Mechanism </label>
+              <div class="col-8">
+                <select name="" id="Genus" class="form-select my-1">
+                  <option selected>Select Mechanism</option>
+                  <option value="Mycobaterium">antibiotic efflux</option>
+                  <option value="antibiotic inactivation">antibiotic inactivation</option>
+                  <option value="antibiotic target alteration">antibiotic target alteration</option>
+                  <option value="antibiotic target protection">antibiotic target protection</option>
+                  <option value="antibiotic target replacement">antibiotic target replacement</option>
+                  <option value="reduced permeability to antibiotic">reduced permeability to antibiotic</option>
+                  <option value="resistance by absence">resistance by absence</option>
+                </select>
+              </div>
             </div>
             <div class="row my-1">
-                <nav class="navbar bg-success">
-                    <div class="container-fluid">
-                        <a href="./gene_virulence.html" class="navbar-brand link-light">Virulence</a>
-                        <span class="badge bg-secondary">xxx</span>
-                    </div>
-                </nav>
+              <label for="#" class="form-label col-sm-4 col-form-label p-1">Gene name</label>
+              <div class="col-sm-8">
+                <input type="Gene" class="form-control my-1" id="Resistance Gene" placeholder="eg. mtrA">
+              </div>
             </div>
-            <hr>
-            <h5 class="my-3">Filter by</h5>
+
+            <!-- Virulence -->
+            <h5 class="my-3"><b>Virulence</b></h5>
             <div class="row my-1">
               <label for="#" class="form-label col-sm-4 col-form-label p-1">VF Category </label>
               <div class="col-8">
@@ -105,11 +218,18 @@
                 <input type="Gene" class="form-control my-1" id="Resistance Gene" placeholder="eg. mtrA">
               </div>
             </div>
+
             <br><p align="center"><input type="button" value="Reset" > <input type="button" value="Submit"></p>
           </form>
         </div>    
         <div class="col-9">
-          <p><br><i>xxx virulence genes found</i></p>
+          <h6><b>Table legends</b></h6>
+          <p>Type:   F=Family; D=Domain; H=Homologhous Superfamily; R=Repeat; S=Conserved Site / Acitive Site / Binding Site / PTM
+            <br>GO Terms:    BP= Biological process category; MF=Molecular function category; CC=Cellular component category
+          <p><i>567 genes found</i></p>
+          <input type="button" value="General" onclick="window.location.href='./Gene_table.html'">
+          <input type="button" value="Resistance" onclick="window.location.href='./gene_resistance.html'">
+          <input type="button" value="Virulence">
           <table class="table table-striped">
               <thead>
                 <tr>

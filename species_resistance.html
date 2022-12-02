@@ -46,7 +46,7 @@
       <div class="row">
         <div class="col-3">
           <form action="">
-            <h5 class="my-3">Taxonmy</h5>
+            <h5 class="my-3"><b>Taxonmy</b></h5>
             <div class="row my-1">
               <label for="#" class="form-label col-sm-3 col-form-label p-1">Genus.</label>
               <div class="col-9">
@@ -73,7 +73,7 @@
               </div>
             </div>
 
-            <h5 class="my-3">Source</h5>
+            <h5 class="my-3"><b>Source</b></h5>
             <div class="form-check">
               <input class="form-check-input" type="radio" name="Source" id="Source1" checked>
               <label class="form-check-label" for="Source1">
@@ -81,39 +81,47 @@
               </label>
             </div>
             <div class="form-check">
-              <input class="form-check-input" type="radio" name="Source" id="Source2" >
+              <input class="form-check-input" type="checkbox" name="Source" id="Source2" >
               <label class="form-check-label" for="Source2">
                 Human
               </label>
             </div>
             <div class="form-check">
-              <input class="form-check-input" type="radio" name="Source" id="Source3" >
+              <input class="form-check-input" type="checkbox" name="Source" id="Source3" >
               <label class="form-check-label" for="Source3">
                 Animal
               </label>
             </div>
             <div class="form-check">
-              <input class="form-check-input" type="radio" name="Source" id="Source4" >
+              <input class="form-check-input" type="checkbox" name="Source" id="Source4" >
               <label class="form-check-label" for="Source4">
                 Environment
               </label>
             </div>
 
-            <h5 class="my-3">Growth Type</h5>
+
+            <h5 class="my-3" title="Rapid-growing mycobacteria (RGM) and slow-growing mycobacteria (SGM), based on interval to colony formation by subculture on solid media."><b>Growth Type</b> <embed src="./img/exclamation-circle.svg" type="image/svg+xml" ></h5>
             <div class="form-check">
               <input class="form-check-input" type="radio" name="Growth Type" id="Growth Type1" checked>
+              <label class="form-check-label" for="Growth Type1">
+                Both
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" name="Growth Type" id="Growth Type2" >
               <label class="form-check-label" for="Growth Type1">
                 Rapid
               </label>
             </div>
             <div class="form-check">
-              <input class="form-check-input" type="radio" name="Growth Type" id="Growth Type2">
+              <input class="form-check-input" type="checkbox" name="Growth Type" id="Growth Type3">
               <label class="form-check-label" for="Growth Type2">
                 Slow
               </label>
             </div>
+    
 
-            <h5 class="my-3">Pathogenicity</h5>
+            <h5 class="my-3"><b>Pathogenicity</b></h5>
             <div class="form-check">
               <input class="form-check-input" type="radio" name="Pathogenicity" id="Pathogenicity1" checked>
               <label class="form-check-label" for="Pathogenicity1">
@@ -121,19 +129,19 @@
               </label>
             </div>
             <div class="form-check">
-              <input class="form-check-input" type="radio" name="Pathogenicity" id="Pathogenicity2">
+              <input class="form-check-input" type="checkbox" name="Pathogenicity" id="Pathogenicity2">
               <label class="form-check-label" for="Pathogenicity2">
                 Pathogenic
               </label>
             </div>
             <div class="form-check">
-              <input class="form-check-input" type="radio" name="Pathogenicity" id="Pathogenicity3" >
+              <input class="form-check-input" type="checkbox" name="Pathogenicity" id="Pathogenicity3" >
               <label class="form-check-label" for="Pathogenicity3">
                 Opportunity-Pathogenic
               </label>
             </div>
             <div class="form-check">
-              <input class="form-check-input" type="radio" name="Pathogenicity" id="Pathogenicity4" >
+              <input class="form-check-input" type="checkbox" name="Pathogenicity" id="Pathogenicity4" >
               <label class="form-check-label" for="Pathogenicity4">
                 Non-Pathogenic
               </label>
@@ -146,12 +154,12 @@
             <div class="container">
               <p><b>Table legends: </b><br>Source:     <font color="#8A0808">Human source; </font>   <font color="#07257c">Animal source; </font>  <font color="#dbcb98">Environment source</font>
                 <br>Growth Type:     <font color="#fa8258">Rapid;</font>      <font color="#00e6e6">Slow</font>
-                <br>Pathogenicity:  <font color="#237123"> NP=non-pathogenic;</font>   <font color="#ffbf00">OP=opportunistic pathogens;</font>   <font color="#1d46bc">P=pathogens;</font>   <font color="#949494">U=unknown</font></p><br>
-              <p><i>169 NTM species found</i></p>
+                <br>Pathogenicity:  <font color="#237123"> NP=non-pathogenic;</font>   <font color="#ffbf00">OP=opportunistic pathogens;</font>   <font color="#1d46bc">P=pathogens;</font>   <font color="#949494">U=unknown</font></p>
+                <br><p style="text-align:justify; text-justify:inter-ideograph;"><b>Resistance:</b> Prevalence of AMR genes and variants organized by Antibiotic Resistance Ontology phenotypic classification. Values reflect percentage of completely sequenced genomes, completely sequenced plasmids, whole-genome shotgun assemblies, or genomic islands that have at least one AMR determinant associated with the phenotypic class. Default view includes percentages calculated based on Perfect plus Strict RGI hits. </p>
+                <p><br><i>169 NTM species found</i></p>
               <input type="button" value="General" onclick="window.location.href='./species_table.html'">
               <input type="button" value="Resistance">
               <input type="button" value="Virulence" onclick="window.location.href='./species_virulence.html'">
-              <br><br><p style="text-align:justify; text-justify:inter-ideograph;">Prevalence of AMR genes and variants organized by Antibiotic Resistance Ontology phenotypic classification. Values reflect percentage of completely sequenced genomes, completely sequenced plasmids, whole-genome shotgun assemblies, or genomic islands that have at least one AMR determinant associated with the phenotypic class. Default view includes percentages calculated based on Perfect plus Strict RGI hits. </p>
               <div style="overflow: auto; width: 100%;">
                 <table class="table table-striped">
                     <thead text-align="center">

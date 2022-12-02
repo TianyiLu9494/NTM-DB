@@ -56,37 +56,37 @@
               </label>
             </div>
             <div class="form-check">
-              <input class="form-check-input" type="radio" name="Type" id="Type1" >
+              <input class="form-check-input" type="checkbox" name="Type" id="Type1" >
               <label class="form-check-label" for="Type2">
                 Family
               </label>
             </div>
             <div class="form-check">
-              <input class="form-check-input" type="radio" name="Type" id="Type3" >
+              <input class="form-check-input" type="checkbox" name="Type" id="Type3" >
               <label class="form-check-label" for="Type3">
                 Domain
               </label>
             </div>
             <div class="form-check">
-              <input class="form-check-input" type="radio" name="Type" id="Type4" >
+              <input class="form-check-input" type="checkbox" name="Type" id="Type4" >
               <label class="form-check-label" for="Type4">
                 Homologhous Superfamily
               </label>
             </div>
             <div class="form-check">
-              <input class="form-check-input" type="radio" name="Type" id="Type5" >
+              <input class="form-check-input" type="checkbox" name="Type" id="Type5" >
               <label class="form-check-label" for="Type5">
                 Repeat
               </label>
             </div>
             <div class="form-check">
-              <input class="form-check-input" type="radio" name="Type" id="Type6" >
+              <input class="form-check-input" type="checkbox" name="Type" id="Type6" >
               <label class="form-check-label" for="Type6">
                 Homologhous Superfamily
               </label>
             </div>
             <div class="form-check">
-              <input class="form-check-input" type="radio" name="Type" id="Type7" >
+              <input class="form-check-input" type="checkbox" name="Type" id="Type7" >
               <label class="form-check-label" for="Type7">
                 Conserved Site / Acitive Site / Binding Site / PTM
               </label>
@@ -94,25 +94,7 @@
 
 
 
-            <div class="form-check">
-              <input class="form-check-input" type="radio" name="Source" id="Source1" checked>
-              <label class="form-check-label" for="Source1">
-                ALL
-              </label>
-            </div>
-            <div class="form-check">
-              <input class="form-check-input" type="radio" name="Source" id="Source2" >
-              <label class="form-check-label" for="Source2">
-                Human
-              </label>
-            </div>
-            <div class="col-lg-9">
-              <select name="Genus" id="Genus" class="form-select my-1">
-                <option selected></option>
-                <option value="Mycobaterium">Pulmonary</option>
-                <option value="Mycobacterium">Extrapulmonary</option>
-              </select>
-            </div>
+        
             
             <!-- GO Terms -->
             <h5 class="my-3"><b>GO Terms</b></h5>
@@ -123,7 +105,7 @@
               </label>
             </div>
             <div class="form-check">
-              <input class="form-check-input" type="radio" name="GO Terms" id="GO Terms2">
+              <input class="form-check-input" type="checkbox" name="GO Terms" id="GO Terms2">
               <label class="form-check-label" for="GO Terms2">
                 Biological Process
               </label>
@@ -137,7 +119,7 @@
             </div>
             
             <div class="form-check">
-              <input class="form-check-input" type="radio" name="GO Terms" id="GO Terms3">
+              <input class="form-check-input" type="checkbox" name="GO Terms" id="GO Terms3">
               <label class="form-check-label" for="GO Terms3">
                 Molecular Function
               </label>
@@ -151,7 +133,7 @@
             </div>
             
             <div class="form-check">
-              <input class="form-check-input" type="radio" name="GO Terms" id="GO Terms4">
+              <input class="form-check-input" type="checkbox" name="GO Terms" id="GO Terms4">
               <label class="form-check-label" for="GO Terms4">
                 Cellular Component
               </label>
@@ -246,6 +228,9 @@
           <p>Type:   F=Family; D=Domain; H=Homologhous Superfamily; R=Repeat; S=Conserved Site / Acitive Site / Binding Site / PTM
             <br>GO Terms:    BP= Biological process category; MF=Molecular function category; CC=Cellular component category
           <p><i>567 genes found</i></p>
+          <input type="button" value="General">
+          <input type="button" value="Resistance" onclick="window.location.href='./gene_resistance.html'">
+          <input type="button" value="Virulence" onclick="window.location.href='./gene_virulence.html'">
           <div style="overflow: auto; width: 100%;">
             <table class="table table-striped">
                 <thead>
