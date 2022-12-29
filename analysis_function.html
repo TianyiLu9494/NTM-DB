@@ -56,8 +56,8 @@
           <div class="container">
             <h5 class="card-title">Gene Functional annotation comparison</h5>
             <div class="row">
-              <div class="col-xl-6">
-                <div class="card border-success">
+              <div class="col-xl-6 d-flex">
+                <div class="card border-success flex-fill">
                   <div class="card-header border-success text-bg-success">Analyze a set in these available genome</div>
                   <div class="card-body">
                     <h5 class="card-title">Select Species</h5>
@@ -70,20 +70,18 @@
                       <option value="6">Mycobacteroides abscessus</option>
                       <option value="7">Mycobacteroides chelonae</option>
                     </select>
-                    <h5 class="card-title">Select Strains</h5>
+                    <h5 class="card-title">Select MLST type</h5>
                     <select class="form-select" size="4" multiple="multiple" aria-label="size 4 select example">
                       <option selected>ALL</option>
-                      <option value="1">GCA_000014165.1</option>
-                      <option value="2">GCA_000016005.1</option>
-                      <option value="3">GCA_000026685.1</option>
-                      <option value="4">GCA_000069185.1</option>
-                      <option value="5">GCA_000240345.2</option>
+                      <option value="1">ST-8</option>
+                      <option value="1">ST-81</option>
+                      <option value="1">ST-6</option>
                     </select>
                   </div>
                 </div>
               </div>
-              <div class="col-xl-6">
-                <div class="card border-warning">
+              <div class="col-xl-6 d-flex">
+                <div class="card border-warning flex-fill">
                   <div class="card-header border-warning text-bg-warning">Genome comparison base on selected database annotation </div>
                   <div class="card-body">
                     <h5 class="card-title">Select annotation database</h5>
@@ -94,21 +92,9 @@
                       </label>
                     </div>
                     <div class="form-check">
-                      <input class="form-check-input" type="radio" name="Source" id="Source2" >
-                      <label class="form-check-label" for="Source2">
-                        Pfam domains
-                      </label>
-                    </div>
-                    <div class="form-check">
-                      <input class="form-check-input" type="radio" name="Source" id="Source3" >
-                      <label class="form-check-label" for="Source3">
-                        Interpro entries
-                      </label>
-                    </div>
-                    <div class="form-check">
                       <input class="form-check-input" type="radio" name="Source" id="Source4" >
                       <label class="form-check-label" for="Source4">
-                        Kegg Orthologs
+                        KEGG Orthologs
                       </label>
                     </div>
                     <div class="form-check">
