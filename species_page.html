@@ -263,12 +263,16 @@
               name: 'Human',
               children: [
                 {
+                  name: 'Homo sapiens',
+                  value: 2431,
+                },
+                {
                   name: 'NTM-PD',
-                  value: 15,
+                  value: 2128,
                 },
                 {
                   name: 'Extrapulmonary disease',
-                  value: 5,
+                  value: 120,
                 }
               ]
             },
@@ -277,15 +281,15 @@
               children: [
                 {
                   name: "Live-stoke",
-                  value:3
+                  value:772
                 },
                 {
-                  name: "Aviums",
-                  value: 2
+                  name: "Avian",
+                  value: 258
                 },
                 {
-                  name: "Fishes",
-                  value:0.5
+                  name: "Aquatic and Amphibian",
+                  value:1
                 }
               ]
             },
@@ -294,15 +298,19 @@
               children: [
                 {
                   name: "Urban",
-                  value: 2
+                  value: 22
                 },
                 {
                   name:"Farm",
-                  value: 1
+                  value: 5
                 },
                 {
                   name: "Wild",
-                  value: 0.5
+                  value: 5
+                },
+                {
+                  name: "Patient related environment",
+                  value: 2
                 }
                 ]
             }
@@ -352,27 +360,39 @@
           }
         },
         series: [
-          {
-            name: 'Nightingale Chart',
-            type: 'pie',
-            radius: [15, '75%'],
-            center: ['50%', '50%'],
-            roseType: 'area',
-            itemStyle: {
-              borderRadius: 6
-            },
-            data: [
-              { value: 44, name: 'DrugClass 1' },
-              { value: 38, name: 'DrugClass 2' },
-              { value: 32, name: 'DrugClass 3' },
-              { value: 30, name: 'DrugClass 4' },
-              { value: 28, name: 'DrugClass 5' },
-              { value: 26, name: 'DrugClass 6' },
-              { value: 22, name: 'Other DrugClass' }
-            ]
+        {
+        name: 'Radius Mode',
+        type: 'pie',
+        radius: [20, 140],
+        center: ['50%', '50%'],
+        roseType: 'radius',
+        itemStyle: {
+          borderRadius: 5
+        },
+        label: {
+          show: false
+        },
+        emphasis: {
+          label: {
+            show: true
           }
+        },
+        data: [
+        { value: 9332, name: 'rifamycin' },
+        { value: 9332, name: 'penam' },
+        { value: 9332, name: 'macrolide' },
+        { value: 6753, name: 'lincosamide' },
+        { value: 6751, name: 'erythromycin' },
+        { value: 6749, name: 'streptogramin' },
+        { value: 6747, name: 'telithromycin' },
+        { value: 6737, name: 'clindamycin' },
         ]
+      }
+      ]
       };
+      data: [
+        
+      ]
       // Display the chart using the configuration items and data just specified.
       myChart.setOption(option);
     </script>
@@ -396,13 +416,21 @@
         },
         series: [
           {
-            name: 'Nightingale Chart',
+            name: 'Radius Mode',
             type: 'pie',
-            radius: [15, '75%'],
+            radius: [20, 140],
             center: ['50%', '50%'],
-            roseType: 'area',
+            roseType: 'radius',
             itemStyle: {
-              borderRadius: 8
+              borderRadius: 5
+            },
+            label: {
+              show: false
+            },
+            emphasis: {
+              label: {
+                show: true
+              }
             },
             data: [
               { value: 44, name: 'VF-Class 1' },
