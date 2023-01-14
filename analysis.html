@@ -46,26 +46,23 @@
     </div>
     <div class="container">
       <div class="btn-group" role="group" aria-label="Basic mixed styles example">
-        <a type="button" class="btn btn-primary" href="./analysis.html">User Submit Strain Analysis</a>
+        <a type="button" class="btn btn-primary" href="./analysis.html">Strain Analysis</a>
         <a type="button" class="btn btn-outline-primary" href="./analysis_function.html">Gene Function Comparison</a>
         <a type="button" class="btn btn-outline-primary" href="./analysis_resistance_virulence.html">Resistance/Virulence Comparison</a>
       </div>
 
       
       <div class="container p-3">
-        <h2 class="card-title">Submit your strain assembly</h2><hr />
+        <h2 class="title">Submit your strain assembly</h2><hr />
       </div>
       <div class="card"> <!-- card for analysis submit-->        
         <div class="card-header border-success text-bg-success">
-          <h5>
             Specify up to 10 genome assemblies (via FASTA files).
-          </h5>
         </div>
         <div class="card-body">
           <div class="container">
             <div class="row">
-              <div class="col-md-1"></div>
-              <div class="col-md-10">
+              <div class="col-md-5">
                 <div class="input-group mb-3">
                   <label class="input-group-text" for="inputGroupFile01">
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-upload" viewBox="0 0 16 16">
@@ -83,10 +80,13 @@
                     </svg>
                   </span>
                   <textarea class="form-control" aria-label="With textarea" placeholder="Add your GenBank/Refseq accession numbers here.
-                  Quick guide:
-                  1)put all accession of a specific genome in a single row,
-                  2)accession shoulde be either separated by comma or space,"></textarea>
+Quick guide:
+1)put all accession of a specific genome in a single row,
+2)accession shoulde be either separated by comma or space,"></textarea>
                 </div>
+              </div>
+              <div class="col-md-7">
+                <img src="img/flowchart.svg" />
               </div>
             </div>
           </div>
