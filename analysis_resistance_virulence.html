@@ -60,25 +60,221 @@
                 <div class="card border-success flex-fill">
                   <div class="card-header border-success text-bg-success">Analyze a set in these available genome</div>
                   <div class="card-body">
-                    <h5 class="card-title">Select Species</h5>
-                    <select class="form-select" size="4" multiple="multiple" aria-label="size 4 select example">
-                      <option type="checkbox" onclick="swapCheck()" value="1">Mycobacterium avium</option>
-                      <option value="2">Mycobacterium kansasii</option>
-                      <option value="3">Mycobacterium ulcerans</option>
-                      <option value="4">Mycobacterium intracellulare</option>
-                      <option value="5">Mycobacterium lepraemurium</option>
-                      <option value="6">Mycobacteroides abscessus</option>
-                      <option value="7">Mycobacteroides chelonae</option>
-                    </select>
-                    <h5 class="card-title">Select MLST type</h5>
-                    <select class="form-select" size="4" multiple="multiple" aria-label="size 4 select example">
-                      <option selected>ALL</option>
-                      <option value="1">ST-8</option>
-                      <option value="2">ST-81</option>
-                      <option value="3">ST-4</option>
-                      <option value="4">ST-53</option>
-                      <option value="5">ST-xxx</option>
-                    </select>
+                    <div class="accordion" id="accordionExample">
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Taxonomy
+                          </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                          <div class="accordion-body">
+                            <div class="row">
+                              <label for="#" class="form-label col-md-5 col-form-label p-1"><h5>Genus.</h5></label>
+                              <div class="col-md-7">
+                                <select name="Genus" id="Genus" class="form-select my-1">
+                                  <option selected>All Genera</option>
+                                  <option value="Mycobaterium">Mycobacterium</option>
+                                  <option value="Mycobacterium">Mycobacteroides</option>
+                                  <option value="Mycolicibater">Mycolicibater</option>
+                                  <option value="Mycolicibaterium">Mycolicibaterium</option>
+                                  <option value="Mycolicibacillus">Mycolicibacillus</option>
+                                </select>
+                              </div>
+                            </div>
+                            <div class="row">
+                              <label for="#" class="form-label col-md-5 col-form-label p-1"><h5>Species name.</h5></label>
+                              <div class="col-md-7">
+                                <input type="Species" class="form-control my-1" id="TaxSpecies1" placeholder="eg. M.abscessus">
+                              </div>
+                            </div>
+                              
+                            <div class="row">
+                              <label for="#" class="form-label col-md-5 col-form-label p-1"><h5>Taxonomy ID.</h5></label>
+                              <div class="col-md-7">
+                                <input type="Species" class="form-control my-1" id="TaxSpecies2" placeholder="eg. 36809">
+                              </div>
+                            </div>   
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            General Conditions
+                          </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                          <div class="accordion-body">
+                            <div class="row">
+                              <div class="col-sm-4">
+                                <!-- Basic Conditions - Growth Type -->
+                                <h5 class="my-3">Growth Type</h5>
+                                <div class="form-check">
+                                  <input class="form-check-input" type="radio" name="Growth Type" id="Growth Type2" checked>
+                                  <label class="form-check-label" for="Growth Type2">Both</label>
+                                </div>
+                                <div class="form-check">
+                                  <input class="form-check-input" type="checkbox" name="Growth Type" id="Growth Type1" >
+                                  <label class="form-check-label" for="Growth Type1">Rapid</label>
+                                </div>
+                                <div class="form-check">
+                                  <input class="form-check-input" type="checkbox" name="Growth Type" id="Growth Type2">
+                                  <label class="form-check-label" for="Growth Type2">Slow</label>
+                                </div>
+                                <br>
+                                <!-- Basic Conditions - Country -->
+                                <br><h5 class="my-4">Country</h5>
+                                <div class="col-sm-10">
+                                  <select name="Country" id="Country" class="form-select my-1">
+                                  <option selected>All Countries</option>
+                                  <option value="China">China</option>
+                                  <option value="MSA">USA</option>
+                                  <option value="UK">UK</option>
+                                  <option value="AU">Australia</option>
+                                  <option value="Others">······</option>
+                                </select>
+                                </div>
+                              </div> 
+        
+                              <div class="col-sm-4">
+                                <!-- Basic Conditions - Pathogenicity -->
+                                <h5 class="my-3">Pathogenicity</h5>
+                                <div class="form-check">
+                                  <input class="form-check-input" type="radio" name="Pathogenicity" id="Pathogenicity1" checked>
+                                  <label class="form-check-label" for="Pathogenicity1">All</label>
+                                </div>
+                                <div class="form-check">
+                                  <input class="form-check-input" type="checkbox" name="Pathogenicity" id="Pathogenicity2">
+                                  <label class="form-check-label" for="Pathogenicity2">Pathogenic</label>
+                                </div>
+                                <div class="form-check">
+                                  <input class="form-check-input" type="checkbox" name="Pathogenicity" id="Pathogenicity3" >
+                                  <label class="form-check-label" for="Pathogenicity3">Opportunity-Pathogenic</label>
+                                </div>
+                                <div class="form-check">
+                                  <input class="form-check-input" type="checkbox" name="Pathogenicity" id="Pathogenicity4" >
+                                  <label class="form-check-label" for="Pathogenicity4">Non-Pathogenic</label>
+                                </div>
+                                <!-- Basic Conditions - Collection Year -->
+                                <br><h5>Collection Year</h5>
+                                <div class="row">
+                                  <label for="#" class="form-label col-3 col-form-label p-1">Min.</label>
+                                  <div class="col-9">
+                                    <input type="range" class="form-range" min="1950" max="2022" id="customRange2">
+                                  </div>
+                                </div>
+                                <div class="row">
+                                  <label for="#" class="form-label col-3 col-form-label p-1">Max.</label>
+                                  <div class="col-9">
+                                    <input type="range" class="form-range" min="1950" max="2022" id="customRange2">
+                                  </div>
+                                </div><br> 
+                              </div>
+                            
+                              <div class="col-sm-4">    
+                                <!-- Basic Conditions - Host -->
+                                <h5 class="my-3">Host</h5>
+                                <div class="form-check">
+                                  <input class="form-check-input" type="radio" name="Host" id="Host1" checked>
+                                  <label class="form-check-label" for="Host1">All </label>
+                                </div>
+                                <div class="form-check">
+                                  <input class="form-check-input" type="checkbox" name="SoHosturce" id="Host2" >
+                                  <label class="form-check-label" for="Host2">Human</label>
+                                  <div class="col-sm-9">
+                                    <select name="Genus" id="Genus" class="form-select my-1">
+                                      <option selected></option>
+                                      <option value="Mycobaterium">Pulmonary</option>
+                                      <option value="Mycobacterium">Extrapulmonary</option>
+                                    </select>
+                                  </div>
+                                </div>
+                                <div class="form-check">
+                                  <input class="form-check-input" type="checkbox" name="Host" id="Host3" >
+                                  <label class="form-check-label" for="Host3">Animal </label>
+                                  <div class="col-sm-9">
+                                    <select name="Genus" id="Genus" class="form-select my-1">
+                                      <option selected></option>
+                                      <option value="Mycobacterium">Fishes</option>
+                                      <option value="Mycobacterium">Birds</option>
+                                      <option value="Mycobacterium">Livestocks</option>
+                                    </select>
+                                  </div>
+                                </div>
+                                <div class="form-check">
+                                  <input class="form-check-input" type="checkbox" name="Host" id="Host4" >
+                                  <label class="form-check-label" for="Host4">Environment</label>
+                                  <div class="col-sm-9">
+                                    <select name="Genus" id="Genus" class="form-select my-1">
+                                      <option selected></option>
+                                      <option value="Mycobaterium">Wild</option>
+                                      <option value="Mycobacterium">Farm</option>
+                                      <option value="Mycobacterium">Urban</option>
+                                    </select>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Resistance & Virulence
+                          </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                          <div class="accordion-body">
+                            <div class="row">
+                              <div class="row my-1">
+                                <label for="#" class="form-label col-md-5 col-form-label p-1"><h5>Drug Class</h5></label>
+                                <div class="col-md-7">
+                                  <select name="Resistance" id="Resistance" class="form-select my-1">
+                                    <option selected>All Drug Classes</option>
+                                    <option value="Mycobaterium">Aminocoumarin antibiotic</option>
+                                    <option value="Mycobaterium">Aminoglycoside antibiotic</option>
+                                    <option value="Mycobaterium">Carbapenem</option>
+                                    <option value="Mycobaterium">Cephamycin</option>
+                                    <option value="Mycobaterium">Diaminopyrimidine antibiotic</option>
+                                    <option value="Mycobaterium">...</option>
+                                  </select>
+                                </div>
+                              </div>
+                              
+                              <div class="row my-1">
+                                <label for="#" class="form-label col-md-5 col-form-label p-1"><h5>Resistance Gene</h5></label>
+                                <div class="col-md-7">
+                                  <input type="Resistance" class="form-control my-1" id="Resistance" placeholder="eg. mtrA">
+                                </div>
+                              </div>
+
+                              <div class="row my-1">
+                                <label for="#" class="form-label col-md-5 col-form-label p-1"><h5>VF Category</h5></label>
+                                <div class="col-md-7">
+                                  <select name="Virulence" id="Virulence1" class="form-select my-1">
+                                    <option selected>All VF Categories</option>
+                                    <option value="Mycobacterium">Invasion</option>
+                                    <option value="Mycobacterium">Effector delivery system</option>
+                                    <option value="Mycobacterium">Motility</option>
+                                    <option value="Mycobacterium">Exoenzyme</option>
+                                    <option value="Mycobacterium">Exotoxin</option>
+                                  </select>
+                                </div>
+                              </div>                          
+                              
+                              <div class="row my-1">
+                                <label for="#" class="form-label col-md-5 col-form-label p-1"><h5>Virulence Gene</h5></label>
+                                <div class="col-md-7">
+                                  <input type="Virulence" class="form-control my-1" id="Virulence3" placeholder="eg. relA">
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
