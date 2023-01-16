@@ -50,12 +50,12 @@
         <div class="col-sm-10">
           <div class="row">
             <div class="col-3">
-              <h2 class="my-1"><b> Search By </b></h2>
+              <h2 class="my-1"><b> Search For</b></h2>
             </div>
             <div class="col-6">
               <div class="btn-group" role="group" aria-label="Basic mixed styles example">
-                <a type="button" class="btn btn-outline-dark" href="./search_species.html"><h5><b>Sequence</b></h5></a>
-                <a type="button" class="btn btn-dark" href="./search_strains.html"><h5><b>Conditions</b></h5></a>
+                <a type="button" class="btn btn-outline-dark" href="./search_species.html"><h5><b>Species</b></h5></a>
+                <a type="button" class="btn btn-dark" href="./search_strains.html"><h5><b>Strains</b></h5></a>
                 <a type="button" class="btn btn-outline-dark" href="./search_genes.html"><h5><b>Genes</b></h5></a>
               </div>
             </div>
@@ -68,13 +68,13 @@
               <div class="container">
                 
                   <div class="card border-secondary">
-                    <div class="card-header border-secondary text-bg-secondary"><h4 >Taxonomy</h4></div>
+                    <div class="card-header border-secondary text-bg-secondary"><h4 class="my-3">Taxonomy</h4></div>
                     <div class="row">
                       <div class="row my-1">
                         <div class="col-sm-1">
                         </div>
-                        <label for="#" class="form-label col-md-3 col-form-label p-1"><h5>Genus.</h5></label>
-                        <div class="col-md-7">
+                        <label for="#" class="form-label col-sm-2 col-form-label p-1"><h5>Genus.</h5></label>
+                        <div class="col-sm-8">
                           <select name="Genus" id="Genus" class="form-select my-1">
                             <option selected>All Genera</option>
                             <option value="Mycobaterium">Mycobacterium</option>
@@ -88,8 +88,8 @@
                       <div class="row my-1">
                         <div class="col-sm-1">
                         </div>
-                        <label for="#" class="form-label col-md-3 col-form-label p-1"><h5>Species name.</h5></label>
-                        <div class="col-md-7">
+                        <label for="#" class="form-label col-sm-2 col-form-label p-1"><h5>Species.</h5></label>
+                        <div class="col-sm-8">
                           <input type="Species" class="form-control my-1" id="TaxSpecies1" placeholder="eg. M.abscessus">
                         </div>
                       </div>
@@ -97,21 +97,40 @@
                       <div class="row my-1">
                         <div class="col-sm-1">
                         </div>
-                        <label for="#" class="form-label col-md-3 col-form-label p-1"><h5>Taxonomy ID.</h5></label>
-                        <div class="col-md-7">
+                        <label for="#" class="form-label col-sm-2 col-form-label p-1"><h5>Taxonomy ID</h5></label>
+                        <div class="col-sm-8">
                           <input type="Species" class="form-control my-1" id="TaxSpecies2" placeholder="eg. 36809">
                         </div>
-                      </div>      
+                      </div>
+
+                      <div class="row my-1">
+                        <div class="col-sm-1">
+                        </div>
+                        <label for="#" class="form-label col-sm-2 col-form-label p-1"><h5>Strain ID</h5></label>
+                        <div class="col-sm-8">
+                          <input type="Species" class="form-control my-1" id="TaxSpecies3" placeholder="eg. GCA_000069185.1">
+                        </div>
+                      </div>
+
+                      <div class="row my-1">
+                        <div class="col-sm-1">
+                        </div>
+                        <label for="#" class="form-label col-sm-2 col-form-label p-1"><h5>Strain Name</h5></label>
+                        <div class="col-sm-8">
+                          <input type="Species" class="form-control my-1" id="TaxSpecies4" placeholder="eg. SRR1735711">
+                        </div>
+                      </div>
 
                     </div>
-                  </div>                
-              </div>
+                  </div>
+                
+              </div><br>
           
               <!-- Basic Conditions -->
-              <div class="container my-2">
+              <div class="container">
                 
                   <div class="card border-secondary">
-                    <div class="card-header border-secondary text-bg-secondary"><h4>Basic Conditions</h4></div>
+                    <div class="card-header border-secondary text-bg-secondary"><h4 class="my-3">Basic Conditions</h4></div>
                     <div class="row">
                       <div class="col-sm-1"></div>
                       <div class="col-sm-3">
@@ -225,19 +244,20 @@
                     </div>
                   </div>
                 
-              </div>
+              </div><br>
           
           
               <!-- Resistance -->    
-              <div class="container my-2">                
+              <div class="container">
+                
                   <div class="card border-secondary">
-                    <div class="card-header border-secondary text-bg-secondary"><h4>Resistance</h4></div>
+                    <div class="card-header border-secondary text-bg-secondary"><h4 class="my-3">Resistance</h4></div>
                     <div class="row">
                       <div class="row my-1">
-                        <div class="col-md-1">
+                        <div class="col-sm-1">
                         </div>
-                        <label for="#" class="form-label col-md-3 col-form-label p-1"><h5>Drug Class</h5></label>
-                        <div class="col-md-7">
+                        <label for="#" class="form-label col-sm-2 col-form-label p-1"><h5>Drug Class</h5></label>
+                        <div class="col-sm-8">
                           <select name="Resistance" id="Resistance" class="form-select my-1">
                             <option selected>All Drug Classes</option>
                             <option value="Mycobaterium">Aminocoumarin antibiotic</option>
@@ -249,30 +269,42 @@
                           </select>
                         </div>
                       </div>
-                      
                       <div class="row my-1">
-                        <div class="col-md-1">
+                        <div class="col-sm-1">
                         </div>
-                        <label for="#" class="form-label col-md-3 col-form-label p-1"><h5>Resistance Gene</h5></label>
-                        <div class="col-md-7">
+                        <label for="#" class="form-label col-sm-2 col-form-label p-1"><h5>Mechanism</h5></label>
+                        <div class="col-sm-8">
+                          <select name="Resistance" id="Resistance" class="form-select my-1">
+                            <option selected>All Mechanisms</option>
+                            <option value="Mycobaterium">Antibiotic efflux</option>
+                            <option value="Mycobaterium">...</option>
+                          </select>
+                        </div>
+                      </div>
+                      <div class="row my-1">
+                        <div class="col-sm-1">
+                        </div>
+                        <label for="#" class="form-label col-sm-2 col-form-label p-1"><h5>Resistance Gene</h5></label>
+                        <div class="col-sm-8">
                           <input type="Resistance" class="form-control my-1" id="Resistance" placeholder="eg. mtrA">
                         </div>
                       </div>
                     </div>
-                  </div>                
-              </div>
+                  </div>
+                
+              </div><br>
           
               <!-- Virulence -->
-              <div class="container my-2">
+              <div class="container">
                 
                   <div class="card border-secondary">
-                    <div class="card-header border-secondary text-bg-secondary"><h4>Virulence</h4></div>
+                    <div class="card-header border-secondary text-bg-secondary"><h4 class="my-3">Virulence</h4></div>
                     <div class="row">
                       <div class="row my-1">
-                        <div class="col-md-1">
+                        <div class="col-sm-1">
                         </div>
-                        <label for="#" class="form-label col-md-3 col-form-label p-1"><h5>VF Category</h5></label>
-                        <div class="col-md-7">
+                        <label for="#" class="form-label col-sm-2 col-form-label p-1"><h5>VF Category</h5></label>
+                        <div class="col-sm-8">
                           <select name="Virulence" id="Virulence1" class="form-select my-1">
                             <option selected>All VF Categories</option>
                             <option value="Mycobacterium">Invasion</option>
@@ -285,10 +317,10 @@
                       </div>
                           
                       <div class="row my-1">
-                        <div class="col-md-1">
+                        <div class="col-sm-1">
                         </div>
-                        <label for="#" class="form-label col-md-3 col-form-label p-1"><h5>Product</h5></label>
-                        <div class="col-md-7">
+                        <label for="#" class="form-label col-sm-2 col-form-label p-1"><h5>Product</h5></label>
+                        <div class="col-sm-8">
                           <select name="Virulence" id="Virulence2" class="form-select my-1">
                             <option selected>All Products</option>
                             <option value="Mycobacterium">ESAT-6-like protein</option>
@@ -299,10 +331,10 @@
                       </div>
                       
                       <div class="row my-1">
-                        <div class="col-md-1">
+                        <div class="col-sm-1">
                         </div>
-                        <label for="#" class="form-label col-md-3 col-form-label p-1"><h5>Virulence Gene</h5></label>
-                        <div class="col-md-7">
+                        <label for="#" class="form-label col-sm-2 col-form-label p-1"><h5>Virulence Gene</h5></label>
+                        <div class="col-sm-8">
                           <input type="Virulence" class="form-control my-1" id="Virulence3" placeholder="eg. relA">
                         </div>
                       </div>
@@ -310,15 +342,12 @@
                   </div>
                 
               </div>
-              <div class="btn-group" style="float: right">
-                <a href="#" class="btn btn-primary">Reset</a>
-                <a href="#" class="btn btn-primary">Submit</a>
-              </div>
             </div>
           </div>
         </div>
       </div>    
          
+      <br><p align="center"><br><input type="button" style='font-size:20px' value="Reset" > &nbsp; &nbsp; <a href="./search_strains_general.html"><input type="button" style='font-size:20px' value="Search"></a></p> 
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>  
