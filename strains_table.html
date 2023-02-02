@@ -72,50 +72,20 @@
                 <input type="Species" class="form-control my-1" id="TaxSpecies" placeholder="eg. sub.bollitii">
               </div>
             </div>
+            <div class="row my-1">
+              <label for="#" class="form-label col-sm-3 col-form-label p-1">ST type</label>
+              <div class="col-sm-9">
+                <input type="Species" class="form-control my-1" id="TaxSpecies" placeholder="eg. ST108">
+              </div>
+            </div>
 
-            <h5 class="my-3"><b>Disease</b></h5>
-            <div class="form-check">
-              <input class="form-check-input" type="radio" name="Disease" id="Disease1" checked>
-              <label class="form-check-label" for="Disease1">
-                ALL
-              </label>
-            </div>
-            <div class="form-check">
-              <input class="form-check-input" type="checkbox" name="Disease" id="Disease2">
-              <label class="form-check-label" for="Disease2">
-                Lung
-              </label>
-            </div>
-            <div class="form-check">
-              <input class="form-check-input" type="checkbox" name="Disease" id="Disease3">
-              <label class="form-check-label" for="Disease3">
-                Endocarditis
-              </label>
-            </div>
-            <div class="form-check">
-              <input class="form-check-input" type="checkbox" name="Disease" id="Disease4">
-              <label class="form-check-label" for="Disease4">
-                Osteopathy
-              </label>
-            </div>
-            <div class="form-check">
-              <input class="form-check-input" type="checkbox" name="Disease" id="Disease5">
-              <label class="form-check-label" for="Disease5">
-                Soft tissue sarcoma
-              </label>
-            </div>
-            <div class="form-check">
-              <input class="form-check-input" type="checkbox" name="Disease" id="Disease6>
-              <label class="form-check-label" for="Disease6">
-                Disseminated Disease
-              </label>
-            </div>
-            <div class="form-check">
-              <input class="form-check-input" type="checkbox" name="Disease" id="Disease7">
-              <label class="form-check-label" for="Disease7">
-                Other
-              </label>
-            </div>
+            <h5 class="my-3"><b>Representative</b></h5>
+            <select name="Country" id="Country" class="form-select my-1">
+              <option selected>All</option>
+              <option value="China">Reference genome</option>
+              <option value="MSA">Representative genome</option>
+              <option value="UK">Type strain</option>
+            </select>
 
             <h5 class="my-3"><b>Host</b></h5>
             <div class="form-check">
@@ -195,17 +165,29 @@
         </div>    
         <div class="col-9">
           <p><br><i>13, 653 strains found</i></p>
-          <input type="button" value="General">
-          <input type="button" value="Resistance" onclick="window.location.href='./strains_resistance.html'">
-          <input type="button" value="Virulence" onclick="window.location.href='./strains_virulence.html'">
+          <p>
+            <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-exclamation-circle" viewBox="0 0 16 16">
+                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                <path d="M7.002 11a1 1 0 1 1 2 0 1 1 0 0 1-2 0zM7.1 4.995a.905.905 0 1 1 1.8 0l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 4.995z"/>
+              </svg>
+            </button>
+          </p>
+          <div class="collapse collapse-horizontal" id="collapseWidthExample">
+            <div class="card card-body" style="width: 800px;">
+              <p><strong>Reference genome</strong>:are chosen by the RefSeq curatorial staff based on their quality and importance to the community as anchors for the analysis of other genomes in their taxonomic group. </p>
+              <p><strong>Representative genomes</strong>: For species without a reference genome, one assembly of the type strain of the species is selected as representative</p>
+              <p><strong>Type strain genome</strong>: are the archetypes of a species. Type strains form the backbone of prokaryotic systematics as nomenclatural types of species and subspecies, and comparisons with established type strains are mandatory when classifying novel strains (PMID: 19700448).</p>
+            </div>
+          </div>
           <div style="overflow: auto; width: 100%;">
             <table class="table table-striped">
                 <thead>
                   <tr>
                     <th scope="col">Accession</th>
                     <th scope="col">Taxonomy</th>
+                    <th scope="col">Representitive</th>
                     <th scope="col">ST Type</th>
-                    <th scope="col">Disease</th>
                     <th scope="col">Host</th>
                     <th scope="col">Isolation Source</th>
                     <th scope="col">Collection Year</th>
@@ -219,10 +201,10 @@
                 </thead>
                 <tbody>
                   <tr>
-                    <td align="center"><a href="./strain_page.html">SRR1735711</a></td>
+                    <td align="left"><a href="./strain_page.html">SRR1735711</a></td>
                     <td align="center">Mycobacterium avium subsp. paratuberculosis</td>
+                    <td align="center">reference genome</td>
                     <td align="center">108</td>
-                    <td align="center">Lymphadenitis</td>
                     <td align="center">Homo sapiens</td>
                     <td align="center">Pulmonary/ Extrapulmonary</td>
                     <td align="center">2001</td>
@@ -236,10 +218,10 @@
                     <td>Invasion;<br>Effector delivery system;<br>Motility;<br>Exoenzyme</td>
                   </tr>
                   <tr>
-                    <td align="center"><a href="./strain_page.html">SRR4427239</a></td>
+                    <td align="left"><a href="./strain_page.html">SRR4427239</a></td>
                     <td align="center">Mycobacterium intracellulare subsp. chimaera</td>
+                    <td align="center">representative genome</td>
                     <td align="center">48</td>
-                    <td align="center">Endocarditis</td>
                     <td align="center">Animals</td>
                     <td align="center">Fish/birds/Livestocks</td>
                     <td align="center">2006</td>
@@ -251,10 +233,10 @@
                     <td>Invasion;<br>Motility;<br>Exotoxin</td>
                   </tr>
                   <tr>
-                    <td align="center"><a href="./strain_page.html">GCA_000270825.1</a></td>
+                    <td align="left"><a href="./strain_page.html">GCA_000270825.1</a></td>
                     <td align="center">Mycobacteroides abscessus subsp. massiliense</td>
+                    <td align="center">type strain genome</td>
                     <td align="center">xx</td>
-                    <td align="center">Lymphadenitis</td>
                     <td align="center">Environment</td>
                     <td align="center">Wild/farm/urban</td>
                     <td align="center">xxxx</td>
@@ -266,10 +248,10 @@
                     <td>Post-translational modification;<br>Stress survival;<br>Exotoxin</td>
                   </tr>
                   <tr>
-                    <td align="center"><a href="./strain_page.html">GCF_000271125.1</a></td>
+                    <td align="left"><a href="./strain_page.html">GCF_000271125.1</a></td>
                     <td align="center">Mycolicibacterium smegmatis</td>
+                    <td align="center">flase</td>
                     <td align="center">xx</td>
-                    <td align="center">Meningitis</td>
                     <td align="center">Lab</td>
                     <td align="center">Engineering strain/ Type strain</td>
                     <td align="center">xxxx</td>
