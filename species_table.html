@@ -61,29 +61,23 @@
               </div>
             </div>
 
-            <h5 class="my-3"><b>Source</b></h5>
+            <h5 class="my-3"><b>Risk group</b></h5>
             <div class="form-check">
               <input class="form-check-input" type="radio" name="Source" id="Source1" checked>
               <label class="form-check-label" for="Source1">
-                ALL
+                <p title="Can cause a serious disease.Spreading in the community is possible">risk group 3</p>
               </label>
             </div>
             <div class="form-check">
               <input class="form-check-input" type="checkbox" name="Source" id="Source2" >
               <label class="form-check-label" for="Source2">
-                Human
+                <p title="Can cause a disease,Spreading in the community is unlikely">risk group 2</p>
               </label>
             </div>
             <div class="form-check">
               <input class="form-check-input" type="checkbox" name="Source" id="Source3" >
               <label class="form-check-label" for="Source3">
-                Animal
-              </label>
-            </div>
-            <div class="form-check">
-              <input class="form-check-input" type="checkbox" name="Source" id="Source4" >
-              <label class="form-check-label" for="Source4">
-                Environment
+                <p title="Unlikely to cause disease">risk group 1</p>
               </label>
             </div>
 
@@ -144,6 +138,7 @@
                         <th scope="col"  title=".">Representative</th>
                         <th scope="col">Strain Number</th>                      
                         <th scope="col">Source <embed src="./img/source_legend.svg" type="image/svg+xml" style="height: 50px;width: 80px;vertical-align: bottom;padding-left: 20px;" /></th>
+                        <th scope="col">Risk group</th>
                         <th scope="col" title="Rapid-growing mycobacteria (RGM) and slow-growing mycobacteria (SGM), based on interval to colony formation by subculture on solid media.">Growth Type <embed src="./img/exclamation-circle.svg" type="image/svg+xml" /></th>
                     </thead>
                     <tbody>
@@ -154,6 +149,7 @@
                         <td align="center">Reference genome</td>
                         <td align="center"><a href="./strains_table.html">xxx</a></td>
                         <td><img src="./img/source1.png" alt="" /></td>
+                        <td align="center" title="ht: 对人类和脊椎动物有致病性，但通常在两个宿主群体之间没有传播">2(ht)</td>
                         <td align="center"><font color="#fa8258">Rapid</font></td>
                       </tr>
                       <tr>
@@ -163,6 +159,7 @@
                         <td align="center">Representative genome</td>
                         <td align="center"><a href="./strains_table.html">xxx</a></td>
                         <td><img src="./img/source2.png" alt="" /></td>
+                        <td align="center" title="对脊椎动物有致病性；人类在自然条件下不受影响。">1(t)</td>
                         <td align="center"><font color="#fa8258">Rapid</font></td>
                       </tr>
                       <tr>
@@ -172,6 +169,7 @@
                         <td align="center">Representative genome</td>
                         <td align="center"><a href="./strains_table.html">xxx</a></td>
                         <td><img src="./img/source3.png" alt="" /></td>
+                        <td align="center" title="ht+: 在个别情况下检测到或怀疑是人类和脊椎动物的病原体">2(ht+)</td>
                         <td align="center"><font color="#fa8258">Rapid</font></td>
                       </tr>
                       <tr>
@@ -181,6 +179,17 @@
                         <td align="center">Type strain genome</td>
                         <td align="center"><a href="./strains_table.html">xxx</a></td>
                         <td><img src="./img/source4.png" alt="" /></td>
+                        <td align="center" title="**： 不能通过空气传播，因此传播受限。">3(**)</td>
+                        <td align="center"><font color="#fa8258">Rapid</font></td>
+                      </tr>
+                      <tr>
+                        <td align="center"><a href="./species_page.html">Mycobacterium marinum</a></td>
+                        <td align="center">1809</td>
+                        <td align="center">CIP 104536</td>
+                        <td align="center">Type strain genome</td>
+                        <td align="center"><a href="./strains_table.html">xxx</a></td>
+                        <td><img src="./img/source4.png" alt="" /></td>
+                        <td align="center" title="Z：Zoonotic pathogens人畜共患菌，可能存在直接或间接方式在人和动物传播。">3(Z)</td>
                         <td align="center"><font color="#fa8258">Rapid</font></td>
                       </tr>
                     </tbody>
