@@ -47,6 +47,38 @@
       <div class="row">
         <div class="col-3"> <!-- filter -->
           <form action="">
+            <h5 class="my-3"><b>Conservativeness</b></h5>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="Conservativeness" id="Conservativeness1" checked>
+              <label class="form-check-label" for="Conservativeness1">
+                ALL
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" name="Conservativeness" id="Conservativeness2" >
+              <label class="form-check-label" for="Conservativeness2">
+                Core (Genus)
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" name="Conservativeness" id="Conservativeness3" >
+              <label class="form-check-label" for="Conservativeness3">
+                Core (Species)
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" name="Conservativeness" id="Conservativeness4" >
+              <label class="form-check-label" for="Conservativeness4">
+                Dispensable (Species)
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" name="Conservativeness" id="Conservativeness5" >
+              <label class="form-check-label" for="Conservativeness5">
+                Unique (Strain)
+              </label>
+            </div>
+
 
             <h5 class="my-3"><b>Type</b></h5>
             <div class="form-check">
@@ -70,7 +102,7 @@
             <div class="form-check">
               <input class="form-check-input" type="checkbox" name="Type" id="Type4" >
               <label class="form-check-label" for="Type4">
-                Homologhous Superfamily
+                Homologous Superfamily
               </label>
             </div>
             <div class="form-check">
@@ -80,21 +112,13 @@
               </label>
             </div>
             <div class="form-check">
-              <input class="form-check-input" type="checkbox" name="Type" id="Type6" >
-              <label class="form-check-label" for="Type6">
-                Homologhous Superfamily
-              </label>
-            </div>
-            <div class="form-check">
               <input class="form-check-input" type="checkbox" name="Type" id="Type7" >
-              <label class="form-check-label" for="Type7">
+              <label class="form-check-label" for="Type6">
                 Conserved Site / Acitive Site / Binding Site / PTM
               </label>
             </div>
 
 
-
-        
             
             <!-- GO Terms -->
             <h5 class="my-3"><b>GO Terms</b></h5>
@@ -225,9 +249,10 @@
         </div>
         <div class="col-9"> <!-- table -->
           <h6><b>Table legends</b></h6>
-          <p>Type:   F=Family; D=Domain; H=Homologhous Superfamily; R=Repeat; S=Conserved Site / Acitive Site / Binding Site / PTM
-            <br>GO Terms:    BP= Biological process category; MF=Molecular function category; CC=Cellular component category
-          <p><i>567 genes found</i></p>
+          <p><b>Conservativeness:</b> Core (Genus)= Core genes in genus; Core (Species)= Core genes in species; Dispensable (Species): Dispensable genes in species; Unique (Strain)= Unique genes in strains.</p>
+            <p><b>Type:</b>   F=Family; D=Domain; H=Homologous Superfamily; R=Repeat; S=Conserved Site / Acitive Site / Binding Site / PTM</p>
+            <p><b>GO Terms:</b>    BP= Biological process category; MF=Molecular function category; CC=Cellular component category</p>
+          <p><i>30 genes found</i></p>
           <input type="button" value="General">
           <input type="button" value="Resistance" onclick="window.location.href='./gene_resistance.html'">
           <input type="button" value="Virulence" onclick="window.location.href='./gene_virulence.html'">
@@ -235,109 +260,61 @@
             <table class="table table-striped">
                 <thead>
                   <tr>
-                    <th scope="col">Select</th>
                     <th scope="col">Accession</th>
                     <th scope="col">Gene Name</th>
+                    <th scope="col">Conservativeness</th>
                     <th scope="col">Type</th>
-                    <th scope="col">NTM Species</th>
+                    <th scope="col">NTM Species<br>(Top Species)</th>
                     <th scope="col">NTM Strains</th>
                     <th scope="col">Function</th>
                     <th scope="col">GO Terms<br><img src="./img/BP-MF-CC.png"></th>
-                    <th scope="col">Resistant To</th>
-                    <th scope="col">CARD Description</th>
-                    <th scope="col">Mechanism</th>
-                    <th scope="col">CARD Organism</th>
-                    <th scope="col">VF Category</th>
-                    <th scope="col">VF Product</th>
-                    <th scope="col">VFDB Organism</th>
-                    <th scope="col">Related Genes</th>
                   </tr>
                 </thead>
                 <tbody>
                   <tr>
-                    <th><input type="checkbox" onclick="swapCheck()" /></th>
                     <td align="center">IPR000001</td>
                     <td align="center">Kringle</td>
+                    <td align="center">Core (Genus)</td>
                     <td align="center">F</td>
-                    <td align="center"><a href="./species_table.html">2</a></td>
-                    <td align="center"><a href="./strains_table.html">6</a></td>
+                    <td align="center"><a href="./species_table.html">2 </a>(2.00%)<br>M.abscess<br>M.avium</td>
+                    <td align="center"><a href="./strains_table.html">6 </a>(0.06%)</td>
                     <td align="center">Bind mediators</td>
                     <td><img src="./img/GO-1.png" alt="" /></td>
-                    <td>ARO:3000158:azithromycin
-                        ARO:0000054:penicillin
-                        ARO:0000006:erythromycin</td>
-                    <td>MtrA is a transcriptional activator of the MtrCDE multidrug efflux pump of Neisseria gonorrhoeae.</td>
-                    <td align="center">antibiotic efflux</td>
-                    <td align="center">Mycobacterium tuberculosis</td>
-                    <td align="center">Invasion; Adherence</td>
-                    <td>ESAT-6-like protein;<br>DNA repair protein RecN</td>
-                    <td>Mycobacterium abscessus 3A-0119-R WGS NZ_AKUX</td>
-                    <td align="center">fbpA; fbpB; fbpC; fbpD</td>
                   </tr>
                   <tr>
-                    <th><input type="checkbox" onclick="swapCheck()" /></th>
                     <td align="center">IPR000010</td>
                     <td align="center">mtrA</td>
+                    <td align="center">Core (Species)</td>
                     <td align="center">D</td>
-                    <td align="center"><a href="./species_table.html">1</a></td>
-                    <td align="center"><a href="./strains_table.html">1</a></td>
+                    <td align="center"><a href="./species_table.html">1 </a>(1.00%)<br>M.smegmatis</td>
+                    <td align="center"><a href="./strains_table.html">1 </a>(0.01%)</td>
                     <td align="center">Regulate proteolytic activity</td>
                     <td><img src="./img/GO-2.png" alt="" /></td>
-                    <td>ARO:3000158:azithromycin
-                        ARO:0000054:penicillin
-                        ARO:0000006:erythromycin</td>
-                    <td align="center">...</td>
-                    <td align="center">antibiotic efflux</td>
-                    <td align="center">Mycobacterium tuberculosis</td>
-                    <td align="center">Invasion; Adherence</td>
-                    <td>ESAT-6-like protein;<br>DNA repair protein RecN</td>
-                    <td>Mycobacterium abscessus 3A-0119-R WGS NZ_AKUX</td>
-                    <td align="center">fbpA; fbpB; fbpC; fbpD</td>
                   </tr>
                   <tr>
-                    <th><input type="checkbox" onclick="swapCheck()" /></th>
                     <td align="center">IPR000018</td>
                     <td align="center">P2Y purinoceptor 4</td>
+                    <td align="center">Dispensable (Species)</td>
                     <td align="center">D</td>
-                    <td align="center"><a href="./species_table.html">5</a></td>
-                    <td align="center"><a href="./strains_table.html">16</a></td>
+                    <td align="center"><a href="./species_table.html">5 </a>(5.00%)<br>M.intracellulare<br>M. abscess</td>
+                    <td align="center"><a href="./strains_table.html">16 </a>(0.16%)</td>
                     <td align="center">Bind mediators</td>
                     <td><img src="./img/GO-3.png" alt="" /></td>
-                    <td>ARO:3000158:azithromycin
-                        ARO:0000054:penicillin
-                        ARO:0000006:erythromycin</td>
-                    <td align="center">...</td>
-                    <td align="center">antibiotic efflux</td>
-                    <td align="center">Mycobacterium tuberculosis</td>
-                    <td align="center">Invasion; Adherence</td>
-                    <td>...</td>
-                    <td>Mycobacterium abscessus 3A-0119-R WGS NZ_AKUX</td>
-                    <td align="center">fbpA; fbpB; fbpC; fbpD</td>
                   </tr>
                   <tr>
-                    <th><input type="checkbox" onclick="swapCheck()" /></th>
                     <td align="center">IPR000019</td>
                     <td align="center">Cbb domain</td>
+                    <td align="center">Unique (Strain)</td>
                     <td align="center">D</td>
-                    <td align="center"><a href="./species_table.html">1</a></td>
-                    <td align="center"><a href="./strains_table.html">2</a></td>
+                    <td align="center"><a href="./species_table.html">1 </a>(1.00%)<br>M.smegmatis</td>
+                    <td align="center"><a href="./strains_table.html">2 </a>(0.02%)</td>
                     <td align="center">DNA binding</td>
                     <td><img src="./img/GO-4.png" alt="" /></td>
-                    <td>ARO:3000158:azithromycin
-                        ARO:0000054:penicillin
-                        ARO:0000006:erythromycin</td>
-                    <td align="center">...</td>
-                    <td align="center">antibiotic efflux</td>
-                    <td align="center">Mycobacterium tuberculosis</td>
-                    <td align="center">Invasion; Adherence</td>
-                    <td>...</td>
-                    <td>Mycobacterium abscessus 3A-0119-R WGS NZ_AKUX</td>
-                    <td align="center">fbpA; fbpB; fbpC; fbpD</td>
                   </tr>
                 </tbody>
               </table>
             </div>
-            <p align="right">xx strains selected, <button type="button" background-color: palevioletred>add to Cart</button></p>
+            <br><p align="right">Showing 1 to 10 of 30 rows <button type="button" background-color: palevioletred>Next page</button></p>
         </div>
       </div>
     </div>

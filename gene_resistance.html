@@ -47,7 +47,38 @@
       <div class="row">
         <div class="col-3">
           <form action="">
-            
+            <h5 class="my-3"><b>Conservativeness</b></h5>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="Conservativeness" id="Conservativeness1" checked>
+              <label class="form-check-label" for="Conservativeness1">
+                ALL
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" name="Conservativeness" id="Conservativeness2" >
+              <label class="form-check-label" for="Conservativeness2">
+                Core (Genus)
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" name="Conservativeness" id="Conservativeness3" >
+              <label class="form-check-label" for="Conservativeness3">
+                Core (Species)
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" name="Conservativeness" id="Conservativeness4" >
+              <label class="form-check-label" for="Conservativeness4">
+                Dispensable (Species)
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" name="Conservativeness" id="Conservativeness5" >
+              <label class="form-check-label" for="Conservativeness5">
+                Unique (Strain)
+              </label>
+            </div>
+
             <h5 class="my-3"><b>Type</b></h5>
             <div class="form-check">
               <input class="form-check-input" type="radio" name="Type" id="Type1" checked>
@@ -70,19 +101,13 @@
             <div class="form-check">
               <input class="form-check-input" type="checkbox" name="Type" id="Type4" >
               <label class="form-check-label" for="Type4">
-                Homologhous Superfamily
+                Homologous Superfamily
               </label>
             </div>
             <div class="form-check">
               <input class="form-check-input" type="checkbox" name="Type" id="Type5" >
               <label class="form-check-label" for="Type5">
                 Repeat
-              </label>
-            </div>
-            <div class="form-check">
-              <input class="form-check-input" type="checkbox" name="Type" id="Type6" >
-              <label class="form-check-label" for="Type6">
-                Homologhous Superfamily
               </label>
             </div>
             <div class="form-check">
@@ -220,17 +245,17 @@
         </div>    
         <div class="col-9">
           <h6><b>Table legends</b></h6>
-          <p>Type:   F=Family; D=Domain; H=Homologhous Superfamily; R=Repeat; S=Conserved Site / Acitive Site / Binding Site / PTM
-            <br>GO Terms:    BP= Biological process category; MF=Molecular function category; CC=Cellular component category
-          <p><i>567 genes found</i></p>
+          <p><b>Conservativeness:</b> Core (Genus)= Core genes in genus; Core (Species)= Core genes in species; Dispensable (Species): Dispensable genes in species; Unique (Strain)= Unique genes in strains.</p>
+            <p><b>Type:</b>   F=Family; D=Domain; H=Homologous Superfamily; R=Repeat; S=Conserved Site / Acitive Site / Binding Site / PTM</p>
+            <p><b>GO Terms:</b>    BP= Biological process category; MF=Molecular function category; CC=Cellular component category</p>
+          <p><i>30 genes found</i></p>
           <input type="button" value="General" onclick="window.location.href='./Gene_table.html'">
           <input type="button" value="Resistance">
           <input type="button" value="Virulence" onclick="window.location.href='./gene_virulence.html'">
-          
-          <table class="table table-striped">
+          <div style="overflow: auto; width: 100%;">
+            <table class="table table-striped">
               <thead>
                 <tr>
-                  <th scope="col">Select</th>
                   <th scope="col">Accession</th>
                   <th scope="col">Gene Name</th>
                   <th scope="col">#Species Hitted</th>
@@ -243,7 +268,6 @@
               </thead>
               <tbody>
                 <tr>
-                  <th><input type="checkbox" onclick="swapCheck()" /></th>
                   <td align="center"><a href="https://card.mcmaster.ca/ontology/37196">ARO:3000816</a></td>
                   <td align="center">mtrA</td>
                   <td align="center"><a href="./species_table.html">11</a></td>
@@ -256,7 +280,6 @@
                   <td align="center">Mycobacterium tuberculosis</td>
                 </tr>
                 <tr>
-                    <th><input type="checkbox" onclick="swapCheck()" /></th>
                     <td align="center"><a href="https://card.mcmaster.ca/ontology/37196">ARO:3000816</a></td>
                     <td align="center">mtrA</td>
                     <td align="center"><a href="./species_table.html">11</a></td>
@@ -269,7 +292,6 @@
                     <td align="center">Mycobacterium tuberculosis</td>
                 </tr>
                 <tr>
-                    <th><input type="checkbox" onclick="swapCheck()" /></th>
                     <td align="center"><a href="https://card.mcmaster.ca/ontology/37196">ARO:3000816</a></td>
                     <td align="center">mtrA</td>
                     <td align="center"><a href="./species_table.html">11</a></td>
@@ -282,7 +304,6 @@
                     <td align="center">Mycobacterium tuberculosis</td>
                 </tr>
                 <tr>
-                    <th><input type="checkbox" onclick="swapCheck()" /></th>
                     <td align="center"><a href="https://card.mcmaster.ca/ontology/37196">ARO:3000816</a></td>
                     <td align="center">mtrA</td>
                     <td align="center"><a href="./species_table.html">11</a></td>
@@ -295,8 +316,10 @@
                     <td align="center">Mycobacterium tuberculosis</td>
                 </tr>
                 </tbody>
-              </table>
-              <p align="right">xx strains selected， <button type="button" background-color: palevioletred>add to Cart</button></p>
+            </table>
+          </div>
+          <br><p align="right">Showing 1 to 10 of 30 rows <button type="button" background-color: palevioletred>Next page</button></p>
+          
         </div>
       </div>
     </div>
