@@ -48,6 +48,22 @@
       <div class="row">
         <div class="col-3">
           <form action="">
+            <!-- Gene -->
+            <h5 class="my-3"><b>Gene</b></h5>
+            <div class="row my-1">
+              <label for="#" class="form-label col-sm-4 col-form-label p-1">Name</label>
+              <div class="col-sm-8">
+                <input type="Gene" class="form-control my-1" id="Gene_name" placeholder="eg. mtrA">
+              </div>
+            </div>
+            <div class="row my-1">
+              <label for="#" class="form-label col-sm-4 col-form-label p-1">Accession</label>
+              <div class="col-sm-8">
+                <input type="Gene" class="form-control my-1" id="Gene_accession" placeholder="eg. IPR000001">
+              </div>
+            </div>
+            
+            <!-- Conservativeness -->
             <h5 class="my-3"><b>Conservativeness</b></h5>
             <div class="form-check">
               <input class="form-check-input" type="radio" name="Conservativeness" id="Conservativeness1" checked>
@@ -80,6 +96,7 @@
               </label>
             </div>
 
+            <!-- Gene Type -->
             <h5 class="my-3"><b>Type</b></h5>
             <div class="form-check">
               <input class="form-check-input" type="radio" name="Type" id="Type1" checked>
@@ -100,27 +117,25 @@
               </label>
             </div>
             <div class="form-check">
+              <input class="form-check-input" type="checkbox" name="Type" id="Type4" >
+              <label class="form-check-label" for="Type4">
+                Homologous Superfamily
+              </label>
+            </div>
+            <div class="form-check">
               <input class="form-check-input" type="checkbox" name="Type" id="Type5" >
               <label class="form-check-label" for="Type5">
                 Repeat
               </label>
             </div>
             <div class="form-check">
-              <input class="form-check-input" type="checkbox" name="Type" id="Type6" >
-              <label class="form-check-label" for="Type6">
-                Homologous Superfamily
-              </label>
-            </div>
-            <div class="form-check">
               <input class="form-check-input" type="checkbox" name="Type" id="Type7" >
-              <label class="form-check-label" for="Type7">
+              <label class="form-check-label" for="Type6">
                 Conserved Site / Acitive Site / Binding Site / PTM
               </label>
             </div>
 
 
-
-        
             
             <!-- GO Terms -->
             <h5 class="my-3"><b>GO Terms</b></h5>
@@ -178,7 +193,7 @@
               <label for="#" class="form-label col-sm-4 col-form-label p-1">Resistant to </label>
               <div class="col-8">
                 <select name="" id="Genus" class="form-select my-1">
-                  <option selected>Select Drug class</option>
+                  <option selected>All Drug Classes</option>
                   <option value="Mycobaterium">aminocoumarin</option>
                   <option value="Mycobacterium">aminoglycoside</option>4
                   <option value="Mycolicibater">antibacterial free fatty</option>
@@ -192,7 +207,7 @@
               <label for="#" class="form-label col-sm-4 col-form-label p-1">Mechanism </label>
               <div class="col-8">
                 <select name="" id="Genus" class="form-select my-1">
-                  <option selected>Select Mechanism</option>
+                  <option selected>All Mechanism</option>
                   <option value="Mycobaterium">antibiotic efflux</option>
                   <option value="antibiotic inactivation">antibiotic inactivation</option>
                   <option value="antibiotic target alteration">antibiotic target alteration</option>
@@ -203,12 +218,7 @@
                 </select>
               </div>
             </div>
-            <div class="row my-1">
-              <label for="#" class="form-label col-sm-4 col-form-label p-1">Gene name</label>
-              <div class="col-sm-8">
-                <input type="Gene" class="form-control my-1" id="Resistance Gene" placeholder="eg. mtrA">
-              </div>
-            </div>
+            
 
             <!-- Virulence -->
             <h5 class="my-3"><b>Virulence</b></h5>
@@ -216,7 +226,7 @@
               <label for="#" class="form-label col-sm-4 col-form-label p-1">VF Category </label>
               <div class="col-8">
                 <select name="" id="Genus" class="form-select my-1">
-                  <option selected>Select VF Category</option>
+                  <option selected>All VF Category</option>
                   <option value="Mycobaterium">Invasion</option>
                   <option value="Mycobacterium">Effector delivery system</option>
                   <option value="Mycolicibater">Motility</option>
@@ -230,17 +240,11 @@
               <label for="#" class="form-label col-sm-4 col-form-label p-1">Product </label>
               <div class="col-8">
                 <select name="" id="Genus" class="form-select my-1">
-                  <option selected>Select Product</option>
+                  <option selected>All Products</option>
                   <option value="Mycobaterium">ESAT-6-like protein</option>
                   <option value="antibiotic inactivation">DNA repair protein RecN</option>
                   <option value="antibiotic target alteration">Others</option>
                 </select>
-              </div>
-            </div>
-            <div class="row my-1">
-              <label for="#" class="form-label col-sm-4 col-form-label p-1">Gene name</label>
-              <div class="col-sm-8">
-                <input type="Gene" class="form-control my-1" id="Resistance Gene" placeholder="eg. mtrA">
               </div>
             </div>
 
@@ -259,7 +263,6 @@
           <table class="table table-striped">
               <thead>
                 <tr>
-                  <th scope="col">Select</th>
                   <th scope="col">Accession</th>
                   <th scope="col">Gene Name</th>
                   <th scope="col">#Species Hitted</th>
@@ -272,7 +275,6 @@
               </thead>
               <tbody>
                 <tr>
-                  <th><input type="checkbox" onclick="swapCheck()" /></th>
                   <td align="center"><a href="http://www.mgc.ac.cn/cgi-bin/VFs/gene.cgi?GeneID=VFG001826">VFG001386</a></td>
                   <td align="center">relA</td>
                   <td align="center"><a href="./species_table.html">11</a></td>
@@ -285,7 +287,6 @@
               </tbody>
               <tbody>
                 <tr>
-                  <th><input type="checkbox" onclick="swapCheck()" /></th>
                   <td align="center"><a href="http://www.mgc.ac.cn/cgi-bin/VFs/gene.cgi?GeneID=VFG001826">VFG001386</a></td>
                   <td align="center">relA</td>
                   <td align="center"><a href="./species_table.html">11</a></td>
@@ -298,7 +299,6 @@
               </tbody>
               <tbody>
                 <tr>
-                  <th><input type="checkbox" onclick="swapCheck()" /></th>
                   <td align="center"><a href="http://www.mgc.ac.cn/cgi-bin/VFs/gene.cgi?GeneID=VFG001826">VFG001386</a></td>
                   <td align="center">relA</td>
                   <td align="center"><a href="./species_table.html">11</a></td>
