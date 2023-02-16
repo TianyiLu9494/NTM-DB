@@ -47,6 +47,23 @@
       <div class="row">
         <div class="col-3"> <!-- filter -->
           <form action="">
+            
+            <!-- Gene -->
+            <h5 class="my-3"><b>Gene</b></h5>
+            <div class="row my-1">
+              <label for="#" class="form-label col-sm-4 col-form-label p-1">Name</label>
+              <div class="col-sm-8">
+                <input type="Gene" class="form-control my-1" id="Gene_name" placeholder="eg. mtrA">
+              </div>
+            </div>
+            <div class="row my-1">
+              <label for="#" class="form-label col-sm-4 col-form-label p-1">Accession</label>
+              <div class="col-sm-8">
+                <input type="Gene" class="form-control my-1" id="Gene_accession" placeholder="eg. IPR000001">
+              </div>
+            </div>
+            
+            <!-- Conservativeness -->
             <h5 class="my-3"><b>Conservativeness</b></h5>
             <div class="form-check">
               <input class="form-check-input" type="radio" name="Conservativeness" id="Conservativeness1" checked>
@@ -79,7 +96,7 @@
               </label>
             </div>
 
-
+            <!-- Gene Type -->
             <h5 class="my-3"><b>Type</b></h5>
             <div class="form-check">
               <input class="form-check-input" type="radio" name="Type" id="Type1" checked>
@@ -176,7 +193,7 @@
               <label for="#" class="form-label col-sm-4 col-form-label p-1">Resistant to </label>
               <div class="col-8">
                 <select name="" id="Genus" class="form-select my-1">
-                  <option selected>Select Drug class</option>
+                  <option selected>All Drug Classes</option>
                   <option value="Mycobaterium">aminocoumarin</option>
                   <option value="Mycobacterium">aminoglycoside</option>4
                   <option value="Mycolicibater">antibacterial free fatty</option>
@@ -190,7 +207,7 @@
               <label for="#" class="form-label col-sm-4 col-form-label p-1">Mechanism </label>
               <div class="col-8">
                 <select name="" id="Genus" class="form-select my-1">
-                  <option selected>Select Mechanism</option>
+                  <option selected>All Mechanism</option>
                   <option value="Mycobaterium">antibiotic efflux</option>
                   <option value="antibiotic inactivation">antibiotic inactivation</option>
                   <option value="antibiotic target alteration">antibiotic target alteration</option>
@@ -201,12 +218,7 @@
                 </select>
               </div>
             </div>
-            <div class="row my-1">
-              <label for="#" class="form-label col-sm-4 col-form-label p-1">Gene name</label>
-              <div class="col-sm-8">
-                <input type="Gene" class="form-control my-1" id="Resistance Gene" placeholder="eg. mtrA">
-              </div>
-            </div>
+            
 
             <!-- Virulence -->
             <h5 class="my-3"><b>Virulence</b></h5>
@@ -214,7 +226,7 @@
               <label for="#" class="form-label col-sm-4 col-form-label p-1">VF Category </label>
               <div class="col-8">
                 <select name="" id="Genus" class="form-select my-1">
-                  <option selected>Select VF Category</option>
+                  <option selected>All VF Category</option>
                   <option value="Mycobaterium">Invasion</option>
                   <option value="Mycobacterium">Effector delivery system</option>
                   <option value="Mycolicibater">Motility</option>
@@ -228,20 +240,21 @@
               <label for="#" class="form-label col-sm-4 col-form-label p-1">Product </label>
               <div class="col-8">
                 <select name="" id="Genus" class="form-select my-1">
-                  <option selected>Select Product</option>
+                  <option selected>All Products</option>
                   <option value="Mycobaterium">ESAT-6-like protein</option>
                   <option value="antibiotic inactivation">DNA repair protein RecN</option>
                   <option value="antibiotic target alteration">Others</option>
                 </select>
               </div>
             </div>
+            <!--
             <div class="row my-1">
               <label for="#" class="form-label col-sm-4 col-form-label p-1">Gene name</label>
               <div class="col-sm-8">
                 <input type="Gene" class="form-control my-1" id="Resistance Gene" placeholder="eg. mtrA">
               </div>
             </div>
-
+            -->
 
 
             <br><p align="center"><input type="button" value="Reset" > <input type="button" value="Submit"></p>
