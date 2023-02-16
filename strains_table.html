@@ -47,7 +47,6 @@
       <div class="row">
         <div class="col-3"><!-- filter -->
           <form action="">
-
             <!-- Taxonmy -->
             <h5 class="my-3"><b>Taxonmy</b></h5>
             <div class="row my-1">
@@ -159,10 +158,17 @@
           </form>
         </div>    
         <div class="col-9">
+          <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
+            <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked >
+            <label class="btn btn-outline-primary" for="btnradio1">General</label>
+            
+            <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off" onclick="window.location.href='./strains_resistance.html'">
+            <label class="btn btn-outline-primary" for="btnradio2">Resistance</label>
+            
+            <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off" onclick="window.location.href='./strains_virulence.html'">
+            <label class="btn btn-outline-primary" for="btnradio3">Virulence</label>
+          </div>
           <p><i>13, 653 strains found</i></p>
-          <input type="button" value="General">
-          <input type="button" value="Resistance" onclick="window.location.href='./strains_resistance.html'">
-          <input type="button" value="Virulence" onclick="window.location.href='./strains_virulence.html'">
           <div class="collapse collapse-horizontal" id="collapseWidthExample">
             <div class="card card-body" style="width: 800px;">
               <p><strong>Reference genome</strong>:are chosen by the RefSeq curatorial staff based on their quality and importance to the community as anchors for the analysis of other genomes in their taxonomic group. </p>
