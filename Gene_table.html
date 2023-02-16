@@ -260,6 +260,8 @@
             <br><p align="center"><input type="button" value="Reset" > <input type="button" value="Submit"></p>
           </form>
         </div>
+
+        
         <div class="col-9"> <!-- table -->
           <h6><b>Table legends</b></h6>
           <p><b>Conservativeness:</b> Core (Genus)= Core genes in genus; Core (Species)= Core genes in species; Dispensable (Species): Dispensable genes in species; Unique (Strain)= Unique genes in strains.</p>
@@ -274,13 +276,15 @@
                 <thead>
                   <tr>
                     <th scope="col">Accession</th>
-                    <th scope="col">Gene Name</th>
+                    <th scope="col">Name</th>
                     <th scope="col">Conservativeness</th>
-                    <th scope="col">Type</th>
                     <th scope="col">#Species Hitted<br>(Top Species)</th>
                     <th scope="col">#Strains Hitted</th>
-                    <th scope="col">Function</th>
                     <th scope="col">GO Terms<br><img src="./img/BP-MF-CC.png"></th>
+                    <th scope="col">COG ID</th>
+                    <th scope="col">COG Category</th>
+                    <th scope="col">KEGG ID</th>
+                    <th scope="col">KEGG Function</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -288,41 +292,50 @@
                     <td align="center">IPR000001</td>
                     <td align="center">Kringle</td>
                     <td align="center">Core (Genus)</td>
-                    <td align="center">F</td>
-                    <td align="center"><a href="./species_table.html">2 </a>(2.00%)<br>M.abscess<br>M.avium</td>
-                    <td align="center"><a href="./strains_table.html">6 </a>(0.06%)</td>
-                    <td align="center">Bind mediators</td>
+                    <td align="center"><a href="./species_table.html">100 </a>(100.00%)<br>M.abscess<br>M.avium</td>
+                    <td align="center"><a href="./strains_table.html">15000 </a></td>
                     <td><img src="./img/GO-1.png" alt="" /></td>
+                    <td align="center">COG1309</td>
+                    <td align="center">Transcriptional regulator [Transcription]</td>
+                    <td align="center">K2080</td>
+                    <td align="center">Transcriptional regulator/sugar kinase [Transcription / Carbohydrate transport and metabolism]</td>
+
                   </tr>
                   <tr>
                     <td align="center">IPR000010</td>
                     <td align="center">mtrA</td>
                     <td align="center">Core (Species)</td>
-                    <td align="center">D</td>
                     <td align="center"><a href="./species_table.html">1 </a>(1.00%)<br>M.smegmatis</td>
-                    <td align="center"><a href="./strains_table.html">1 </a>(0.01%)</td>
-                    <td align="center">Regulate proteolytic activity</td>
+                    <td align="center"><a href="./strains_table.html">1 </a></td>
                     <td><img src="./img/GO-2.png" alt="" /></td>
+                    <td align="center">COG1410</td>
+                    <td align="center">Methionine synthase I, cobalamin-binding domain [Amino acid transport and metabolism]</td>
+                    <td align="center">K1990</td>
+                    <td align="center">Selenocysteine lyase/Cysteine desulfurase [Posttranslational modification, protein turnover, chaperones</td>
                   </tr>
                   <tr>
                     <td align="center">IPR000018</td>
                     <td align="center">P2Y purinoceptor 4</td>
                     <td align="center">Dispensable (Species)</td>
-                    <td align="center">D</td>
-                    <td align="center"><a href="./species_table.html">5 </a>(5.00%)<br>M.intracellulare<br>M. abscess</td>
-                    <td align="center"><a href="./strains_table.html">16 </a>(0.16%)</td>
-                    <td align="center">Bind mediators</td>
+                    <td align="center"><a href="./species_table.html">10 </a>(10.00%)<br>M.intracellulare<br>M. abscess</td>
+                    <td align="center"><a href="./strains_table.html">1500 </a></td>
                     <td><img src="./img/GO-3.png" alt="" /></td>
+                    <td align="center">-</td>
+                    <td align="center">-</td>
+                    <td align="center">K0391</td>
+                    <td align="center">Uncharacterized conserved protein [Function unknown]</td>
                   </tr>
                   <tr>
                     <td align="center">IPR000019</td>
                     <td align="center">Cbb domain</td>
                     <td align="center">Unique (Strain)</td>
-                    <td align="center">D</td>
                     <td align="center"><a href="./species_table.html">1 </a>(1.00%)<br>M.smegmatis</td>
-                    <td align="center"><a href="./strains_table.html">2 </a>(0.02%)</td>
-                    <td align="center">DNA binding</td>
+                    <td align="center"><a href="./strains_table.html">1 </a></td>
                     <td><img src="./img/GO-4.png" alt="" /></td>
+                    <td align="center">COG1309</td>
+                    <td align="center">Transcriptional regulator [Transcription]</td>
+                    <td align="center">K2080</td>
+                    <td align="center">Transcriptional regulator/sugar kinase [Transcription / Carbohydrate transport and metabolism]</td>
                   </tr>
                 </tbody>
               </table>

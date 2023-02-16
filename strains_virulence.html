@@ -38,7 +38,8 @@
         <nav aria-label="breadcrumb">
         <ol class="breadcrumb">
           <br><li class="breadcrumb-item"><a href="./home.html">Home</a></li>
-          <li class="breadcrumb-item"><a href="./strains_table.html">Browse:Strains</a></li>
+          <li class="breadcrumb-item"><a href="./strains_table.html">Browse: Strains</a></li>
+          <li class="breadcrumb-item"><a href="./strains_virulence.html">Virulence</a></li>
         </ol>
       </nav>
     </div>
@@ -46,6 +47,7 @@
       <div class="row">
         <div class="col-3"><!-- filter -->
           <form action="">
+            <!-- Taxonmy -->
             <h5 class="my-3"><b>Taxonmy</b></h5>
             <div class="row my-1">
               <label for="#" class="form-label col-sm-3 col-form-label p-1">Genus.</label>
@@ -72,51 +74,23 @@
                 <input type="Species" class="form-control my-1" id="TaxSpecies" placeholder="eg. sub.bollitii">
               </div>
             </div>
-
-            <h5 class="my-3"><b>Disease</b></h5>
-            <div class="form-check">
-              <input class="form-check-input" type="radio" name="Disease" id="Disease1" checked>
-              <label class="form-check-label" for="Disease1">
-                ALL
-              </label>
-            </div>
-            <div class="form-check">
-              <input class="form-check-input" type="checkbox" name="Disease" id="Disease2">
-              <label class="form-check-label" for="Disease2">
-                Lung
-              </label>
-            </div>
-            <div class="form-check">
-              <input class="form-check-input" type="checkbox" name="Disease" id="Disease3">
-              <label class="form-check-label" for="Disease3">
-                Endocarditis
-              </label>
-            </div>
-            <div class="form-check">
-              <input class="form-check-input" type="checkbox" name="Disease" id="Disease4">
-              <label class="form-check-label" for="Disease4">
-                Osteopathy
-              </label>
-            </div>
-            <div class="form-check">
-              <input class="form-check-input" type="checkbox" name="Disease" id="Disease5">
-              <label class="form-check-label" for="Disease5">
-                Soft tissue sarcoma
-              </label>
-            </div>
-            <div class="form-check">
-              <input class="form-check-input" type="checkbox" name="Disease" id="Disease6>
-              <label class="form-check-label" for="Disease6">
-                Disseminated Disease
-              </label>
-            </div>
-            <div class="form-check">
-              <input class="form-check-input" type="checkbox" name="Disease" id="Disease7">
-              <label class="form-check-label" for="Disease7">
-                Other
-              </label>
+            <div class="row my-1">
+              <label for="#" class="form-label col-sm-3 col-form-label p-1">ST type</label>
+              <div class="col-sm-9">
+                <input type="Species" class="form-control my-1" id="TaxSpecies" placeholder="eg. ST108">
+              </div>
             </div>
 
+            <!--Representative-->
+            <h5 class="my-3"><b>Representative</b></h5>
+            <select name="Country" id="Country" class="form-select my-1">
+              <option selected>All</option>
+              <option value="China">Reference genome</option>
+              <option value="MSA">Representative genome</option>
+              <option value="UK">Type strain</option>
+            </select>
+
+            <!--Host-->
             <h5 class="my-3"><b>Host</b></h5>
             <div class="form-check">
               <input class="form-check-input" type="radio" name="Source" id="Source1" checked>
@@ -166,6 +140,7 @@
               </select>
             </div>
 
+            <!--Country-->
             <h5 class="my-3"><b>Country</b></h5>
             <select name="Country" id="Country" class="form-select my-1">
               <option selected>Select Country</option>
@@ -175,7 +150,8 @@
               <option value="AU">Australia</option>
               <option value="Others">······</option>
             </select>
-
+            
+            <!--Collection Year-->
             <h5 class="my-3"><b>Collection Year</b></h5>
 
             <div class="row">
