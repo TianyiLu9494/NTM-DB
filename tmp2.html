@@ -79,195 +79,444 @@
         <div class="collapse navbar-colleps"></div>
       </div>
     </nav>
-    <div class="container p-3">
-        <nav aria-label="breadcrumb">
-        <ol class="breadcrumb">
-          <li class="breadcrumb-item"><a href="./home.html">Home</a></li>
-          <li class="breadcrumb-item"><a href="./species_table.html">Browse:Species</a></li>
-        </ol>
-      </nav>
-    </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-3">
-          <form action="">
-            <h5 class="my-3">Taxonmy</h5>
-            <div class="row my-1">
-              <label for="#" class="form-label col-sm-3 col-form-label p-1">Genus.</label>
-              <div class="col-9">
-                <select name="Genus" id="Genus" class="form-select my-1">
-                  <option selected>Select Genus</option>
-                  <option value="Mycobaterium">Mycobacterium</option>
-                  <option value="Mycobacterium">Mycobacteroides</option>
-                  <option value="Mycolicibater">Mycolicibater</option>
-                  <option value="Mycolicibaterium">Mycolicibaterium</option>
-                  <option value="Mycolicibacillus">Mycolicibacillus</option>
-                </select>
-              </div>
-            </div>
-            <div class="row my-1">
-              <label for="#" class="form-label col-sm-3 col-form-label p-1">Species.</label>
-              <div class="col-sm-9">
-                <input type="Species" class="form-control my-1" id="TaxSpecies" placeholder="eg. M.abscessus">
-              </div>
-            </div>
-            <div class="row my-1">
-              <label for="#" class="form-label col-sm-5 col-form-label p-1">Sub.Species. </label>
-              <div class="col-sm-7">
-                <input type="Species" class="form-control my-1" id="TaxSpecies" placeholder="eg. sub.bollitii">
-              </div>
-            </div>
-
-            <h5 class="my-3">Source</h5>
-            <div class="form-check">
-              <input class="form-check-input" type="radio" name="Source" id="Source1" checked>
-              <label class="form-check-label" for="Source1">
-                ALL
-              </label>
-            </div>
-            <div class="form-check">
-              <input class="form-check-input" type="radio" name="Source" id="Source2" >
-              <label class="form-check-label" for="Source2">
-                Human
-              </label>
-            </div>
-            <div class="form-check">
-              <input class="form-check-input" type="radio" name="Source" id="Source3" >
-              <label class="form-check-label" for="Source3">
-                Animal
-              </label>
-            </div>
-            <div class="form-check">
-              <input class="form-check-input" type="radio" name="Source" id="Source4" >
-              <label class="form-check-label" for="Source4">
-                Environment
-              </label>
-            </div>
-
-
-            <h5 class="my-3">Growth Type</h5>
-            <div class="form-check">
-              <input class="form-check-input" type="radio" name="Growth Type" id="Growth Type1" checked>
-              <label class="form-check-label" for="Growth Type1">
-                Both
-              </label>
-            </div>
-            <div class="form-check">
-              <input class="form-check-input" type="radio" name="Growth Type" id="Growth Type2" >
-              <label class="form-check-label" for="Growth Type1">
-                Rapid
-              </label>
-            </div>
-            <div class="form-check">
-              <input class="form-check-input" type="radio" name="Growth Type" id="Growth Type3">
-              <label class="form-check-label" for="Growth Type2">
-                Slow
-              </label>
-            </div>
+    
     
 
-            <h5 class="my-3">Pathogenicity</h5>
-            <div class="form-check">
-              <input class="form-check-input" type="radio" name="Pathogenicity" id="Pathogenicity1" checked>
-              <label class="form-check-label" for="Pathogenicity1">
-                ALL
-              </label>
-            </div>
-            <div class="form-check">
-              <input class="form-check-input" type="radio" name="Pathogenicity" id="Pathogenicity2">
-              <label class="form-check-label" for="Pathogenicity2">
-                Pathogenic
-              </label>
-            </div>
-            <div class="form-check">
-              <input class="form-check-input" type="radio" name="Pathogenicity" id="Pathogenicity3" >
-              <label class="form-check-label" for="Pathogenicity3">
-                Opportunity-Pathogenic
-              </label>
-            </div>
-            <div class="form-check">
-              <input class="form-check-input" type="radio" name="Pathogenicity" id="Pathogenicity4" >
-              <label class="form-check-label" for="Pathogenicity4">
-                Non-Pathogenic
-              </label>
-            </div>
-            <br><p align="center"><input type="button" value="Reset" > <input type="button" value="Submit"></p> 
-          </form>
-        </div>
-        <div class="col-9">
-            <div class="container">
-              <p><b>Table legends: </b><br>Source:     <font color="#8A0808">Human source; </font>   <font color="#07257c">Animal source; </font>  <font color="#dbcb98">Environment source</font>
-                <br>Growth Type:     <font color="#fa8258">Rapid;</font>      <font color="#00e6e6">Slow</font>
-                <br>Pathogenicity:  <font color="#237123"> NP=non-pathogenic;</font>   <font color="#ffbf00">OP=opportunistic pathogens;</font>   <font color="#1d46bc">P=pathogens;</font>   <font color="#949494">U=unknown</font></p>
-              <p><br><i>169 NTM species found</i></p>
-              <div class="layer-box">
-                <div class="layer">
-                    <table>
-                        <tr>
-                            <th class="td-1">我是第一个</th>
-                            <th><div class="zhanwei"></div></th>
-                            <th>我是第二个</th>
-                            <th>我是第三个</th>
-                            <th>我是第四个</th>
-                            <th>我是第五个</th>
-                            <th>我是第六个</th>
-                            <th>我是第七个</th>
-                            <th>我是第八个</th>
-                            <th>我是第九个</th>
-                            <th>我是第十个</th>
-                        </tr>
-                        <tr>
-                            <td class="td-1">我是第一个</td>
-                            <td><div class="zhanwei"></div></td>
-                            <td>我是第二个</td>
-                            <td>我是第三个</td>
-                            <td>我是第四个</td>
-                            <td>我是第五个</td>
-                            <td>我是第六个</td>
-                            <td>我是第七个</td>
-                            <td>我是第八个</td>
-                            <td>我是第九个</td>
-                            <td>我是第十个</td>
-                        </tr>
-                        <tr>
-                            <td class="td-1">我是第一个</td>
-                            <td><div class="zhanwei"></div></td>
-                            <td>我是第二个</td>
-                            <td>我是第三个</td>
-                            <td>我是第四个</td>
-                            <td>我是第五个</td>
-                            <td>我是第六个</td>
-                            <td>我是第七个</td>
-                            <td>我是第八个</td>
-                            <td>我是第九个</td>
-                            <td>我是第十个</td>
-                        </tr>
-                        <tr>
-                            <td class="td-1">我是第一个</td>
-                            <td><div class="zhanwei"></div></td>
-                            <td>我是第二个</td>
-                            <td>我是第三个</td>
-                            <td>我是第四个</td>
-                            <td>我是第五个</td>
-                            <td>我是第六个</td>
-                            <td>我是第七个</td>
-                            <td>我是第八个</td>
-                            <td>我是第九个</td>
-                            <td>我是第十个</td>
-                        </tr>
-                    </table>
+    
+    <div class="container">
+      <div class="row">
+        
+        
+        <div class="ui message info">
+                <div class="ui accordion">
+                    <div class="title active">
+                        <h4 style="color: #0c64b6"><i class="dropdown blue icon" ></i> Display columns</h4>
+                    </div>
+                    <div class="content active">
+                        <div class="ui list">
+                            <div class="item">
+                                <div class="ui buttons">
+                                    <div class="ui basic button blue" id="selectAll">Select All</div>
+                                    <div class="ui basic button teal" id="selectDefault">Select Default</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="ui horizontal list">
+                            <div class="item"><strong>Basic Information: </strong></div>
+                            <div class="item">
+                                <div class="ui checkbox">
+                                    <input type="checkbox" class="toggle-vis default" data-column="sampleName" checked><label>Sample
+                                    Name</label>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="ui checkbox">
+                                    <input type="checkbox" class="toggle-vis" data-column="dataResource"><label>Data
+                                    Resource</label>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="ui checkbox">
+                                    <input type="checkbox" class="toggle-vis default" data-column="description" checked><label>Description</label>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="ui checkbox">
+                                    <input type="checkbox" class="toggle-vis" data-column="bioProject"><label>BioProject
+                                    ID</label>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="ui checkbox">
+                                    <input type="checkbox" class="toggle-vis default" data-column="projectId" checked><label>Project
+                                    ID</label>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="ui checkbox">
+                                    <input type="checkbox" class="toggle-vis default" data-column="sampleId" checked><label>Sample
+                                    ID</label>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="ui checkbox">
+                                    <input type="checkbox" class="toggle-vis" data-column="experimentId"><label>Experiment
+                                    ID</label>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="ui checkbox">
+                                    <input type="checkbox" class="toggle-vis" data-column="status"><label>Status</label>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="ui checkbox">
+                                    <input type="checkbox" class="toggle-vis" data-column="submissionDate"><label>Submission
+                                    Date</label>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="ui checkbox">
+                                    <input type="checkbox" class="toggle-vis" data-column="lastUpdateDate"><label>Last
+                                    Update Date</label>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="ui checkbox">
+                                    <input type="checkbox" class="toggle-vis" data-column="donorId"><label>Donor ID</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="ui divider"></div>
+                        <div class="ui horizontal list">
+                            <div class="item"><strong>Sample Characteristic: </strong></div>
+                            <div class="item">
+                                <div class="ui checkbox">
+                                    <input type="checkbox" class="toggle-vis default" data-column="species"
+                                            checked><label>Species</label>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="ui checkbox">
+                                    <input type="checkbox" class="toggle-vis default" data-column="tissue" checked><label>Tissue/Cell
+                                    Line</label>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="ui checkbox">
+                                    <input type="checkbox" class="toggle-vis" data-column="cellType"><label>Cell
+                                    Type</label>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="ui checkbox">
+                                    <input type="checkbox" class="toggle-vis" data-column="sourceName"><label>Source Name</label>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="ui checkbox">
+                                    <input type="checkbox" class="toggle-vis" data-column="strain"><label>Strain</label>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="ui checkbox">
+                                    <input type="checkbox" class="toggle-vis" data-column="breed"><label>Breed</label>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="ui checkbox">
+                                    <input type="checkbox" class="toggle-vis" data-column="cultivar"><label>Cultivar</label>
+                                </div>
+                            </div>
+    
+                            <div class="item">
+                                <div class="ui checkbox">
+                                    <input type="checkbox" class="toggle-vis" data-column="sex"><label>Sex</label>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="ui checkbox">
+                                    <input type="checkbox" class="toggle-vis" data-column="age"
+                                    ><label>Age</label>
+                                </div>
+                            </div>
+                            
+                            
+                            
+                            
+                            
+                            
+                        </div>
+                        <div class="ui divider"></div>
+                        <div class="ui horizontal list">
+                            <div class="item"><strong>Biological Condition: </strong></div>
+                            <div class="item">
+                                <div class="ui checkbox">
+                                    <input type="checkbox" class="toggle-vis" data-column="healthyCondition"><label>Healthy
+                                    Condition</label>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="ui checkbox">
+                                    <input type="checkbox" class="toggle-vis" data-column="diseaseState"><label>Disease
+                                    State</label>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="ui checkbox">
+                                    <input type="checkbox" class="toggle-vis" data-column="developmentStage"><label>Development
+                                    Stage</label>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="ui checkbox">
+                                    <input type="checkbox" class="toggle-vis" data-column="genotype"><label>Genotype</label>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="ui checkbox">
+                                    <input type="checkbox" class="toggle-vis"
+                                            data-column="treatment"><label>Treatment</label>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="ui checkbox">
+                                    <input type="checkbox" class="toggle-vis" data-column="knockout"><label>Knockout</label>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="ui checkbox">
+                                    <input type="checkbox" class="toggle-vis" data-column="resistantPhenotype"><label>Resistant
+                                    Phenotype</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="ui divider"></div>
+                        <div class="ui horizontal list">
+                            <div class="item"><strong>Protocol: </strong></div>
+                            <div class="item">
+                                <div class="ui checkbox">
+                                    <input type="checkbox" class="toggle-vis" data-column="growthProtocol"><label>Growth
+                                    Protocol</label>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="ui checkbox">
+                                    <input type="checkbox" class="toggle-vis" data-column="treatmentProtocol"><label>Treatment
+                                    Protocol</label>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="ui checkbox">
+                                    <input type="checkbox" class="toggle-vis" data-column="extractProtocol"><label>Extraction
+                                    Protocol</label>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="ui checkbox">
+                                    <input type="checkbox" class="toggle-vis" data-column="constructionProtocol"><label>Construction
+                                    Protocol</label>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="ui checkbox">
+                                    <input type="checkbox" class="toggle-vis" data-column="libStrategy"><label>Library
+                                    Strategy</label>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="ui checkbox">
+                                    <input type="checkbox" class="toggle-vis" data-column="libSource"><label>Library
+                                    Source</label>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="ui checkbox">
+                                    <input type="checkbox" class="toggle-vis" data-column="libSelection"><label>Library
+                                    Selection</label>
+                                </div>
+                            </div>
+    
+                            <div class="item">
+                                <div class="ui checkbox">
+                                    <input type="checkbox" class="toggle-vis" data-column="layout"><label> Layout</label>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="ui checkbox">
+                                    <input type="checkbox" class="toggle-vis" data-column="platform"><label>Platform</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="ui divider"></div>
+                        <div class="ui horizontal list">
+                            <div class="item" data-tooltip=""><strong>Assessing Quality: </strong></div>
+    
+                            <div class="item">
+                                <div class="ui checkbox">
+                                    <input type="checkbox" class="toggle-vis default" data-column="qualityAssessment"
+                                            checked><label>Quality
+                                    Assessment <i class="icon question circle qc"></i></label>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="ui checkbox">
+                                    <input type="checkbox" class="toggle-vis" data-column="mappingRate"><label>Mapping
+                                    Rate</label>
+                                </div>
+                            </div>
+    
+                            <div class="item">
+                                <div class="ui checkbox">
+                                    <input type="checkbox" class="toggle-vis" data-column="uniqMappingRate"><label>Uniquely
+                                    Mapping
+                                    Rate</label>
+                                </div>
+                            </div>
+    
+                            <div class="item">
+                                <div class="ui checkbox">
+                                    <input type="checkbox" class="toggle-vis" data-column="genomeCoverage"><label>Genome
+                                    Coverage</label>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="ui checkbox">
+                                    <input type="checkbox" class="toggle-vis" data-column="ccoverage"><label>Cytosine Coverage
+                                </label>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="ui checkbox">
+                                    <input type="checkbox" class="toggle-vis" data-column="conversionRate"><label>Conversion
+                                    Rate</label>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="ui checkbox">
+                                    <input type="checkbox" class="toggle-vis" data-column="depth"><label>Mapped Read Depth</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="ui divider"></div>
+                        <div class="ui horizontal list">
+                            <div class="item"><strong>Analysis: </strong></div>
+                            <div class="item">
+                                <div class="ui checkbox">
+                                    <input type="checkbox" class="toggle-vis" data-column="referenceGenome"><label>Genome Version for Mapping</label>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="ui checkbox">
+                                    <input type="checkbox" class="toggle-vis" data-column="genomeAnnotation"><label>Genome Version for Annotation</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="ui divider"></div>
+                        <div class="ui horizontal list">
+                            <div class="item"><strong>Action: </strong></div>
+                            <div class="item">
+                                <div class="ui checkbox">
+                                    <input type="checkbox" class="toggle-vis default" data-column="jbrowse" checked><label>View
+                                    in
+                                    JBrowse</label>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="ui checkbox">
+                                    <input type="checkbox" class="toggle-vis default" data-column="cpgIsland" checked><label>
+                                    CpG Island</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </div>
-              
-                
-              <p align="right"> xx strains selected, <button type="button" background-color: palevioletred>add to Cart</button></p>
-              
-            </div>
+                <div class="ui divider"></div>
+                <div class="ui accordion">
+                    <div class="title">
+                        <h4 style="color: #0c64b6"><i class="dropdown blue icon"></i> Filter by Quality Assessment <i
+                                class="icon blue question circle qc"></i>
+                        </h4>
+                    </div>
+                    <div class="content">
+                        <div class="ui form">
+                            <div class="ui grid stackable">
+                                <div class="equal width row">
+                                    <div class="column">
+                                        <div class="ui labeled fluid input">
+                                            <label class="ui label">Mapping Rate</label>
+                                            <input type="number" name="minMr" id="minMr" placeholder="min mapping rate"/>
+                                        </div>
+                                    </div>
+                                    <div class="column">
+                                        <div class="ui labeled fluid input">
+                                            <input type="number" name="maxMr" id="maxMr" placeholder="max mapping rate"/>
+                                        </div>
+                                    </div>
+                                    <div class="column">
+                                        <div class="ui labeled fluid input">
+                                            <label class="ui label">Uniquely Mapping Rate</label>
+                                            <input type="number" name="minUmr" id="minUmr"
+                                                    placeholder="min uniquely mapping rate"/>
+                                        </div>
+                                    </div>
+                                    <div class="column">
+                                        <div class="ui labeled fluid input">
+                                            <input type="number" name="maxUmr" id="maxUmr"
+                                                    placeholder="max uniquely mapping rate"/>
+                                        </div>
+                                    </div>
+                                </div>
+    
+                                <div class="equal width row">
+                                    <div class="column">
+                                        <div class="ui labeled fluid input">
+                                            <label class="ui label">Genome Coverage</label>
+                                            <input type="number" name="minMr" id="minGc" placeholder="min genome coverage"/>
+                                        </div>
+                                    </div>
+                                    <div class="column">
+                                        <div class="ui labeled fluid input">
+                                            <input type="number" name="maxMr" id="maxGc" placeholder="max genome coverage"/>
+                                        </div>
+                                    </div>
+                                    <div class="column">
+                                        <div class="ui labeled fluid input">
+                                            <label class="ui label">Cytosine Coverage</label>
+                                            <input type="number" name="minCc" id="minCc" placeholder="min cytosine coverage"/>
+                                        </div>
+                                    </div>
+                                    <div class="column">
+                                        <div class="ui labeled fluid input">
+                                            <input type="number" name="maxCc" id="maxCc" placeholder="max cytosine coverage"/>
+                                        </div>
+                                    </div>
+                                </div>
+    
+                                <div class="equal width row">
+                                    <div class="column">
+                                        <div class="ui labeled fluid input">
+                                            <label class="ui label">Conversion Rate</label>
+                                            <input type="number" name="minCr" id="minCr" placeholder="min conversion rate"/>
+                                        </div>
+                                    </div>
+                                    <div class="column">
+                                        <div class="ui labeled fluid input">
+                                            <input type="number" name="maxCr" id="maxCr" placeholder="max conversion rate"/>
+                                        </div>
+                                    </div>
+                                    <div class="column">
+                                        <div class="ui labeled fluid input">
+                                            <label class="ui label">Mapped Read Depth</label>
+                                            <input type="number" name="minDe" id="minDe" placeholder="min mapped read depth"/>
+                                        </div>
+                                    </div>
+                                    <div class="column">
+                                        <div class="ui labeled fluid input">
+                                            <input type="number" name="maxDe" id="maxDe" placeholder="max mapped read depth"/>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
         </div>
+        
+        
+       
+
+
+
+
+        <!-- my code-->
       </div>
     </div>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    
   </body>
 </html>
+
+
