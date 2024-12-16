@@ -1,0 +1,28 @@
+<div style="overflow: auto; width: 100%;"> <!-- table for Subspecies -->
+    <h5>Subspecies</h5>
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th scope="col" style="width: 188px;">Subspecies Name</th>
+                <th scope="col" style="width: 140px;">Taxonomy ID</th>
+                <th scope="col" style="width: 140px;">Type Strain Genome</th>
+                <th scope="col" style="width: 160px;">Representative Genome</th>
+                <th scope="col" style="width: 140px;">Strain Number</th>
+        </thead>
+        <tbody>
+            {% for sub_spec in sub_species %}
+            <tr>
+                <td><i>M.{{spec.name}} {{sub_spec.name}}</i></td>
+                <td><a href="https://www.ncbi.nlm.nih.gov/data-hub/taxonomy/{{sub_spec.taxid}}">{{sub_spec.taxid}}</a></td>
+                <td><a
+                        href="https://www.ncbi.nlm.nih.gov/data-hub/genome/{{sub_spec.type_strain_genome}}/">{{sub_spec.type_strain_genome}}</a></i>
+                </td>
+                <td><a
+                        href="https://www.ncbi.nlm.nih.gov/data-hub/genome/{{sub_spec.representative_genome}}/">{{sub_spec.representative_genome}}</a>
+                </td>
+                <td><a href="/ntmdb/browse/strains/?subspecies_name={{sub_spec.name}}">{{sub_spec.strains_count}}</a></td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>

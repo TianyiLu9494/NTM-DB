@@ -1,0 +1,48 @@
+CLUSTAL X (1.81) multiple sequence alignment
+
+
+AMR_ref                             atggatacccaccacgtacataccgcccgcctggttcataccgccgatct
+M.haemophilum_GCF_001021435.1       ------------··g···········g·······················
+M.haemophilum_GCF_001021485.1       ------------··g···········g·······················
+
+AMR_ref                             cgacggcgagactctccggcgcctccagcagatggtcaccgacgctttcg
+M.haemophilum_GCF_001021435.1       ············a·g··ac···a····t·················c····
+M.haemophilum_GCF_001021485.1       ············a·g··ac···a····t·················c····
+
+AMR_ref                             ccggagacttcgacgagaccgactgggaacacgcattgggcgggatgcac
+M.haemophilum_GCF_001021435.1       ····ca··························a·cc·············t
+M.haemophilum_GCF_001021485.1       ····ca··························a·cc·············t
+
+AMR_ref                             gccctgatctggcggcacggcacaatcattgcgcacgccgcggtcgttca
+M.haemophilum_GCF_001021435.1       ·····················g·g··························
+M.haemophilum_GCF_001021485.1       ·····················g·g··························
+
+AMR_ref                             gcggcgactattctaccacggcaacgcgttgcgttgcggttacctcgaag
+M.haemophilum_GCF_001021435.1       ·········gc······gt·········c·····················
+M.haemophilum_GCF_001021485.1       ·········gc······gt·········c·····················
+
+AMR_ref                             gtgtcgcggtacggaaggactgccggggccgcggacttgtacatgcgctg
+M.haemophilum_GCF_001021435.1       ··············g···············aa··g··g··g··c······
+M.haemophilum_GCF_001021485.1       ··············g···············aa··g··g··g··c······
+
+AMR_ref                             ctggacgctatcgagcaagtgatacgcggcgcctatcaattcggtgcctt
+M.haemophilum_GCF_001021435.1       ········cg·······g·····g···············c····g·····
+M.haemophilum_GCF_001021485.1       ········cg·······g·····g···············c····g·····
+
+AMR_ref                             gagttcctcggaccgagcccgtcgggtgtatatgtcgcgcgggtggttac
+M.haemophilum_GCF_001021435.1       ···········c···c·····ca·c·····c···········t·····g·
+M.haemophilum_GCF_001021485.1       ···········c···c·····ca·c·····c···········t·····g·
+
+AMR_ref                             catggctcggcccgacgtcagtgctggctcctaccggtgtgatccgtacg
+M.haemophilum_GCF_001021435.1       ·c····g············g···········c·······c··c·······
+M.haemophilum_GCF_001021485.1       ·c····g············g···········c·······c··c·······
+
+AMR_ref                             cccgatgatgacggctcggtgtttgtccttccggtcggcatcaacccgga
+M.haemophilum_GCF_001021435.1       ········c·····a········c·····g················t···
+M.haemophilum_GCF_001021485.1       ········c·····a········c·····g················t···
+
+AMR_ref                             cacctcctcggggttgatgtgcgattggcgcgcaggcaacgtgtggtaa
+M.haemophilum_GCF_001021435.1       t······g···a·c···················c···g·········--
+M.haemophilum_GCF_001021485.1       t······g···a·c···················c···g·········--
+
+

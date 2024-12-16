@@ -1,0 +1,44 @@
+@charset "utf-8";
+
+.custom-bg {
+    background-color: rgb(167, 209, 243);
+}
+
+table,
+td {
+    border: 1px solid #ccc;
+}
+
+thead th {
+    border: 1px solid #ffffff;
+}
+
+/* 修改 paginate_button 的边框样式 */
+.dataTables_wrapper .paginate_button {
+    border: 1px solid;
+}
+
+/* 修改 paginate_button 的背景颜色 */
+.dataTables_wrapper .paginate_button {
+    background-color: #ffffff;
+}
+
+/* 修改 paginate_button 的大小 */
+.dataTables_wrapper .paginate_button {
+    padding: 5px 5px;
+    font-size: 14px;
+}
+
+table.dataTable {
+    border-collapse: collapse;
+    border: none;
+}
+
+
+a {
+    color: rgb(108, 135, 158);
+}
+
+a:hover {
+    color: rgb(148, 189, 223);
+}

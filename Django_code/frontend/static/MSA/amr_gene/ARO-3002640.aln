@@ -1,0 +1,164 @@
+CLUSTAL X (1.81) multiple sequence alignment
+
+
+AMR_ref                             gtgaccgagtggctgcccgtcacacgcggtgaatccggtgccggggtctt
+M.peregrinum_ERR337822              ········t····a·········g··············c········g··
+M.peregrinum_ERR369261              ········t····a·········g··············c········g··
+M.fortuitum_GCA_001050075.1         ·····················c····························
+M.fortuitum_GCA_001475495.2         ·····················c····························
+M.fortuitum_GCF_900453945.1         ··················································
+M.peregrinum_SRR13785997            ········t····a···t·····g··············c········g··
+M.peregrinum_SRR6046339             ········t····g·········g··············c········g··
+M.peregrinum_SRR6046344             ········t····a···t·····g··············c········g··
+
+AMR_ref                             caggaactccgacggttcgagctacgcgaaggtggtcgacgccgcggcgg
+M.peregrinum_ERR337822              tc·c···g·g········cc·g······················t·····
+M.peregrinum_ERR369261              tc·c···g·g········cc·g······················t·····
+M.fortuitum_GCA_001050075.1         ·······g··········c·······························
+M.fortuitum_GCA_001475495.2         ·······g··········c·······························
+M.fortuitum_GCF_900453945.1         ·······g··········c·······························
+M.peregrinum_SRR13785997            tc·c··tg·g········cc·g····························
+M.peregrinum_SRR6046339             tc·c···g·g········cc·g······················a·····
+M.peregrinum_SRR6046344             ·c·····g·g········cc·g····························
+
+AMR_ref                             tggcagacctggccgcggagcgtgaccgggtgtcctgggcccacaggcac
+M.peregrinum_ERR337822              ····c·······tt········g···········g·····g···g·t···
+M.peregrinum_ERR369261              ····c·······tt········g···········g·····g···g·t···
+M.fortuitum_GCA_001050075.1         ················c·································
+M.fortuitum_GCA_001475495.2         ················c·································
+M.fortuitum_GCF_900453945.1         ··················································
+M.peregrinum_SRR13785997            ····c···t···tt········g···········g·····g···g·t·g·
+M.peregrinum_SRR6046339             ····c·······tt········g···········g·····g···g·t···
+M.peregrinum_SRR6046344             ····c··t····tt········g······t····g·····g··tg·t·g·
+
+AMR_ref                             ggtgtccccgggcccgcggtcatcgactggcgtgtcaccgaagacggcgg
+M.peregrinum_ERR337822              ···c·g··g·t···t···············g··ag······g·g······
+M.peregrinum_ERR369261              ···c·g··g·t···t···············g··ag······g·g······
+M.fortuitum_GCA_001050075.1         ··················································
+M.fortuitum_GCA_001475495.2         ··················································
+M.fortuitum_GCF_900453945.1         ··················································
+M.peregrinum_SRR13785997            ··gc·g··g·t···t···········t···g··ag······g········
+M.peregrinum_SRR6046339             ···c·g··g·t···t···············g··ag······g·g······
+M.peregrinum_SRR6046344             ··gc·g··g·t···t···········t···g··ag······g········
+
+AMR_ref                             cgcgtgcttgatcacgagcactgtgcgcggt-gtcgctgccgatcggctt
+M.peregrinum_ERR337822              ···cgt·c··g····c··tg·c··cg····c······g···········g
+M.peregrinum_ERR369261              ···cgt·c··g····c··tg·c··cg····c······g···········g
+M.fortuitum_GCA_001050075.1         ··················································
+M.fortuitum_GCA_001475495.2         ·······························c··················
+M.fortuitum_GCF_900453945.1         ··················································
+M.peregrinum_SRR13785997            ···cgt·c··g····c··tg·c··cg····c·a····a···········c
+M.peregrinum_SRR6046339             ···cgt·c··g····c··tg·c··cg····c······g···········g
+M.peregrinum_SRR6046344             ···cgt·c··g····c··tg·c··cg····c·a····a···········c
+
+AMR_ref                             t-ccgaatcggcgctgcgggcggcctggccggcgattgtgga-ggcggtc
+M.peregrinum_ERR337822              a··g···a········t··a··········ct····c····c····c···
+M.peregrinum_ERR369261              a··g···a········t··a··········ct····c····c····c···
+M.fortuitum_GCA_001050075.1         ··················································
+M.fortuitum_GCA_001475495.2         ·c········································g·······
+M.fortuitum_GCF_900453945.1         ··················································
+M.peregrinum_SRR13785997            a··g···a····a······a··········ct····c····c····t···
+M.peregrinum_SRR6046339             a··g···g···········a··········ct····c····c····c···
+M.peregrinum_SRR6046344             a··g···a····a······a··········ct····c····c········
+
+AMR_ref                             cggacactgcacgcccttccgg-ccgacggttgtccctaccggcgcgatc
+M.peregrinum_ERR337822              ··c··········g·a·cg··c··g·c··aa···········c·······
+M.peregrinum_ERR369261              ··c··········g·a·cg··c··g·c··aa···········c·······
+M.fortuitum_GCA_001050075.1         ··················································
+M.fortuitum_GCA_001475495.2         ······················c···························
+M.fortuitum_GCF_900453945.1         ··················································
+M.peregrinum_SRR13785997            ··c··c·······g·a·cg··c····c··aa·······t···c·······
+M.peregrinum_SRR6046339             ··c··········g·a·cg··c··g·c··aa···········c·······
+M.peregrinum_SRR6046344             ··c··c·······g·a·cg··c····c··aa·······t···c·······
+
+AMR_ref                             tcgacgacatgctggcccgggcccgcgcggtcgtcggcgccggtgccgtg
+M.peregrinum_ERR337822              ·······g···t···gg·········t····g····c···g··c··g··c
+M.peregrinum_ERR369261              ·······g···t···gg·········t····g····c···g··c··g··c
+M.fortuitum_GCA_001050075.1         ··················································
+M.fortuitum_GCA_001475495.2         ··················································
+M.fortuitum_GCF_900453945.1         ··················································
+M.peregrinum_SRR13785997            ··············t···········t····g····c···g··c··g··c
+M.peregrinum_SRR6046339             ·······g···t···gg·········t····g····c···g··c··g··c
+M.peregrinum_SRR6046344             ··············t···········t····g····c···g··c··g··c
+
+AMR_ref                             aacccggagttcctgtccgacgaggaccgcgaggtaccggcggaggcgct
+M.peregrinum_ERR337822              gt·············cg···········ag··t··t·····c··t·aa··
+M.peregrinum_ERR369261              gt·············cg···········ag··t··t·····c··t·aa··
+M.fortuitum_GCA_001050075.1         ··················································
+M.fortuitum_GCA_001475495.2         ··················································
+M.fortuitum_GCF_900453945.1         ··················································
+M.peregrinum_SRR13785997            g··············cg············g··ca·c··a··c·gt·aa··
+M.peregrinum_SRR6046339             g··············cg············g··c··tg····c··t·aa··
+M.peregrinum_SRR6046344             g··············cg············g··c··c··a··c·gt·aa··
+
+AMR_ref                             gctggaccgagtcgaacgggaagccgatctacgtcgtcgggaggaggccg
+M.peregrinum_ERR337822              ·····c···c········c··ga····a··g·····ca··c·········
+M.peregrinum_ERR369261              ·····c···c········c··ga····a··g·····ca··c·········
+M.fortuitum_GCA_001050075.1         ······························g·········c·········
+M.fortuitum_GCA_001475495.2         ······························g·········c·········
+M.fortuitum_GCF_900453945.1         ··················································
+M.peregrinum_SRR13785997            ·····c···c········c··ga····a··g··c··c···c·········
+M.peregrinum_SRR6046339             ·····c···c········c··ga····a··g·····ca··c·········
+M.peregrinum_SRR6046344             ·····c···c········c··ga····a··g··c··c···c·········
+
+AMR_ref                             ccgactgggtggtgtgccacggcgatctgtgcctgccgaacattttggtc
+M.peregrinum_ERR337822              a···tca··················c·················cc··a··
+M.peregrinum_ERR369261              a···tca··················c·················cc··a··
+M.fortuitum_GCA_001050075.1         ············································c·····
+M.fortuitum_GCA_001475495.2         ············································c·····
+M.fortuitum_GCF_900453945.1         ················t·································
+M.peregrinum_SRR13785997            a···tca············t·······················cc··a··
+M.peregrinum_SRR6046339             a···tca··················c·················cc··a··
+M.peregrinum_SRR6046344             a···tca············t·······················cc··a··
+
+AMR_ref                             ga-ccccgaccgtcacaccgtcgagggattcatcgatctgggcaggctgg
+M.peregrinum_ERR337822              ······g····tg·t···g········t···g····c······c·t····
+M.peregrinum_ERR369261              ······g····tg·t···g········t···g····c······c·t····
+M.fortuitum_GCA_001050075.1         ··················································
+M.fortuitum_GCA_001475495.2         ··c···············································
+M.fortuitum_GCF_900453945.1         ··················································
+M.peregrinum_SRR13785997            ············g·t···t········t···g····c··t···c·c····
+M.peregrinum_SRR6046339             ······g····tg·t···g········t···g····c······c·t····
+M.peregrinum_SRR6046344             ············g·t···t········t···g····c··t···c·c····
+
+AMR_ref                             ggctggccgaccggcacgccgacctggcactgctgctggccaatacggct
+M.peregrinum_ERR337822              ·c··c··g··t··t··t·····t·····g··············c··t··c
+M.peregrinum_ERR369261              ·c··c··g··t··t··t·····t·····g··············c··t··c
+M.fortuitum_GCA_001050075.1         ··················································
+M.fortuitum_GCA_001475495.2         ··················································
+M.fortuitum_GCF_900453945.1         ··················································
+M.peregrinum_SRR13785997            ·c·····g··t··t··············g······t·······c··t··c
+M.peregrinum_SRR6046339             ·c··c··g··t··t··t·····t·····g··············c··t··c
+M.peregrinum_SRR6046344             ·c·····g··t··t··············g······t·······c··t··c
+
+AMR_ref                             gataccgttccgggcttcgccgaggaggccacggcggggttggccgcggg
+M.peregrinum_ERR337822              ··c···t·c··c··t··········cc··ag·a·····cc····t·g···
+M.peregrinum_ERR369261              ··c···t·c··c··t··········cc··ag·a·····cc····t·g···
+M.fortuitum_GCA_001050075.1         ···g········a···········a·························
+M.fortuitum_GCA_001475495.2         ···g········a···········a·························
+M.fortuitum_GCF_900453945.1         ··················································
+M.peregrinum_SRR13785997            ··c···t·c··c··t··········ca···g··a····ac·····t····
+M.peregrinum_SRR6046339             ··c···t·c··c··t··········cc··ag·a·····cc····t·g···
+M.peregrinum_SRR6046344             ··c···t·c··c··t··········ca···g·······ac·····t····
+
+AMR_ref                             gtatccggcgcaggtggatccggagcggctgcggttctatctcgcgctcg
+M.peregrinum_ERR337822              t···········c·················t···················
+M.peregrinum_ERR369261              t···········c·················t···················
+M.fortuitum_GCA_001050075.1         ··················································
+M.fortuitum_GCA_001475495.2         ··················································
+M.fortuitum_GCF_900453945.1         ··················································
+M.peregrinum_SRR13785997            c··c······g·······································
+M.peregrinum_SRR6046339             t···········c·················t···················
+M.peregrinum_SRR6046344             c··c······g·······································
+
+AMR_ref                             atccgctgacctggggatga
+M.peregrinum_ERR337822              ·c··················
+M.peregrinum_ERR369261              ·c··················
+M.fortuitum_GCA_001050075.1         ····················
+M.fortuitum_GCA_001475495.2         ····················
+M.fortuitum_GCF_900453945.1         ····················
+M.peregrinum_SRR13785997            ····a···············
+M.peregrinum_SRR6046339             ·c··················
+M.peregrinum_SRR6046344             ····a···············
+
+

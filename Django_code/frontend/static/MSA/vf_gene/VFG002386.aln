@@ -1,0 +1,74 @@
+CLUSTAL X (1.81) multiple sequence alignment
+
+
+VFG_ref                             atgacggaaaacttgaccgtccagcccgagcgtctcggtgtactggcgtc
+M.abscessus_ERR5414348              ··················································
+M.abscessus_ERR8266589              ··················································
+M.haemophilum_GCF_001021435.1       ·····a··t········g··t··········ac··g····c·········
+M.haemophilum_GCF_001021485.1       ·····a··t········g··t··········ac··g····c·········
+M.decipiens_GCF_002104675.1         ·····a·gt·······aa··a········a··c····a············
+M.abscessus_SRR18969488             -----------------------------------------------···
+M.abscessus_SRR18969515             --------------------------------··················
+M.abscessus_SRR18969529             --------------------------------------------------
+
+VFG_ref                             gcaccatgacaacgcggcggtcgatgcctcctcgggcgtcgaagctgccg
+M.abscessus_ERR5414348              ··················································
+M.abscessus_ERR8266589              ··················································
+M.haemophilum_GCF_001021435.1       ·t····c····g···········g······t··c··a·····t·······
+M.haemophilum_GCF_001021485.1       ·t····c····g···········g······t··c··a·····t·······
+M.decipiens_GCF_002104675.1         ······c··g·········ac·ag····a····c······agt·······
+M.abscessus_SRR18969488             ··················································
+M.abscessus_SRR18969515             ··················································
+M.abscessus_SRR18969529             -----------·······································
+
+VFG_ref                             ctggcctaggcgaatctgtggcgatcactcacggtccgtactgctcacag
+M.abscessus_ERR5414348              ··················································
+M.abscessus_ERR8266589              ··················································
+M.haemophilum_GCF_001021435.1       ····a···········a··············t···t··········g···
+M.haemophilum_GCF_001021485.1       ····a···········a··············t···t··········g···
+M.decipiens_GCF_002104675.1         ····a··ga·t········t···g···········t··············
+M.abscessus_SRR18969488             ··················································
+M.abscessus_SRR18969515             ··················································
+M.abscessus_SRR18969529             ··················································
+
+VFG_ref                             ttcaacgacacgttaaatgtgtacttgactgcccacaatgccctgggctc
+M.abscessus_ERR5414348              ··················································
+M.abscessus_ERR8266589              ··················································
+M.haemophilum_GCF_001021435.1       ······a··········aa····tga···ca···g···c··t··t·····
+M.haemophilum_GCF_001021485.1       ······a··········aa····tga···ca···g···c··t··t·····
+M.decipiens_GCF_002104675.1         ········g·····g··aa····tga···ca·······c·····c·····
+M.abscessus_SRR18969488             ··················································
+M.abscessus_SRR18969515             ··················································
+M.abscessus_SRR18969529             ··················································
+
+VFG_ref                             gtccttgcatacggccggtgtcgatctcgccaaaagtcttcgaattgcgg
+M.abscessus_ERR5414348              ··················································
+M.abscessus_ERR8266589              ··················c·······························
+M.haemophilum_GCF_001021435.1       ······a···g···················t··g·a···g···gcc····
+M.haemophilum_GCF_001021485.1       ······a···g···················t··g·a···g···gcc····
+M.decipiens_GCF_002104675.1         c·········t····a···················a···g···gcc··c·
+M.abscessus_SRR18969488             ··················································
+M.abscessus_SRR18969515             ··················································
+M.abscessus_SRR18969529             ··················································
+
+VFG_ref                             cgaagatatatagcgaggccgacgaagcgtggcgcaaggctatcgacggg
+M.abscessus_ERR5414348              ··················································
+M.abscessus_ERR8266589              ·············-------------------------------------
+M.haemophilum_GCF_001021435.1       ··cgc······ctt············a····tg······a·······tc·
+M.haemophilum_GCF_001021485.1       ··cgc······ctt············a····tg······a·······tc·
+M.decipiens_GCF_002104675.1         ··cgcg·g···ctt······················g···a·········
+M.abscessus_SRR18969488             ··················································
+M.abscessus_SRR18969515             ··················································
+M.abscessus_SRR18969529             ··················································
+
+VFG_ref                             ttgtttacctga
+M.abscessus_ERR5414348              ············
+M.abscessus_ERR8266589              ------------
+M.haemophilum_GCF_001021435.1       g····-------
+M.haemophilum_GCF_001021485.1       g····-------
+M.decipiens_GCF_002104675.1         ······gg····
+M.abscessus_SRR18969488             ············
+M.abscessus_SRR18969515             ············
+M.abscessus_SRR18969529             ············
+
+

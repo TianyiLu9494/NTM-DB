@@ -1,0 +1,112 @@
+{% load static %}
+<div class="ui blue segment vertical stripe"
+  style=" background: url(/ntmdb/static/image/home/banner2.png) no-repeat;background-size:cover; padding-bottom:0;">
+  <div class="ui grid equal width very compact stackable row" style="height:200px !important;">
+    <div class="very compact column computer only" style="padding-bottom: 0; padding-top: 0;">
+      <div class="ui items">
+        <div class="item" style="height:200px !important;">
+          <div class="image" style="width: 150px; margin:0px 45px 13px 20px !important;">
+            <img class="ui image" src="{% static '/image/logo/NTM_logo_light.svg' %}"
+              style="width: 200px !important; margin:30px !important;" />
+          </div>
+          <div class="middle aligned content">
+            <div class="header" style="color: #f2f2f2; font-size: 55px; margin-top: 0px; font-weight: bold;">NTM-DB
+            </div>
+            <div class="meta" style="font-size: 26px; color: #fefefe; margin-top:14px;">
+              A database of Non-Tuberculous Mycobacteria ( NTM )
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- <div class="column mobile only">
+      <h3 class="header" style="color: #f2f2f2;font-size: 30px">
+        <img class="ui image" src="https://ngdc.cncb.ac.cn:443/gen/static/image/gen-logo.png"
+          style="width: 64px !important; margin-right: 15px; float: left" />
+        NTM-DB
+      </h3>
+      <div class="meta" style="font-size: 18px; color: #fefefe">
+        A Database of Non-Tuberculous Mycobacteria
+      </div>
+    </div> -->
+  </div>
+
+  <div class="ui inverted menu" style="background-color:  rgba(75, 155, 189, 0.7);">
+    <a class="item" href="\ntmdb"><i class="icon home"></i> <strong>Home</strong></a>
+    <div class="ui simple dropdown item" style="position: relative;">
+      <i class="icon eye" style="font-size: 18px;"></i>
+      <strong><span style="font-size: 18px;">Browse</span></strong>
+      <i class="icon dropdown"></i>
+      <div class="menu" style="position: absolute; z-index: 999;">
+        <a class="item" href="\ntmdb\browse\species"><span style="font-size: 18px;">Species</span></a>
+        <a class="item" href="\ntmdb\browse\strains"><span style="font-size: 18px;">Strains</span></a>
+        <a class="item" href="\ntmdb\browse\genes_rs"><span style="font-size: 18px;">Genes</span></a>
+      </div>
+    </div>
+    <a class="item" href="\ntmdb\mlst">
+      <i class="icon sun outline"></i>
+      <strong><span>MLST</span></strong>
+    </a>
+    <a class="item" href="\ntmdb\search\search_main">
+      <i class="icon search"></i>
+      <strong><span>Search</span></strong>
+    </a>
+    <a class="item" href="\ntmdb\analysis">
+      <i class="icon calendar check outline"></i>
+      <strong><span>Analysis</span></strong>
+    </a>
+    <a class="item" href="\ntmdb\download">
+      <i class="icon download"></i>
+      <strong><span>Download</span></strong>
+    </a>
+    <a class="item" href="\ntmdb\documentation">
+      <i class="icon question circle"></i>
+      <strong><span>Documentation</span></strong>
+    </a>
+  </div>
+</div>
+
+
+
+<!-- 原 -->
+
+<!-- <nav class="navbar navbar-expand-md sticky-top ntm-nav" style="background-color: rgb(126, 175, 221);">
+  <div class="container-fluid">
+    <a href="\" class="navbar-brand">NTM-DB</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navmenu">
+      <ul class="navbar-nav">
+        <div class="dropdown mx-2">
+          <button class="btn dropdown-toggle nav-btn" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <i class="icon eye"></i>
+            Browse
+          </button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="\browse\species">Species</a></li>
+            <li><a class="dropdown-item" href="\browse\strains">Strains</a></li>
+            <li><a class="dropdown-item" href="\browse\genes_rs">Genes</a></li>
+          </ul>
+        </div>
+        <li class="nav-item"><a class="nav-link" href="\mlst">
+            <i class="icon snowflake outline"></i>
+            MLST</a></li>
+        <li class="nav-item"><a class="nav-link" href="\search\search_main">
+            <i class="icon search"></i>
+            Search</a></li>
+        <li class="nav-item"><a class="nav-link" href="\analysis">
+            <i class="icon calendar check outline"></i>
+            Analysis</a></li>
+        <li class="nav-item"><a class="nav-link" href="\download">
+            <i class="icon download"></i>
+            Download</a>
+        </li>
+        <li class="nav-item"><a class="nav-link" href="\documentation">
+            <i class="icon question circle"></i>
+            Documentation</a></li>
+      </ul>
+    </div>
+    <div class="collapse navbar-colleps"></div>
+  </div>
+</nav> -->

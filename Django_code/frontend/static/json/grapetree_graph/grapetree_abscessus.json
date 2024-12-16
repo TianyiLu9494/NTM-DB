@@ -1,0 +1,1306 @@
+{
+  "nodes": [
+    {
+      "id": "ST774",
+      "name": "ST774",
+      "category": "Others",
+      "symbolSize": 4.9749371855331,
+      "x": 2986.318500336055,
+      "y": 3080.4234766163727,
+      "value": 11
+    },
+    {
+      "id": "ST590",
+      "name": "ST590",
+      "category": "ST590(17)",
+      "symbolSize": 6.18465843842649,
+      "x": 3214.292603835049,
+      "y": 3158.7793708708587,
+      "value": 17
+    },
+    {
+      "id": "ST52",
+      "name": "ST52",
+      "category": "ST52(37)",
+      "symbolSize": 9.12414379544733,
+      "x": 3468.4260611875634,
+      "y": 3246.1263721539585,
+      "value": 37
+    },
+    {
+      "id": "ST162",
+      "name": "ST162",
+      "category": "Others",
+      "symbolSize": 1.5,
+      "x": 3693.024320779411,
+      "y": 3323.321971163732,
+      "value": 1
+    },
+    {
+      "id": "ST832",
+      "name": "ST832",
+      "category": "Others",
+      "symbolSize": 1.5,
+      "x": 3869.554914881027,
+      "y": 3383.996461607197,
+      "value": 1
+    },
+    {
+      "id": "ST33",
+      "name": "ST33",
+      "category": "ST33(1276)",
+      "symbolSize": 53.58171329847525,
+      "x": 2468.2494552646035,
+      "y": 2875.7216020954384,
+      "value": 1276
+    },
+    {
+      "id": "ST769",
+      "name": "ST769",
+      "category": "Others",
+      "symbolSize": 3.674234614174767,
+      "x": 2235.3061595204927,
+      "y": 3372.1592646825147,
+      "value": 6
+    },
+    {
+      "id": "ST174",
+      "name": "ST174",
+      "category": "ST174(16)",
+      "symbolSize": 6.0,
+      "x": 2119.375008269838,
+      "y": 3572.1483565958247,
+      "value": 16
+    },
+    {
+      "id": "ST495",
+      "name": "ST495",
+      "category": "Others",
+      "symbolSize": 2.598076211353316,
+      "x": 2162.6695095633004,
+      "y": 3567.5785357367545,
+      "value": 3
+    },
+    {
+      "id": "ST834",
+      "name": "ST834",
+      "category": "Others",
+      "symbolSize": 1.5,
+      "x": 2095.0829858815714,
+      "y": 3749.411111974179,
+      "value": 1
+    },
+    {
+      "id": "ST5",
+      "name": "ST5",
+      "category": "ST5(2486)",
+      "symbolSize": 74.78970517390746,
+      "x": 3424.478687318137,
+      "y": 2513.6676307368025,
+      "value": 2486
+    },
+    {
+      "id": "ST780",
+      "name": "ST780",
+      "category": "Others",
+      "symbolSize": 1.5,
+      "x": 4021.9629282129945,
+      "y": 2199.0329242688586,
+      "value": 1
+    },
+    {
+      "id": "ST776",
+      "name": "ST776",
+      "category": "Others",
+      "symbolSize": 1.5,
+      "x": 4076.4267806124853,
+      "y": 2337.7525936258808,
+      "value": 1
+    },
+    {
+      "id": "ST470",
+      "name": "ST470",
+      "category": "Others",
+      "symbolSize": 2.598076211353316,
+      "x": 3989.6560898998637,
+      "y": 2130.918272177626,
+      "value": 3
+    },
+    {
+      "id": "ST493",
+      "name": "ST493",
+      "category": "Others",
+      "symbolSize": 4.743416490252569,
+      "x": 4114.4698085195105,
+      "y": 2415.869832584414,
+      "value": 10
+    },
+    {
+      "id": "ST133",
+      "name": "ST133",
+      "category": "Others",
+      "symbolSize": 2.121320343559643,
+      "x": 4324.799177285376,
+      "y": 2386.0582183186098,
+      "value": 2
+    },
+    {
+      "id": "ST10",
+      "name": "ST10",
+      "category": "Others",
+      "symbolSize": 2.598076211353316,
+      "x": 4059.8475672299182,
+      "y": 2264.210311128557,
+      "value": 3
+    },
+    {
+      "id": "ST465",
+      "name": "ST465",
+      "category": "ST465(22)",
+      "symbolSize": 7.035623639735144,
+      "x": 2687.7999816733554,
+      "y": 2348.8535550540173,
+      "value": 22
+    },
+    {
+      "id": "ST588",
+      "name": "ST588",
+      "category": "Others",
+      "symbolSize": 1.5,
+      "x": 2901.8336840671927,
+      "y": 2128.8996139875608,
+      "value": 1
+    },
+    {
+      "id": "ST614",
+      "name": "ST614",
+      "category": "Others",
+      "symbolSize": 5.612486080160912,
+      "x": 2708.4788246583335,
+      "y": 2098.7194720621264,
+      "value": 14
+    },
+    {
+      "id": "ST422",
+      "name": "ST422",
+      "category": "ST422(394)",
+      "symbolSize": 29.77414986191881,
+      "x": 2774.4640784466446,
+      "y": 1701.5864357599967,
+      "value": 394
+    },
+    {
+      "id": "ST494",
+      "name": "ST494",
+      "category": "Others",
+      "symbolSize": 5.196152422706632,
+      "x": 2711.560294379941,
+      "y": 1860.01510412024,
+      "value": 12
+    },
+    {
+      "id": "ST109",
+      "name": "ST109",
+      "category": "Others",
+      "symbolSize": 4.242640687119286,
+      "x": 2795.044080630354,
+      "y": 2132.0758106608428,
+      "value": 8
+    },
+    {
+      "id": "ST779",
+      "name": "ST779",
+      "category": "Others",
+      "symbolSize": 2.121320343559643,
+      "x": 2998.9835122106683,
+      "y": 1922.5002594095188,
+      "value": 2
+    },
+    {
+      "id": "ST771",
+      "name": "ST771",
+      "category": "Others",
+      "symbolSize": 2.598076211353316,
+      "x": 2933.353210638061,
+      "y": 1870.8234994457998,
+      "value": 3
+    },
+    {
+      "id": "ST770",
+      "name": "ST770",
+      "category": "Others",
+      "symbolSize": 2.121320343559643,
+      "x": 2918.105490826937,
+      "y": 1963.0320212986237,
+      "value": 2
+    },
+    {
+      "id": "ST136",
+      "name": "ST136",
+      "category": "Others",
+      "symbolSize": 1.5,
+      "x": 2864.189408990005,
+      "y": 1939.141079422739,
+      "value": 1
+    },
+    {
+      "id": "ST587",
+      "name": "ST587",
+      "category": "Others",
+      "symbolSize": 2.598076211353316,
+      "x": 2831.8219824330195,
+      "y": 1923.0146886854675,
+      "value": 3
+    },
+    {
+      "id": "ST628",
+      "name": "ST628",
+      "category": "Others",
+      "symbolSize": 4.743416490252569,
+      "x": 1831.7192895514936,
+      "y": 2821.5138404066306,
+      "value": 10
+    },
+    {
+      "id": "ST173",
+      "name": "ST173",
+      "category": "ST173(307)",
+      "symbolSize": 26.28212320190285,
+      "x": 1760.6555146364476,
+      "y": 2541.8045492029128,
+      "value": 307
+    },
+    {
+      "id": "ST424",
+      "name": "ST424",
+      "category": "Others",
+      "symbolSize": 1.5,
+      "x": 1442.4287791715187,
+      "y": 2391.6317911324686,
+      "value": 1
+    },
+    {
+      "id": "ST823",
+      "name": "ST823",
+      "category": "Others",
+      "symbolSize": 3.0,
+      "x": 1985.7466677132386,
+      "y": 3276.452469236563,
+      "value": 4
+    },
+    {
+      "id": "ST181",
+      "name": "ST181",
+      "category": "Others",
+      "symbolSize": 3.0,
+      "x": 2192.2336840600465,
+      "y": 2220.9780314025916,
+      "value": 4
+    },
+    {
+      "id": "ST585",
+      "name": "ST585",
+      "category": "ST585(38)",
+      "symbolSize": 9.246621004453464,
+      "x": 2031.03296238176,
+      "y": 1838.5899683970154,
+      "value": 38
+    },
+    {
+      "id": "ST606",
+      "name": "ST606",
+      "category": "Others",
+      "symbolSize": 3.3541019662496847,
+      "x": 2187.7098292909905,
+      "y": 1642.9153571024833,
+      "value": 5
+    },
+    {
+      "id": "ST56",
+      "name": "ST56",
+      "category": "ST56(228)",
+      "symbolSize": 22.64950330581225,
+      "x": 2470.894728251954,
+      "y": 1328.2126808394382,
+      "value": 228
+    },
+    {
+      "id": "ST631",
+      "name": "ST631",
+      "category": "Others",
+      "symbolSize": 2.598076211353316,
+      "x": 2712.9523142950206,
+      "y": 1096.6477573095626,
+      "value": 3
+    },
+    {
+      "id": "ST207",
+      "name": "ST207",
+      "category": "Others",
+      "symbolSize": 1.5,
+      "x": 2671.3921906943433,
+      "y": 1069.052417666519,
+      "value": 1
+    },
+    {
+      "id": "ST643",
+      "name": "ST643",
+      "category": "Others",
+      "symbolSize": 3.0,
+      "x": 2347.125275017618,
+      "y": 1397.8409138362026,
+      "value": 4
+    },
+    {
+      "id": "ST641",
+      "name": "ST641",
+      "category": "ST641(16)",
+      "symbolSize": 6.0,
+      "x": 1859.9527772251786,
+      "y": 1631.8963322181603,
+      "value": 16
+    },
+    {
+      "id": "ST623",
+      "name": "ST623",
+      "category": "ST623(50)",
+      "symbolSize": 10.606601717798213,
+      "x": 1895.7241047723248,
+      "y": 1571.9340825939776,
+      "value": 50
+    },
+    {
+      "id": "ST127",
+      "name": "ST127",
+      "category": "Others",
+      "symbolSize": 3.0,
+      "x": 1773.8568521300542,
+      "y": 1253.7640982813468,
+      "value": 4
+    },
+    {
+      "id": "ST620",
+      "name": "ST620",
+      "category": "Others",
+      "symbolSize": 2.598076211353316,
+      "x": 1712.3886813649756,
+      "y": 1287.939002770393,
+      "value": 3
+    },
+    {
+      "id": "ST58",
+      "name": "ST58",
+      "category": "ST58(50)",
+      "symbolSize": 10.606601717798213,
+      "x": 1718.6425869663585,
+      "y": 1222.8598581513943,
+      "value": 50
+    },
+    {
+      "id": "ST115",
+      "name": "ST115",
+      "category": "Others",
+      "symbolSize": 4.5,
+      "x": 1522.2783081202542,
+      "y": 835.7742424659423,
+      "value": 9
+    },
+    {
+      "id": "ST583",
+      "name": "ST583",
+      "category": "ST583(27)",
+      "symbolSize": 7.794228634059948,
+      "x": 1794.9073968208113,
+      "y": 1687.6022312466948,
+      "value": 27
+    },
+    {
+      "id": "ST625",
+      "name": "ST625",
+      "category": "ST625(32)",
+      "symbolSize": 8.485281374238571,
+      "x": 1461.952974822637,
+      "y": 1554.6166620463753,
+      "value": 32
+    },
+    {
+      "id": "ST638",
+      "name": "ST638",
+      "category": "Others",
+      "symbolSize": 2.121320343559643,
+      "x": 1249.435932905354,
+      "y": 1448.859814929712,
+      "value": 2
+    },
+    {
+      "id": "ST621",
+      "name": "ST621",
+      "category": "Others",
+      "symbolSize": 3.0,
+      "x": 1229.41746883528,
+      "y": 1483.2681832182836,
+      "value": 4
+    },
+    {
+      "id": "ST142",
+      "name": "ST142",
+      "category": "Others",
+      "symbolSize": 1.5,
+      "x": 1601.7235117881132,
+      "y": 1565.328619068879,
+      "value": 1
+    },
+    {
+      "id": "ST3",
+      "name": "ST3",
+      "category": "ST3(1458)",
+      "symbolSize": 57.27564927611036,
+      "x": 1356.8669651701812,
+      "y": 1276.8957417198637,
+      "value": 1458
+    },
+    {
+      "id": "ST251",
+      "name": "ST251",
+      "category": "Others",
+      "symbolSize": 1.5,
+      "x": 973.3695947745059,
+      "y": 870.8700629000305,
+      "value": 1
+    },
+    {
+      "id": "ST247",
+      "name": "ST247",
+      "category": "Others",
+      "symbolSize": 1.5,
+      "x": 927.0071295014559,
+      "y": 920.3181111254012,
+      "value": 1
+    },
+    {
+      "id": "ST144",
+      "name": "ST144",
+      "category": "ST144(163)",
+      "symbolSize": 19.150718002205558,
+      "x": 1943.4937702499874,
+      "y": 1493.5388717356243,
+      "value": 163
+    },
+    {
+      "id": "ST65",
+      "name": "ST65",
+      "category": "Others",
+      "symbolSize": 4.743416490252569,
+      "x": 1863.3370974068284,
+      "y": 1177.5872711356647,
+      "value": 10
+    },
+    {
+      "id": "ST627",
+      "name": "ST627",
+      "category": "Others",
+      "symbolSize": 4.9749371855331,
+      "x": 1770.72283098864,
+      "y": 1813.9143614877755,
+      "value": 11
+    },
+    {
+      "id": "ST835",
+      "name": "ST835",
+      "category": "Others",
+      "symbolSize": 1.5,
+      "x": 1477.561349673698,
+      "y": 1815.5861219603023,
+      "value": 1
+    },
+    {
+      "id": "ST624",
+      "name": "ST624",
+      "category": "Others",
+      "symbolSize": 3.674234614174767,
+      "x": 1464.8780115369666,
+      "y": 1780.5328282516791,
+      "value": 6
+    },
+    {
+      "id": "ST602",
+      "name": "ST602",
+      "category": "Others",
+      "symbolSize": 2.598076211353316,
+      "x": 1395.249374475419,
+      "y": 1734.3056658953542,
+      "value": 3
+    },
+    {
+      "id": "ST616",
+      "name": "ST616",
+      "category": "ST616(17)",
+      "symbolSize": 6.18465843842649,
+      "x": 2080.6215866727807,
+      "y": 1573.648872632608,
+      "value": 17
+    },
+    {
+      "id": "ST617",
+      "name": "ST617",
+      "category": "Others",
+      "symbolSize": 5.196152422706632,
+      "x": 2152.3785006020007,
+      "y": 1341.9680895385636,
+      "value": 12
+    },
+    {
+      "id": "ST154",
+      "name": "ST154",
+      "category": "ST154(32)",
+      "symbolSize": 8.485281374238571,
+      "x": 2206.366740851662,
+      "y": 1340.9891173147878,
+      "value": 32
+    },
+    {
+      "id": "ST605",
+      "name": "ST605",
+      "category": "ST605(35)",
+      "symbolSize": 8.874119674649425,
+      "x": 2404.432625855809,
+      "y": 1033.5352905817945,
+      "value": 35
+    },
+    {
+      "id": "ST581",
+      "name": "ST581",
+      "category": "ST581(62)",
+      "symbolSize": 11.811011811017718,
+      "x": 2335.2697707695766,
+      "y": 1067.9083904567747,
+      "value": 62
+    },
+    {
+      "id": "ST177",
+      "name": "ST177",
+      "category": "ST177(35)",
+      "symbolSize": 8.874119674649425,
+      "x": 2117.5858580031454,
+      "y": 1309.1608839596925,
+      "value": 35
+    },
+    {
+      "id": "ST16",
+      "name": "ST16",
+      "category": "ST16(27)",
+      "symbolSize": 7.794228634059948,
+      "x": 2040.5031933640478,
+      "y": 1316.9051427234947,
+      "value": 27
+    },
+    {
+      "id": "ST611",
+      "name": "ST611",
+      "category": "Others",
+      "symbolSize": 2.598076211353316,
+      "x": 2004.0762321927252,
+      "y": 1083.7852914770033,
+      "value": 3
+    },
+    {
+      "id": "ST233",
+      "name": "ST233",
+      "category": "Others",
+      "symbolSize": 3.674234614174767,
+      "x": 2079.219831542122,
+      "y": 1341.2604799018027,
+      "value": 6
+    },
+    {
+      "id": "ST435",
+      "name": "ST435",
+      "category": "Others",
+      "symbolSize": 1.5,
+      "x": 2077.503803806344,
+      "y": 1056.7707579235148,
+      "value": 1
+    },
+    {
+      "id": "ST767",
+      "name": "ST767",
+      "category": "Others",
+      "symbolSize": 2.121320343559643,
+      "x": 2075.85022227453,
+      "y": 782.633609414866,
+      "value": 2
+    },
+    {
+      "id": "ST622",
+      "name": "ST622",
+      "category": "Others",
+      "symbolSize": 3.968626966596886,
+      "x": 1706.3244286057154,
+      "y": 1744.3716265030853,
+      "value": 7
+    },
+    {
+      "id": "ST763",
+      "name": "ST763",
+      "category": "ST763(37)",
+      "symbolSize": 9.12414379544733,
+      "x": 1981.7155421644131,
+      "y": 3200.013944496993,
+      "value": 37
+    },
+    {
+      "id": "ST640",
+      "name": "ST640",
+      "category": "Others",
+      "symbolSize": 2.121320343559643,
+      "x": 2465.6537708131937,
+      "y": 3413.735564885233,
+      "value": 2
+    },
+    {
+      "id": "ST429",
+      "name": "ST429",
+      "category": "ST429(58)",
+      "symbolSize": 11.423659658795863,
+      "x": 1899.7233051318399,
+      "y": 2683.833609880088,
+      "value": 58
+    },
+    {
+      "id": "ST630",
+      "name": "ST630",
+      "category": "Others",
+      "symbolSize": 2.598076211353316,
+      "x": 1984.9698702914402,
+      "y": 3119.312989162101,
+      "value": 3
+    },
+    {
+      "id": "ST427",
+      "name": "ST427",
+      "category": "Others",
+      "symbolSize": 4.743416490252569,
+      "x": 2533.5349373476347,
+      "y": 3427.3727755119135,
+      "value": 10
+    },
+    {
+      "id": "ST476",
+      "name": "ST476",
+      "category": "Others",
+      "symbolSize": 2.598076211353316,
+      "x": 2399.0751384743216,
+      "y": 3412.481171177805,
+      "value": 3
+    },
+    {
+      "id": "ST63",
+      "name": "ST63",
+      "category": "ST63(937)",
+      "symbolSize": 45.9156835950419,
+      "x": 2808.4767497414887,
+      "y": 3632.7662379540857,
+      "value": 937
+    },
+    {
+      "id": "ST613",
+      "name": "ST613",
+      "category": "Others",
+      "symbolSize": 2.598076211353316,
+      "x": 2948.9843345038316,
+      "y": 4188.7104116133505,
+      "value": 3
+    },
+    {
+      "id": "ST431",
+      "name": "ST431",
+      "category": "ST431(23)",
+      "symbolSize": 7.193747284969079,
+      "x": 2879.913640481287,
+      "y": 4148.572426010173,
+      "value": 23
+    },
+    {
+      "id": "ST603",
+      "name": "ST603",
+      "category": "Others",
+      "symbolSize": 2.598076211353316,
+      "x": 2980.7311934349937,
+      "y": 4091.5889841692106,
+      "value": 3
+    },
+    {
+      "id": "ST469",
+      "name": "ST469",
+      "category": "ST469(19)",
+      "symbolSize": 6.538348415311011,
+      "x": 3143.835673155895,
+      "y": 4025.4012624631764,
+      "value": 19
+    },
+    {
+      "id": "ST468",
+      "name": "ST468",
+      "category": "Others",
+      "symbolSize": 3.674234614174767,
+      "x": 3061.4591350404717,
+      "y": 4060.8707908561078,
+      "value": 6
+    },
+    {
+      "id": "ST451",
+      "name": "ST451",
+      "category": "Others",
+      "symbolSize": 2.598076211353316,
+      "x": 3152.7476370422532,
+      "y": 4248.3039357869,
+      "value": 3
+    },
+    {
+      "id": "ST452",
+      "name": "ST452",
+      "category": "ST452(44)",
+      "symbolSize": 9.9498743710662,
+      "x": 3210.806784003456,
+      "y": 4270.6289149749155,
+      "value": 44
+    },
+    {
+      "id": "ST766",
+      "name": "ST766",
+      "category": "Others",
+      "symbolSize": 2.121320343559643,
+      "x": 2093.619308101205,
+      "y": 3261.8796197137253,
+      "value": 2
+    },
+    {
+      "id": "ST496",
+      "name": "ST496",
+      "category": "Others",
+      "symbolSize": 2.598076211353316,
+      "x": 2333.6480666943135,
+      "y": 3399.9146841747825,
+      "value": 3
+    },
+    {
+      "id": "ST13",
+      "name": "ST13",
+      "category": "ST13(39)",
+      "symbolSize": 9.367496997597598,
+      "x": 2941.6282946699894,
+      "y": 2529.754727266529,
+      "value": 39
+    },
+    {
+      "id": "ST615",
+      "name": "ST615",
+      "category": "Others",
+      "symbolSize": 3.674234614174767,
+      "x": 1930.6517943081064,
+      "y": 2767.547266871441,
+      "value": 6
+    },
+    {
+      "id": "ST80",
+      "name": "ST80",
+      "category": "ST80(178)",
+      "symbolSize": 20.0124960961895,
+      "x": 1612.451430520364,
+      "y": 2703.5196206954392,
+      "value": 178
+    },
+    {
+      "id": "ST586",
+      "name": "ST586",
+      "category": "Others",
+      "symbolSize": 3.968626966596886,
+      "x": 2141.1351191178333,
+      "y": 3318.2885299828167,
+      "value": 7
+    },
+    {
+      "id": "ST589",
+      "name": "ST589",
+      "category": "Others",
+      "symbolSize": 2.598076211353316,
+      "x": 2016.0487642798046,
+      "y": 3487.523190968321,
+      "value": 3
+    },
+    {
+      "id": "ST130",
+      "name": "ST130",
+      "category": "ST130(41)",
+      "symbolSize": 9.604686356149273,
+      "x": 1890.1419602660637,
+      "y": 2982.628597842372,
+      "value": 41
+    },
+    {
+      "id": "ST777",
+      "name": "ST777",
+      "category": "Others",
+      "symbolSize": 3.0,
+      "x": 1565.7874205417183,
+      "y": 3062.4471636171647,
+      "value": 4
+    },
+    {
+      "id": "ST768",
+      "name": "ST768",
+      "category": "Others",
+      "symbolSize": 1.5,
+      "x": 1289.1672375449148,
+      "y": 3105.8208233522473,
+      "value": 1
+    },
+    {
+      "id": "ST762",
+      "name": "ST762",
+      "category": "Others",
+      "symbolSize": 2.121320343559643,
+      "x": 1373.912419955472,
+      "y": 3121.6768793630054,
+      "value": 2
+    },
+    {
+      "id": "ST773",
+      "name": "ST773",
+      "category": "Others",
+      "symbolSize": 2.121320343559643,
+      "x": 1480.6464602269125,
+      "y": 3023.2636678984527,
+      "value": 2
+    },
+    {
+      "id": "ST612",
+      "name": "ST612",
+      "category": "Others",
+      "symbolSize": 3.674234614174767,
+      "x": 1635.0495716296377,
+      "y": 2975.4702647125223,
+      "value": 6
+    },
+    {
+      "id": "ST764",
+      "name": "ST764",
+      "category": "Others",
+      "symbolSize": 1.5,
+      "x": 1433.9671641873501,
+      "y": 2969.8275449641365,
+      "value": 1
+    },
+    {
+      "id": "ST498",
+      "name": "ST498",
+      "category": "Others",
+      "symbolSize": 2.121320343559643,
+      "x": 1665.5519652559947,
+      "y": 3080.127221488054,
+      "value": 2
+    },
+    {
+      "id": "ST772",
+      "name": "ST772",
+      "category": "Others",
+      "symbolSize": 1.5,
+      "x": 1414.0833749929375,
+      "y": 3189.2943348301656,
+      "value": 1
+    },
+    {
+      "id": "ST582",
+      "name": "ST582",
+      "category": "Others",
+      "symbolSize": 3.0,
+      "x": 3398.003789283909,
+      "y": 3449.893530455133,
+      "value": 4
+    },
+    {
+      "id": "ST84",
+      "name": "ST84",
+      "category": "ST84(26)",
+      "symbolSize": 7.648529270389177,
+      "x": 3574.876174742068,
+      "y": 3608.628980888232,
+      "value": 26
+    },
+    {
+      "id": "ST433",
+      "name": "ST433",
+      "category": "Others",
+      "symbolSize": 4.9749371855331,
+      "x": 3817.289991462778,
+      "y": 3673.0321937394447,
+      "value": 11
+    },
+    {
+      "id": "ST784",
+      "name": "ST784",
+      "category": "Others",
+      "symbolSize": 1.5,
+      "x": 4020.08788259088,
+      "y": 3726.910458290462,
+      "value": 1
+    },
+    {
+      "id": "ST472",
+      "name": "ST472",
+      "category": "Others",
+      "symbolSize": 5.196152422706632,
+      "x": 4224.311097725814,
+      "y": 3781.1673953389336,
+      "value": 12
+    },
+    {
+      "id": "ST591",
+      "name": "ST591",
+      "category": "Others",
+      "symbolSize": 3.674234614174767,
+      "x": 3796.6471500209836,
+      "y": 3705.8663657884235,
+      "value": 6
+    },
+    {
+      "id": "ST502",
+      "name": "ST502",
+      "category": "ST502(28)",
+      "symbolSize": 7.937253933193772,
+      "x": 4096.50050774351,
+      "y": 3837.3396405116523,
+      "value": 28
+    },
+    {
+      "id": "ST610",
+      "name": "ST610",
+      "category": "Others",
+      "symbolSize": 2.598076211353316,
+      "x": 4313.463755586097,
+      "y": 3932.4690361105786,
+      "value": 3
+    },
+    {
+      "id": "ST146",
+      "name": "ST146",
+      "category": "Others",
+      "symbolSize": 4.242640687119286,
+      "x": 4584.188859611548,
+      "y": 4051.1707783433562,
+      "value": 8
+    },
+    {
+      "id": "ST423",
+      "name": "ST423",
+      "category": "ST423(136)",
+      "symbolSize": 17.492855684535904,
+      "x": 3809.3685927014426,
+      "y": 3846.8592960025667,
+      "value": 136
+    },
+    {
+      "id": "ST618",
+      "name": "ST618",
+      "category": "Others",
+      "symbolSize": 2.598076211353316,
+      "x": 4163.065312470019,
+      "y": 4152.215766639436,
+      "value": 3
+    },
+    {
+      "id": "ST639",
+      "name": "ST639",
+      "category": "ST639(22)",
+      "symbolSize": 7.035623639735144,
+      "x": 4082.585389621302,
+      "y": 4032.27215142334,
+      "value": 22
+    },
+    {
+      "id": "ST19",
+      "name": "ST19",
+      "category": "ST19(26)",
+      "symbolSize": 7.648529270389177,
+      "x": 3992.5933248906204,
+      "y": 4126.446625175607,
+      "value": 26
+    },
+    {
+      "id": "ST479",
+      "name": "ST479",
+      "category": "Others",
+      "symbolSize": 3.0,
+      "x": 4012.9440115029192,
+      "y": 4071.668698502608,
+      "value": 4
+    },
+    {
+      "id": "ST454",
+      "name": "ST454",
+      "category": "ST454(45)",
+      "symbolSize": 10.062305898749054,
+      "x": 4183.268554715127,
+      "y": 4259.758984727071,
+      "value": 45
+    },
+    {
+      "id": "ST499",
+      "name": "ST499",
+      "category": "ST499(15)",
+      "symbolSize": 5.809475019311126,
+      "x": 4366.165183039659,
+      "y": 4461.73269046709,
+      "value": 15
+    },
+    {
+      "id": "ST481",
+      "name": "ST481",
+      "category": "ST481(61)",
+      "symbolSize": 11.715374513859981,
+      "x": 3755.6830427940945,
+      "y": 3941.825837886327,
+      "value": 61
+    },
+    {
+      "id": "ST608",
+      "name": "ST608",
+      "category": "Others",
+      "symbolSize": 3.674234614174767,
+      "x": 3983.390076830665,
+      "y": 3592.8525062084336,
+      "value": 6
+    },
+    {
+      "id": "ST626",
+      "name": "ST626",
+      "category": "Others",
+      "symbolSize": 4.5,
+      "x": 3933.5315727191332,
+      "y": 3816.066421445929,
+      "value": 9
+    },
+    {
+      "id": "ST604",
+      "name": "ST604",
+      "category": "Others",
+      "symbolSize": 3.674234614174767,
+      "x": 3980.1370065041842,
+      "y": 3662.444997021505,
+      "value": 6
+    },
+    {
+      "id": "ST242",
+      "name": "ST242",
+      "category": "Others",
+      "symbolSize": 4.242640687119286,
+      "x": 3987.0339267296526,
+      "y": 3627.895113443024,
+      "value": 8
+    },
+    {
+      "id": "ST633",
+      "name": "ST633",
+      "category": "ST633(17)",
+      "symbolSize": 6.18465843842649,
+      "x": 3674.103935195454,
+      "y": 4022.4532867672424,
+      "value": 17
+    },
+    {
+      "id": "ST607",
+      "name": "ST607",
+      "category": "Others",
+      "symbolSize": 2.121320343559643,
+      "x": 3656.627174159999,
+      "y": 3825.5334513401285,
+      "value": 2
+    },
+    {
+      "id": "ST599",
+      "name": "ST599",
+      "category": "Others",
+      "symbolSize": 1.5,
+      "x": 3599.8364249807673,
+      "y": 3834.9133874076088,
+      "value": 1
+    }
+  ],
+  "links": [
+    { "source": "ST774", "target": "ST590" },
+    { "source": "ST590", "target": "ST52" },
+    { "source": "ST52", "target": "ST162" },
+    { "source": "ST162", "target": "ST832" },
+    { "source": "ST774", "target": "ST33" },
+    { "source": "ST33", "target": "ST769" },
+    { "source": "ST769", "target": "ST174" },
+    { "source": "ST769", "target": "ST495" },
+    { "source": "ST495", "target": "ST834" },
+    { "source": "ST33", "target": "ST5" },
+    { "source": "ST5", "target": "ST780" },
+    { "source": "ST5", "target": "ST776" },
+    { "source": "ST5", "target": "ST470" },
+    { "source": "ST5", "target": "ST493" },
+    { "source": "ST493", "target": "ST133" },
+    { "source": "ST5", "target": "ST10" },
+    { "source": "ST33", "target": "ST465" },
+    { "source": "ST465", "target": "ST588" },
+    { "source": "ST465", "target": "ST614" },
+    { "source": "ST614", "target": "ST422" },
+    { "source": "ST614", "target": "ST494" },
+    { "source": "ST465", "target": "ST109" },
+    { "source": "ST109", "target": "ST779" },
+    { "source": "ST109", "target": "ST771" },
+    { "source": "ST109", "target": "ST770" },
+    { "source": "ST109", "target": "ST136" },
+    { "source": "ST109", "target": "ST587" },
+    { "source": "ST33", "target": "ST628" },
+    { "source": "ST33", "target": "ST173" },
+    { "source": "ST173", "target": "ST424" },
+    { "source": "ST33", "target": "ST823" },
+    { "source": "ST33", "target": "ST181" },
+    { "source": "ST181", "target": "ST585" },
+    { "source": "ST585", "target": "ST606" },
+    { "source": "ST606", "target": "ST56" },
+    { "source": "ST56", "target": "ST631" },
+    { "source": "ST56", "target": "ST207" },
+    { "source": "ST606", "target": "ST643" },
+    { "source": "ST585", "target": "ST641" },
+    { "source": "ST585", "target": "ST623" },
+    { "source": "ST623", "target": "ST127" },
+    { "source": "ST623", "target": "ST620" },
+    { "source": "ST623", "target": "ST58" },
+    { "source": "ST58", "target": "ST115" },
+    { "source": "ST585", "target": "ST583" },
+    { "source": "ST583", "target": "ST625" },
+    { "source": "ST625", "target": "ST638" },
+    { "source": "ST625", "target": "ST621" },
+    { "source": "ST583", "target": "ST142" },
+    { "source": "ST583", "target": "ST3" },
+    { "source": "ST3", "target": "ST251" },
+    { "source": "ST3", "target": "ST247" },
+    { "source": "ST585", "target": "ST144" },
+    { "source": "ST144", "target": "ST65" },
+    { "source": "ST585", "target": "ST627" },
+    { "source": "ST627", "target": "ST835" },
+    { "source": "ST627", "target": "ST624" },
+    { "source": "ST627", "target": "ST602" },
+    { "source": "ST585", "target": "ST616" },
+    { "source": "ST616", "target": "ST617" },
+    { "source": "ST616", "target": "ST154" },
+    { "source": "ST154", "target": "ST605" },
+    { "source": "ST154", "target": "ST581" },
+    { "source": "ST616", "target": "ST177" },
+    { "source": "ST616", "target": "ST16" },
+    { "source": "ST16", "target": "ST611" },
+    { "source": "ST616", "target": "ST233" },
+    { "source": "ST233", "target": "ST435" },
+    { "source": "ST435", "target": "ST767" },
+    { "source": "ST585", "target": "ST622" },
+    { "source": "ST33", "target": "ST763" },
+    { "source": "ST33", "target": "ST640" },
+    { "source": "ST33", "target": "ST429" },
+    { "source": "ST33", "target": "ST630" },
+    { "source": "ST33", "target": "ST427" },
+    { "source": "ST33", "target": "ST476" },
+    { "source": "ST33", "target": "ST63" },
+    { "source": "ST63", "target": "ST613" },
+    { "source": "ST63", "target": "ST431" },
+    { "source": "ST63", "target": "ST603" },
+    { "source": "ST63", "target": "ST469" },
+    { "source": "ST63", "target": "ST468" },
+    { "source": "ST468", "target": "ST451" },
+    { "source": "ST468", "target": "ST452" },
+    { "source": "ST33", "target": "ST766" },
+    { "source": "ST33", "target": "ST496" },
+    { "source": "ST33", "target": "ST13" },
+    { "source": "ST33", "target": "ST615" },
+    { "source": "ST615", "target": "ST80" },
+    { "source": "ST33", "target": "ST586" },
+    { "source": "ST586", "target": "ST589" },
+    { "source": "ST33", "target": "ST130" },
+    { "source": "ST130", "target": "ST777" },
+    { "source": "ST777", "target": "ST768" },
+    { "source": "ST777", "target": "ST762" },
+    { "source": "ST130", "target": "ST773" },
+    { "source": "ST130", "target": "ST612" },
+    { "source": "ST612", "target": "ST764" },
+    { "source": "ST130", "target": "ST498" },
+    { "source": "ST498", "target": "ST772" },
+    { "source": "ST774", "target": "ST582" },
+    { "source": "ST582", "target": "ST84" },
+    { "source": "ST84", "target": "ST433" },
+    { "source": "ST433", "target": "ST784" },
+    { "source": "ST784", "target": "ST472" },
+    { "source": "ST84", "target": "ST591" },
+    { "source": "ST591", "target": "ST502" },
+    { "source": "ST502", "target": "ST610" },
+    { "source": "ST610", "target": "ST146" },
+    { "source": "ST84", "target": "ST423" },
+    { "source": "ST423", "target": "ST618" },
+    { "source": "ST423", "target": "ST639" },
+    { "source": "ST423", "target": "ST19" },
+    { "source": "ST423", "target": "ST479" },
+    { "source": "ST479", "target": "ST454" },
+    { "source": "ST454", "target": "ST499" },
+    { "source": "ST84", "target": "ST481" },
+    { "source": "ST84", "target": "ST608" },
+    { "source": "ST84", "target": "ST626" },
+    { "source": "ST84", "target": "ST604" },
+    { "source": "ST84", "target": "ST242" },
+    { "source": "ST84", "target": "ST633" },
+    { "source": "ST84", "target": "ST607" },
+    { "source": "ST84", "target": "ST599" }
+  ],
+  "categories": [
+    { "name": "ST590(17)", "itemStyle": { "color": "#1f77b4" } },
+    { "name": "ST52(37)", "itemStyle": { "color": "#aec7e8" } },
+    { "name": "ST33(1276)", "itemStyle": { "color": "#ff7f0e" } },
+    { "name": "ST174(16)", "itemStyle": { "color": "#ffbb78" } },
+    { "name": "ST5(2486)", "itemStyle": { "color": "#2ca02c" } },
+    { "name": "ST465(22)", "itemStyle": { "color": "#98df8a" } },
+    { "name": "ST422(394)", "itemStyle": { "color": "#d62728" } },
+    { "name": "ST173(307)", "itemStyle": { "color": "#ff9896" } },
+    { "name": "ST585(38)", "itemStyle": { "color": "#9467bd" } },
+    { "name": "ST56(228)", "itemStyle": { "color": "#c5b0d5" } },
+    { "name": "ST641(16)", "itemStyle": { "color": "#8c564b" } },
+    { "name": "ST623(50)", "itemStyle": { "color": "#c49c94" } },
+    { "name": "ST58(50)", "itemStyle": { "color": "#e377c2" } },
+    { "name": "ST583(27)", "itemStyle": { "color": "#f7b6d2" } },
+    { "name": "ST625(32)", "itemStyle": { "color": "#7f7f7f" } },
+    { "name": "ST3(1458)", "itemStyle": { "color": "#c7c7c7" } },
+    { "name": "ST144(163)", "itemStyle": { "color": "#bcbd22" } },
+    { "name": "ST616(17)", "itemStyle": { "color": "#dbdb8d" } },
+    { "name": "ST154(32)", "itemStyle": { "color": "#17becf" } },
+    { "name": "ST605(35)", "itemStyle": { "color": "#9edae5" } },
+    { "name": "ST581(62)", "itemStyle": { "color": "#393b79" } },
+    { "name": "ST177(35)", "itemStyle": { "color": "#5254a3" } },
+    { "name": "ST16(27)", "itemStyle": { "color": "#6b6ecf" } },
+    { "name": "ST763(37)", "itemStyle": { "color": "#9c9ede" } },
+    { "name": "ST429(58)", "itemStyle": { "color": "#637939" } },
+    { "name": "ST63(937)", "itemStyle": { "color": "#8ca252" } },
+    { "name": "ST431(23)", "itemStyle": { "color": "#b5cf6b" } },
+    { "name": "ST469(19)", "itemStyle": { "color": "#cedb9c" } },
+    { "name": "ST452(44)", "itemStyle": { "color": "#8c6d31" } },
+    { "name": "ST13(39)", "itemStyle": { "color": "#bd9e39" } },
+    { "name": "ST80(178)", "itemStyle": { "color": "#e7ba52" } },
+    { "name": "ST130(41)", "itemStyle": { "color": "#e7cb94" } },
+    { "name": "ST84(26)", "itemStyle": { "color": "#843c39" } },
+    { "name": "ST502(28)", "itemStyle": { "color": "#ad494a" } },
+    { "name": "ST423(136)", "itemStyle": { "color": "#d6616b" } },
+    { "name": "ST639(22)", "itemStyle": { "color": "#e7969c" } },
+    { "name": "ST19(26)", "itemStyle": { "color": "#7b4173" } },
+    { "name": "ST454(45)", "itemStyle": { "color": "#a55194" } },
+    { "name": "ST499(15)", "itemStyle": { "color": "#ce6dbd" } },
+    { "name": "ST481(61)", "itemStyle": { "color": "#de9ed6" } },
+    { "name": "ST633(17)", "itemStyle": { "color": "#3182bd" } },
+    {
+      "name": "Others",
+      "itemStyle": {
+        "color": "#fff",
+        "borderColor": "#000",
+        "borderWidth": 0.1
+      }
+    }
+  ]
+}

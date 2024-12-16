@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NTM-DB: Browse by species</title>
+  {% load static %}
+  <link rel="icon" href="{%static '/image/logo/NTM_logo_light.svg'%}" />
+  <link rel="stylesheet" type="text/css" href="{% static '/module/semantic-ui/semantic.min.css'%}">
+  <link rel="stylesheet" type="text/css" href="{% static '/module/bootstrap/bootstrap.min.css'%}" />
+  <link rel="stylesheet" type="text/css" href="{% static '/module/ngdc/page.min.css'%}" />
+  <link rel="stylesheet" type="text/css" href="{% static '/css/supplementary.css'%}" />
+</head>
+
+
+
+<body>
+  {% include 'component/ngdc_header.html' %}
+  {% include 'component/nav_bar2.html' %}
+  <div id="main">
+    <!-- breadcrumb -->
+    <div class="ui basic segment">
+      <div class="ui big breadcrumb" style="margin:8px 0 35px 0 !important;">
+        <a href="/ntmdb" class="section"><i class="icon home"></i> Home</a>
+        <i class="right angle icon divider"></i>
+        <div class="active section">Browse Species</div>
+      </div>
+
+
+
+
+      <div class="ui stackable grid row">
+        <div class="ui container-fluid">
+
+          <!-- Filter -->
+          <div class="row">
+            <div class="four wide column">
+              <label style="font-size: medium; margin-bottom: 10px;">Show
+                <select onchange="onPageSizeChanged()" id="page-size">
+                  <option value="10">10</option>
+                  <option value="20" selected>20</option>
+                  <option value="50">50</option>
+                  <option value="100">100</option>
+                  <option value="200">200</option>
+                </select>
+                entries</label>
+              <button id="downloadButton" class="ui blue button ntm-btn" style="margin-left:20px;"><i
+                  class="download icon"></i>Download
+                Table</button>
+
+            </div>
+          </div>
+          <!-- Table -->
+          <div class="row" style="margin-bottom:20px;">
+            <div id="species_table" style="height: 100%; width: 100%;" class="ag-theme-alpine"></div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  {% include 'component/ngdc_footer.html' %}
+  <script src="{% static '/module/jquery/jquery-3.6.4.js'%}"></script>
+  <script src="{% static '/module/bootstrap/bootstrap.bundle.min.js'%}"></script>
+  <script src="{% static '/module/semantic-ui/semantic.min.js'%}"></script>
+  <script src="{% static '/module/ag-grid/ag-grid-community.min.js'%}"></script>
+  <script src="{% static '/js/species_table.js' %}" type="text/javascript"></script>
+
+</body>
+
+</html>

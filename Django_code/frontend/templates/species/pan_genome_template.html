@@ -1,0 +1,80 @@
+<div class="row" style="margin-bottom:16px;">
+    <h3 id="pan_genome"><br><br><i class="hand point right icon"></i> Pan-Genome</h3>
+    <p class="explanation">The Pan-Genome section provides a download channel for the pan-genome
+        information of this
+        species. You can download the Pan-genome, Core-genome, and Variable-genome of the
+        species separately.</p>
+    <div class="row" style="margin:0 0 0 25px;">
+        <div class="ui card fluid" style="width: 95%; padding: 0; margin-right:20px;">
+            <div class="content"
+                style="background-color: #3391b9; font-size:20px; font-weight: bold; color:aliceblue; padding:10px 10px 10px 15px;">
+                Pan-Genome Information</div>
+            <div class="content" style="padding:0">
+                <table class="ui single line table no-border" style="text-align: center; font-size: 17px;">
+                    <thead>
+                        <tr>
+                            <th style="width: 33%;">Genomes</th>
+                            <th style="width: 33%;">Genes</th>
+                            <th style="width: 34%;">Download</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr style="line-height: 25px !important;">
+                            <td>Pan-genome</td>
+                            <td>{{ files.pan_gene_count }}</td>
+                            <td>
+                                <a href="{% url 'download_files' spec_name=species.name %}?file=pan_genome_fasta">
+                                    <button class="ui icon button">
+                                        <i class="download icon" style="color:#3391b9;">
+                                            {% comment %} M.{{species.name}}_PanGenome.fasta {% endcomment %}
+                                        </i>
+                                    </button>
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Core-genome</td>
+                            <td>{{ files.core_gene_count }}</td>
+                            <td>
+                                <a href="{% url 'download_files' spec_name=species.name %}?file=core_fasta">
+                                    <button class="ui icon button">
+                                        <i class="download icon" style="color:#3391b9;">
+                                            {% comment %} M.{{species.name}}_Core.fasta {% endcomment %}
+                                        </i>
+                                    </button>
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Dispensable-genome</td>
+                            <td>{{ files.dispensable_gene_count }}</td>
+                            <td>
+                                <a href="{% url 'download_files' spec_name=species.name %}?file=dispensable_fasta">
+                                    <button class="ui icon button">
+                                        <i class="download icon" style="color:#3391b9;">
+                                            {% comment %} M.{{species.name}}_Dispensable.fasta {% endcomment %}
+                                        </i>
+                                    </button>
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Unique-genome</td>
+                            <td>{{ files.unique_gene_count }}</td>
+                            <td>
+                                <a href="{% url 'download_files' spec_name=species.name %}?file=unique_fasta">
+                                    <button class="ui icon button">
+                                        <i class="download icon" style="color:#3391b9;">
+                                            {% comment %} M.{{species.name}}_Unique.fasta {% endcomment %}
+                                        </i>
+                                    </button>
+                                </a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+<br>

@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>NTM-DB</title>
+    {% load static %}
+    <link rel="icon" href="{%static '/image/logo/NTM_logo_light.svg'%}" />
+    <link rel="stylesheet" type="text/css" href="{% static 'module/semantic-ui/semantic.min.css'%}">
+    <link rel="stylesheet" type="text/css" href="{% static '/module/select2/css/select2.min.css'%}" />
+    <link rel="stylesheet" type="text/css" href="{% static '/module/bootstrap/bootstrap.min.css'%}" />
+    <link rel="stylesheet" type="text/css" href="{% static '/module/ngdc/page.min.css'%}" />
+    <link rel="stylesheet" type="text/css" href="{% static '/css/supplementary.css'%}" />
+    <link rel="stylesheet" type="text/css" href="{% static '/css/home.css'%}" />
+    <style>
+        .nav-img {
+            width: 1920px;
+            height: auto;
+            /* background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.5)); */
+        }
+
+
+        /* div[style="position: relative;"] {
+            position: relative;
+        } */
+
+        .no-border {
+            border-collapse: collapse !important;
+            border-spacing: 0 !important;
+        }
+
+        .no-border th,
+        .no-border td {
+            border: none !important;
+        }
+
+
+        table.no-border td {
+            line-height: 1rem !important;
+            padding: 0.8rem !important;
+        }
+
+        table.no-border {
+            border: 0 !important;
+        }
+
+        .ui.centered.small.image img {
+            background-color: white;
+        }
+
+        .ui.center.aligned.header.blue {
+            height: 25px;
+            margin: 7px 0 7px 0;
+        }
+
+        .hp-content {
+            /* font-size: 16px !important; */
+            background-color: #4B9BBD !important;
+            height: 46px;
+            padding: 5px 14px !important;
+        }
+
+        .hp-p {
+            margin-left: 20px !important;
+            font-size: 16px;
+        }
+
+        .main-card {
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2) !important;
+            width: 100% !important;
+            margin: 18px 0 21px 0 !important;
+        }
+
+        .ui.three.cards {
+            margin: 3px 0 3px 0;
+        }
+
+        h3 {
+            font-weight: bold;
+        }
+
+        h5 {
+            color: #237396;
+            font-weight: bold;
+        }
+
+        .select2-container .select2-selection__rendered {
+            height: 33px;
+        }
+
+        .select2-container--default .select2-selection--single {
+            height: 33px;
+        }
+    </style>
+</head>
+
+
+
+<div id="main">
+    {% include 'component/ngdc_header.html' %}
+    {% include 'component/nav_bar_hp.html' %}
+    <div class="ui very basic segment">
+        <div class="ui grid stackable">
+
+
+            <div class="ui equal width row">
+                <div class="ten wide column">
+
+
+                    <!-- Card1 -->
+                    <!-- <div class="ui card main-card" style="margin-left: 24px !important;"> -->
+                    <div class="ui card main-card" style="margin: 18px 0px 15px 10px !important;">
+                        <div class="content hp-content">
+                            <div class="ui center aligned header blue" style="color:white !important;">
+                                <i class="icon calendar alternate"></i>Overview
+                            </div>
+                        </div>
+                        <div class="content" style="padding:20px 5px 20px 5px;">
+                            <div class="ui three cards">
+                                <a class="ui card teal" href="/ntmdb/browse/species">
+                                    <div class="ui centered small image">
+                                        <img alt="" src="{% static '/image/home/overview-1-sp.svg' %}" />
+                                    </div>
+                                    <div class="center aligned content">
+                                        <h3>177</h3>
+                                        <h5>Species</h5>
+                                    </div>
+                                </a>
+                                <a class="ui card teal" href="/ntmdb/browse/strains">
+                                    <div class="ui centered small image">
+                                        <img alt="" src="{% static '/image/home/overview-2-str.svg' %}" />
+                                    </div>
+                                    <div class="center aligned content">
+                                        <h3>16,469</h3>
+                                        <h5>Strains</h5>
+                                    </div>
+                                </a>
+                                <a class="ui card teal" href="/ntmdb/browse/dst">
+                                    <div class="ui centered small image">
+                                        <img alt="" src="{% static '/image/home/overview-3-dst.svg' %}" />
+                                    </div>
+                                    <div class="center aligned content">
+                                        <h3>7,152</h3>
+                                        <h5>DST Records</h5>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="ui three cards">
+                                <a class="ui card teal" href="/ntmdb/browse/genes_rs">
+                                    <div class="ui centered small image">
+                                        <img alt="" src="{% static '/image/home/overview-4-rs.svg' %}" />
+                                    </div>
+                                    <div class="center aligned content">
+                                        <h3>33,240</h3>
+                                        <h5>Drug Resistance Genes</h5>
+                                    </div>
+                                </a>
+                                <a class="ui card teal" href="/ntmdb/browse/genes_vf">
+                                    <div class="ui centered small image">
+                                        <img alt="" src="{% static '/image/home/overview-5-vf.svg' %}" />
+                                    </div>
+                                    <div class="center aligned content">
+                                        <h3>74,315</h3>
+                                        <h5>Virulence Factors</h5>
+                                    </div>
+                                </a>
+                                <a class="ui card teal" href="/ntmdb/mlst">
+                                    <div class="ui centered small image">
+                                        <img alt="" src="{% static '/image/home/overview-6-mlst.svg' %}" />
+                                    </div>
+                                    <div class="center aligned content">
+                                        <h3>705</h3>
+                                        <h5>MLST Profiles</h5>
+                                    </div>
+                                </a>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- 第2列 -->
+                <div class="six wide column">
+
+                    <!-- Card2: hot species  -->
+                    <div class="ui card main-card" style="min-width:529px !important; overflow: auto !important;">
+                        <div class="content hp-content">
+                            <div class="ui center aligned header blue" style="color:white !important;">
+                                <i class="icon fire"></i>Hot
+                                Species
+                            </div>
+                        </div>
+                        <div class="content">
+                            <table class="ui single line table no-border" style="font-size:16px;">
+                                <tbody class="no-border">
+                                    <tr>
+                                        <td style="width: 220px;"><a
+                                                href="{% url 'species_page' spec_name='abscessus' %}"><i>Mycobacterium
+                                                    abscessus</i></td>
+                                        <td style="width: 160px;">9797 strains</td>
+                                        <td style="width: 160px;">125 sequence types</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="width: 200px;"><a
+                                                href="{% url 'species_page' spec_name='avium' %}"><i>Mycobacterium
+                                                    avium</i></td>
+                                        <td style="width: 100px;">2518 strains</td>
+                                        <td style="width: 160px;"> &ensp;51 sequence types</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="width: 200px;"><a
+                                                href="{% url 'species_page' spec_name='intracellulare' %}"><i>Mycobacterium
+                                                    intracellulare</i></td>
+                                        <td style="width: 100px;">1680 strains</td>
+                                        <td style="width: 160px;"> &ensp;28 sequence types</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="width: 200px;"><a
+                                                href="{% url 'species_page' spec_name='ulcerans' %}"><i>Mycobacterium
+                                                    ulcerans</i></td>
+                                        <td style="width: 100px;">&ensp;511 strains</td>
+                                        <td style="width: 160px;"> &ensp;&ensp;3 sequence types</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="width: 200px;"><a
+                                                href="{% url 'species_page' spec_name='smegmatis' %}"><i>Mycobacterium
+                                                    smegmatis</i></td>
+                                        <td style="width: 100px;">&ensp;253 strains</td>
+                                        <td style="width: 160px;"> &ensp;&ensp;6 sequence types</td>
+                                    </tr>
+                                    <!-- <tr>
+                                        <td style="width: 200px;"><i>Mycobacterium chelonae</i></td>
+                                        <td style="width: 100px;">214 strains</td>
+                                        <td style="width: 160px;">xxx sequence types</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="width: 200px;"><i>Mycobacterium kansasii</i></td>
+                                        <td style="width: 100px;">208 strains</td>
+                                        <td style="width: 160px;">xxx sequence types</td>
+                                    </tr> -->
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                    <!-- Card3: news  -->
+                    <div class="ui card main-card" style="min-width:529px !important;">
+                        <div class="content hp-content">
+                            <div class="ui center aligned header blue" style="color:white !important;">
+                                <i class="icon bell"></i>Latest
+                                News
+                            </div>
+                        </div>
+                        <div class="content">
+                            <p class="hp-p"><b>2023-06-01</b>&nbsp;&nbsp;&nbsp;
+                                Non-Tuberculous Mycobacteria Database (NTM-DB) version 1.0 was online.</p>
+                            <p class="hp-p"><b>2023-06-10</b>&nbsp;&nbsp;&nbsp;
+                                Added 7,152 drug susceptibility testing records.</p>
+                        </div>
+                    </div>
+
+                    <!-- Card4: citation and contact   -->
+                    <div class="ui card main-card" style="min-width:529px !important;">
+                        <div class="content hp-content">
+                            <div class="ui center aligned header blue" style="color:white !important;">
+                                <i class="icon envelope"></i>Citation and Contact
+                            </div>
+                        </div>
+                        <div class="content">
+                            <p class="hp-p">If you have any questions or would like to offer suggestions, comments, or
+                                report bugs, please feel free to contact us.
+                            </p>
+                            <p class="hp-p"><b>Email:</b>
+                                ntmdb@big.ac.cn
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+{% include 'component/ngdc_footer.html' %}
+<script src="{% static '/module/jquery/jquery-3.6.4.js'%}"></script>
+<script src="{% static '/module/bootstrap/bootstrap.bundle.min.js'%}"></script>
+<script src="{% static '/module/semantic-ui/semantic.min.js'%}"></script>
+<script src="{% static '/js/qsearch.js' %}"></script>
+<script src="{% static '/module/select2/js/select2.min.js'%}"></script>
+</body>
+
+</html>

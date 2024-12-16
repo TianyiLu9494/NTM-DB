@@ -1,0 +1,144 @@
+CLUSTAL X (1.81) multiple sequence alignment
+
+
+VFG_ref                             gtgtccgagctcagcgtcgcgacaggcgccgtcagcaccgcgtcgtcgtc
+M.shinjukuense_GCF_002086755.1      ------------------------------···g··········act···
+M.decipiens_GCF_002104675.1         ········cg·······t·a···g··t······g·tg·······t·t···
+M.shinjukuense_GCF_010730055.1      ------------------------------···g··········act···
+
+VFG_ref                             catcccgatgcccgccggtgtcaaccccgccgacctggcagcggagctgg
+M.shinjukuense_GCF_002086755.1      ·g·t··at·········aca·······a···········c··c·····c·
+M.decipiens_GCF_002104675.1         ··········································c·····c·
+M.shinjukuense_GCF_010730055.1      ·g·t··at·········aca·······a···········c··c·····c·
+
+VFG_ref                             cggcggtggttaccgagtccgtcgacgaggattacctgctctacgagtgc
+M.shinjukuense_GCF_002086755.1      ·c··t·c·c··t·····c···c··g······c················a·
+M.decipiens_GCF_002104675.1         ·c······c·gg·····c······g······a········t··t···ca·
+M.shinjukuense_GCF_010730055.1      ·c··t·c·c··t·····c···c··g······c················a·
+
+VFG_ref                             gacggccaatgggtcctggccgccggtgtgcaggcgatggtggagctaga
+M.shinjukuense_GCF_002086755.1      ········c·····t········g·······g·····g···a·····g··
+M.decipiens_GCF_002104675.1         ·····t········t·······t························g··
+M.shinjukuense_GCF_010730055.1      ········c·····t········g·······g·····g···a·····g··
+
+VFG_ref                             cagcgacgaactgcgcgtcatccgtgatggcgttacgcggcgacagcaat
+M.shinjukuense_GCF_002086755.1      ···············t········c··c··t··g··t·····c·····g·
+M.decipiens_GCF_002104675.1         ···············g····c······c··········a·········g·
+M.shinjukuense_GCF_010730055.1      ···············t········c··c··t··g··t·····c·····g·
+
+VFG_ref                             ggtcgggtcgcccgggagcggccctgggcgaagccgtcgatcggctgttg
+M.shinjukuense_GCF_002086755.1      ····c··a··g··c···t···t······t······a····c······c··
+M.decipiens_GCF_002104675.1         ··········g······a·c··············g···············
+M.shinjukuense_GCF_010730055.1      ····c··a··g··c···t···t······t······a····c······c··
+
+VFG_ref                             ctggaaaccgatcaagcttttggctgggtcgccttcgaattcggcgtgca
+M.shinjukuense_GCF_002086755.1      t····g··t··g·····cc·c··························ct·
+M.decipiens_GCF_002104675.1         ··············g··c··c·················g·····t···t·
+M.shinjukuense_GCF_010730055.1      t····g··t··g·····cc·c··························ct·
+
+VFG_ref                             ccgctatgggttgcagcagcggctggcgccgcacaccccactggcccggg
+M.shinjukuense_GCF_002086755.1      t··a··c···c···········t·········g············g····
+M.decipiens_GCF_002104675.1         ···········g·················gc···················
+M.shinjukuense_GCF_010730055.1      t··a··c···c···········t·········g············g····
+
+VFG_ref                             tgttttcgccccgaacccggatcatggtgagcgaaaaggagattcgcctg
+M.shinjukuense_GCF_002086755.1      ·t··c·g····gct·····c···g······c·c·gcga··t·········
+M.decipiens_GCF_002104675.1         ·c····g······c·········g·········gggga······t·····
+M.shinjukuense_GCF_010730055.1      ·t··c·g····gct·····c···g······c·c·gcga··t·········
+
+VFG_ref                             ttcgatgctgggattcgccaccgcgaggccatcgaccgattactcgccac
+M.shinjukuense_GCF_002086755.1      ·gg·gc··c····c···t········a·tg··a·····g·····g··tt·
+M.decipiens_GCF_002104675.1         ····gc··c···c················ac·a···············gg
+M.shinjukuense_GCF_010730055.1      ·gg·gc··c····c···t········a·tg··a·····g·····g··tt·
+
+VFG_ref                             cggggtgcgagaggtgccgcagtcccgctccgtcgacgtctccgacgatc
+M.shinjukuense_GCF_002086755.1      ········cc··cc··g···g·c····gg·gc·····c·a····c·····
+M.decipiens_GCF_002104675.1         ·········c··cc······g·········g······t·a····t···c·
+M.shinjukuense_GCF_010730055.1      ········cc··cc··g···g·c····gg·gc·····c·a····c·····
+
+VFG_ref                             catccggcttccgccgtcgggtggcggtagccgtcgatgaaatcgctgcc
+M.shinjukuense_GCF_002086755.1      ·········a····ga···········c········ca··g···atc···
+M.decipiens_GCF_002104675.1         t···tc···a····ga····················g···g·····c···
+M.shinjukuense_GCF_010730055.1      ·········a····ga···········c········ca··g···atc···
+
+VFG_ref                             ggccgctaccacaaggtgattctgtcccgttgtgtcgaagtgcctttcgc
+M.shinjukuense_GCF_002086755.1      ···g·t··············c··a··························
+M.decipiens_GCF_002104675.1         ···aa···············c·····g·················c·····
+M.shinjukuense_GCF_010730055.1      ···g·t··············c··a··························
+
+VFG_ref                             gatcgactttccgttgacctaccggctggggcgtcggcacaacaccccgg
+M.shinjukuense_GCF_002086755.1      ·c·······c····c···t··t··a·····t··g················
+M.decipiens_GCF_002104675.1         cc············c···g··t········t······t············
+M.shinjukuense_GCF_010730055.1      ·c·······c····c···t··t··a·····t··g················
+
+VFG_ref                             tgaggtcgtttttgttgcagttgggcggaatccgtgctctgggttacagc
+M.shinjukuense_GCF_002086755.1      ·············a····g·c·c··t·····t·····at···········
+M.decipiens_GCF_002104675.1         ··c·················c··········t··c········c··t···
+M.shinjukuense_GCF_010730055.1      ·············a····g·c·c··t·····t·····at···········
+
+VFG_ref                             cccgaactcgtcacggcggtgcgcgccgacggagtggtgatcaccgagcc
+M.shinjukuense_GCF_002086755.1      ··t··g··a···g····c··c·atc·····a·g·c···············
+M.decipiens_GCF_002104675.1         ·················c····a·c·······t······g····t·····
+M.shinjukuense_GCF_010730055.1      ··t··g··a···g····c··c·atc·····a·g·c···············
+
+VFG_ref                             gttggccggtacccgcgccttgggccgtggtcccgccattgaccgactgg
+M.shinjukuense_GCF_002086755.1      ·········c········gc·······c·····g··gca········a··
+M.decipiens_GCF_002104675.1         ·c······················g··a········gca···········
+M.shinjukuense_GCF_010730055.1      ·········c········gc·······c·····g··gca········a··
+
+VFG_ref                             ctcgtgatgacctggaatcaaactccaaagaaattgtcgagcacgccatt
+M.shinjukuense_GCF_002086755.1      ·c·····c··tt·······c···········g···········t··t··c
+M.decipiens_GCF_002104675.1         ·g··g··c··t·······················c··t···········c
+M.shinjukuense_GCF_010730055.1      ·c·····c··tt·······c···········g···········t··t··c
+
+VFG_ref                             tcagtgcgctcttcgcttgaggagattaccgacatcgccgaaccagggag
+M.shinjukuense_GCF_002086755.1      ··g·····ta·c······c········g····g···········g··t·c
+M.decipiens_GCF_002104675.1         ··g········a······c·······c·····g··a········g··c··
+M.shinjukuense_GCF_010730055.1      ··g·····ta·c······c········g····g···········g··t·c
+
+VFG_ref                             tgctgcggtcatcgatttcatgacggtgcgcgagcgcggcagtgtgcagc
+M.shinjukuense_GCF_002086755.1      c··g··c····c···c······g·······t···················
+M.decipiens_GCF_002104675.1         ······c···g···················t········g··········
+M.shinjukuense_GCF_010730055.1      c··g··c····c···c······g·······t···················
+
+VFG_ref                             acctcggctccaccatcagagcacggttggatccatcgagcgaccggatg
+M.shinjukuense_GCF_002086755.1      ····g··t··g··g·····c·gg··cc····c··g··c·ct·········
+M.decipiens_GCF_002104675.1         ··········g··g········t········c··g···············
+M.shinjukuense_GCF_010730055.1      ····g··t··g··g·····c·gg··cc····c··g··c·ct·········
+
+VFG_ref                             gccgccctggaagccctttttcctgctgtcactgcatccggaatcccgaa
+M.shinjukuense_GCF_002086755.1      ·ag··t·····g·tg··c··c··c··g·····c··g···········c··
+M.decipiens_GCF_002104675.1         ·at··gt·······g··g········g·····c··g··g·····t··c··
+M.shinjukuense_GCF_010730055.1      ·ag··t·····g·tg··c··c··c··g·····c··g···········c··
+
+VFG_ref                             agcagctggcgttgaggccatctttcgcctcgatgagtgcccacgtgggc
+M.shinjukuense_GCF_002086755.1      ···g··c·····g··a··g·····g··t·····c··ac····g··c··a·
+M.decipiens_GCF_002104675.1         ·········t·····t··g·····g········c····a···c··c····
+M.shinjukuense_GCF_010730055.1      ···g··c·····g··a··g·····g··t·····c··ac····g··c··a·
+
+VFG_ref                             tgtattccggtgcggtggtgatgctttcggcggatggcgggctagacgcc
+M.shinjukuense_GCF_002086755.1      ················c······t·······a··c··t··a··c··t···
+M.decipiens_GCF_002104675.1         ················c····g·t·····t·············g·····a
+M.shinjukuense_GCF_010730055.1      ················c······t·······a··c··t··a··c··t···
+
+VFG_ref                             gcgctgacgctgcgggcggcataccaggtcggcgggcggacttggctgcg
+M.shinjukuense_GCF_002086755.1      ·····c·tct··········c···g·acg··a·········c········
+M.decipiens_GCF_002104675.1         ······t························a···c·····c········
+M.shinjukuense_GCF_010730055.1      ·····c·tct··········c···g·acg··a·········c········
+
+VFG_ref                             ggccggcgccggcatcatcgaagaatcggagccagagcgcgaattcgagg
+M.shinjukuense_GCF_002086755.1      ·····················g·cg········c········g·····a·
+M.decipiens_GCF_002104675.1         ···t···············a···c······a··t··a·············
+M.shinjukuense_GCF_010730055.1      ·····················g·cg········c········g·····a·
+
+VFG_ref                             agacttgcgaaaagctatccacattgacgccttatctggttgcacgccag
+M.shinjukuense_GCF_002086755.1      ····c·····g·····c·····g···g····g········c·a···t···
+M.decipiens_GCF_002104675.1         ····g·················g··ag····g······a·c··g··t···
+M.shinjukuense_GCF_010730055.1      ····c·····g·····c·····g···g····g········c·a···t···
+
+VFG_ref                             taa
+M.shinjukuense_GCF_002086755.1      ··-
+M.decipiens_GCF_002104675.1         ···
+M.shinjukuense_GCF_010730055.1      ··-
+
+

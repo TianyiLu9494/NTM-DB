@@ -1,0 +1,472 @@
+{
+  "items": [
+    {
+      "id": "VFG000118",
+      "text": "algQ"
+    },
+    {
+      "id": "VFG000119",
+      "text": "algR"
+    },
+    {
+      "id": "VFG000121",
+      "text": "algU"
+    },
+    {
+      "id": "VFG000170",
+      "text": "pchB"
+    },
+    {
+      "id": "VFG000174",
+      "text": "xcpZ"
+    },
+    {
+      "id": "VFG000206",
+      "text": "exsE"
+    },
+    {
+      "id": "VFG000207",
+      "text": "exsB"
+    },
+    {
+      "id": "VFG000213",
+      "text": "pscE"
+    },
+    {
+      "id": "VFG000214",
+      "text": "pscF"
+    },
+    {
+      "id": "VFG000447",
+      "text": "fimH"
+    },
+    {
+      "id": "VFG000453",
+      "text": "lpfD"
+    },
+    {
+      "id": "VFG000455",
+      "text": "lpfB"
+    },
+    {
+      "id": "VFG000456",
+      "text": "lpfA"
+    },
+    {
+      "id": "VFG000457",
+      "text": "csgB"
+    },
+    {
+      "id": "VFG000459",
+      "text": "csgC"
+    },
+    {
+      "id": "VFG000463",
+      "text": "sodCI"
+    },
+    {
+      "id": "VFG000497",
+      "text": "ssaE"
+    },
+    {
+      "id": "VFG000498",
+      "text": "sseA"
+    },
+    {
+      "id": "VFG000499",
+      "text": "sseB"
+    },
+    {
+      "id": "VFG000503",
+      "text": "sseE"
+    },
+    {
+      "id": "VFG000507",
+      "text": "ssaG"
+    },
+    {
+      "id": "VFG000508",
+      "text": "ssaH"
+    },
+    {
+      "id": "VFG000509",
+      "text": "ssaI"
+    },
+    {
+      "id": "VFG000510",
+      "text": "ssaJ"
+    },
+    {
+      "id": "VFG000520",
+      "text": "ssaS"
+    },
+    {
+      "id": "VFG000533",
+      "text": "prgK"
+    },
+    {
+      "id": "VFG000534",
+      "text": "prgJ"
+    },
+    {
+      "id": "VFG000536",
+      "text": "prgH"
+    },
+    {
+      "id": "VFG000541",
+      "text": "sicP"
+    },
+    {
+      "id": "VFG000550",
+      "text": "spaQ"
+    },
+    {
+      "id": "VFG000554",
+      "text": "invI"
+    },
+    {
+      "id": "VFG000556",
+      "text": "invB"
+    },
+    {
+      "id": "VFG000560",
+      "text": "invF"
+    },
+    {
+      "id": "VFG000561",
+      "text": "invH"
+    },
+    {
+      "id": "VFG000575",
+      "text": "mgtC"
+    },
+    {
+      "id": "VFG001216",
+      "text": "fimU"
+    },
+    {
+      "id": "VFG001225",
+      "text": "pilG"
+    },
+    {
+      "id": "VFG001226",
+      "text": "pilH"
+    },
+    {
+      "id": "VFG001250",
+      "text": "fliE"
+    },
+    {
+      "id": "VFG001265",
+      "text": "fleN"
+    },
+    {
+      "id": "VFG001381",
+      "text": "icl"
+    },
+    {
+      "id": "VFG001383",
+      "text": "hbhA"
+    },
+    {
+      "id": "VFG001386",
+      "text": "phoP"
+    },
+    {
+      "id": "VFG001393",
+      "text": "mbtM"
+    },
+    {
+      "id": "VFG001395",
+      "text": "mgtC"
+    },
+    {
+      "id": "VFG001397",
+      "text": "hspX"
+    },
+    {
+      "id": "VFG001403",
+      "text": "mbtB"
+    },
+    {
+      "id": "VFG001406",
+      "text": "ideR"
+    },
+    {
+      "id": "VFG001415",
+      "text": "lipF"
+    },
+    {
+      "id": "VFG001419",
+      "text": "fbpA"
+    },
+    {
+      "id": "VFG001420",
+      "text": "erp"
+    },
+    {
+      "id": "VFG001799",
+      "text": "map"
+    },
+    {
+      "id": "VFG001807",
+      "text": "sed"
+    },
+    {
+      "id": "VFG001811",
+      "text": "fbpC"
+    },
+    {
+      "id": "VFG001812",
+      "text": "fbpB"
+    },
+    {
+      "id": "VFG001817",
+      "text": "mbtA"
+    },
+    {
+      "id": "VFG001818",
+      "text": "mbtH"
+    },
+    {
+      "id": "VFG001819",
+      "text": "mbtG"
+    },
+    {
+      "id": "VFG001820",
+      "text": "mbtF"
+    },
+    {
+      "id": "VFG001821",
+      "text": "mbtE"
+    },
+    {
+      "id": "VFG001822",
+      "text": "mbtD"
+    },
+    {
+      "id": "VFG001823",
+      "text": "mbtC"
+    },
+    {
+      "id": "VFG001826",
+      "text": "relA"
+    },
+    {
+      "id": "VFG002302",
+      "text": "mig-14"
+    },
+    {
+      "id": "VFG002378",
+      "text": "esxA"
+    },
+    {
+      "id": "VFG002379",
+      "text": "esxB"
+    },
+    {
+      "id": "VFG002380",
+      "text": "eccA1"
+    },
+    {
+      "id": "VFG002381",
+      "text": "eccB1"
+    },
+    {
+      "id": "VFG002382",
+      "text": "eccCa1"
+    },
+    {
+      "id": "VFG002383",
+      "text": "eccCb1"
+    },
+    {
+      "id": "VFG002384",
+      "text": "PE35"
+    },
+    {
+      "id": "VFG002385",
+      "text": "eccD1"
+    },
+    {
+      "id": "VFG002386",
+      "text": "espC"
+    },
+    {
+      "id": "VFG002388",
+      "text": "espB"
+    },
+    {
+      "id": "VFG002389",
+      "text": "espK"
+    },
+    {
+      "id": "VFG002390",
+      "text": "eccE1"
+    },
+    {
+      "id": "VFG002391",
+      "text": "mycP1"
+    },
+    {
+      "id": "VFG002392",
+      "text": "espD"
+    },
+    {
+      "id": "VFG002393",
+      "text": "PPE41"
+    },
+    {
+      "id": "VFG002394",
+      "text": "esxM"
+    },
+    {
+      "id": "VFG002395",
+      "text": "eccC5"
+    },
+    {
+      "id": "VFG002397",
+      "text": "eccB5"
+    },
+    {
+      "id": "VFG002398",
+      "text": "eccD5"
+    },
+    {
+      "id": "VFG002399",
+      "text": "Rv1794"
+    },
+    {
+      "id": "VFG002400",
+      "text": "esxN"
+    },
+    {
+      "id": "VFG002401",
+      "text": "eccA5"
+    },
+    {
+      "id": "VFG002402",
+      "text": "eccE5"
+    },
+    {
+      "id": "VFG002403",
+      "text": "mycP5"
+    },
+    {
+      "id": "VFG003645",
+      "text": "orgA"
+    },
+    {
+      "id": "VFG003988",
+      "text": "sifB"
+    },
+    {
+      "id": "VFG003997",
+      "text": "pipB2"
+    },
+    {
+      "id": "VFG004016",
+      "text": "sseK1"
+    },
+    {
+      "id": "VFG009553",
+      "text": "mbtJ"
+    },
+    {
+      "id": "VFG009561",
+      "text": "mbtI"
+    },
+    {
+      "id": "VFG009570",
+      "text": "irtA"
+    },
+    {
+      "id": "VFG009579",
+      "text": "irtB"
+    },
+    {
+      "id": "VFG009810",
+      "text": "phoR"
+    },
+    {
+      "id": "VFG014997",
+      "text": "mucE"
+    },
+    {
+      "id": "VFG015503",
+      "text": "phzA1"
+    },
+    {
+      "id": "VFG015518",
+      "text": "phzF1"
+    },
+    {
+      "id": "VFG021800",
+      "text": "mbtL"
+    },
+    {
+      "id": "VFG021827",
+      "text": "mbtN"
+    },
+    {
+      "id": "VFG021840",
+      "text": "mbtK"
+    },
+    {
+      "id": "VFG022019",
+      "text": "eccA3"
+    },
+    {
+      "id": "VFG022035",
+      "text": "eccB3"
+    },
+    {
+      "id": "VFG022051",
+      "text": "eccC3"
+    },
+    {
+      "id": "VFG022066",
+      "text": "PE5"
+    },
+    {
+      "id": "VFG022098",
+      "text": "esxH"
+    },
+    {
+      "id": "VFG022114",
+      "text": "espG3"
+    },
+    {
+      "id": "VFG022130",
+      "text": "eccD3"
+    },
+    {
+      "id": "VFG022146",
+      "text": "mycP3"
+    },
+    {
+      "id": "VFG022162",
+      "text": "eccE3"
+    },
+    {
+      "id": "VFG022340",
+      "text": "esxG"
+    },
+    {
+      "id": "VFG042067",
+      "text": "steA"
+    },
+    {
+      "id": "VFG044088",
+      "text": "mbtH-like"
+    },
+    {
+      "id": "VFG045472",
+      "text": "cylL"
+    },
+    {
+      "id": "VFG045473",
+      "text": "cylS"
+    }
+  ]
+}

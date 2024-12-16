@@ -1,0 +1,762 @@
+[
+  {
+    "id": "sp-M.abscessus",
+    "text": "M.abscessus"
+  },
+  {
+    "id": "sp-M.agri",
+    "text": "M.agri"
+  },
+  {
+    "id": "sp-M.aichiense",
+    "text": "M.aichiense"
+  },
+  {
+    "id": "sp-M.algericum",
+    "text": "M.algericum"
+  },
+  {
+    "id": "sp-M.alsense",
+    "text": "M.alsense"
+  },
+  {
+    "id": "sp-M.alvei",
+    "text": "M.alvei"
+  },
+  {
+    "id": "sp-M.angelicum",
+    "text": "M.angelicum"
+  },
+  {
+    "id": "sp-M.anyangense",
+    "text": "M.anyangense"
+  },
+  {
+    "id": "sp-M.aquaticum",
+    "text": "M.aquaticum"
+  },
+  {
+    "id": "sp-M.arabiense",
+    "text": "M.arabiense"
+  },
+  {
+    "id": "sp-M.aromaticivorans",
+    "text": "M.aromaticivorans"
+  },
+  {
+    "id": "sp-M.arosiense",
+    "text": "M.arosiense"
+  },
+  {
+    "id": "sp-M.arupense",
+    "text": "M.arupense"
+  },
+  {
+    "id": "sp-M.asiaticum",
+    "text": "M.asiaticum"
+  },
+  {
+    "id": "sp-M.attenuatum",
+    "text": "M.attenuatum"
+  },
+  {
+    "id": "sp-M.aubagnense",
+    "text": "M.aubagnense"
+  },
+  {
+    "id": "sp-M.aurum",
+    "text": "M.aurum"
+  },
+  {
+    "id": "sp-M.austroafricanum",
+    "text": "M.austroafricanum"
+  },
+  {
+    "id": "sp-M.avium",
+    "text": "M.avium"
+  },
+  {
+    "id": "sp-M.bacteremicum",
+    "text": "M.bacteremicum"
+  },
+  {
+    "id": "sp-M.basiliense",
+    "text": "M.basiliense"
+  },
+  {
+    "id": "sp-M.boenickei",
+    "text": "M.boenickei"
+  },
+  {
+    "id": "sp-M.bohemicum",
+    "text": "M.bohemicum"
+  },
+  {
+    "id": "sp-M.botniense",
+    "text": "M.botniense"
+  },
+  {
+    "id": "sp-M.bourgelatii",
+    "text": "M.bourgelatii"
+  },
+  {
+    "id": "sp-M.branderi",
+    "text": "M.branderi"
+  },
+  {
+    "id": "sp-M.brisbanense",
+    "text": "M.brisbanense"
+  },
+  {
+    "id": "sp-M.brumae",
+    "text": "M.brumae"
+  },
+  {
+    "id": "sp-M.canariasense",
+    "text": "M.canariasense"
+  },
+  {
+    "id": "sp-M.celatum",
+    "text": "M.celatum"
+  },
+  {
+    "id": "sp-M.celeriflavum",
+    "text": "M.celeriflavum"
+  },
+  {
+    "id": "sp-M.chelonae",
+    "text": "M.chelonae"
+  },
+  {
+    "id": "sp-M.chitae",
+    "text": "M.chitae"
+  },
+  {
+    "id": "sp-M.chlorophenolicum",
+    "text": "M.chlorophenolicum"
+  },
+  {
+    "id": "sp-M.chubuense",
+    "text": "M.chubuense"
+  },
+  {
+    "id": "sp-M.colombiense",
+    "text": "M.colombiense"
+  },
+  {
+    "id": "sp-M.conceptionense",
+    "text": "M.conceptionense"
+  },
+  {
+    "id": "sp-M.confluentis",
+    "text": "M.confluentis"
+  },
+  {
+    "id": "sp-M.conspicuum",
+    "text": "M.conspicuum"
+  },
+  {
+    "id": "sp-M.cookii",
+    "text": "M.cookii"
+  },
+  {
+    "id": "sp-M.cosmeticum",
+    "text": "M.cosmeticum"
+  },
+  {
+    "id": "sp-M.decipiens",
+    "text": "M.decipiens"
+  },
+  {
+    "id": "sp-M.diernhoferi",
+    "text": "M.diernhoferi"
+  },
+  {
+    "id": "sp-M.doricum",
+    "text": "M.doricum"
+  },
+  {
+    "id": "sp-M.duvalii",
+    "text": "M.duvalii"
+  },
+  {
+    "id": "sp-M.eburneum",
+    "text": "M.eburneum"
+  },
+  {
+    "id": "sp-M.elephantis",
+    "text": "M.elephantis"
+  },
+  {
+    "id": "sp-M.engbaekii",
+    "text": "M.engbaekii"
+  },
+  {
+    "id": "sp-M.europaeum",
+    "text": "M.europaeum"
+  },
+  {
+    "id": "sp-M.fallax",
+    "text": "M.fallax"
+  },
+  {
+    "id": "sp-M.farcinogenes",
+    "text": "M.farcinogenes"
+  },
+  {
+    "id": "sp-M.flavescens",
+    "text": "M.flavescens"
+  },
+  {
+    "id": "sp-M.florentinum",
+    "text": "M.florentinum"
+  },
+  {
+    "id": "sp-M.fluoranthenivorans",
+    "text": "M.fluoranthenivorans"
+  },
+  {
+    "id": "sp-M.fortuitum",
+    "text": "M.fortuitum"
+  },
+  {
+    "id": "sp-M.fragae",
+    "text": "M.fragae"
+  },
+  {
+    "id": "sp-M.franklinii",
+    "text": "M.franklinii"
+  },
+  {
+    "id": "sp-M.frederiksbergense",
+    "text": "M.frederiksbergense"
+  },
+  {
+    "id": "sp-M.gadium",
+    "text": "M.gadium"
+  },
+  {
+    "id": "sp-M.gastri",
+    "text": "M.gastri"
+  },
+  {
+    "id": "sp-M.genavense",
+    "text": "M.genavense"
+  },
+  {
+    "id": "sp-M.gilvum",
+    "text": "M.gilvum"
+  },
+  {
+    "id": "sp-M.goodii",
+    "text": "M.goodii"
+  },
+  {
+    "id": "sp-M.gordonae",
+    "text": "M.gordonae"
+  },
+  {
+    "id": "sp-M.grossiae",
+    "text": "M.grossiae"
+  },
+  {
+    "id": "sp-M.haemophilum",
+    "text": "M.haemophilum"
+  },
+  {
+    "id": "sp-M.hassiacum",
+    "text": "M.hassiacum"
+  },
+  {
+    "id": "sp-M.heckeshornense",
+    "text": "M.heckeshornense"
+  },
+  {
+    "id": "sp-M.heidelbergense",
+    "text": "M.heidelbergense"
+  },
+  {
+    "id": "sp-M.helveticum",
+    "text": "M.helveticum"
+  },
+  {
+    "id": "sp-M.helvum",
+    "text": "M.helvum"
+  },
+  {
+    "id": "sp-M.heraklionense",
+    "text": "M.heraklionense"
+  },
+  {
+    "id": "sp-M.hiberniae",
+    "text": "M.hiberniae"
+  },
+  {
+    "id": "sp-M.hippocampi",
+    "text": "M.hippocampi"
+  },
+  {
+    "id": "sp-M.hodleri",
+    "text": "M.hodleri"
+  },
+  {
+    "id": "sp-M.holsaticum",
+    "text": "M.holsaticum"
+  },
+  {
+    "id": "sp-M.houstonense",
+    "text": "M.houstonense"
+  },
+  {
+    "id": "sp-M.immunogenum",
+    "text": "M.immunogenum"
+  },
+  {
+    "id": "sp-M.innocens",
+    "text": "M.innocens"
+  },
+  {
+    "id": "sp-M.insubricum",
+    "text": "M.insubricum"
+  },
+  {
+    "id": "sp-M.interjectum",
+    "text": "M.interjectum"
+  },
+  {
+    "id": "sp-M.intermedium",
+    "text": "M.intermedium"
+  },
+  {
+    "id": "sp-M.intracellulare",
+    "text": "M.intracellulare"
+  },
+  {
+    "id": "sp-M.iranicum",
+    "text": "M.iranicum"
+  },
+  {
+    "id": "sp-M.kansasii",
+    "text": "M.kansasii"
+  },
+  {
+    "id": "sp-M.komaniense",
+    "text": "M.komaniense"
+  },
+  {
+    "id": "sp-M.kubicae",
+    "text": "M.kubicae"
+  },
+  {
+    "id": "sp-M.kumamotonense",
+    "text": "M.kumamotonense"
+  },
+  {
+    "id": "sp-M.kyogaense",
+    "text": "M.kyogaense"
+  },
+  {
+    "id": "sp-M.kyorinense",
+    "text": "M.kyorinense"
+  },
+  {
+    "id": "sp-M.lacus",
+    "text": "M.lacus"
+  },
+  {
+    "id": "sp-M.lehmannii",
+    "text": "M.lehmannii"
+  },
+  {
+    "id": "sp-M.lentiflavum",
+    "text": "M.lentiflavum"
+  },
+  {
+    "id": "sp-M.litorale",
+    "text": "M.litorale"
+  },
+  {
+    "id": "sp-M.llatzerense",
+    "text": "M.llatzerense"
+  },
+  {
+    "id": "sp-M.longobardum",
+    "text": "M.longobardum"
+  },
+  {
+    "id": "sp-M.lutetiense",
+    "text": "M.lutetiense"
+  },
+  {
+    "id": "sp-M.madagascariense",
+    "text": "M.madagascariense"
+  },
+  {
+    "id": "sp-M.mageritense",
+    "text": "M.mageritense"
+  },
+  {
+    "id": "sp-M.malmesburyense",
+    "text": "M.malmesburyense"
+  },
+  {
+    "id": "sp-M.malmoense",
+    "text": "M.malmoense"
+  },
+  {
+    "id": "sp-M.mantenii",
+    "text": "M.mantenii"
+  },
+  {
+    "id": "sp-M.marinum",
+    "text": "M.marinum"
+  },
+  {
+    "id": "sp-M.marseillense",
+    "text": "M.marseillense"
+  },
+  {
+    "id": "sp-M.minnesotense",
+    "text": "M.minnesotense"
+  },
+  {
+    "id": "sp-M.monacense",
+    "text": "M.monacense"
+  },
+  {
+    "id": "sp-M.montefiorense",
+    "text": "M.montefiorense"
+  },
+  {
+    "id": "sp-M.moriokaense",
+    "text": "M.moriokaense"
+  },
+  {
+    "id": "sp-M.mucogenicum",
+    "text": "M.mucogenicum"
+  },
+  {
+    "id": "sp-M.murale",
+    "text": "M.murale"
+  },
+  {
+    "id": "sp-M.nebraskense",
+    "text": "M.nebraskense"
+  },
+  {
+    "id": "sp-M.neglectum",
+    "text": "M.neglectum"
+  },
+  {
+    "id": "sp-M.neoaurum",
+    "text": "M.neoaurum"
+  },
+  {
+    "id": "sp-M.neumannii",
+    "text": "M.neumannii"
+  },
+  {
+    "id": "sp-M.neworleansense",
+    "text": "M.neworleansense"
+  },
+  {
+    "id": "sp-M.nonchromogenicum",
+    "text": "M.nonchromogenicum"
+  },
+  {
+    "id": "sp-M.noviomagense",
+    "text": "M.noviomagense"
+  },
+  {
+    "id": "sp-M.novocastrense",
+    "text": "M.novocastrense"
+  },
+  {
+    "id": "sp-M.obuense",
+    "text": "M.obuense"
+  },
+  {
+    "id": "sp-M.palauense",
+    "text": "M.palauense"
+  },
+  {
+    "id": "sp-M.palustre",
+    "text": "M.palustre"
+  },
+  {
+    "id": "sp-M.paraense",
+    "text": "M.paraense"
+  },
+  {
+    "id": "sp-M.paraffinicum",
+    "text": "M.paraffinicum"
+  },
+  {
+    "id": "sp-M.parafortuitum",
+    "text": "M.parafortuitum"
+  },
+  {
+    "id": "sp-M.paragordonae",
+    "text": "M.paragordonae"
+  },
+  {
+    "id": "sp-M.parascrofulaceum",
+    "text": "M.parascrofulaceum"
+  },
+  {
+    "id": "sp-M.paraseoulense",
+    "text": "M.paraseoulense"
+  },
+  {
+    "id": "sp-M.parmense",
+    "text": "M.parmense"
+  },
+  {
+    "id": "sp-M.peregrinum",
+    "text": "M.peregrinum"
+  },
+  {
+    "id": "sp-M.persicum",
+    "text": "M.persicum"
+  },
+  {
+    "id": "sp-M.phlei",
+    "text": "M.phlei"
+  },
+  {
+    "id": "sp-M.phocaicum",
+    "text": "M.phocaicum"
+  },
+  {
+    "id": "sp-M.porcinum",
+    "text": "M.porcinum"
+  },
+  {
+    "id": "sp-M.poriferae",
+    "text": "M.poriferae"
+  },
+  {
+    "id": "sp-M.pseudokansasii",
+    "text": "M.pseudokansasii"
+  },
+  {
+    "id": "sp-M.pseudoshottsii",
+    "text": "M.pseudoshottsii"
+  },
+  {
+    "id": "sp-M.psychrotolerans",
+    "text": "M.psychrotolerans"
+  },
+  {
+    "id": "sp-M.pulveris",
+    "text": "M.pulveris"
+  },
+  {
+    "id": "sp-M.rhodesiae",
+    "text": "M.rhodesiae"
+  },
+  {
+    "id": "sp-M.riyadhense",
+    "text": "M.riyadhense"
+  },
+  {
+    "id": "sp-M.rufum",
+    "text": "M.rufum"
+  },
+  {
+    "id": "sp-M.rutilum",
+    "text": "M.rutilum"
+  },
+  {
+    "id": "sp-M.salmoniphilum",
+    "text": "M.salmoniphilum"
+  },
+  {
+    "id": "sp-M.saopaulense",
+    "text": "M.saopaulense"
+  },
+  {
+    "id": "sp-M.sarraceniae",
+    "text": "M.sarraceniae"
+  },
+  {
+    "id": "sp-M.saskatchewanense",
+    "text": "M.saskatchewanense"
+  },
+  {
+    "id": "sp-M.scrofulaceum",
+    "text": "M.scrofulaceum"
+  },
+  {
+    "id": "sp-M.sediminis",
+    "text": "M.sediminis"
+  },
+  {
+    "id": "sp-M.senegalense",
+    "text": "M.senegalense"
+  },
+  {
+    "id": "sp-M.senriense",
+    "text": "M.senriense"
+  },
+  {
+    "id": "sp-M.senuense",
+    "text": "M.senuense"
+  },
+  {
+    "id": "sp-M.seoulense",
+    "text": "M.seoulense"
+  },
+  {
+    "id": "sp-M.septicum",
+    "text": "M.septicum"
+  },
+  {
+    "id": "sp-M.setense",
+    "text": "M.setense"
+  },
+  {
+    "id": "sp-M.sherrisii",
+    "text": "M.sherrisii"
+  },
+  {
+    "id": "sp-M.shigaense",
+    "text": "M.shigaense"
+  },
+  {
+    "id": "sp-M.shimoidei",
+    "text": "M.shimoidei"
+  },
+  {
+    "id": "sp-M.shinjukuense",
+    "text": "M.shinjukuense"
+  },
+  {
+    "id": "sp-M.simiae",
+    "text": "M.simiae"
+  },
+  {
+    "id": "sp-M.smegmatis",
+    "text": "M.smegmatis"
+  },
+  {
+    "id": "sp-M.sphagni",
+    "text": "M.sphagni"
+  },
+  {
+    "id": "sp-M.stomatepiae",
+    "text": "M.stomatepiae"
+  },
+  {
+    "id": "sp-M.subsp. abscessus",
+    "text": "M.subsp. abscessus"
+  },
+  {
+    "id": "sp-M.subsp. acetamidolyticum",
+    "text": "M.subsp. acetamidolyticum"
+  },
+  {
+    "id": "sp-M.subsp. avium",
+    "text": "M.subsp. avium"
+  },
+  {
+    "id": "sp-M.subsp. bolletii",
+    "text": "M.subsp. bolletii"
+  },
+  {
+    "id": "sp-M.subsp. chelonae",
+    "text": "M.subsp. chelonae"
+  },
+  {
+    "id": "sp-M.subsp. chimaera",
+    "text": "M.subsp. chimaera"
+  },
+  {
+    "id": "sp-M.subsp. fortuitum",
+    "text": "M.subsp. fortuitum"
+  },
+  {
+    "id": "sp-M.subsp. gwanakae",
+    "text": "M.subsp. gwanakae"
+  },
+  {
+    "id": "sp-M.subsp. intracellulare",
+    "text": "M.subsp. intracellulare"
+  },
+  {
+    "id": "sp-M.subsp. massiliense",
+    "text": "M.subsp. massiliense"
+  },
+  {
+    "id": "sp-M.subsp. paratuberculosis",
+    "text": "M.subsp. paratuberculosis"
+  },
+  {
+    "id": "sp-M.subsp. silvaticum",
+    "text": "M.subsp. silvaticum"
+  },
+  {
+    "id": "sp-M.syngnathidarum",
+    "text": "M.syngnathidarum"
+  },
+  {
+    "id": "sp-M.szulgai",
+    "text": "M.szulgai"
+  },
+  {
+    "id": "sp-M.terrae",
+    "text": "M.terrae"
+  },
+  {
+    "id": "sp-M.thermoresistibile",
+    "text": "M.thermoresistibile"
+  },
+  {
+    "id": "sp-M.timonense",
+    "text": "M.timonense"
+  },
+  {
+    "id": "sp-M.tokaiense",
+    "text": "M.tokaiense"
+  },
+  {
+    "id": "sp-M.triplex",
+    "text": "M.triplex"
+  },
+  {
+    "id": "sp-M.tusciae",
+    "text": "M.tusciae"
+  },
+  {
+    "id": "sp-M.ulcerans",
+    "text": "M.ulcerans"
+  },
+  {
+    "id": "sp-M.Unkown",
+    "text": "M.Unkown"
+  },
+  {
+    "id": "sp-M.vaccae",
+    "text": "M.vaccae"
+  },
+  {
+    "id": "sp-M.vicinigordonae",
+    "text": "M.vicinigordonae"
+  },
+  {
+    "id": "sp-M.virginiense",
+    "text": "M.virginiense"
+  },
+  {
+    "id": "sp-M.vulneris",
+    "text": "M.vulneris"
+  },
+  {
+    "id": "sp-M.wolinskyi",
+    "text": "M.wolinskyi"
+  },
+  {
+    "id": "sp-M.xenopi",
+    "text": "M.xenopi"
+  }
+]

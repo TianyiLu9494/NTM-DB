@@ -1,0 +1,29 @@
+CLUSTAL X (1.81) multiple sequence alignment
+
+
+VFG_ref                             atgatgacagccttggaaacgcgactgtcggtcgctgacggcacgcatgc
+M.abscessus_ERR5413168              ··················································
+M.abscessus_SRR14043014             ··················································
+M.abscessus_SRR18969520             ··················································
+
+VFG_ref                             cgcagcgctccggcagcgtctgcaggcggcgctggcggagtgtcgccggg
+M.abscessus_ERR5413168              ··················································
+M.abscessus_SRR14043014             ··················································
+M.abscessus_SRR18969520             ··················································
+
+VFG_ref                             aactggccagaggcgcctgcccggagcacttccagttcctgcaacagcag
+M.abscessus_ERR5413168              ·················g·········g······················
+M.abscessus_SRR14043014             ·················g·········gt·····················
+M.abscessus_SRR18969520             ·················g·········gt·····················
+
+VFG_ref                             gcccgggccctcgaaggcggtctcggcattctttcgcagctcacagagga
+M.abscessus_ERR5413168              ··················································
+M.abscessus_SRR14043014             ··················································
+M.abscessus_SRR18969520             ··················································
+
+VFG_ref                             ctaa
+M.abscessus_ERR5413168              ····
+M.abscessus_SRR14043014             ····
+M.abscessus_SRR18969520             ····
+
+

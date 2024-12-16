@@ -1,0 +1,44 @@
+{
+  "items": [
+    {
+      "id": "VFC0271",
+      "text": "Biofilm"
+    },
+    {
+      "id": "VFC0086",
+      "text": "Effector delivery system"
+    },
+    {
+      "id": "VFC0001",
+      "text": "Adherence"
+    },
+    {
+      "id": "VFC0204",
+      "text": "Motility"
+    },
+    {
+      "id": "VFC0235",
+      "text": "Exotoxin"
+    },
+    {
+      "id": "VFC0272",
+      "text": "Nutritional/Metabolic factor"
+    },
+    {
+      "id": "VFC0282",
+      "text": "Stress survival"
+    },
+    {
+      "id": "VFC0325",
+      "text": "Antimicrobial activity/Competitive advantage"
+    },
+    {
+      "id": "VFC0301",
+      "text": "Regulation"
+    },
+    {
+      "id": "VFC0346",
+      "text": "Others"
+    }
+  ]
+}

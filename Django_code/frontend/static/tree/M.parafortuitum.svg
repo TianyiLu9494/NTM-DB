@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' class='svglite' width='1080.00pt' height='504.00pt' viewBox='0 0 1080.00 504.00'>
+<defs>
+  <style type='text/css'><![CDATA[
+    .svglite line, .svglite polyline, .svglite polygon, .svglite path, .svglite rect, .svglite circle {
+      fill: none;
+      stroke: #000000;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      stroke-miterlimit: 10.00;
+    }
+    .svglite text {
+      white-space: pre;
+    }
+  ]]></style>
+</defs>
+<rect width='100%' height='100%' style='stroke: none; fill: #FFFFFF;'/>
+<defs>
+  <clipPath id='cpMC4wMHwxMDgwLjAwfDAuMDB8NTA0LjAw'>
+    <rect x='0.00' y='0.00' width='1080.00' height='504.00' />
+  </clipPath>
+</defs>
+<g clip-path='url(#cpMC4wMHwxMDgwLjAwfDAuMDB8NTA0LjAw)'>
+<rect x='0.00' y='0.00' width='1080.00' height='504.00' style='stroke-width: 1.07; stroke: #FFFFFF; fill: #FFFFFF;' />
+</g>
+<defs>
+  <clipPath id='cpNS40OHw5ODguNDN8NS40OHw0OTUuNzg='>
+    <rect x='5.48' y='5.48' width='982.95' height='490.30' />
+  </clipPath>
+</defs>
+<g clip-path='url(#cpNS40OHw5ODguNDN8NS40OHw0OTUuNzg=)'>
+<rect x='5.48' y='5.48' width='982.95' height='490.30' style='stroke-width: 1.07; stroke: #FFFFFF; fill: #FFFFFF;' />
+<line x1='939.31' y1='425.74' x2='939.31' y2='425.74' style='stroke-width: 1.07;' />
+<line x1='939.31' y1='309.00' x2='939.31' y2='309.00' style='stroke-width: 1.07;' />
+<line x1='939.31' y1='192.26' x2='939.31' y2='192.26' style='stroke-width: 1.07;' />
+<line x1='939.31' y1='75.52' x2='939.31' y2='75.52' style='stroke-width: 1.07;' />
+<line x1='50.16' y1='250.63' x2='50.16' y2='250.63' style='stroke-width: 1.07;' />
+<line x1='50.16' y1='367.37' x2='939.31' y2='367.37' style='stroke-width: 1.07;' />
+<line x1='50.16' y1='133.89' x2='939.31' y2='133.89' style='stroke-width: 1.07;' />
+<line x1='939.31' y1='367.37' x2='939.31' y2='425.74' style='stroke-width: 1.07;' />
+<line x1='939.31' y1='367.37' x2='939.31' y2='309.00' style='stroke-width: 1.07;' />
+<line x1='939.31' y1='133.89' x2='939.31' y2='192.26' style='stroke-width: 1.07;' />
+<line x1='939.31' y1='133.89' x2='939.31' y2='75.52' style='stroke-width: 1.07;' />
+<line x1='50.16' y1='250.63' x2='50.16' y2='250.63' style='stroke-width: 1.07;' />
+<line x1='50.16' y1='250.63' x2='50.16' y2='367.37' style='stroke-width: 1.07;' />
+<line x1='50.16' y1='250.63' x2='50.16' y2='133.89' style='stroke-width: 1.07;' />
+<line x1='943.75' y1='425.74' x2='943.75' y2='425.74' style='stroke-width: 1.07; stroke-dasharray: 1.42,4.27; stroke-linecap: butt;' />
+<line x1='943.75' y1='309.00' x2='943.75' y2='309.00' style='stroke-width: 1.07; stroke-dasharray: 1.42,4.27; stroke-linecap: butt;' />
+<line x1='943.75' y1='192.26' x2='943.75' y2='192.26' style='stroke-width: 1.07; stroke-dasharray: 1.42,4.27; stroke-linecap: butt;' />
+<line x1='943.75' y1='75.52' x2='943.75' y2='75.52' style='stroke-width: 1.07; stroke-dasharray: 1.42,4.27; stroke-linecap: butt;' />
+<text x='943.75' y='426.10' style='font-size: 0.00px; font-family: "Liberation Sans";' textLength='5.97px' lengthAdjust='spacingAndGlyphs'>DRR161184</text>
+<text x='943.75' y='309.36' style='font-size: 0.00px; font-family: "Liberation Sans";' textLength='9.21px' lengthAdjust='spacingAndGlyphs'>GCF_010725485.1</text>
+<text x='943.75' y='192.62' style='font-size: 0.00px; font-family: "Liberation Sans";' textLength='9.21px' lengthAdjust='spacingAndGlyphs'>GCF_002086815.1</text>
+<text x='943.75' y='75.89' style='font-size: 0.00px; font-family: "Liberation Sans";' textLength='9.21px' lengthAdjust='spacingAndGlyphs'>GCF_900417285.1</text>
+</g>
+<g clip-path='url(#cpMC4wMHwxMDgwLjAwfDAuMDB8NTA0LjAw)'>
+<text x='993.36' y='428.95' style='font-size: 8.80px;fill: #4D4D4D; font-family: "Liberation Sans";' textLength='52.57px' lengthAdjust='spacingAndGlyphs'>DRR161184</text>
+<text x='993.36' y='312.21' style='font-size: 8.80px;fill: #4D4D4D; font-family: "Liberation Sans";' textLength='81.16px' lengthAdjust='spacingAndGlyphs'>GCF_010725485.1</text>
+<text x='993.36' y='195.47' style='font-size: 8.80px;fill: #4D4D4D; font-family: "Liberation Sans";' textLength='81.16px' lengthAdjust='spacingAndGlyphs'>GCF_002086815.1</text>
+<text x='993.36' y='78.73' style='font-size: 8.80px;fill: #4D4D4D; font-family: "Liberation Sans";' textLength='81.16px' lengthAdjust='spacingAndGlyphs'>GCF_900417285.1</text>
+</g>
+</svg>

@@ -1,0 +1,314 @@
+{
+    "nodes": [
+        {
+            "name": "antibiotic target protection"
+        },
+        {
+            "name": "antibiotic efflux"
+        },
+        {
+            "name": "antibiotic target alteration"
+        },
+        {
+            "name": "antibiotic inactivation"
+        },
+        {
+            "name": "antibiotic target replacement"
+        },
+        {
+            "name": "Unique"
+        },
+        {
+            "name": "Core"
+        },
+        {
+            "name": "rifamycin antibiotic"
+        },
+        {
+            "name": "penam"
+        },
+        {
+            "name": "macrolide antibiotic"
+        },
+        {
+            "name": "aminoglycoside antibiotic"
+        },
+        {
+            "name": "sulfonamide antibiotic"
+        },
+        {
+            "name": "diaminopyrimidine antibiotic"
+        },
+        {
+            "name": "fluoroquinolone antibiotic"
+        },
+        {
+            "name": "disinfecting agents and antiseptics"
+        },
+        {
+            "name": "peptide antibiotic"
+        },
+        {
+            "name": "tetracycline antibiotic"
+        },
+        {
+            "name": "cephalosporin"
+        },
+        {
+            "name": "mupirocin-like antibiotic"
+        },
+        {
+            "name": "streptogramin antibiotic"
+        },
+        {
+            "name": "streptogramin B antibiotic"
+        },
+        {
+            "name": "fusidane antibiotic"
+        },
+        {
+            "name": "streptogramin A antibiotic"
+        },
+        {
+            "name": "lincosamide antibiotic"
+        },
+        {
+            "name": "phosphonic acid antibiotic"
+        },
+        {
+            "name": "glycylcycline"
+        },
+        {
+            "name": "oxazolidinone antibiotic"
+        },
+        {
+            "name": "phenicol antibiotic"
+        },
+        {
+            "name": "isoniazid-like antibiotic"
+        },
+        {
+            "name": "pleuromutilin antibiotic"
+        },
+        {
+            "name": "nucleoside antibiotic"
+        },
+        {
+            "name": "carbapenem"
+        },
+        {
+            "name": "aminocoumarin antibiotic"
+        },
+        {
+            "name": "monobactam"
+        },
+        {
+            "name": "cephamycin"
+        },
+        {
+            "name": "penem"
+        }
+    ],
+    "links": [
+        {
+            "source": "Core",
+            "target": "rifamycin antibiotic",
+            "value": 2
+        },
+        {
+            "source": "Unique",
+            "target": "rifamycin antibiotic",
+            "value": 3
+        },
+        {
+            "source": "Core",
+            "target": "penam",
+            "value": 1
+        },
+        {
+            "source": "Unique",
+            "target": "penam",
+            "value": 6
+        },
+        {
+            "source": "Core",
+            "target": "macrolide antibiotic",
+            "value": 1
+        },
+        {
+            "source": "Unique",
+            "target": "macrolide antibiotic",
+            "value": 15
+        },
+        {
+            "source": "Unique",
+            "target": "aminoglycoside antibiotic",
+            "value": 11
+        },
+        {
+            "source": "Unique",
+            "target": "sulfonamide antibiotic",
+            "value": 2
+        },
+        {
+            "source": "Unique",
+            "target": "diaminopyrimidine antibiotic",
+            "value": 4
+        },
+        {
+            "source": "Unique",
+            "target": "fluoroquinolone antibiotic",
+            "value": 13
+        },
+        {
+            "source": "Unique",
+            "target": "disinfecting agents and antiseptics",
+            "value": 6
+        },
+        {
+            "source": "Unique",
+            "target": "peptide antibiotic",
+            "value": 2
+        },
+        {
+            "source": "Unique",
+            "target": "tetracycline antibiotic",
+            "value": 17
+        },
+        {
+            "source": "Unique",
+            "target": "cephalosporin",
+            "value": 2
+        },
+        {
+            "source": "Unique",
+            "target": "mupirocin-like antibiotic",
+            "value": 1
+        },
+        {
+            "source": "Unique",
+            "target": "streptogramin antibiotic",
+            "value": 9
+        },
+        {
+            "source": "Unique",
+            "target": "streptogramin B antibiotic",
+            "value": 6
+        },
+        {
+            "source": "Unique",
+            "target": "fusidane antibiotic",
+            "value": 2
+        },
+        {
+            "source": "Unique",
+            "target": "streptogramin A antibiotic",
+            "value": 6
+        },
+        {
+            "source": "Unique",
+            "target": "lincosamide antibiotic",
+            "value": 7
+        },
+        {
+            "source": "Unique",
+            "target": "phosphonic acid antibiotic",
+            "value": 1
+        },
+        {
+            "source": "Unique",
+            "target": "glycylcycline",
+            "value": 2
+        },
+        {
+            "source": "Unique",
+            "target": "oxazolidinone antibiotic",
+            "value": 1
+        },
+        {
+            "source": "Unique",
+            "target": "phenicol antibiotic",
+            "value": 4
+        },
+        {
+            "source": "Unique",
+            "target": "isoniazid-like antibiotic",
+            "value": 1
+        },
+        {
+            "source": "Unique",
+            "target": "pleuromutilin antibiotic",
+            "value": 2
+        },
+        {
+            "source": "Unique",
+            "target": "nucleoside antibiotic",
+            "value": 1
+        },
+        {
+            "source": "Unique",
+            "target": "carbapenem",
+            "value": 1
+        },
+        {
+            "source": "Unique",
+            "target": "aminocoumarin antibiotic",
+            "value": 1
+        },
+        {
+            "source": "Unique",
+            "target": "monobactam",
+            "value": 1
+        },
+        {
+            "source": "Unique",
+            "target": "cephamycin",
+            "value": 2
+        },
+        {
+            "source": "Unique",
+            "target": "penem",
+            "value": 1
+        },
+        {
+            "source": "antibiotic target protection",
+            "target": "Core",
+            "value": 1
+        },
+        {
+            "source": "antibiotic target protection",
+            "target": "Unique",
+            "value": 18
+        },
+        {
+            "source": "antibiotic efflux",
+            "target": "Core",
+            "value": 2
+        },
+        {
+            "source": "antibiotic efflux",
+            "target": "Unique",
+            "value": 66
+        },
+        {
+            "source": "antibiotic target alteration",
+            "target": "Core",
+            "value": 1
+        },
+        {
+            "source": "antibiotic target alteration",
+            "target": "Unique",
+            "value": 23
+        },
+        {
+            "source": "antibiotic inactivation",
+            "target": "Unique",
+            "value": 18
+        },
+        {
+            "source": "antibiotic target replacement",
+            "target": "Unique",
+            "value": 5
+        }
+    ]
+}

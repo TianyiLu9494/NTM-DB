@@ -1,0 +1,37 @@
+table.MSA {
+  border-collapse: collapse;
+}
+
+table.MSA th {
+  min-width: 300px;
+  color: #333333;
+}
+
+table.MSA td {
+  min-width: 20px;
+  max-width: 35px;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 0;
+}
+
+
+/* table.MSA td::before {
+  content: attr(data-letter);
+}
+
+table.MSA td[data-letter="a"]::before {
+  color: #ff4c29;
+}
+
+table.MSA td[data-letter="t"]::before {
+  color: #2d4263;
+}
+
+table.MSA td[data-letter="c"]::before {
+  color: #29c7ac;
+}
+
+table.MSA td[data-letter="g"]::before {
+  color: #ecb365;
+} */

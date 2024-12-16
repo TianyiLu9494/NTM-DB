@@ -1,0 +1,60 @@
+CLUSTAL X (1.81) multiple sequence alignment
+
+
+VFG_ref                             atggctcgtattttgattgttgatgactctccgaccgagatgtacaagct
+M.abscessus_ERR5412026              ··················································
+M.abscessus_ERR5413168              ··················································
+M.abscessus_ERR5413592              -----···a···c····c··c··c········c·················
+M.abscessus_ERR5414376              ··················································
+M.marinum_SRR9949212                ·····a···g··c·a··c··c··c··t··g·····t··a········a··
+
+VFG_ref                             gaccgccatgctggaaaagcatggtcaccaggtactcaaggccgagaacg
+M.abscessus_ERR5412026              ··················································
+M.abscessus_ERR5413168              ··················································
+M.abscessus_ERR5413592              c·······················g··t·····g················
+M.abscessus_ERR5414376              ··················································
+M.marinum_SRR9949212                c····g··················c········g···········a····
+
+VFG_ref                             gcggcgacggcgtcgccctggcccgccaggaaaagcccgacgtggtcctg
+M.abscessus_ERR5412026              ··················································
+M.abscessus_ERR5413168              ·················································a
+M.abscessus_ERR5413592              ·t·c···t·················t·····g·····g··t·c·······
+M.abscessus_ERR5414376              ··················································
+M.marinum_SRR9949212                ···cg········g···········t················c···g···
+
+VFG_ref                             atggacatcgtcatgcccggcctcaacggcttccaggcgacccgtcaatt
+M.abscessus_ERR5412026              ···············································g··
+M.abscessus_ERR5413168              ··················································
+M.abscessus_ERR5413592              ·····························t········c·····g··gc·
+M.abscessus_ERR5414376              ··················································
+M.marinum_SRR9949212                ·····t·····g··························c··g··c··g··
+
+VFG_ref                             gaccaaggacgccgagaccagcgccatcccggtgatcatcgtcaccacca
+M.abscessus_ERR5412026              ··················································
+M.abscessus_ERR5413168              ··················································
+M.abscessus_ERR5413592              ·········t·····a······ca···t······g···········g···
+M.abscessus_ERR5414376              ·······································a··········
+M.marinum_SRR9949212                ·t·······gc·g··a····a··gt······a·c······a·········
+
+VFG_ref                             aggaccaggagaccgacaaggtctggggcaagcgccagggcgctcgcgac
+M.abscessus_ERR5412026              ·············································-----
+M.abscessus_ERR5413168              ··················································
+M.abscessus_ERR5413592              ··········a································caag···
+M.abscessus_ERR5414376              ···············cg·····················c···········
+M.marinum_SRR9949212                ··········a·········a········gca···········caag···
+
+VFG_ref                             tacctgaccaagccggtggacgaagagaccctgctgaaaaccatcaatgc
+M.abscessus_ERR5412026              --------------------------------------------------
+M.abscessus_ERR5413168              ··················································
+M.abscessus_ERR5413592              ·····c····----------------------------------------
+M.abscessus_ERR5414376              ·········-----------------------------------------
+M.marinum_SRR9949212                ··············t·····------------------------------
+
+VFG_ref                             ggtgctggcgggctga
+M.abscessus_ERR5412026              ----------------
+M.abscessus_ERR5413168              ················
+M.abscessus_ERR5413592              ----------------
+M.abscessus_ERR5414376              ----------------
+M.marinum_SRR9949212                ----------------
+
+

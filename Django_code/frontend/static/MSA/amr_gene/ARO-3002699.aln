@@ -1,0 +1,108 @@
+CLUSTAL X (1.81) multiple sequence alignment
+
+
+AMR_ref                             gtgcgctctaaagatttttcttggcggtattctcttgccgccacgctatt
+M.abscessus_SRR14719132             ········a···························c·············
+M.abscessus_SRR14719134             ········a···························c·············
+
+AMR_ref                             actgttatcaccattcgacttgttggcatcactcggcatggatatgtatc
+M.abscessus_SRR14719132             g·················t···c····g·····g··············c·
+M.abscessus_SRR14719134             g·················t···c····g·····g··············c·
+
+AMR_ref                             tgcctgtggtgcctttcatggccggtgcactcggtgccggtgcagggacg
+M.abscessus_SRR14719132             ····c·················g·a······t··gt··············
+M.abscessus_SRR14719134             ····c·················g·a······t··gt··············
+
+AMR_ref                             atccagctgacgttgacggtatacctggttttgcttggagccggtcagct
+M.abscessus_SRR14719132             ···················c························a·····
+M.abscessus_SRR14719134             ···················c························a·····
+
+AMR_ref                             tctctttggcccgttatcggatctgctggggcgccgcccggtattactcg
+M.abscessus_SRR14719132             ······c·····ac·g·······g······t········c··t·····t·
+M.abscessus_SRR14719134             ······c·····ac·g·······g······t········c··t·····t·
+
+AMR_ref                             gtggtggaattacctatattttggcttcattcggactcgccgcagcttca
+M.abscessus_SRR14719132             ····c··g···g········gc············c···a···t··t····
+M.abscessus_SRR14719134             ····c··g···g········gc············c···a···t··t····
+
+AMR_ref                             tcaccagaagttttcctgagcttccgtattcttcaagcctgcggtgcttc
+M.abscessus_SRR14719132             ··g······c····t···········cg·······g········c·····
+M.abscessus_SRR14719134             ··g······c····t···········cg·······g········c·····
+
+AMR_ref                             ggcatgtctcgtgtccactttcgcgaccgtacgcgacatatattcgggca
+M.abscessus_SRR14719132             ············t··············g···········c·········c
+M.abscessus_SRR14719134             ············t··············g···········c·········c
+
+AMR_ref                             gcgaggaaagcaacgttatctatggcttgctcggctctatgcttgcgatg
+M.abscessus_SRR14719132             ·t··············c·································
+M.abscessus_SRR14719134             ·t··············c·································
+
+AMR_ref                             gttccagcaataggcccattgttaggagcgctggtcgacgcttggctggg
+M.abscessus_SRR14719132             ·····t··g·········c··c···················g·····c··
+M.abscessus_SRR14719134             ·····t··g·········c··c···················g·····c··
+
+AMR_ref                             gtggcgagcaatctttggtttgctgggaatcgcaatgataggtgctgtta
+M.abscessus_SRR14719132             a·····c········c··c·····a··g··g···········c·······
+M.abscessus_SRR14719134             a·····c········c··c·····a··g··g···········c·······
+
+AMR_ref                             ccgcagcttggcgattctggcccgagacccggcggcagcgaacggcagat
+M.abscessus_SRR14719132             t······c······c·······a·····t········c··g········c
+M.abscessus_SRR14719134             t······c······c·······a·····t········c··g········c
+
+AMR_ref                             ttacagtggtcacagctattgcttcctgtgaaatgcctgaacttctggct
+M.abscessus_SRR14719132             c··········g·········ac··········ca···············
+M.abscessus_SRR14719134             c··········g·········ac··········ca···············
+
+AMR_ref                             gtacaccctctgctacagcgcgggaatgggcagtttctttgtcttcttct
+M.abscessus_SRR14719132             ······g·····t···········g········c··t··c·····t····
+M.abscessus_SRR14719134             ······g·····t···········g········c··t··c·····t····
+
+AMR_ref                             cgactgccccttggctaatgatgggcaggcaagcgttatcgcaacttagc
+M.abscessus_SRR14719132             ····c·····c··············g·······g················
+M.abscessus_SRR14719134             ····c·····c··············g·······g················
+
+AMR_ref                             ttcagcttgctgtttgcgacagtggccatcgcgatgatggctacagcgcg
+M.abscessus_SRR14719132             ···········a·····t··············t·················
+M.abscessus_SRR14719134             ···········a·····t··············t·················
+
+AMR_ref                             gatcatgggacggctgattccccgatggggaagcctgaacactttacgag
+M.abscessus_SRR14719132             a···········a···········g··············g··c·······
+M.abscessus_SRR14719134             a···········a···········g··············g··c·······
+
+AMR_ref                             ttggaatgggttgcctagtggtcggggcactgttgcttgctgtcggcgag
+M.abscessus_SRR14719132             ·g········g··t··ga···cg··a··g········c·····t······
+M.abscessus_SRR14719134             ·g········g··t··ga···cg··a··g········c·····t······
+
+AMR_ref                             acactcataccaaactcggtgcttggcttcatcgccccaatgtggctcgt
+M.abscessus_SRR14719132             ···t·ggc···ggt························g···········
+M.abscessus_SRR14719134             ···t·ggc···ggt························g···········
+
+AMR_ref                             cggtgttggcattgccactgcggcctcggtggcacccaatggtgcacttc
+M.abscessus_SRR14719132             g········t··c··········ta················cc··t····
+M.abscessus_SRR14719134             g········t··c··········ta················cc··t····
+
+AMR_ref                             gagggtttgatcacatcgctggaaccgccacagcagtctacttctgcttg
+M.abscessus_SRR14719132             ····t··c·····t········g·····t·················t···
+M.abscessus_SRR14719134             ····t··c·····t········g·····t·················t···
+
+AMR_ref                             ggtgggttactgctaggtggtatcggtactttcatcattgcacttttacc
+M.abscessus_SRR14719132             ·····ac·····t····gat······g··ac····t···a·g······t·
+M.abscessus_SRR14719134             ·····ac·····t····gat······g··ac····t···a·g······t·
+
+AMR_ref                             aagtgataccacatggccgatcattgcttattgcctaatcctcgcaatag
+M.abscessus_SRR14719132             g·c··g······c···········c···········c··········c··
+M.abscessus_SRR14719134             g·c··g······c···········c···········c··········c··
+
+AMR_ref                             cagtgctttgtctatcctgcttcaaccccaacaggcaccatcccagcgat
+M.abscessus_SRR14719132             ·············g······a····t········a·g·····t····c·a
+M.abscessus_SRR14719134             ·············g······a····t········a·g·····t····c·a
+
+AMR_ref                             gacgagcatgattcgcttgcgacgcaagacatcggccgctcgcaatcggg
+M.abscessus_SRR14719132             ··a··a······g·ct·g···cta····g··c··ata··g·········t
+M.abscessus_SRR14719134             ··a··a······g·ct·g···cta····g··c··ata··g·········t
+
+AMR_ref                             ccatggtcatgattag
+M.abscessus_SRR14719132             ·····a······c···
+M.abscessus_SRR14719134             ·····a······c···
+
+

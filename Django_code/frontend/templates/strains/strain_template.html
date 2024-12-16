@@ -1,0 +1,246 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NTM-DB: Strain-{{strain.accession}}</title>
+  {% load static %}
+  {% load humanize %}
+  <link rel="icon" href="{%static '/image/logo/NTM_logo_light.svg'%}" />
+  <link rel="stylesheet" type="text/css" href="{% static '/module/semantic-ui/semantic.min.css'%}">
+  <link rel="stylesheet" type="text/css" href="{% static '/module/bootstrap/bootstrap.min.css'%}" />
+  <link rel="stylesheet" type="text/css" href="{% static '/module/ngdc/page.min.css'%}" />
+  <link rel="stylesheet" type="text/css" href="{% static '/css/supplementary.css'%}" />
+  <style>
+    h3 {
+      color: #3391b9;
+      font-weight: bold;
+      margin: 15px 0 5px 0;
+    }
+  </style>
+</head>
+
+<body>
+  {% include 'component/ngdc_header.html' %}
+  {% include 'component/nav_bar2.html' %}
+  <div id="main">
+    <!-- breadcrumb -->
+    <div class="ui basic segment">
+      <div class="ui big breadcrumb" style="margin:8px 0 35px 0 !important;">
+        <a href="/ntmdb" class="section"><i class="icon home"></i> Home</a>
+        <i class="right angle icon divider"></i>
+        <a href="/ntmdb/browse/strains" class="section">Browse Strains</a>
+        <i class="right angle icon divider"></i>
+        <div class="active section">M.{{strain.species_name}}: {{strain.accession}}</div>
+      </div>
+
+
+
+      <div class="ui stackable grid row">
+        <!-- nav side bar -->
+        <div class="three wide column" style="margin-left:30px !important; min-width: 220px;">
+          <div class="ui sticky" style="position: sticky !important; top: 50px !important;">
+            <div class="ui fluid secondary pointing vertical menu teal">
+              <div class="item bg-color"><a class="sidebar-subtitle" href="#list-item-1">Overview</a> </div>
+              <div class="item bg-color"><a class="sidebar-subtitle" href="#list-item-2">Resistome</a></div>
+              <div class="item bg-color"><a class="sidebar-subtitle" href="#list-item-3">Virulome</a></div>
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="twelve wide column" style="margin-left: 30px;">
+
+          <!-- main content-->
+
+          <div class="container">
+            <div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-offset="0" class="scrollspy-example"
+              tabindex="0">
+
+              <!-- 1. Overview -->
+              <h3 id="list-item-1"><b><i class="hand point right icon"></i> Overview of
+                  <i>M.{{strain.species_name}}</i>:&ensp;{{strain.accession}}</b>
+              </h3>
+              <br>
+              <div class="container">
+                <div class="row">
+                  <table class="table table-striped">
+                    <tbody>
+                      <tr>
+                        <td><b>Organism name</b></td>
+                        <td><i>Mycobacterium {{strain.species_name}}</i></td>
+                      </tr>
+                      <tr>
+                        <td><b>GenBank assembly accession</b></td>
+                        <td><a href="https://www.ncbi.nlm.nih.gov/search/all/?term={{strain.accession}}/">{{strain.accession}}
+                          </a></td>
+                      </tr>
+                      <tr>
+                        <td><b>Representative strain</b></td>
+                        <td>{{Representative_Strain}}</td>
+                      </tr>
+                      <tr>
+                        <td><b>Type strain</b></td>
+                        <td>{{Type_Strain}}</td>
+                      </tr>
+                      <tr>
+                        <td><b>Isolation source</b></td>
+                        {% if strain.source_detail == None %}
+                        <td>NA</td>
+                        {% else %}
+                        <td>{{strain.source_detail}}</td>
+                        {% endif %}
+                      </tr>
+                      <tr>
+                        <td><b>DST</b></td>
+                        {% if strain.DST_test %}
+                        <td>
+                          {% for each in DST %}
+                          {{each.drug}} : {{each.result.drug_susceptibility}}(MIC:{{each.result.MIC}})
+                          {% endfor %}
+                        </td>
+                        {% comment %} <a href="{% url 'DST' strain.accession %}">(detail)</a> {% endcomment %}
+                        {% else %}
+                        <td>Not tested</td>
+                        {% endif %}
+                      </tr>
+                      <tr>
+                        <td><b>CheckM Completeness</b></td>
+                        {% if strain.checkm_completeness == None %}
+                        <td>NA</td>
+                        {% else %}
+                        <td>{{strain.checkm_completeness|floatformat:2}}%</td>
+                        {% endif %}
+                      </tr>
+                      <tr>
+                        <td><b>CheckM Contamination</b></td>
+                        {% if strain.checkm_contamination == None %}
+                        <td>NA</td>
+                        {% else %}
+                        <td>{{strain.checkm_contamination|floatformat:2}}%</td>
+                        {% endif %}
+                      </tr>
+                      <tr>
+                        <td><b>SSU Count</b></td>
+                        <td>{{strain.ssu_count}}</td>
+                      </tr>
+                      <tr>
+                        <td><b>tRNA Count</b></td>
+                        <td>{{strain.trna_count}}</td>
+                      </tr>
+                      <tr>
+                        <td><b>Genome Size</b></td>
+                        <td>{{strain.assembly_total_length|intcomma}}</td>
+                      </tr>
+                      <tr>
+                        <td><b>Coding density</b></td>
+                        <td>{{strain.coding_density}}%</td>
+                      </tr>
+                      <tr>
+                        <td><b>GC content</b></td>
+                        <td>{{strain.gc_percentage|floatformat:2}}%</td>
+                      </tr>
+                      <tr>
+                        <td><b>Contig N50</b></td>
+                        <td>{{strain.n50_contigs}}</td>
+                      </tr>
+                      <tr>
+                        <td><b>Contig L50</b></td>
+                        <td>{{strain.l50_contigs}}</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+              <!-- 3. Resistom-->
+              <br>
+              <h3 id="list-item-2"><b><i class="hand point right icon"></i> Resistome</b></h3>
+              <div class="container"> <!-- Resistom table -->
+                <p style="font-size:16px;"><br><i>{{ amr_genes|length }} resistance genes found in this strain.</i></p>
+                {% if amr_genes|length > 0 %}
+                <table class="table table-striped">
+                  <thead>
+                    <tr>
+                      <th scope="col" style="width: 120px;">Accession</th>
+                      <th scope="col" style="width: 100px;">Gene Name</th>
+                      <th scope="col" style="width: 100px;">Drug Class</th>
+                      <th scope="col" style="width: 200px;">Mechanism</th>
+                      <th scope="col" style="width: 80px;">Coverage</th>
+                      <th scope="col" style="width: 80px;">Identity</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {% for amr in amr_genes %}
+                    <tr>
+                      <td><a href="https://card.mcmaster.ca/ontology/{{amr.card_id}}">{{amr.card_accession}}</a></td>
+                      <td>{{amr.gene_name}}</td>
+                      <td>{{amr.drug_class}}</td>
+                      <td><a
+                          href="https://card.mcmaster.ca/ontology/{{amr.mechanism_ontology_id}}">{{amr.mechanism}}</a>
+                      </td>
+                      <td>{{amr.coverage}}</td>
+                      <td>{{amr.identity}}</td>
+                    </tr>
+                    {% endfor %}
+                  </tbody>
+                </table>
+                {% endif %}
+              </div>
+
+              <!-- 4. Virolum -->
+              <br>
+              <h3 id="list-item-3"><b><i class="hand point right icon"></i> Virulome</b></h3>
+              <div class="container">
+                <p style="font-size:16px;"><br><i>{{ vf_genes|length }} virulence genes found in this strain.</i></p>
+                {% if vf_genes|length > 0 %}
+                <div style="overflow: auto; width: 100%;">
+                  <table class="table table-striped">
+                    <thead>
+                      <tr>
+                        <th scope="col" style="width: 120px;">Accession</th>
+                        <th scope="col" style="width: 100px;">Gene Name</th>
+                        <th scope="col" style="width: 100px;">Virulence Factor</th>
+                        <th scope="col" style="width: 200px;">VF full name</th>
+                        <th scope="col" style="width: 150px;">VF Category</th>
+                        <th scope="col" style="width: 80px;">Coverage</th>
+                        <th scope="col" style="width: 80px;">Identity</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      {% for vfg in vf_genes %}
+                      <tr>
+                        <td><a href="http://www.mgc.ac.cn/cgi-bin/VFs/gene.cgi?GeneID={{vfg.vfg_id}}">{{vfg.vfg_id}}</a>
+                        </td>
+                        <td>{{vfg.gene_name}}</td>
+                        <td><a href="http://www.mgc.ac.cn/cgi-bin/VFs/vfs.cgi?VFID={{vfg.vf_id}}">{{vfg.vf_name}}</a>
+                        </td>
+                        <td><a
+                            href="http://www.mgc.ac.cn/cgi-bin/VFs/vfs.cgi?VFID={{vfg.vf_id}}">{{vfg.vf_full_name}}</a>
+                        </td>
+                        <td><a
+                            href="http://www.mgc.ac.cn/cgi-bin/VFs/VFcategory.cgi?{{vfg.vfc_id}}">{{vfg.vfc_name}}</a>
+                        </td>
+                        <td>{{vfg.coverage}}</td>
+                        <td>{{vfg.identity}}</td>
+                      </tr>
+                      {% endfor %}
+                    </tbody>
+                  </table>
+                </div>
+                {% endif %}
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    {% include 'component/ngdc_footer.html' %}
+    <script src="{% static '/module/jquery/jquery-3.6.4.js'%}"></script>
+    <script src="{% static '/module/bootstrap/bootstrap.bundle.min.js'%}"></script>
+    <script src="{% static '/module/semantic-ui/semantic.min.js'%}"></script>
+</body>
+
+</html>

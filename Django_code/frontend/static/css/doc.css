@@ -1,0 +1,187 @@
+@charset "utf-8";
+
+/* 侧边栏样式 · 侧边栏样式 · 侧边栏样式 */
+.sidebar-nav a {
+    padding: 5px 0;
+    /* 调整上下边距，可以适当调整 */
+}
+
+/* .card-header b {
+    font-size: 20px;
+    color: rgb(86, 138, 180);
+    font-weight: bold;
+}
+
+.card-body .metismenu>li>a {
+    line-height: 15px;
+}
+
+.card-body .metismenu ul li a {
+    line-height: 30px;
+} */
+
+
+/* 二级菜单列表的样式 */
+.metismenu ul {
+    padding-left: 12px;
+}
+
+/* 三级菜单列表的样式 */
+.metismenu ul ul {
+    padding-left: 16px;
+}
+
+/* 四级菜单列表的样式 */
+.metismenu ul ul ul {
+    padding-left: 20px;
+}
+
+
+/* 所有选项默认颜色为灰色 */
+.metismenu li a {
+    color: #646464;
+}
+
+/* 鼠标悬停时颜色为黑色 */
+.metismenu li a:hover {
+    color: #000;
+}
+
+/* 被单击后颜色为蓝色 */
+.metismenu li a.active {
+    /* font-weight: bold; */
+    color: rgb(86, 138, 180);
+}
+
+
+
+
+
+
+
+
+
+/* 正文样式 · 正文样式 · 正文样式 */
+
+
+p {
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 16px;
+}
+
+.docTitle h2 {
+    color: #3391b9;
+    font-size: 28px;
+    font-weight: 600;
+    /* margin-left: 12px; */
+    word-break: break-all;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.docuMark {
+    display: inline-block;
+    height: 30px;
+    margin-bottom: 8px;
+}
+
+img {
+    vertical-align: middle;
+    display: inline-block;
+}
+
+
+.docTitle h3 {
+    color: #3391b9;
+    font-size: 24px;
+    font-weight: 550;
+    margin-left: 0;
+    word-break: break-all;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/* .h3-svg {
+    vertical-align: middle;
+    fill: rgb(102, 164, 214);
+    display: inline-block;
+    margin-bottom: 8px;
+    margin-left: 0;
+    width: 22px;
+    height: 22px;
+} */
+
+.docTitle h4 {
+    color: #3391b9;
+    font-size: 21px;
+    font-weight: 550;
+    margin-left: 00px;
+    word-break: break-all;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.h4-p {
+    margin-left: 00px;
+}
+
+/* .h4-svg {
+    vertical-align: middle;
+    fill: rgb(82, 134, 177);
+    display: inline-block;
+    margin-bottom: 8px;
+    margin-left: 0px;
+    width: 22px;
+    height: 22px;
+} */
+
+.docTitle h5 {
+    color: #3391b9;
+    font-size: 18px;
+    font-weight: 550;
+    margin-left: 00px;
+    word-break: break-all;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+.h5-p {
+    margin: 0 0 16px 00px;
+}
+
+
+
+
+/* .qmark:hover::after {
+    content: attr(title);
+    display: block;
+    position: absolute;
+    top: -20px;
+    left: 10px;
+    padding: 5px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    white-space: normal;
+} */
+
+/* .qmark::-webkit-tooltip {
+    display: none;
+}
+
+.qmark::before {
+    display: none !important;
+} */
+
+
+h4,
+h5 {
+    margin-top: 0;
+}
+
+h3 {
+    margin-top: 5px;
+}

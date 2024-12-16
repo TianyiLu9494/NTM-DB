@@ -1,0 +1,271 @@
+CLUSTAL X (1.81) multiple sequence alignment
+
+
+VFG_ref                             atgggaccagtggccgtgacgcgagccgacgcgcggggcgccatcgacga
+M.decipiens_GCF_002104675.1         -········cca·······················a·t·········a··
+
+VFG_ref                             tgtgatggcgctcagcccattgcaacagggactgttttctagggcgacac
+M.decipiens_GCF_002104675.1         ···················c··········gt····c··g·t······g·
+
+VFG_ref                             tggtcgccgcggagtccggctctgaggccgcagaggccgacccgtatgtg
+M.decipiens_GCF_002104675.1         ··ac··gt····g··a···t··c··ct·tt·g········t········c
+
+VFG_ref                             atcgcgatggcggccgacgcggccggcccgctcgacatcgccttgcttcg
+M.decipiens_GCF_002104675.1         ··········tt········c·t························g··
+
+VFG_ref                             cgactgcgctgccgcgatgctgacccggcaccccaacctgcgggcgagct
+M.decipiens_GCF_002104675.1         ···g·····c············g··········g··············t·
+
+VFG_ref                             tcctacacgggaacctgagccggcccgtgcaggtaataccatccagtgcc
+M.decipiens_GCF_002104675.1         ··g·······c·······················gg·c··ga···cc···
+
+VFG_ref                             gaggtgctttggcgtcacgtgcgcgcccaccccagtgaggtcggggcgct
+M.decipiens_GCF_002104675.1         ·····c··c·····g·g······t···a·····ga········a·cac··
+
+VFG_ref                             ggcagccgaagagcgccggcgccgcttcgacgtcggccgcggaccactca
+M.decipiens_GCF_002104675.1         aa················a·····t········t·····g·····g····
+
+VFG_ref                             tccggttcctgctcatcgaactaccggacgaatgttggcatctggtcatc
+M.decipiens_GCF_002104675.1         ····················t········c··ca················
+
+VFG_ref                             gtcgcgcaccacatcgtcatcgacggatggtcgttgccgctgttcgtctc
+M.decipiens_GCF_002104675.1         ·······················t··g·············ct········
+
+VFG_ref                             cgagctgctcgccttgtatcgggctggtggtcacgtcgccgcgttgccgg
+M.decipiens_GCF_002104675.1         ············g··············c··gg····t·····a······c
+
+VFG_ref                             cagcgccgcggccgtatcgcgactacatcggctggctggccggccgcgat
+M.decipiens_GCF_002104675.1         ·gc·a·················t··················a····g··c
+
+VFG_ref                             cagacggctagccgcgcaatgtgggcggaccacctcaatggcctggacgg
+M.decipiens_GCF_002104675.1         g····a··c········gt······tcc·g·····gttg·····c·····
+
+VFG_ref                             cccgactctgttatcgccggcactcgccgacactcctgtgcagccgggta
+M.decipiens_GCF_002104675.1         ······c···c·g········g··aa···cggtc··gcc····g·a··g·
+
+VFG_ref                             ttccgggacgcaccgaagtgcgccttgaccgtgaagccaccgcggagctg
+M.decipiens_GCF_002104675.1         ····ac·t··············g··a···a·c··ta·····ag·ac····
+
+VFG_ref                             gccgatgccgcccgcacccgtggcgtcacgatcagcacacttgttcaaat
+M.decipiens_GCF_002104675.1         ·tt··c········tg·g·ac··t·····ac···a···ga··········
+
+VFG_ref                             ggcttgggctaccacgctttcagcattcaccggtcgtggcgatgtgacgt
+M.decipiens_GCF_002104675.1         ···c·····cg·a·t····g····g········c··ca··········a·
+
+VFG_ref                             tcggtgtgacggtgtccggcaggcccagcgaactgtccggcgtggaaacg
+M.decipiens_GCF_002104675.1         ····ca·············t·····g···········g········g···
+
+VFG_ref                             atgatcggcctgttcatcaatacggtgccactgcgggtccgcctggacgc
+M.decipiens_GCF_002104675.1         ···g················c··c·····gt·······g··g······c·
+
+VFG_ref                             ccgcgctaccgtcggcgggcaatgcgctgtcctacaacgtcaattcgcca
+M.decipiens_GCF_002104675.1         t····ac··g·····g·c········t··cg··g······g·g·c···gg
+
+VFG_ref                             tgttgcgcgaccacagctatctcggtttcaacgagtttcgtgccatcgcc
+M.decipiens_GCF_002104675.1         c·c····g·····tg·······g·cgcatgc····c·g···t········
+
+VFG_ref                             ggtatcggtgagatgttcgacaccctactggtgtatgagaacttcccgcc
+M.decipiens_GCF_002104675.1         ··cg········c·············g········c··············
+
+VFG_ref                             cggcgaggtggtgggcaccgcggagttcgtcgcaaacggggtgacgttcc
+M.decipiens_GCF_002104675.1         ······ac·······tg················c··t········t····
+
+VFG_ref                             gtccggtggcgctagagagtttgtcgcactttccggtgaccgtcgccgcg
+M.decipiens_GCF_002104675.1         ·c·········t·g···························a····t···
+
+VFG_ref                             caccgcagcaccggtgagctcacgctgctagtggaggtgctcgacggtgc
+M.decipiens_GCF_002104675.1         ····tg··················g····g···········g·····c··
+
+VFG_ref                             gctgggcacgatggcgcccgaaagcctcggcaggcgggtgctggctgtgt
+M.decipiens_GCF_002104675.1         ·t·····g····t·····g···ga·····················c···g
+
+VFG_ref                             tacagcgcttggtcagccggtgggatcggccgctgcgcgacgtcgacatt
+M.decipiens_GCF_002104675.1         ·g······c················c········a··········g·g·c
+
+VFG_ref                             ctgctggacggcgagcacgatccgaccgcacccggcctgccggatgtgac
+M.decipiens_GCF_002104675.1         gc·············tg····t····aagg·······c·g···gct···g
+
+VFG_ref                             gacgtcggcacccgcggtgcatacccggttcgccgaaatcgctgcggcac
+M.decipiens_GCF_002104675.1         cg······g·gt·t·············a··············g·····ca
+
+VFG_ref                             agcctgactcggtggcggtcagttgggcggatggtcagctgacgtaccgg
+M.decipiens_GCF_002104675.1         ····c··tg··a··········c···t····c··c··a·····c······
+
+VFG_ref                             gagctggatgcattggccgaccggctggccactgggctgcgccgcgcgga
+M.decipiens_GCF_002104675.1         ········c···c·c···············g···c·······t····c·g
+
+VFG_ref                             cgtgagtcgcgagaccccggtggccgtcgcgctgtcccgtggtccgcgct
+M.decipiens_GCF_002104675.1         g···g··aa···············g···cg····g····c··········
+
+VFG_ref                             acgtggccgccatgctggcggtcctcaaggcgggtggcatgatcgtgccg
+M.decipiens_GCF_002104675.1         ··········a·········a····g·····c··c···············
+
+VFG_ref                             ctggacccggcgatgcccggtgagcgtgtcgccgagatcttgcgccagac
+M.decipiens_GCF_002104675.1         t··················a··c················c··········
+
+VFG_ref                             atcggctccggtggtcatcgatgagggcgt------------gttcgccg
+M.decipiens_GCF_002104675.1         g···········c·············aaa·ggccgaggaatg··g·a···
+
+VFG_ref                             cttcggttggcgctgacatactcgaggaggaccgtgccatcacggtgccg
+M.decipiens_GCF_002104675.1         ···gca·c·c···c··gccg·cg·cc···t····g··ggc······a··t
+
+VFG_ref                             gtggaccaggcggcctacgtgattttcacctccggcaccaccggtacccc
+M.decipiens_GCF_002104675.1         cc···g··t········t·c·g·g····················c·····
+
+VFG_ref                             gaaaggtgtcatcggcacccatcgggcgctgtcggcctacgccgacgacc
+M.decipiens_GCF_002104675.1         ···g··g··g····················t···················
+
+VFG_ref                             acatcgagcgcgtgttgcggccggcggcccagcggctcgggcgcccgctg
+M.decipiens_GCF_002104675.1         ·············tc··············gc····g·······a·····t
+
+VFG_ref                             cgaatcgcgcatgcctggtcgttcaccttcgacgcggcgtggcagccgtt
+M.decipiens_GCF_002104675.1         ··gg················t···········t·················
+
+VFG_ref                             ggtcgcactgcttgacggccacgcggtgcacattgtcgacgaccatcgtc
+M.decipiens_GCF_002104675.1         ··cg··g·····c·········t··········c····g····g·gga··
+
+VFG_ref                             agcgggacgcaggggcgctggtcgaagcgatcgaccgattcggtctggac
+M.decipiens_GCF_002104675.1         ·········tc·a···········gca················g······
+
+VFG_ref                             atgattgacaccacgccgtcgatgttcgcccagctgcacaacgctggact
+M.decipiens_GCF_002104675.1         ·····c································g·····g·····
+
+VFG_ref                             gctcgaccgggcgccgttggcggtgcttgcgctcggcggcgaagccttgg
+M.decipiens_GCF_002104675.1         ···g·······t····c·······t········t··t·····g···c···
+
+VFG_ref                             gcgccgcgacgtggcggatgatccagcagaactgcgcgcgcacggccatg
+M.decipiens_GCF_002104675.1         ··ag·t··g·········c·······g··········c············
+
+VFG_ref                             acggccttcaactgctacgggcctaccgagaccacggtcgaagccgtggt
+M.decipiens_GCF_002104675.1         ···································c··············
+
+VFG_ref                             cgccgccgttgctgagcatgcgcgaccggtcatcggacgtccgacctgca
+M.decipiens_GCF_002104675.1         ····a····ca·c·····c··c························c·g·
+
+VFG_ref                             ccacccgcgcctacgtcatggactcctggctgcggccggtgcccgatggc
+M.decipiens_GCF_002104675.1         ················g··························g··c···
+
+VFG_ref                             gtcgccggcgagctgtatctggcgggcgcccagttgacccgcggttacct
+M.decipiens_GCF_002104675.1         ············t····c··········g···············c·····
+
+VFG_ref                             cggccgcccggccgagactgcggcgcgctttgtcgctgagccaaacgggc
+M.decipiens_GCF_002104675.1         ···a···g··········c··c·····g········c·····g·······
+
+VFG_ref                             gcggtagccgaatgtaccgcaccggagatgtggtgcgccgcctgcccgac
+M.decipiens_GCF_002104675.1         ·t········g·······················a·····g········t
+
+VFG_ref                             ggtggactggagttcctcgggcgcagcgatgaccaggtgaagatccgcgg
+M.decipiens_GCF_002104675.1         ·····tt·············c·····t··c·c··················
+
+VFG_ref                             tttccgcgtcgagccgggtgagattgccgcggtgctcaacggccaccatg
+M.decipiens_GCF_002104675.1         ············a···········c···············a·····g·c·
+
+VFG_ref                             cggtgcacggttgccatgtgacggcccgcggccatgccagtggcccccgg
+M.decipiens_GCF_002104675.1         ga····g···c·cgt··············a········g·····t·g··c
+
+VFG_ref                             ctgacggcgtatgtggcaggcggaccacaaccgccaccggtggccgaatt
+M.decipiens_GCF_002104675.1         ········a··c··t··g·····ga··a·c·····g············c·
+
+VFG_ref                             gcgggcgatgctgctagagcggttgccgcgttatctagtcccgcaccata
+M.decipiens_GCF_002104675.1         c··tt··c·······ca·t···c····a··g··c··g··g·····t··c·
+
+VFG_ref                             tcgtcgtcctcgacgagttaccgctgactccacacggcaagatcgacgaa
+M.decipiens_GCF_002104675.1         ········g··········g··at····c··g·····a············
+
+VFG_ref                             aacgctttggcggcaatcaat------------gtcaccgaaggaccggc
+M.decipiens_GCF_002104675.1         ···········a······gt·tccgagactatg·c·ga······tg····
+
+VFG_ref                             aactccgccgcagacaccgaccgagctggtgctggccgaggcgttcgccg
+M.decipiens_GCF_002104675.1         g··c·····cg····g········aa···c·······c····a···ag··
+
+VFG_ref                             atgtcatggaaacctcgaacgtcgatgtcaccgcgggctttttgcagatg
+M.decipiens_GCF_002104675.1         ····at··········cg·······················c·····c··
+
+VFG_ref                             ggtctagacagcatcgtggcgctgtcggtggtgcaggccgcgcgccgtcg
+M.decipiens_GCF_002104675.1         ··gt·g···········t··c····················c········
+
+VFG_ref                             tgggattgcgttgcgggccaggctgatggtggagtgcgacaccatccgtg
+M.decipiens_GCF_002104675.1         ····g·g··ac···················c·················c·
+
+VFG_ref                             aactcgcggcggccattgactccgatgccgcatggcaggcaccggccaac
+M.decipiens_GCF_002104675.1         ·g··t·········c·c···g·········g·c····c··c··c·t·g·t
+
+VFG_ref                             gatgccggcgagccgatcccggtgctacccaacactcattggctctacga
+M.decipiens_GCF_002104675.1         ··g···················ca··g······gtg··············
+
+VFG_ref                             gtacggcgacccgcgccggctggcacaaaccgaggtcatcaggttgcccg
+M.decipiens_GCF_002104675.1         ·········t·····t·····c··c··g·······c·······c······
+
+VFG_ref                             accggatcacccgcgaacgcctggatgccgtgttggccgcggtcgtcgac
+M.decipiens_GCF_002104675.1         c·g··············g·····a·c····c·c···at··t···a···t·
+
+VFG_ref                             ggacacgaggtgttgcggtgccggttcgaccgggatgcgatggcccttgt
+M.decipiens_GCF_002104675.1         ··c·········c·············g········c········g·····
+
+VFG_ref                             cgcacaaccgaaaacggacattctcagcgaggtttgggtcagcggtgaac
+M.decipiens_GCF_002104675.1         ·c·····g·a·····c·····c··g·····a·cg··············t·
+
+VFG_ref                             tggtcaccgcggtggccgagcagactcttggcgcgctggcgagtctcgac
+M.decipiens_GCF_002104675.1         ······gt·ac··c···········ctccc··t··········c·····t
+
+VFG_ref                             ccccaggccggccgactgctctcggcggtgtggctgcgcgaacccgacgg
+M.decipiens_GCF_002104675.1         ··ggc···acct··g···g·t·······················a·····
+
+VFG_ref                             gcccggtgttctggtgctgaccgcccatgtgctggcgatggacccagcct
+M.decipiens_GCF_002104675.1         ···a··c··g··c········g··g··c·········c·······g··a·
+
+VFG_ref                             cctggcggattgtgctgggtgaactcgacgccggcctgcacgcgctggcg
+M.decipiens_GCF_002104675.1         ·g········c··aa·············t··t··t········c·····c
+
+VFG_ref                             gccgggcgcgcgcccagcccagcgcgcgagaacaccagctaccggcagtg
+M.decipiens_GCF_002104675.1         ··g··a···cga···gc···g·····t···c···················
+
+VFG_ref                             gtcgcggctgctggcgcagcgggctaaggcgctggatagcgttgatttct
+M.decipiens_GCF_002104675.1         ········a····ctcg·······cc··········c····c···c····
+
+VFG_ref                             gggtcgccgaactcgagggcgccgatccgccgttgggtgcccgcagggtg
+M.decipiens_GCF_002104675.1         ···c···a······ac······g···························
+
+VFG_ref                             gcgccgcagaccgaccgggttggtgagctagcgatcaccatgtcgatctc
+M.decipiens_GCF_002104675.1         ··············ta·····c·ca·t··········g···c··c·gt·g
+
+VFG_ref                             cgacgccgatctgaccgcgcggctgctttcgacgggacggtcgatgaccg
+M.decipiens_GCF_002104675.1         t··············t···············ct···g·a·c·········
+
+VFG_ref                             atctgctggctaccgccgctgcgcggatggtgaccgcctggcgccggcaa
+M.decipiens_GCF_002104675.1         ·a········g········c·······c·········t·····g······
+
+VFG_ref                             cgcggtcaacaaacaccagcaccgctgttggcgttggagacgcatggccg
+M.decipiens_GCF_002104675.1         ·····c··g··g··g··g··g············c··········c·····
+
+VFG_ref                             cgcggacgtccacgtcgataagactgccgacaccagcgacacggtcgggc
+M.decipiens_GCF_002104675.1         t··c······g·······cgtc··ca····t···g··············t
+
+VFG_ref                             tgctcagcgcgatctatccgctgcgcatccactgcgacggcgcgaccgac
+M.decipiens_GCF_002104675.1         ····················t············c···t·····c······
+
+VFG_ref                             ttcgcgcggatacccggcagcggcatcgattacggcctgctgcggtacct
+M.decipiens_GCF_002104675.1         a·······c·········gc·········c·················tt·
+
+VFG_ref                             gcgcgccgataccgcggagcgactacgcgcccaccgcgaaccccagctgc
+M.decipiens_GCF_002104675.1         ···g·····c····gc········c·······t··c·········a···t
+
+VFG_ref                             tgctgaactatctgggtagcctgcacgtcggggtgggagatctggcggtc
+M.decipiens_GCF_002104675.1         ·······························c··t··c··c···aa·a··
+
+VFG_ref                             gaccgcgcactactggctgatgtggggcaactgcctgaacccgaacagcc
+M.decipiens_GCF_002104675.1         ··t········g·····c·gga·············c············g·
+
+VFG_ref                             ggtgcgccacgaactgacggtgctggcggcgctcctcgggcccgccgacg
+M.decipiens_GCF_002104675.1         ··························t······g················
+
+VFG_ref                             ctcccgtgctagccacgcggtggcgcacgctgcccgacatcctgtccgcc
+M.decipiens_GCF_002104675.1         ·a··g·····g···g···a·······g·a···············cg····
+
+VFG_ref                             gacgacgtcgccacgctgcaatcactgtggcagggcgcgctggcggagat
+M.decipiens_GCF_002104675.1         ······a·····g·······g··g··········ag·····a·t······
+
+VFG_ref                             aacagcatga
+M.decipiens_GCF_002104675.1         ----------
+
+

@@ -1,0 +1,77 @@
+@charset "UTF-8";
+
+.searchItem_1 {
+    background-image: linear-gradient(to right, rgba(76, 158, 191, 0.24), rgba(76, 158, 191, 0));
+    max-width: 88%;
+    height: auto;
+    padding: 10px 10px 10px 15px;
+    font-size: 1.5em;
+    margin: .83em 0;
+    font-weight: bold;
+    color: #3391b9;
+}
+
+.searchContent {
+    padding-left: 20px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.searchContent>input {
+    margin-right: 10px;
+    display: none;
+}
+
+.searchContent>label {
+    font-weight: 600;
+    font-size: 20px;
+    margin-right: 10px;
+    width: 230px;
+}
+
+.searchContent>select {
+    width: 330px;
+}
+
+
+.buttonBox {
+    text-align: center;
+}
+
+.searchButSub {
+    margin-right: 30px;
+}
+
+.select2-container,
+.select2-selection--single {
+    height: 35px !important;
+}
+
+.ui.segment,
+.ui.segments .segment {
+    font-size: 1.1rem !important;
+}
+
+@media (min-width: 1739px) {
+    .form-inline .example-text {
+        margin-left: 168px;
+    }
+}
+
+h5 {
+    font-size: large;
+    font-weight: bold;
+    margin: 0 0 15px 0 !important;
+    max-width: 140px;
+    color: rgb(78, 78, 78);
+}
+
+label {
+    max-width: 150px;
+}
+
+.example-text {
+    margin-left: 5px;
+    margin-top: 5px;
+    color: grey;
+}

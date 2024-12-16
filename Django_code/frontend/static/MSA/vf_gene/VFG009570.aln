@@ -1,0 +1,368 @@
+CLUSTAL X (1.81) multiple sequence alignment
+
+
+VFG_ref                             atggcacgcgggttgcagggtgtgatgttgcgcagtttcggcgcgcgcga
+M.heidelbergense_DRR161216          ·····g········t·····g······c····g········t··c·····
+M.heidelbergense_GCF_002086215      ·····g········t·····g······c····g········t··c·····
+M.palustre_GCF_002101785.1          ·····g······c·t·····c······c····a··c········c·····
+M.decipiens_GCF_002104675.1         ·····g········c········c··························
+M.heidelbergense_GCF_010730745      ·····g········t·····g······c····g········t··c·····
+
+VFG_ref                             ccacaccgcaacggtgatcgaaaccatttcgattgcaccgcatttcgtgc
+M.heidelbergense_DRR161216          t·····g··g·····cc········g·ccgc··c················
+M.heidelbergense_GCF_002086215      t·····g··g·····cc········g·ccgc··c················
+M.palustre_GCF_002101785.1          ·····ta··c·····c·········g·ccgc··c··············a·
+M.decipiens_GCF_002104675.1         ·························g·······c················
+M.heidelbergense_GCF_010730745      t·····g··g·····cc········g·ccgc··c················
+
+VFG_ref                             gggtccggatggtttcgccgacgctcttccaggatgcggaggctgagccc
+M.heidelbergense_DRR161216          ····g········g··a·····c··g···g····c·····c··c··a··g
+M.heidelbergense_GCF_002086215      ····g········g··a·····c··g···g····c·····c··c··a··g
+M.palustre_GCF_002101785.1          ·············g···········g···g····c·t···c··c··a···
+M.decipiens_GCF_002104675.1         ······················a··t···g······t······c······
+M.heidelbergense_GCF_010730745      ····g········g··a·····c··g···g····c·····c··c··a··g
+
+VFG_ref                             gccgcatggctgcggttctggttccccgacccgaacgggtccaacaccga
+M.heidelbergense_DRR161216          ··g··g·················t·········g·······g········
+M.heidelbergense_GCF_002086215      ··g··g·················t·········g·······g········
+M.palustre_GCF_002101785.1          ·····g·······················t··cg·g··c····g······
+M.decipiens_GCF_002104675.1         ·····g···t········································
+M.heidelbergense_GCF_010730745      ··g··g·················t·········g·······g········
+
+VFG_ref                             gttccagcgcgcctatacgatctccgaagctgaccccgccgcgggccgct
+M.heidelbergense_DRR161216          ···············c···········g··c···g·······c·······
+M.heidelbergense_GCF_002086215      ···············c···········g··c···g·······c·······
+M.palustre_GCF_002101785.1          a·····a········c········g··g··c···gt··aaa·c·······
+M.decipiens_GCF_002104675.1         ···t·····t············g····g··············c·······
+M.heidelbergense_GCF_010730745      ···············c···········g··c···g·······c·······
+
+VFG_ref                             tcgcggtcgacgttgtattgcatgacccggcgggtccggcctcgtcgtgg
+M.heidelbergense_DRR161216          ·············c··gc·······g·····c··c·····g·········
+M.heidelbergense_GCF_002086215      ·············c··gc·······g·····c··c·····g·········
+M.palustre_GCF_002101785.1          ····c··g·····c··gc····c········c··················
+M.decipiens_GCF_002104675.1         ················c···········c·····c···············
+M.heidelbergense_GCF_010730745      ·············c··gc·······g·····c··c·····g·········
+
+VFG_ref                             gcgcgcaccgtcaaacctggcgcaaccatagcggtcatgtcgctgatggg
+M.heidelbergense_DRR161216          ········g··gc····c·····g·····c····················
+M.heidelbergense_GCF_002086215      ········g··gc····c·····g·····c····················
+M.palustre_GCF_002101785.1          ······t·g···g····c·····g··g··c····················
+M.decipiens_GCF_002104675.1         ············c··········g·····c····················
+M.heidelbergense_GCF_010730745      ········g··gc····c·····g·····c····················
+
+VFG_ref                             ctcatcgcggttcgacgtgcccgaggagcagcccgccgggtatctgctaa
+M.heidelbergense_DRR161216          ···g·····t·······c······c··a·····g·····c··c·····g·
+M.heidelbergense_GCF_002086215      ···g·····t·······c······c··a·····g·····c··c·····g·
+M.palustre_GCF_002101785.1          t··g··············c·····c··············c··c·····g·
+M.decipiens_GCF_002104675.1         ···g···········t·················a··············g·
+M.heidelbergense_GCF_010730745      ···g·····t·······c······c··a·····g·····c··c·····g·
+
+VFG_ref                             tcggcgactcggcgtcgattccggggatgaacgggatcatcgaaacggtc
+M.heidelbergense_DRR161216          ····t··t·····a·····c·····c············g···g···c···
+M.heidelbergense_GCF_002086215      ····t··t·····a·····c·····c············g···g···c···
+M.palustre_GCF_002101785.1          ··········c········c··c···················gc·····t
+M.decipiens_GCF_002104675.1         ················c··c··················c····c······
+M.heidelbergense_GCF_010730745      ····t··t·····a·····c·····c············g···g···c···
+
+VFG_ref                             ccgaacgacgtcccgatcgagatgtaccttgaacaacacgacgacaacga
+M.heidelbergense_DRR161216          ··cc·························c··g··g··············
+M.heidelbergense_GCF_002086215      ··cc·························c··g··g··············
+M.palustre_GCF_002101785.1          ··cg·························c··g··g··············
+M.decipiens_GCF_002104675.1         ···g·····a···················c·········c··········
+M.heidelbergense_GCF_010730745      ··cc·························c··g··g··············
+
+VFG_ref                             cacgttgatcccgctcgcaaagcatccccggctgcgggtgcgctgggtta
+M.heidelbergense_DRR161216          ·c··c········a····g··a··c··········ac····at······g
+M.heidelbergense_GCF_002086215      ·c··c········a····g··a··c··········ac····at······g
+M.palustre_GCF_002101785.1          ·g··c········a·t··g··t·····t·····c·aa····at·····cg
+M.decipiens_GCF_002104675.1         ············c·····gc····c················a·······g
+M.heidelbergense_GCF_010730745      ·c··c········a····g··a··c··········ac····at······g
+
+VFG_ref                             tgcgccgcgacgagaaatcgctggccgaggcgatcgagaaccgcgactgg
+M.heidelbergense_DRR161216          c···t··········cg········g·c····g····a·g··········
+M.heidelbergense_GCF_002086215      c···t··········cg········g·c····g····a·g··········
+M.palustre_GCF_002101785.1          c···t··········gg······t···c···cc······g···g··t···
+M.decipiens_GCF_002104675.1         ··········t···············c·············t··t······
+M.heidelbergense_GCF_010730745      c···t··········cg········g·c····g····a·g··········
+
+VFG_ref                             tcggactggtatgcgtgggcgacgccagaggctgccgcgctgaaatgcgt
+M.heidelbergense_DRR161216          ···········c··············c·····ga·ga····c··gca···
+M.heidelbergense_GCF_002086215      ···········c··············c·····ga·ga····c··gca···
+M.palustre_GCF_002101785.1          ···········c··············c·····ca·g·····c···ca···
+M.decipiens_GCF_002104675.1         ··············c·····a·····g·····c········a···aat··
+M.heidelbergense_GCF_010730745      ···········c··············c·····ga·ga····c··gca···
+
+VFG_ref                             ccgggtgcggctgcgcgacgagttcgggttccctaagtccgagatccacg
+M.heidelbergense_DRR161216          ···aac····t···················t··c··a········a····
+M.heidelbergense_GCF_002086215      ···aac····t···················t··c··a········a····
+M.palustre_GCF_002101785.1          ···c·c························t··c·····g··········
+M.decipiens_GCF_002104675.1         g································c················
+M.heidelbergense_GCF_010730745      ···aac····t···················t··c··a········a····
+
+VFG_ref                             ctcaggcttactggaacgccgggcgtgccatgggcacccaccgagcaacc
+M.heidelbergense_DRR161216          ·g·····c··t····g·········c··g·······t··g···c·gtga·
+M.heidelbergense_GCF_002086215      ·g·····c··t····g·········c··g·······t··g···c·gtga·
+M.palustre_GCF_002101785.1          ·c·····c·······g······c·····g··········gg··c·gtga·
+M.decipiens_GCF_002104675.1         ·······c·················c········t·····t··g·a····
+M.heidelbergense_GCF_010730745      ·g·····c··t····g·········c··g·······t··g···c·gtga·
+
+VFG_ref                             gaaccg---gcggccaccgaacctgaggtgggcgcagccccgcagccaga
+M.heidelbergense_DRR161216          ·gc···gac·aa···g···c···acc·cc··a··aca·at···c·ga··t
+M.heidelbergense_GCF_002086215      ·gc···gac·aa···g···c···acc·cc··a··aca·at···c·ga··t
+M.palustre_GCF_002101785.1          ··g·atccc·ac··tg···c----cgaaa·ca··gt·g·t·aacagg·tc
+M.decipiens_GCF_002104675.1         ··g····················g·t·cc·····gg········a·····
+M.heidelbergense_GCF_010730745      ·gc···gac·aa···g···c···acc·cc··a··aca·at···c·ga··t
+
+VFG_ref                             atcggcggtgcctg---------ccccggcgcgtggcagctggcgcgctc
+M.heidelbergense_DRR161216          gg·t····ca·agcataagtcac·tat·t·c··c···c·g········c·
+M.heidelbergense_GCF_002086215      gg·t····ca·agcataagtcac·tat·t·c··c···c·g········c·
+M.palustre_GCF_002101785.1          --··a···c·t·c·gtcaggtgc·g···c··a·a·····t········c·
+M.decipiens_GCF_002104675.1         ······a·······················c··c··t··g········g·
+M.heidelbergense_GCF_010730745      gg·t····ca·agcataagtcac·tat·t·c··c···c·g········c·
+
+VFG_ref                             aggctgccagccggctgctggcgccgctaaagctgccgctggtgctctcg
+M.heidelbergense_DRR161216          ····c··gg·············c·····gcg··c·g·····a·c·····c
+M.heidelbergense_GCF_002086215      ····c··gg·············c·····gcg··c·g·····a·c·····c
+M.palustre_GCF_002101785.1          ····c···g·····t····c········gcg·tc·g·····a·cgca··c
+M.decipiens_GCF_002104675.1         ···gg············t·······a··g·····················
+M.heidelbergense_GCF_010730745      ····c··gg·············c·····gcg··c·g·····a·c·····c
+
+VFG_ref                             ggtgtgcttgcggctctggtcacgctggcgcagttggcgccgttcgtgct
+M.heidelbergense_DRR161216          ··c·c···gca··tcg··c·g·······t····c················
+M.heidelbergense_GCF_002086215      ··c·c···gca··tcg··c·g·······t····c················
+M.palustre_GCF_002101785.1          ·cg·ca··gca···c···a·········t····c················
+M.decipiens_GCF_002104675.1         ··g·····ca····g···a·········t····c················
+M.heidelbergense_GCF_010730745      ··c·c···gca··tcg··c·g·······t····c················
+
+VFG_ref                             gttggtcgagctgtcaaggctgctggtctccggcgccggcgcgcaccggt
+M.heidelbergense_DRR161216          cc···········g·cc····t·····g··········cg·aatc····c
+M.heidelbergense_GCF_002086215      cc···········g·cc····t·····g··········cg·aatc····c
+M.palustre_GCF_002101785.1          ·c·c·········g·cc···g·····c···a·······ag····c····c
+M.decipiens_GCF_002104675.1         ·c·············cc··········g··········a···a·······
+M.heidelbergense_GCF_010730745      cc···········g·cc····t·····g··········cg·aatc····c
+
+VFG_ref                             tgttcacggtcgggttcgccgcggtggggttgctggggaccggggccttg
+M.heidelbergense_DRR161216          ···gg········cg····g··c··cac·c····c··a··g··ca··g··
+M.heidelbergense_GCF_002086215      ···gg········cg····g··c··cac·c····c··a··g··ca··g··
+M.palustre_GCF_002101785.1          ···gg··c··g··ca····g··c··cac·c·······cgt···ca··c··
+M.decipiens_GCF_002104675.1         ···gg··············g········a···········g··a·····c
+M.heidelbergense_GCF_010730745      ···gg········cg····g··c··cac·c····c··a··g··ca··g··
+
+VFG_ref                             ctggcagccgccctcacgctgtggctgcacgtgatcgatgcccgcttcgc
+M.heidelbergense_DRR161216          ··c·gt··························cg····c··g··a·····
+M.heidelbergense_GCF_002086215      ··c·gt··························cg····c··g··a·····
+M.palustre_GCF_002101785.1          ··c·gc········g··················g····c··g··a·····
+M.decipiens_GCF_002104675.1         ··c··g·······················t···g····c·····g·····
+M.heidelbergense_GCF_010730745      ··c·gt··························cg····c··g··a·····
+
+VFG_ref                             cagggcgttgcgcttgcggctgctgagcaagctgtcccggttgccgctgg
+M.heidelbergense_DRR161216          ···c·acc······ca·····tt···c············ac·t···t···
+M.heidelbergense_GCF_002086215      ···c·acc······ca·····tt···c············ac·t···t···
+M.palustre_GCF_002101785.1          ·gcc·acc······ct··········c·······g·t··a······t···
+M.decipiens_GCF_002104675.1         ·······c·····c······················g··a··········
+M.heidelbergense_GCF_010730745      ···c·acc······ca·····tt···c············ac·t···t···
+
+VFG_ref                             gctggttcaccagccgcgggtccggatcgatcaaaaaattggtcaccgac
+M.heidelbergense_DRR161216          ···········gc······c··g··c········gc·gc·c···cag···
+M.heidelbergense_GCF_002086215      ···········gc······c··g··c········gc·gc·c···cag···
+M.palustre_GCF_002101785.1          ···········gc······c··g··g········gc·g······cag···
+M.decipiens_GCF_002104675.1         ······················g··g·········c·gc·····g·····
+M.heidelbergense_GCF_010730745      ···········gc······c··g··c········gc·gc·c···cag···
+
+VFG_ref                             gacacgctggcgttgcactacttggtcacccatgccgttccggacgcggt
+M.heidelbergense_DRR161216          ·····c···t·c·········c·······g··c···a·c···········
+M.heidelbergense_GCF_002086215      ·····c···t·c·········c·······g··c···a·c···········
+M.palustre_GCF_002101785.1          ·········t··c········c··········c···a·c··c·····c··
+M.decipiens_GCF_002104675.1         ·····a··············t·····t········t··ct··········
+M.heidelbergense_GCF_010730745      ·····c···t·c·········c·······g··c···a·c···········
+
+VFG_ref                             cgccgcggttgtcgccccggtgggggtgctggtctatctgttcgtcgtgg
+M.heidelbergense_DRR161216          ·······a·c·····g·······cc······a················c·
+M.heidelbergense_GCF_002086215      ·······a·c·····g·······cc······a················c·
+M.palustre_GCF_002101785.1          ·········g··g··g·······c············c···········c·
+M.decipiens_GCF_002104675.1         ············t··········c··························
+M.heidelbergense_GCF_010730745      ·······a·c·····g·······cc······a················c·
+
+VFG_ref                             actggcgagtggcgctggtcttgttcgggccggttctggtctacctgacc
+M.heidelbergense_DRR161216          ·······g········c···c·····ct···c··c············gtg
+M.heidelbergense_GCF_002086215      ·······g········c···c·····ct···c··c············gtg
+M.palustre_GCF_002101785.1          ·······g········c·········ct···c···t········t··gtg
+M.decipiens_GCF_002104675.1         ·······g············c·c···········c········tt··g·g
+M.heidelbergense_GCF_010730745      ·······g········c···c·····ct···c··c············gtg
+
+VFG_ref                             atcacgtcatcgctcacgatccaatccgggccccgcattgttcaagcgca
+M.heidelbergense_DRR161216          c·g·····c··c·····c·····g·····c··g······ccg···t····
+M.heidelbergense_GCF_002086215      c·g·····c··c·····c·····g·····c··g······ccg···t····
+M.palustre_GCF_002101785.1          c·g·····g···a····c··t··g·····c··g··g··cccg···t····
+M.decipiens_GCF_002104675.1         ·cg·····gg··········t··g·····t··g·····c········c··
+M.heidelbergense_GCF_010730745      c·g·····c··c·····c·····g·····c··g······ccg···t····
+
+VFG_ref                             gcggtgggcagagaagatgaacggcgaagcgggtagttacctcgagggtc
+M.heidelbergense_DRR161216          ···t·····c··a·g·····g···g··g··c··cgcc···········g·
+M.heidelbergense_GCF_002086215      ···t·····c··a·g·····g···g··g··c··cgcc···········g·
+M.palustre_GCF_002101785.1          ···c·····c··········g·ac······c··cgcc···········c·
+M.decipiens_GCF_002104675.1         ·········c·················g·····cg·c·····g·······
+M.heidelbergense_GCF_010730745      ···t·····c··a·g·····g···g··g··c··cgcc···········g·
+
+VFG_ref                             agccggtgattcgcgtcttc---ggcgccgcgtcatcgagcttccgtcgc
+M.heidelbergense_DRR161216          ·a··················ggg·········g·g··c········g···
+M.heidelbergense_GCF_002086215      ·a··················ggg·········g·g··c········g···
+M.palustre_GCF_002101785.1          ··········c·········ggc·········g·g··c·····t··g···
+M.decipiens_GCF_002104675.1         ····················ggg··t··t·····g········t··c···
+M.heidelbergense_GCF_010730745      ·a··················ggg·········g·g··c········g···
+
+VFG_ref                             cggttggacgagtacatcggattcctggtcgcctggcagcggccgctggc
+M.heidelbergense_DRR161216          ··cc···········g····g········g···········c··a·····
+M.heidelbergense_GCF_002086215      ··cc···········g····g········g···········c··a·····
+M.palustre_GCF_002101785.1          ··cc·c··············c··tt····g····················
+M.decipiens_GCF_002104675.1         t·c········c········c····················t·····c··
+M.heidelbergense_GCF_010730745      ··cc···········g····g········g···········c··a·····
+
+VFG_ref                             cggcaagaaaaccctgatggatctggccactcgcccagcaacgttcctgt
+M.heidelbergense_DRR161216          ············g·················c·····ct·g··········
+M.heidelbergense_GCF_002086215      ············g·················c·····ct·g··········
+M.palustre_GCF_002101785.1          ·········g··ggc···············g·····ct·g·····tt···
+M.decipiens_GCF_002104675.1         ······························c·····g·············
+M.heidelbergense_GCF_010730745      ············g·················c·····ct·g··········
+
+VFG_ref                             ggctcatcgccgctaccggcaccttgttggtagccacgcatcgaatggat
+M.heidelbergense_DRR161216          ··········g·tc·········g··c····g·t···cggc··g···a··
+M.heidelbergense_GCF_002086215      ··········g·tc·········g··c····g·t···cggc··g···a··
+M.palustre_GCF_002101785.1          ··········g·tc·········c······cg·t···c··c··g····c·
+M.decipiens_GCF_002104675.1         ··········g·tag·······g···c····ga·t··c············
+M.heidelbergense_GCF_010730745      ··········g·tc·········g··c····g·t···cggc··g···a··
+
+VFG_ref                             ccggtgaatttgttgccgttcatgttcttgggtaccacgttcggtgcccg
+M.heidelbergense_DRR161216          ·····cg·cc···········c····gc····c·····a·····c··a··
+M.heidelbergense_GCF_002086215      ·····cg·cc···········c····gc····c·····a·····c··a··
+M.palustre_GCF_002101785.1          ·····cg·cc··c········c····gc····c···········c·····
+M.decipiens_GCF_002104675.1         ·····c···············t··········c·····a···········
+M.heidelbergense_GCF_010730745      ·····cg·cc···········c····gc····c·····a·····c··a··
+
+VFG_ref                             cctgctcgggatcgcctacgggctcggcggcctacgcacgggacttctgg
+M.heidelbergense_DRR161216          ·········c·····················a·c···g·c··ga·g····
+M.heidelbergense_GCF_002086215      ·········c·····················a·c···g·c··ga·g····
+M.palustre_GCF_002101785.1          ·········c·····················a·c···g·c··gacg····
+M.decipiens_GCF_002104675.1         g·····t··t···········ag····g··t··g···g·····t·c····
+M.heidelbergense_GCF_010730745      ·········c·····················a·c···g·c··ga·g····
+
+VFG_ref                             cggcccggcacctgcaagtcacactcgacgaaaccgaactcgccgtgcgg
+M.heidelbergense_DRR161216          ·c·······g······gaa···c········gc····c··g········a
+M.heidelbergense_GCF_002086215      ·c·······g······gaa···c········gc····c··g········a
+M.palustre_GCF_002101785.1          ·c··g··c·gg·····gaa·g·c·········c·······g········a
+M.decipiens_GCF_002104675.1         ·t··············g·g···c···········g·············c·
+M.heidelbergense_GCF_010730745      ·c·······g······gaa···c········gc····c··g········a
+
+VFG_ref                             gaacatccgcgcgaaccgctcgacggcgaggcgccagcaactgtggtgtt
+M.heidelbergense_DRR161216          c·------···g···g···c·c···a···ct··t·g··g··g········
+M.heidelbergense_GCF_002086215      c·------···g···g···c·c···a···ct··t·g··g··g········
+M.palustre_GCF_002101785.1          ··------cgcg··cg···c·cga·····c·····g··g··g···ca···
+M.decipiens_GCF_002104675.1         c···gg··c·······t··g·········c·t···c·····g········
+M.heidelbergense_GCF_010730745      c·------···g···g···c·c···a···ct··t·g··g··g········
+
+VFG_ref                             cgaccacgtcaccttcgggtaccgccctggagtgccggtgatccaggatg
+M.heidelbergense_DRR161216          ···t·g····gg······c··t·····c··g··c·········a·c··c·
+M.heidelbergense_GCF_002086215      ···t·g····gg······c··t·····c··g··c·········a·c··c·
+M.palustre_GCF_002101785.1          ·····g············c··t·····c··c·············g···c·
+M.decipiens_GCF_002104675.1         ······t···········t··t·····c··t···················
+M.heidelbergense_GCF_010730745      ···t·g····gg······c··t·····c··g··c·········a·c··c·
+
+VFG_ref                             tatcgcttacgctgcggccgggcacggtcaccgcgctcgtcggcccgtcc
+M.heidelbergense_DRR161216          ·g·····g···········c·····c·····g········g········g
+M.heidelbergense_GCF_002086215      ·g·····g···········c·····c·····g········g········g
+M.palustre_GCF_002101785.1          ·g·····g·················c···········g·····g·····g
+M.decipiens_GCF_002104675.1         ·g·····g····················t··············t·····g
+M.heidelbergense_GCF_010730745      ·g·····g···········c·····c·····g········g········g
+
+VFG_ref                             ggctccggcaagtcgacactggccaccctgctggctcgattccacgatgt
+M.heidelbergense_DRR161216          ··g··············c······g·g········c··c········ca·
+M.heidelbergense_GCF_002086215      ··g··············c······g·g········c··c········ca·
+M.palustre_GCF_002101785.1          ·················g······g·g········c··c········c··
+M.decipiens_GCF_002104675.1         ········t········g······g·························
+M.heidelbergense_GCF_010730745      ··g··············c······g·g········c··c········ca·
+
+VFG_ref                             cgagcgaggtgcgatacgcgttggtggacaggatattcgatcactggccg
+M.heidelbergense_DRR161216          ··gcgag·················g·················gt··a··c
+M.heidelbergense_GCF_002086215      ··gcgag·················g·················gt··a··c
+M.palustre_GCF_002101785.1          ···cg·g··c········gc··········a··c··c··g·····ca·g·
+M.decipiens_GCF_002104675.1         ·····ag········t··a·····g·a···a··c········g··aa···
+M.heidelbergense_GCF_010730745      ··gcgag·················g·················gt··a··c
+
+VFG_ref                             cggacgagctgtacacgcgagtcggctttgtgctacaggaagcccagctt
+M.heidelbergense_DRR161216          ·c·····a··c········c·····t··c·····g·····ca·g·····c
+M.heidelbergense_GCF_002086215      ·c·····a··c········c·····t··c·····g·····ca·g·····c
+M.palustre_GCF_002101785.1          ·c············g·c··c········c·····g······a·g·····g
+M.decipiens_GCF_002104675.1         ·t········c···g··········t··c··c··t······a·······c
+M.heidelbergense_GCF_010730745      ·c·····a··c········c·····t··c·····g·····ca·g·····c
+
+VFG_ref                             gtgcatggcaccgccgccgaaaacatcgcgctggcggtaccggatgcccc
+M.heidelbergense_DRR161216          ·····c·······t···gc·g··············c··c··c··c···a·
+M.heidelbergense_GCF_002086215      ·····c·······t···gc·g··············c··c··c··c···a·
+M.palustre_GCF_002101785.1          ·····c·······t····c·g··············c··g·····c···a·
+M.decipiens_GCF_002104675.1         ·················g····················c········t··
+M.heidelbergense_GCF_010730745      ·····c·······t···gc·g··············c··c··c··c···a·
+
+VFG_ref                             cgccgaacaggtccaggtcgcggcccgcgaagcgcaaatccacgaccggg
+M.heidelbergense_DRR161216          ·····c····a·t····a···c·······cg·················aa
+M.heidelbergense_GCF_002086215      ·····c····a·t····a···c·······cg·················aa
+M.palustre_GCF_002101785.1          ·····c····a······c·········t·····c··g···········ca
+M.decipiens_GCF_002104675.1         ·····c·········c·c············c·····g···········c·
+M.heidelbergense_GCF_010730745      ·····c····a·t····a···c·······cg·················aa
+
+VFG_ref                             tgcttcggctgccggacggctacgataccgtgctcggagccaacagtggt
+M.heidelbergense_DRR161216          ·c··g··at····c············g·······g··c···gg··cc··a
+M.heidelbergense_GCF_002086215      ·c··g··at····c············g·······g··c···gg··cc··a
+M.palustre_GCF_002101785.1          ·ca·g··at····c·····t·····c········g··c···gg·tcc··g
+M.decipiens_GCF_002104675.1         ·a····a··················c···········g····g······c
+M.heidelbergense_GCF_010730745      ·c··g··at····c············g·······g··c···gg··cc··a
+
+VFG_ref                             ctttcgggcggggagcgacagcggctcaccattgcccgtgccatcctcgg
+M.heidelbergense_DRR161216          ··g···········a··c··············c·····c··········c
+M.heidelbergense_GCF_002086215      ··g···········a··c··············c·····c··········c
+M.palustre_GCF_002101785.1          ··c··············c··a···········c·····c··········c
+M.decipiens_GCF_002104675.1         ··g··············g····················c··t·······c
+M.heidelbergense_GCF_010730745      ··g···········a··c··············c·····c··········c
+
+VFG_ref                             cgacactccggtcctcatcctcgacgaggccaccgcgtttgccgatccgg
+M.heidelbergense_DRR161216          ······c········g·······················c·····c····
+M.heidelbergense_GCF_002086215      ······c········g·······················c·····c····
+M.palustre_GCF_002101785.1          ······c·····g··g·····t···········g·····c·····c··c·
+M.decipiens_GCF_002104675.1         ······g·····························a··c··········
+M.heidelbergense_GCF_010730745      ······c········g·······················c·····c····
+
+VFG_ref                             aatcggaataccttgtgcaacaggcgcttaaccggctgacccgggaccgc
+M.heidelbergense_DRR161216          ···················g·····a··c··············a······
+M.heidelbergense_GCF_002086215      ···················g·····a··c··············a······
+M.palustre_GCF_002101785.1          ···················g··a·····c·················g···
+M.decipiens_GCF_002104675.1         ······················a·················t·····t···
+M.heidelbergense_GCF_010730745      ···················g·····a··c··············a······
+
+VFG_ref                             accgtgctggtaatcgcccatcgactgcataccatcacccgggccgacca
+M.heidelbergense_DRR161216          ···········g·····g···········c·················t··
+M.heidelbergense_GCF_002086215      ···········g·····g···········c·················t··
+M.palustre_GCF_002101785.1          ······t····g·····g·····g·····c···········c········
+M.decipiens_GCF_002104675.1         ··g········g···········g·····c··············g·····
+M.heidelbergense_GCF_010730745      ···········g·····g···········c·················t··
+
+VFG_ref                             gatcgtcgtgctcgatcatggtcggatcgtcgaacgcggcacccacgagg
+M.heidelbergense_DRR161216          ··················c··c···g···c···g··············c·
+M.heidelbergense_GCF_002086215      ··················c··c···g···c···g··············c·
+M.palustre_GCF_002101785.1          ··················c··c··cg·······g················
+M.decipiens_GCF_002104675.1         a···············gg···c······a················t··c·
+M.heidelbergense_GCF_010730745      ··················c··c···g···c···g··············c·
+
+VFG_ref                             agttgcttgccgcgggcggacgctactgccggctgtgggacaccggccag
+M.heidelbergense_DRR161216          ·······c·····c·a···ct·····c·······c··············-
+M.heidelbergense_GCF_002086215      ·······c·····c·a···ct·····c·······c··············-
+M.palustre_GCF_002101785.1          ··c····c·······a···c······c······················-
+M.decipiens_GCF_002104675.1         ··c····c·······at·····g···c·······················
+M.heidelbergense_GCF_010730745      ·······c·····c·a···ct·····c·······c··············-
+
+VFG_ref                             ggcagccgggtggcggtcgccgcagcgcaggacggcacccgatga
+M.heidelbergense_DRR161216          ---------------------------------------------
+M.heidelbergense_GCF_002086215      ---------------------------------------------
+M.palustre_GCF_002101785.1          ---------------------------------------------
+M.decipiens_GCF_002104675.1         ···ga··c······c···ag···c··t·····acc··········
+M.heidelbergense_GCF_010730745      ---------------------------------------------
+
+

@@ -1,0 +1,64 @@
+CLUSTAL X (1.81) multiple sequence alignment
+
+
+VFG_ref                             atgcatttcgaagcgtacccaccggaggtcaactccgccaacatatatgc
+M.abscessus_ERR5412500              ···········g······································
+M.decipiens_GCF_002104675.1         ···············a····g················g······g·····
+M.decipiens_GCF_002104675.1         ···············a····g················g······gc····
+
+VFG_ref                             cggccccggtcctgactcgatgttggctgccgccagggcgtggaggtcgt
+M.abscessus_ERR5412500              ··················································
+M.decipiens_GCF_002104675.1         ······g············t···g···c·····g··t··c··········
+M.decipiens_GCF_002104675.1         t··g··g··············a·g··t···t···cat·············
+
+VFG_ref                             tggatgtggaaatgacggccgtgcagaggtcgttcaaccgaacgctgctg
+M.abscessus_ERR5412500              ··················································
+M.decipiens_GCF_002104675.1         ·····ac···g··················at······t········a···
+M.decipiens_GCF_002104675.1         ···g·agc··g··············a···at·····g·········a···
+
+VFG_ref                             tctctgatggacgcctgggcgggtccagtggtgatgcagttgatggaggc
+M.abscessus_ERR5412500              ··················································
+M.decipiens_GCF_002104675.1         ·g················ca······c·c··c··c····g··········
+M.decipiens_GCF_002104675.1         ·g················ca······c·c··c··c····g··········
+
+VFG_ref                             agccaagccgtttgtcaggtggctgaccgacctctgtgtgcagctgtctg
+M.abscessus_ERR5412500              ··················································
+M.decipiens_GCF_002104675.1         ga·······················g····g·······a···········
+M.decipiens_GCF_002104675.1         ga························at··g·······a·······ca··
+
+VFG_ref                             aggtcgagaggcagatccacgagatcgtgcgggcctatgaatgggcacat
+M.abscessus_ERR5412500              ··················································
+M.decipiens_GCF_002104675.1         ····t····t·······t··c·a····a····················g·
+M.decipiens_GCF_002104675.1         ·········t·······t····a····a···················t··
+
+VFG_ref                             cacgatatggtgcccctggcgcagatctacaacaaccgtgctgagaggca
+M.abscessus_ERR5412500              ··················································
+M.decipiens_GCF_002104675.1         ·g···gg······a··c·a····a·····tcg··············a·tg
+M.decipiens_GCF_002104675.1         ···c·gg·a·····t·c··············c·············c···g
+
+VFG_ref                             gattctgatcgacaacaacgcgcttgggcaattcactgcgcagatcgccg
+M.abscessus_ERR5412500              ··················································
+M.decipiens_GCF_002104675.1         ·c·c······a·········t···c······aa··a····gcc·······
+M.decipiens_GCF_002104675.1         ···g······aga···········c····g··a··a······a·······
+
+VFG_ref                             acctcgaccaagaatatgacgacttctgggacgaggacggagaggtgatg
+M.abscessus_ERR5412500              ··················································
+M.decipiens_GCF_002104675.1         ··········g·····························t·········
+M.decipiens_GCF_002104675.1         ··········gc·······a····················t·········
+
+VFG_ref                             agggactacaggcttcgggtgtcggatgcgttgtcgaagttgactccgtg
+M.abscessus_ERR5412500              ·····················-----------------------------
+M.decipiens_GCF_002104675.1         ·····t··tc·······t···············g·cc·············
+M.decipiens_GCF_002104675.1         ········tc·······c········a······g··c·············
+
+VFG_ref                             gaaggcgccgccgccgatcgcccacagtaccgtgttggtcgcaccggtgt
+M.abscessus_ERR5412500              --------------------------------------------------
+M.decipiens_GCF_002104675.1         ····c·················a···aa····ga·············c·c
+M.decipiens_GCF_002104675.1         ····c·················a···aa····ga················
+
+VFG_ref                             cacccagcacggcgtcatcgcgtacagacacttag
+M.abscessus_ERR5412500              -----------------------------------
+M.decipiens_GCF_002104675.1         ···tt··t··c·t··tg··t··c····g·g·····
+M.decipiens_GCF_002104675.1         ·g·ttg········---------------------
+
+

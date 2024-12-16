@@ -1,0 +1,120 @@
+{
+  "items": [
+    {
+      "id": 0,
+      "text": "acridine_dye"
+    },
+    {
+      "id": 1,
+      "text": "aminocoumarin"
+    },
+    {
+      "id": 2,
+      "text": "aminoglycoside"
+    },
+    {
+      "id": 3,
+      "text": "carbapenem"
+    },
+    {
+      "id": 4,
+      "text": "cephalosporin"
+    },
+    {
+      "id": 5,
+      "text": "cephamycin"
+    },
+    {
+      "id": 6,
+      "text": "diaminopyrimidine"
+    },
+    {
+      "id": 7,
+      "text": "fluoroquinolone"
+    },
+    {
+      "id": 8,
+      "text": "fosfomycin"
+    },
+    {
+      "id": 9,
+      "text": "fusidic_acid"
+    },
+    {
+      "id": 10,
+      "text": "glycopeptide"
+    },
+    {
+      "id": 11,
+      "text": "glycylcycline"
+    },
+    {
+      "id": 12,
+      "text": "isoniazid"
+    },
+    {
+      "id": 13,
+      "text": "lincosamide"
+    },
+    {
+      "id": 14,
+      "text": "macrolide"
+    },
+    {
+      "id": 15,
+      "text": "monobactam"
+    },
+    {
+      "id": 16,
+      "text": "mupirocin"
+    },
+    {
+      "id": 17,
+      "text": "nucleoside"
+    },
+    {
+      "id": 18,
+      "text": "oxazolidinone"
+    },
+    {
+      "id": 19,
+      "text": "penam"
+    },
+    {
+      "id": 20,
+      "text": "penem"
+    },
+    {
+      "id": 21,
+      "text": "peptide"
+    },
+    {
+      "id": 22,
+      "text": "pleuromutilin"
+    },
+    {
+      "id": 23,
+      "text": "phenicol"
+    },
+    {
+      "id": 24,
+      "text": "rifamycin"
+    },
+    {
+      "id": 25,
+      "text": "streptogramin"
+    },
+    {
+      "id": 26,
+      "text": "sulfonamide"
+    },
+    {
+      "id": 27,
+      "text": "tetracycline"
+    },
+    {
+      "id": 28,
+      "text": "triclosan"
+    }
+  ]
+}

@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>NTM-DB: Search</title>
+    {% load static %}
+    <link rel="icon" href="{%static '/image/logo/NTM_logo_light.svg'%}" />
+    <link rel="stylesheet" type="text/css" href="{% static '/module/semantic-ui/semantic.min.css'%}">
+    <link rel="stylesheet" type="text/css" href="{% static '/module/bootstrap/bootstrap.min.css'%}" />
+    <link rel="stylesheet" type="text/css" href="{% static '/module/ngdc/page.min.css'%}" />
+    <link rel="stylesheet" type="text/css" href="{% static '/css/supplementary.css'%}" />
+    <link rel="stylesheet" type="text/css" href="{% static '/module/select2/css/select2.min.css'%}" />
+    <link rel="stylesheet" type="text/css" href="/ntmdb/static/css/search.css">
+</head>
+
+
+<body>
+    {% include 'component/ngdc_header.html' %}
+    {% include 'component/nav_bar2.html' %}
+    <div id="main">
+        <!-- breadcrumb -->
+        <div class="ui basic segment">
+            <div class="ui big breadcrumb" style="margin:8px 0 35px 0 !important;">
+                <a href="\ntmdb" class="section"><i class="icon home"></i> Home</a>
+                <i class="right angle icon divider"></i>
+                <div class="active section">Search</div>
+            </div>
+
+
+            <div class="ui container fluid">
+                <div class="ui stackable centered grid row">
+                    <div class="ui two column row">
+                        <!-- species -->
+                        <div class="five wide column" style="margin-top:20px; min-width:380px;">
+                            <p class="searchItem_1">Search by Species</p>
+                            <div class="row">
+                                <div class="form-inline searchContent">
+                                    <input type="radio" name="ntmRadio" class="form-control mr-sm-2" id="optionSN"
+                                        value="optionSN">
+                                    <label for="optionSN">
+                                        <h5>Species Name</h5>
+                                    </label>
+                                    <select id="speciesSN" class="select2 form-control species_name">
+                                        <option></option>
+                                    </select>
+                                    <div class="example-text">e.g. <a href="/ntmdb/species/M.abscessus/">M.abscessus</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- strains -->
+                        <div class="five wide column" style="margin:20px 0 0 30px; min-width:380px;">
+                            <p class="searchItem_1">Search by Strains</p>
+                            <div class="row">
+                                <div class="form-inline searchContent">
+                                    <input type="radio" name="ntmRadio" class="form-control mr-sm-2"
+                                        id="optionStrainAcc" value="optionStrainAcc">
+                                    <label class="mr-sm-2" for="optionStrainAcc">
+                                        <h5>Accession</h5>
+                                    </label>
+                                    <select id="strainAcc" class="select2 form-control strain_accession">
+                                        <option></option>
+                                    </select>
+                                    <div class="example-text">e.g. <a
+                                            href="/ntmdb/strains/GCA_000016005.1">GCA_000016005.1</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="ui two column row" style="margin-top:20px;">
+                        <!-- Resistance Genes -->
+                        <div class="five wide column" style="margin-top:20px; min-width:380px;">
+                            <p class=" searchItem_1">Search by Resistance Genes</p>
+                            <div class="row">
+                                <div class="form-inline searchContent">
+                                    <input type="radio" name="ntmRadio" class="form-control mr-sm-2" id="optionRSGN"
+                                        value="optionRSGN">
+                                    <label for="optionRSGN">
+                                        <h5>Gene Name</h5>
+                                    </label>
+                                    <select id="geneRSGN" class="select2 form-control rs_gene_name">
+                                        <option></option>
+                                    </select>
+                                    <div class="example-text">e.g. <a
+                                            href="/ntmdb/gene/resistance_gene/card_id=ARO:3000816">mtrA</a></div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="form-inline searchContent">
+                                    <input type="radio" name="ntmRadio" class="form-control mr-sm-2" id="optionDC"
+                                        value="optionDC">
+                                    <label for="optionDC">
+                                        <h5>Drug Class</h5>
+                                    </label>
+                                    <select id="drugDC" class="select2 form-control drug_class">
+                                        <option></option>
+                                    </select>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Virulence Genes -->
+                        <div class="five wide column" style="margin:20px 0 0 30px; min-width:380px;">
+                            <p class=" searchItem_1">Search by Virulence Genes</p>
+                            <div class="row">
+                                <div class="form-inline searchContent">
+                                    <input type="radio" name="ntmRadio" class="form-control mr-sm-2" id="optionVFGN"
+                                        value="optionVFGN">
+                                    <label class="mr-sm-2" for="optionVFGN">
+                                        <h5>Gene Name</h5>
+                                    </label>
+                                    <select id="geneVFGN" class="select2 form-control vf_gene_name">
+                                        <option></option>
+                                    </select>
+                                    <div class="example-text">e.g. <a
+                                            href="/ntmdb/gene/virulence_gene/vfg_id=VFG001826">relA</a></div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="form-inline searchContent">
+                                    <input type="radio" name="ntmRadio" class="form-control mr-sm-2" id="optionVFC"
+                                        value="optionVFC">
+                                    <label class="mr-sm-2" for="optionVFC">
+                                        <h5>VF Category</h5>
+                                    </label>
+                                    <select id="virulenceVFC" class="select2 form-control vf_category">
+                                        <option></option>
+                                    </select>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="ui two column row">
+                        <div class="sixteen wide column center aligned" style="margin:12px 0 25px 0;">
+                            <button class="ui blue button ntm-btn2 submit-btn"
+                                style="width:100px; font-size:18px !important;">Submit</button>
+                            <!-- <button class="ui blue button ntm-btn2 searchButRes"
+                                style="margin-left: 110px; width:100px; font-size:18px !important;"
+                                id="searchButRes">Reset</button> -->
+                            <button class="ui blue button ntm-btn2 searchButRes"
+                                style="margin-left: 100px; width:100px; font-size:18px !important;"
+                                onclick="window.location.href='/ntmdb/search/search_main'">Reset</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="row"><br></div>
+            <div class="row">
+                <div class="col-1"></div>
+                <div class="col-10" id='aggrid' style="margin-top:20px;">
+                    <div id="genes_table" style="height: 100%; width:100%;" class="ag-theme-alpine" data-exists="false">
+                    </div>
+                </div>
+            </div>
+            <div class="row"><br></div>
+        </div>
+    </div>
+    </div>
+    </div>
+
+
+    {% include 'component/ngdc_footer.html' %}
+    <script src="{% static '/module/jquery/jquery-3.6.4.js'%}"></script>
+    <script src="{% static '/module/bootstrap/bootstrap.bundle.min.js'%}"></script>
+    <script src="{% static '/module/semantic-ui/semantic.min.js'%}"></script>
+    <script src="{% static '/module/ag-grid/ag-grid-community.min.js'%}"></script>
+    <script src="{% static '/module/select2/js/select2.min.js'%}"></script>
+    <script src="{% static 'js/search/search_integration.js' %}"></script>
+</body>
+
+</html>

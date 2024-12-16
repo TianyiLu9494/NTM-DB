@@ -1,0 +1,35 @@
+@charset "utf-8";
+
+/* .qsearch {} */
+
+/* 将表格外边距设置为 20px */
+.table-overview {
+    margin-left: 20px;
+    margin-right: 15px;
+}
+
+
+.table-hotsp {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.table-overview td {
+    height: 240px;
+}
+
+/* 设置表格每一列都等宽 */
+.table-equal-columns {
+    table-layout: fixed;
+    width: 100%;
+}
+
+.table-equal-columns td,
+.table-equal-columns th {
+    text-align: center;
+    width: auto;
+}
+
+.right-card {
+    margin-bottom: 20px;
+}

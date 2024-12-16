@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NTM-DB: Browse by genes</title>
+  {% load static %}
+  <link rel="icon" href="{%static '/image/logo/NTM_logo_light.svg'%}" />
+  <link rel="stylesheet" type="text/css" href="{% static '/module/semantic-ui/semantic.min.css'%}">
+  <link rel="stylesheet" type="text/css" href="{% static '/module/bootstrap/bootstrap.min.css'%}" />
+  <link rel="stylesheet" type="text/css" href="{% static '/module/ngdc/page.min.css'%}" />
+  <link rel="stylesheet" type="text/css" href="{% static '/css/supplementary.css'%}" />
+</head>
+
+<body>
+  {% include 'component/ngdc_header.html' %}
+  {% include 'component/nav_bar2.html' %}
+  <div id="main">
+    <!-- breadcrumb -->
+    <div class="ui basic segment">
+      <div class="ui big breadcrumb" style="margin:8px 0 35px 0 !important;">
+        <a href="/ntmdb" class="section"><i class="icon home"></i> Home</a>
+        <i class="right angle icon divider"></i>
+        <div class="active section">Browse Resistance Genes</div>
+      </div>
+
+      <div class="ui stackable grid row">
+        <div class="ui container-fluid">
+          <div class="row">
+            <!-- Filter -->
+            <div class="col-12 p-3 rs_table" style="border: 0px; margin: 0px; padding: 5%;">
+              <div class="ui buttons" style="margin:0 0 5px 2px !important;">
+                <button class="ui blue button ntm-btn2" style=" border-right: none !important; ">Resistance
+                  Genes</button>
+                <button class="ui blue button ntm-btn" onclick="window.location.href='/ntmdb/browse/genes_vf'">Virulence
+                  Genes</button>
+              </div>
+              <br>
+              <br>
+
+              <!-- Filter -->
+              <div class="row">
+                <div class="three wide column">
+                  <label style="font-size: medium; margin-bottom: 10px;">Show
+                    <select onchange="onPageSizeChanged_rs()" id="page-size-rs">
+                      <option value="10" selected>10</option>
+                      <option value="20">20</option>
+                      <option value="50">50</option>
+                      <option value="100">100</option>
+                      <option value="200">200</option>
+                    </select>
+                    entries</label>
+                  <button id="downloadButton" class="ui blue button ntm-btn" style="margin-left:20px;"><i
+                      class="download icon"></i>Download
+                    Table</button>
+
+                </div>
+              </div>
+
+              <div class="row" style="margin-bottom:10px;">
+                <div id="genes_table_rs" style="height: 100%; width:100%;" class="ag-theme-alpine"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  {% include 'component/ngdc_footer.html' %}
+  <script src="{% static '/module/jquery/jquery-3.6.4.js'%}"></script>
+  <script src="{% static '/module/bootstrap/bootstrap.bundle.min.js'%}"></script>
+  <script src="{% static '/module/semantic-ui/semantic.min.js'%}"></script>
+  <script src="{% static '/module/ag-grid/ag-grid-community.min.js'%}"></script>
+  <script src="{% static 'js/genes_table_rs.js' %}" type="text/javascript"></script>
+
+
+</body>
+
+</html>

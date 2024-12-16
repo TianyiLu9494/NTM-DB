@@ -1,0 +1,762 @@
+[
+  {
+    "id": "sp-M.abscessus",
+    "text": "Mycobecterium abscessus"
+  },
+  {
+    "id": "sp-M.agri",
+    "text": "Mycobecterium agri"
+  },
+  {
+    "id": "sp-M.aichiense",
+    "text": "Mycobecterium aichiense"
+  },
+  {
+    "id": "sp-M.algericum",
+    "text": "Mycobecterium algericum"
+  },
+  {
+    "id": "sp-M.alsense",
+    "text": "Mycobecterium alsense"
+  },
+  {
+    "id": "sp-M.alvei",
+    "text": "Mycobecterium alvei"
+  },
+  {
+    "id": "sp-M.angelicum",
+    "text": "Mycobecterium angelicum"
+  },
+  {
+    "id": "sp-M.anyangense",
+    "text": "Mycobecterium anyangense"
+  },
+  {
+    "id": "sp-M.aquaticum",
+    "text": "Mycobecterium aquaticum"
+  },
+  {
+    "id": "sp-M.arabiense",
+    "text": "Mycobecterium arabiense"
+  },
+  {
+    "id": "sp-M.aromaticivorans",
+    "text": "Mycobecterium aromaticivorans"
+  },
+  {
+    "id": "sp-M.arosiense",
+    "text": "Mycobecterium arosiense"
+  },
+  {
+    "id": "sp-M.arupense",
+    "text": "Mycobecterium arupense"
+  },
+  {
+    "id": "sp-M.asiaticum",
+    "text": "Mycobecterium asiaticum"
+  },
+  {
+    "id": "sp-M.attenuatum",
+    "text": "Mycobecterium attenuatum"
+  },
+  {
+    "id": "sp-M.aubagnense",
+    "text": "Mycobecterium aubagnense"
+  },
+  {
+    "id": "sp-M.aurum",
+    "text": "Mycobecterium aurum"
+  },
+  {
+    "id": "sp-M.austroafricanum",
+    "text": "Mycobecterium austroafricanum"
+  },
+  {
+    "id": "sp-M.avium",
+    "text": "Mycobecterium avium"
+  },
+  {
+    "id": "sp-M.bacteremicum",
+    "text": "Mycobecterium bacteremicum"
+  },
+  {
+    "id": "sp-M.basiliense",
+    "text": "Mycobecterium basiliense"
+  },
+  {
+    "id": "sp-M.boenickei",
+    "text": "Mycobecterium boenickei"
+  },
+  {
+    "id": "sp-M.bohemicum",
+    "text": "Mycobecterium bohemicum"
+  },
+  {
+    "id": "sp-M.botniense",
+    "text": "Mycobecterium botniense"
+  },
+  {
+    "id": "sp-M.bourgelatii",
+    "text": "Mycobecterium bourgelatii"
+  },
+  {
+    "id": "sp-M.branderi",
+    "text": "Mycobecterium branderi"
+  },
+  {
+    "id": "sp-M.brisbanense",
+    "text": "Mycobecterium brisbanense"
+  },
+  {
+    "id": "sp-M.brumae",
+    "text": "Mycobecterium brumae"
+  },
+  {
+    "id": "sp-M.canariasense",
+    "text": "Mycobecterium canariasense"
+  },
+  {
+    "id": "sp-M.celatum",
+    "text": "Mycobecterium celatum"
+  },
+  {
+    "id": "sp-M.celeriflavum",
+    "text": "Mycobecterium celeriflavum"
+  },
+  {
+    "id": "sp-M.chelonae",
+    "text": "Mycobecterium chelonae"
+  },
+  {
+    "id": "sp-M.chitae",
+    "text": "Mycobecterium chitae"
+  },
+  {
+    "id": "sp-M.chlorophenolicum",
+    "text": "Mycobecterium chlorophenolicum"
+  },
+  {
+    "id": "sp-M.chubuense",
+    "text": "Mycobecterium chubuense"
+  },
+  {
+    "id": "sp-M.colombiense",
+    "text": "Mycobecterium colombiense"
+  },
+  {
+    "id": "sp-M.conceptionense",
+    "text": "Mycobecterium conceptionense"
+  },
+  {
+    "id": "sp-M.confluentis",
+    "text": "Mycobecterium confluentis"
+  },
+  {
+    "id": "sp-M.conspicuum",
+    "text": "Mycobecterium conspicuum"
+  },
+  {
+    "id": "sp-M.cookii",
+    "text": "Mycobecterium cookii"
+  },
+  {
+    "id": "sp-M.cosmeticum",
+    "text": "Mycobecterium cosmeticum"
+  },
+  {
+    "id": "sp-M.decipiens",
+    "text": "Mycobecterium decipiens"
+  },
+  {
+    "id": "sp-M.diernhoferi",
+    "text": "Mycobecterium diernhoferi"
+  },
+  {
+    "id": "sp-M.doricum",
+    "text": "Mycobecterium doricum"
+  },
+  {
+    "id": "sp-M.duvalii",
+    "text": "Mycobecterium duvalii"
+  },
+  {
+    "id": "sp-M.eburneum",
+    "text": "Mycobecterium eburneum"
+  },
+  {
+    "id": "sp-M.elephantis",
+    "text": "Mycobecterium elephantis"
+  },
+  {
+    "id": "sp-M.engbaekii",
+    "text": "Mycobecterium engbaekii"
+  },
+  {
+    "id": "sp-M.europaeum",
+    "text": "Mycobecterium europaeum"
+  },
+  {
+    "id": "sp-M.fallax",
+    "text": "Mycobecterium fallax"
+  },
+  {
+    "id": "sp-M.farcinogenes",
+    "text": "Mycobecterium farcinogenes"
+  },
+  {
+    "id": "sp-M.flavescens",
+    "text": "Mycobecterium flavescens"
+  },
+  {
+    "id": "sp-M.florentinum",
+    "text": "Mycobecterium florentinum"
+  },
+  {
+    "id": "sp-M.fluoranthenivorans",
+    "text": "Mycobecterium fluoranthenivorans"
+  },
+  {
+    "id": "sp-M.fortuitum",
+    "text": "Mycobecterium fortuitum"
+  },
+  {
+    "id": "sp-M.fragae",
+    "text": "Mycobecterium fragae"
+  },
+  {
+    "id": "sp-M.franklinii",
+    "text": "Mycobecterium franklinii"
+  },
+  {
+    "id": "sp-M.frederiksbergense",
+    "text": "Mycobecterium frederiksbergense"
+  },
+  {
+    "id": "sp-M.gadium",
+    "text": "Mycobecterium gadium"
+  },
+  {
+    "id": "sp-M.gastri",
+    "text": "Mycobecterium gastri"
+  },
+  {
+    "id": "sp-M.genavense",
+    "text": "Mycobecterium genavense"
+  },
+  {
+    "id": "sp-M.gilvum",
+    "text": "Mycobecterium gilvum"
+  },
+  {
+    "id": "sp-M.goodii",
+    "text": "Mycobecterium goodii"
+  },
+  {
+    "id": "sp-M.gordonae",
+    "text": "Mycobecterium gordonae"
+  },
+  {
+    "id": "sp-M.grossiae",
+    "text": "Mycobecterium grossiae"
+  },
+  {
+    "id": "sp-M.haemophilum",
+    "text": "Mycobecterium haemophilum"
+  },
+  {
+    "id": "sp-M.hassiacum",
+    "text": "Mycobecterium hassiacum"
+  },
+  {
+    "id": "sp-M.heckeshornense",
+    "text": "Mycobecterium heckeshornense"
+  },
+  {
+    "id": "sp-M.heidelbergense",
+    "text": "Mycobecterium heidelbergense"
+  },
+  {
+    "id": "sp-M.helveticum",
+    "text": "Mycobecterium helveticum"
+  },
+  {
+    "id": "sp-M.helvum",
+    "text": "Mycobecterium helvum"
+  },
+  {
+    "id": "sp-M.heraklionense",
+    "text": "Mycobecterium heraklionense"
+  },
+  {
+    "id": "sp-M.hiberniae",
+    "text": "Mycobecterium hiberniae"
+  },
+  {
+    "id": "sp-M.hippocampi",
+    "text": "Mycobecterium hippocampi"
+  },
+  {
+    "id": "sp-M.hodleri",
+    "text": "Mycobecterium hodleri"
+  },
+  {
+    "id": "sp-M.holsaticum",
+    "text": "Mycobecterium holsaticum"
+  },
+  {
+    "id": "sp-M.houstonense",
+    "text": "Mycobecterium houstonense"
+  },
+  {
+    "id": "sp-M.immunogenum",
+    "text": "Mycobecterium immunogenum"
+  },
+  {
+    "id": "sp-M.innocens",
+    "text": "Mycobecterium innocens"
+  },
+  {
+    "id": "sp-M.insubricum",
+    "text": "Mycobecterium insubricum"
+  },
+  {
+    "id": "sp-M.interjectum",
+    "text": "Mycobecterium interjectum"
+  },
+  {
+    "id": "sp-M.intermedium",
+    "text": "Mycobecterium intermedium"
+  },
+  {
+    "id": "sp-M.intracellulare",
+    "text": "Mycobecterium intracellulare"
+  },
+  {
+    "id": "sp-M.iranicum",
+    "text": "Mycobecterium iranicum"
+  },
+  {
+    "id": "sp-M.kansasii",
+    "text": "Mycobecterium kansasii"
+  },
+  {
+    "id": "sp-M.komaniense",
+    "text": "Mycobecterium komaniense"
+  },
+  {
+    "id": "sp-M.kubicae",
+    "text": "Mycobecterium kubicae"
+  },
+  {
+    "id": "sp-M.kumamotonense",
+    "text": "Mycobecterium kumamotonense"
+  },
+  {
+    "id": "sp-M.kyogaense",
+    "text": "Mycobecterium kyogaense"
+  },
+  {
+    "id": "sp-M.kyorinense",
+    "text": "Mycobecterium kyorinense"
+  },
+  {
+    "id": "sp-M.lacus",
+    "text": "Mycobecterium lacus"
+  },
+  {
+    "id": "sp-M.lehmannii",
+    "text": "Mycobecterium lehmannii"
+  },
+  {
+    "id": "sp-M.lentiflavum",
+    "text": "Mycobecterium lentiflavum"
+  },
+  {
+    "id": "sp-M.litorale",
+    "text": "Mycobecterium litorale"
+  },
+  {
+    "id": "sp-M.llatzerense",
+    "text": "Mycobecterium llatzerense"
+  },
+  {
+    "id": "sp-M.longobardum",
+    "text": "Mycobecterium longobardum"
+  },
+  {
+    "id": "sp-M.lutetiense",
+    "text": "Mycobecterium lutetiense"
+  },
+  {
+    "id": "sp-M.madagascariense",
+    "text": "Mycobecterium madagascariense"
+  },
+  {
+    "id": "sp-M.mageritense",
+    "text": "Mycobecterium mageritense"
+  },
+  {
+    "id": "sp-M.malmesburyense",
+    "text": "Mycobecterium malmesburyense"
+  },
+  {
+    "id": "sp-M.malmoense",
+    "text": "Mycobecterium malmoense"
+  },
+  {
+    "id": "sp-M.mantenii",
+    "text": "Mycobecterium mantenii"
+  },
+  {
+    "id": "sp-M.marinum",
+    "text": "Mycobecterium marinum"
+  },
+  {
+    "id": "sp-M.marseillense",
+    "text": "Mycobecterium marseillense"
+  },
+  {
+    "id": "sp-M.minnesotense",
+    "text": "Mycobecterium minnesotense"
+  },
+  {
+    "id": "sp-M.monacense",
+    "text": "Mycobecterium monacense"
+  },
+  {
+    "id": "sp-M.montefiorense",
+    "text": "Mycobecterium montefiorense"
+  },
+  {
+    "id": "sp-M.moriokaense",
+    "text": "Mycobecterium moriokaense"
+  },
+  {
+    "id": "sp-M.mucogenicum",
+    "text": "Mycobecterium mucogenicum"
+  },
+  {
+    "id": "sp-M.murale",
+    "text": "Mycobecterium murale"
+  },
+  {
+    "id": "sp-M.nebraskense",
+    "text": "Mycobecterium nebraskense"
+  },
+  {
+    "id": "sp-M.neglectum",
+    "text": "Mycobecterium neglectum"
+  },
+  {
+    "id": "sp-M.neoaurum",
+    "text": "Mycobecterium neoaurum"
+  },
+  {
+    "id": "sp-M.neumannii",
+    "text": "Mycobecterium neumannii"
+  },
+  {
+    "id": "sp-M.neworleansense",
+    "text": "Mycobecterium neworleansense"
+  },
+  {
+    "id": "sp-M.nonchromogenicum",
+    "text": "Mycobecterium nonchromogenicum"
+  },
+  {
+    "id": "sp-M.noviomagense",
+    "text": "Mycobecterium noviomagense"
+  },
+  {
+    "id": "sp-M.novocastrense",
+    "text": "Mycobecterium novocastrense"
+  },
+  {
+    "id": "sp-M.obuense",
+    "text": "Mycobecterium obuense"
+  },
+  {
+    "id": "sp-M.palauense",
+    "text": "Mycobecterium palauense"
+  },
+  {
+    "id": "sp-M.palustre",
+    "text": "Mycobecterium palustre"
+  },
+  {
+    "id": "sp-M.paraense",
+    "text": "Mycobecterium paraense"
+  },
+  {
+    "id": "sp-M.paraffinicum",
+    "text": "Mycobecterium paraffinicum"
+  },
+  {
+    "id": "sp-M.parafortuitum",
+    "text": "Mycobecterium parafortuitum"
+  },
+  {
+    "id": "sp-M.paragordonae",
+    "text": "Mycobecterium paragordonae"
+  },
+  {
+    "id": "sp-M.parascrofulaceum",
+    "text": "Mycobecterium parascrofulaceum"
+  },
+  {
+    "id": "sp-M.paraseoulense",
+    "text": "Mycobecterium paraseoulense"
+  },
+  {
+    "id": "sp-M.parmense",
+    "text": "Mycobecterium parmense"
+  },
+  {
+    "id": "sp-M.peregrinum",
+    "text": "Mycobecterium peregrinum"
+  },
+  {
+    "id": "sp-M.persicum",
+    "text": "Mycobecterium persicum"
+  },
+  {
+    "id": "sp-M.phlei",
+    "text": "Mycobecterium phlei"
+  },
+  {
+    "id": "sp-M.phocaicum",
+    "text": "Mycobecterium phocaicum"
+  },
+  {
+    "id": "sp-M.porcinum",
+    "text": "Mycobecterium porcinum"
+  },
+  {
+    "id": "sp-M.poriferae",
+    "text": "Mycobecterium poriferae"
+  },
+  {
+    "id": "sp-M.pseudokansasii",
+    "text": "Mycobecterium pseudokansasii"
+  },
+  {
+    "id": "sp-M.pseudoshottsii",
+    "text": "Mycobecterium pseudoshottsii"
+  },
+  {
+    "id": "sp-M.psychrotolerans",
+    "text": "Mycobecterium psychrotolerans"
+  },
+  {
+    "id": "sp-M.pulveris",
+    "text": "Mycobecterium pulveris"
+  },
+  {
+    "id": "sp-M.rhodesiae",
+    "text": "Mycobecterium rhodesiae"
+  },
+  {
+    "id": "sp-M.riyadhense",
+    "text": "Mycobecterium riyadhense"
+  },
+  {
+    "id": "sp-M.rufum",
+    "text": "Mycobecterium rufum"
+  },
+  {
+    "id": "sp-M.rutilum",
+    "text": "Mycobecterium rutilum"
+  },
+  {
+    "id": "sp-M.salmoniphilum",
+    "text": "Mycobecterium salmoniphilum"
+  },
+  {
+    "id": "sp-M.saopaulense",
+    "text": "Mycobecterium saopaulense"
+  },
+  {
+    "id": "sp-M.sarraceniae",
+    "text": "Mycobecterium sarraceniae"
+  },
+  {
+    "id": "sp-M.saskatchewanense",
+    "text": "Mycobecterium saskatchewanense"
+  },
+  {
+    "id": "sp-M.scrofulaceum",
+    "text": "Mycobecterium scrofulaceum"
+  },
+  {
+    "id": "sp-M.sediminis",
+    "text": "Mycobecterium sediminis"
+  },
+  {
+    "id": "sp-M.senegalense",
+    "text": "Mycobecterium senegalense"
+  },
+  {
+    "id": "sp-M.senriense",
+    "text": "Mycobecterium senriense"
+  },
+  {
+    "id": "sp-M.senuense",
+    "text": "Mycobecterium senuense"
+  },
+  {
+    "id": "sp-M.seoulense",
+    "text": "Mycobecterium seoulense"
+  },
+  {
+    "id": "sp-M.septicum",
+    "text": "Mycobecterium septicum"
+  },
+  {
+    "id": "sp-M.setense",
+    "text": "Mycobecterium setense"
+  },
+  {
+    "id": "sp-M.sherrisii",
+    "text": "Mycobecterium sherrisii"
+  },
+  {
+    "id": "sp-M.shigaense",
+    "text": "Mycobecterium shigaense"
+  },
+  {
+    "id": "sp-M.shimoidei",
+    "text": "Mycobecterium shimoidei"
+  },
+  {
+    "id": "sp-M.shinjukuense",
+    "text": "Mycobecterium shinjukuense"
+  },
+  {
+    "id": "sp-M.simiae",
+    "text": "Mycobecterium simiae"
+  },
+  {
+    "id": "sp-M.smegmatis",
+    "text": "Mycobecterium smegmatis"
+  },
+  {
+    "id": "sp-M.sphagni",
+    "text": "Mycobecterium sphagni"
+  },
+  {
+    "id": "sp-M.stomatepiae",
+    "text": "Mycobecterium stomatepiae"
+  },
+  {
+    "id": "sp-M.subsp. abscessus",
+    "text": "Mycobecterium subsp. abscessus"
+  },
+  {
+    "id": "sp-M.subsp. acetamidolyticum",
+    "text": "Mycobecterium subsp. acetamidolyticum"
+  },
+  {
+    "id": "sp-M.subsp. avium",
+    "text": "Mycobecterium subsp. avium"
+  },
+  {
+    "id": "sp-M.subsp. bolletii",
+    "text": "Mycobecterium subsp. bolletii"
+  },
+  {
+    "id": "sp-M.subsp. chelonae",
+    "text": "Mycobecterium subsp. chelonae"
+  },
+  {
+    "id": "sp-M.subsp. chimaera",
+    "text": "Mycobecterium subsp. chimaera"
+  },
+  {
+    "id": "sp-M.subsp. fortuitum",
+    "text": "Mycobecterium subsp. fortuitum"
+  },
+  {
+    "id": "sp-M.subsp. gwanakae",
+    "text": "Mycobecterium subsp. gwanakae"
+  },
+  {
+    "id": "sp-M.subsp. intracellulare",
+    "text": "Mycobecterium subsp. intracellulare"
+  },
+  {
+    "id": "sp-M.subsp. massiliense",
+    "text": "Mycobecterium subsp. massiliense"
+  },
+  {
+    "id": "sp-M.subsp. paratuberculosis",
+    "text": "Mycobecterium subsp. paratuberculosis"
+  },
+  {
+    "id": "sp-M.subsp. silvaticum",
+    "text": "Mycobecterium subsp. silvaticum"
+  },
+  {
+    "id": "sp-M.syngnathidarum",
+    "text": "Mycobecterium syngnathidarum"
+  },
+  {
+    "id": "sp-M.szulgai",
+    "text": "Mycobecterium szulgai"
+  },
+  {
+    "id": "sp-M.terrae",
+    "text": "Mycobecterium terrae"
+  },
+  {
+    "id": "sp-M.thermoresistibile",
+    "text": "Mycobecterium thermoresistibile"
+  },
+  {
+    "id": "sp-M.timonense",
+    "text": "Mycobecterium timonense"
+  },
+  {
+    "id": "sp-M.tokaiense",
+    "text": "Mycobecterium tokaiense"
+  },
+  {
+    "id": "sp-M.triplex",
+    "text": "Mycobecterium triplex"
+  },
+  {
+    "id": "sp-M.tusciae",
+    "text": "Mycobecterium tusciae"
+  },
+  {
+    "id": "sp-M.ulcerans",
+    "text": "Mycobecterium ulcerans"
+  },
+  {
+    "id": "sp-M.Unkown",
+    "text": "Mycobecterium Unkown"
+  },
+  {
+    "id": "sp-M.vaccae",
+    "text": "Mycobecterium vaccae"
+  },
+  {
+    "id": "sp-M.vicinigordonae",
+    "text": "Mycobecterium vicinigordonae"
+  },
+  {
+    "id": "sp-M.virginiense",
+    "text": "Mycobecterium virginiense"
+  },
+  {
+    "id": "sp-M.vulneris",
+    "text": "Mycobecterium vulneris"
+  },
+  {
+    "id": "sp-M.wolinskyi",
+    "text": "Mycobecterium wolinskyi"
+  },
+  {
+    "id": "sp-M.xenopi",
+    "text": "Mycobecterium xenopi"
+  }
+]

@@ -1,0 +1,63 @@
+{% load static %}
+<div style="position: relative;">
+  <img src="{% static '/image/home/home-bg.jpeg' %}" class="nav-img">
+  <div class="overlay">
+    <img src="{% static '/image/home/ntm-db-logo.png' %}"
+      style="position: absolute; top: 40%; left: 20%; transform: translate(-50%, -50%); width: 600px; height: auto;">
+  </div>
+</div>
+<!-- <div class="ui items">
+  <div class="item">
+    <div class="image" style="width:300px " src="{% static '/image/home/home-bg.jpeg' %}">
+      <img class="ui image">
+    </div>
+  </div>
+</div> -->
+
+
+
+
+<nav class="navbar navbar-expand-md sticky-top ntm-nav" style="background-color: rgb(126, 175, 221);">
+  <div class="container-fluid">
+    <a href="/ntmdb" class="navbar-brand">NTM-DB</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navmenu">
+      <ul class="navbar-nav">
+        <div class="dropdown mx-2">
+          <button class="btn dropdown-toggle nav-btn" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <i class="icon eye"></i>
+            Browse
+          </button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="\ntmdb\browse\species">Species</a></li>
+            <li><a class="dropdown-item" href="\ntmdb\browse\strains">Strains</a></li>
+            <li><a class="dropdown-item" href="\ntmdb\browse\genes_rs">Genes</a></li>
+          </ul>
+        </div>
+        <li class="nav-item"><a class="nav-link" href="\ntmdb\mlst">
+            <i class="icon snowflake outline"></i>
+            MLST</a></li>
+        <li class="nav-item"><a class="nav-link" href="\ntmdb\search\search_main">
+            <i class="icon search"></i>
+            Search</a></li>
+        <li class="nav-item"><a class="nav-link" href="\ntmdb\analysis">
+            <i class="icon calendar check outline"></i>
+            Analysis</a></li>
+
+
+        <li class="nav-item"><a class="nav-link" href="\ntmdb\download">
+            <i class="icon download"></i>
+            Download</a>
+        </li>
+
+
+        <li class="nav-item"><a class="nav-link" href="\ntmdb\documentation">
+            <i class="icon question circle"></i>
+            Documentation</a></li>
+      </ul>
+    </div>
+    <div class="collapse navbar-colleps"></div>
+  </div>
+</nav>

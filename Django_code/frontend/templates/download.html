@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>NTM-DB: Browse by species</title>
+    {% load static %}
+    <link rel="icon" href="{%static '/image/logo/NTM_logo_light.svg'%}" />
+    <link rel="stylesheet" type="text/css" href="{% static 'module/semantic-ui/semantic.min.css'%}">
+    <link rel="stylesheet" type="text/css" href="{% static '/module/bootstrap/bootstrap.min.css'%}" />
+    <link rel="stylesheet" type="text/css" href="{% static '/module/ngdc/page.min.css'%}" />
+    <link rel="stylesheet" type="text/css" href="{% static '/module/dataTable/datatables.min.css'%}">
+    <link href="{% static '/module/bootstrap-icons/font/bootstrap-icons.css'%}" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/ntmdb/static/css/supplementary.css" />
+    <link rel="stylesheet" type="text/css" href="/ntmdb/static/css/download.css" />
+</head>
+
+<body>
+    {% include 'component/ngdc_header.html' %}
+    {% include 'component/nav_bar2.html' %}
+    <div id="main">
+        <!-- breadcrumb -->
+        <div class="ui basic segment">
+            <div class="ui big breadcrumb" style="margin:8px 0 35px 0 !important;">
+                <a href="\ntmdb" class="section"><i class="icon home"></i> Home</a>
+                <i class="right angle icon divider"></i>
+                <div class="active section">Download</div>
+            </div>
+
+
+            <div class="ui stackable grid row">
+                <div class="ui container fluid">
+                    <div class="ui centered grid row">
+                        <div class="row">
+                            <div class="eleven wide column">
+                                <p style="font-size: 18px;">All related data and processed results are publicly
+                                    available
+                                    for download.</p>
+                                <div class="dl-table border">
+                                    <table id="sp-table" class="table border">
+                                        <thead class="custom-bg" style="background-color: #4C9EBF;">
+                                            <tr style="color:aliceblue; font-size: 16px;">
+                                                <th style="width: 20%;">Species Name</th>
+                                                <th style="width: 20%;">MLST</th>
+                                                <th style="width: 20%;">Drug Resistance</th>
+                                                <th style="width: 20%;">Virulence</th>
+                                                <th style="width: 20%;">Pan-genome</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            {% for spec in species %}
+                                            <tr>
+                                                <td>M.{{spec.species}}</td>
+                                                {% if spec.MLST_csv %}
+                                                <td><a
+                                                        href="{% url 'download_files' spec_name=spec.species %}?file=MLST_csv">MLST.csv
+                                                        <i class="bi bi-save"></i></a>
+                                                </td>
+                                                {% else %}
+                                                <td>None</td>
+                                                {% endif %}
+                                                {% if spec.AMR_csv %}
+                                                <td><a
+                                                        href="{% url 'download_files' spec_name=spec.species %}?file=AMR_csv">AMR_gene.csv
+                                                        <i class="bi bi-save"></i></a></td>
+                                                {% else %}
+                                                <td>None</td>
+                                                {% endif %}
+                                                {% if spec.VF_csv %}
+                                                <td><a
+                                                        href="{% url 'download_files' spec_name=spec.species %}?file=VF_csv">VF_gene.csv
+                                                        <i class="bi bi-save"></i></a></td>
+                                                {% else %}
+                                                <td>None</td>
+                                                {% endif %}
+                                                {% if spec.pan_genome_fasta %}
+                                                <td><a
+                                                        href="{% url 'download_files' spec_name=spec.species %}?file=pan_genome_fasta">PanGenome.fasta
+                                                        <i class="bi bi-save"></i></a></td>
+                                                {% else %}
+                                                <td>None</td>
+                                                {% endif %}
+                                            </tr>
+                                            {% endfor %}
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <br>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    {% include 'component/ngdc_footer.html' %}
+    <script src="{% static '/module/jquery/jquery-3.6.4.js'%}"></script>
+    <script src="{% static '/module/bootstrap/bootstrap.bundle.min.js'%}"></script>
+    <script src="{% static '/module/semantic-ui/semantic.min.js'%}"></script>
+    <script src="{% static '/module/dataTable/datatables.min.js'%}"></script>
+    <script src="{% static 'js/download.js' %}" type="text/javascript"></script>
+    {% comment %}
+    <script src="https://cdn.jsdelivr.net/npm/semantic-ui/dist/semantic.min.js"></script> {% endcomment %}
+</body>
+
+</html>

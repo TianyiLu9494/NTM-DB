@@ -1,0 +1,52 @@
+CLUSTAL X (1.81) multiple sequence alignment
+
+
+VFG_ref                             gtggacttgcccggaaatgactttgacagcaacgatttcgacgccgtgga
+M.decipiens_GCF_002104675.1         -------------··········c··t···g·t···········t·cc··
+M.abscessus_SRR18969520             ··················································
+
+VFG_ref                             tctctggggtgccgacggcgcggagggctggactgcggatccgattattg
+M.decipiens_GCF_002104675.1         ························cc·············c·····cg···
+M.abscessus_SRR18969520             ··················································
+
+VFG_ref                             gcgtcgggtcggcggcgaccccggacaccggacccgacctggacaatgcc
+M.decipiens_GCF_002104675.1         ··c···a········a··g·······ggt··tg·····gc····g·c···
+M.abscessus_SRR18969520             ··················································
+
+VFG_ref                             cacggtcaggcggagacggacaccgaacaagagatcgcgctttttaccgt
+M.decipiens_GCF_002104675.1         ag··a······c···g··c··g·a···············a····c··g··
+M.abscessus_SRR18969520             ··················································
+
+VFG_ref                             gacgaatcccccacgcacggtgtcggtatcgacgctgatggacggccgga
+M.decipiens_GCF_002104675.1         ···c·····g·ag·····c········c···g·t···············g
+M.abscessus_SRR18969520             ··················································
+
+VFG_ref                             ttgaccatgtcgagctgtcggccagggtggcctggatgagtgagtcgcag
+M.decipiens_GCF_002104675.1         ·a····g·······g·c···cag········a···········a······
+M.abscessus_SRR18969520             ··················································
+
+VFG_ref                             ctcgcttctgagatcctggtgattgccgacctggcgcggcagaaggcgca
+M.decipiens_GCF_002104675.1         ·····c········t·····a··c··············aa··········
+M.abscessus_SRR18969520             ··················································
+
+VFG_ref                             gtcggcccagtacgccttcatccttgacaggatgagtcaacaggtcgatg
+M.decipiens_GCF_002104675.1         ······g······a··········c················t··c··g··
+M.abscessus_SRR18969520             ··················································
+
+VFG_ref                             cagatgaacaccgcgtcgcactgctacgtaagaccgtgggcgaaacctgg
+M.decipiens_GCF_002104675.1         g···g···gg·a····t··g·a···g···g·at·a······a········
+M.abscessus_SRR18969520             ··················································
+
+VFG_ref                             gggttaccatcgccggaagaagccgcggcagcagaagctgaggtgttcgc
+M.decipiens_GCF_002104675.1         ··t··g····················a··g·a···g·····a········
+M.abscessus_SRR18969520             ··································----------------
+
+VFG_ref                             gacgcgctacagcgacgattgtccagcaccagacgacgagagcgatccat
+M.decipiens_GCF_002104675.1         a··c··g···········ca·c··c····a·a··ac·····ct····a··
+M.abscessus_SRR18969520             --------------------------------------------------
+
+VFG_ref                             ggtga
+M.decipiens_GCF_002104675.1         ·····
+M.abscessus_SRR18969520             -----
+
+

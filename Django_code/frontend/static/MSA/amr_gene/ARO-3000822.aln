@@ -1,0 +1,196 @@
+CLUSTAL X (1.81) multiple sequence alignment
+
+
+AMR_ref                             atgacagagattaactggaaggataatctgcgtattgcctggtttggtaa
+M.abscessus_ERR5411997              ···t················a···········c·····t···········
+M.abscessus_ERR5412572              ··················································
+M.abscessus_ERR5412726              ································c·················
+M.abscessus_ERR5413681              --------------------------------------------------
+M.abscessus_ERR5413858              ···t················a···········c·····t···········
+M.abscessus_ERR5414259              ································c·················
+
+AMR_ref                             ttttctgacaggagccagtatttctttggttgtaccttttatgcccatct
+M.abscessus_ERR5411997              ························c··a·····g···········t····
+M.abscessus_ERR5412572              ··················································
+M.abscessus_ERR5412726              ························c··a·····g················
+M.abscessus_ERR5413681              --------------------------------------------------
+M.abscessus_ERR5413858              ························c··a·····g···········t····
+M.abscessus_ERR5414259              ························c··a·····g···········t····
+
+AMR_ref                             tcgtggaaaatctaggtgtagggagtcagcaagtcgctttttatgcaggc
+M.abscessus_ERR5411997              ·t·········t··············g·t····ct··············t
+M.abscessus_ERR5412572              ··················································
+M.abscessus_ERR5412726              ·t···········g············g·······················
+M.abscessus_ERR5413681              --------------------------------------------------
+M.abscessus_ERR5413858              ·t·········t··············g·t····ct··············t
+M.abscessus_ERR5414259              ·t·······g···g·········g·ag·······t···············
+
+AMR_ref                             ttagcaatttctgtctctgctatttccgcggcgctcttttctcctatttg
+M.abscessus_ERR5411997              ·····t··············c·····t·····a··t··c········c··
+M.abscessus_ERR5412572              ··················································
+M.abscessus_ERR5412726              ·····t·····························t···········c··
+M.abscessus_ERR5413681              -------·············c·····t·····a··t··c········c··
+M.abscessus_ERR5413858              ·····t··············c·····t·····a··t··c········c··
+M.abscessus_ERR5414259              ·····t····················t········t··c········c··
+
+AMR_ref                             gggtattcttgctgacaaatacggccgaaaacccatgatgattcgggcag
+M.abscessus_ERR5411997              ···c··c·················t····················a··t·
+M.abscessus_ERR5412572              ······················t···························
+M.abscessus_ERR5412726              ···c··c·················t·····g··············a··t·
+M.abscessus_ERR5413681              ······c········t········t····················t··t·
+M.abscessus_ERR5413858              ···c··c·················t····················a··t·
+M.abscessus_ERR5414259              ···c··c········t········t·······················t·
+
+AMR_ref                             gtcttgctatgactatcactatgggaggcttggcctttgtcccaaatatc
+M.abscessus_ERR5411997              ·ga·g··c·····c··t··g·····························t
+M.abscessus_ERR5412572              ··················································
+M.abscessus_ERR5412726              ·c··g··c·····c··t········g··············g·········
+M.abscessus_ERR5413681              ····g··c····················t·····················
+M.abscessus_ERR5413858              ·ga·g··c·····c··t··g·····························t
+M.abscessus_ERR5414259              ·c··g··c··········································
+
+AMR_ref                             tattggttaatctttcttcgtttactaaacggtgtatttgcaggttttgt
+M.abscessus_ERR5411997              ······c·············c········t····················
+M.abscessus_ERR5412572              ··················································
+M.abscessus_ERR5412726              ··························g··t···········g········
+M.abscessus_ERR5413681              ··························g··t····················
+M.abscessus_ERR5413858              ······c·············c········t····················
+M.abscessus_ERR5414259              ·········································t········
+
+AMR_ref                             tcctaatgcaacggcactgatagccagtcaggttccaaaggagaaatcag
+M.abscessus_ERR5411997              ···c········a··c····················c·············
+M.abscessus_ERR5412572              ··················································
+M.abscessus_ERR5412726              ···c···········ct···················c·····a·······
+M.abscessus_ERR5413681              ···c········a··ct···················c·············
+M.abscessus_ERR5413858              ···c········a··c····················c·············
+M.abscessus_ERR5414259              ···c···········c····················c·············
+
+AMR_ref                             gctctgccttaggtactttgtctacaggcgtagttgcaggtactctaacc
+M.abscessus_ERR5411997              ·······tc·c··a··············a··············gt····t
+M.abscessus_ERR5412572              ·················································t
+M.abscessus_ERR5412726              ·················································t
+M.abscessus_ERR5413681              ·······tc·c··g··············a·····a·········t····t
+M.abscessus_ERR5413858              ·······tc·c··a··············a··············gt····t
+M.abscessus_ERR5414259              ·aa··············································t
+
+AMR_ref                             ggtccctttattggtggctttatcgcagaattatttggcattcgtacagt
+M.abscessus_ERR5411997              ·····t·····c·····························c·····t··
+M.abscessus_ERR5412572              ··c···············································
+M.abscessus_ERR5412726              ·····t·········································t··
+M.abscessus_ERR5413681              ·····t·····c···································t··
+M.abscessus_ERR5413858              ·····t·····c·····························c·····t··
+M.abscessus_ERR5414259              ···············································t··
+
+AMR_ref                             tttcttactggttggtagttttctatttttagctgctattttgactattt
+M.abscessus_ERR5411997              c··t····················g··c·····c···g············
+M.abscessus_ERR5412572              ··················································
+M.abscessus_ERR5412726              ··················································
+M.abscessus_ERR5413681              c··t····················c··c·····c···g············
+M.abscessus_ERR5413858              c··t····················g··c·····c···g············
+M.abscessus_ERR5414259              ···························c·········g············
+
+AMR_ref                             gctttatcaaggaagattttcaaccagtagccaaggaaaaggctattcca
+M.abscessus_ERR5411997              ·······························a··a········c······
+M.abscessus_ERR5412572              ··················································
+M.abscessus_ERR5412726              ·······································g···c··c···
+M.abscessus_ERR5413681              t········g·····················a··a·····a··c··c···
+M.abscessus_ERR5413858              ·······························a··a········c······
+M.abscessus_ERR5414259              ···········································c··c···
+
+AMR_ref                             acaaaggaattatttacctcggttaaatatccctatcttttgctcaatct
+M.abscessus_ERR5411997              ·····a·····g·····a··a·················c···g····c··
+M.abscessus_ERR5412572              ··················································
+M.abscessus_ERR5412726              ···········g·····a··a·················c···g·t··c··
+M.abscessus_ERR5413681              ·················a··a·················c···g·······
+M.abscessus_ERR5413858              ·····a·····g·····a··a·················c···g····c··
+M.abscessus_ERR5414259              ·················a··a·····················gct··c··
+
+AMR_ref                             ctttttaaccagttttgtcatccaattttcagctcaatcgatcggcccta
+M.abscessus_ERR5411997              ······g································a··········
+M.abscessus_ERR5412572              ·································c················
+M.abscessus_ERR5412726              ····c····························c················
+M.abscessus_ERR5413681              ····c·g··························c········t·······
+M.abscessus_ERR5413858              ······g································a··········
+M.abscessus_ERR5414259              ····c·g··························c················
+
+AMR_ref                             ttttggctctttatgtacgcgacttagggcagacagagaatcttcttttt
+M.abscessus_ERR5411997              ····a··a········g···········c·················c···
+M.abscessus_ERR5412572              ··················································
+M.abscessus_ERR5412726              ·c··a··a········g···········c·····················
+M.abscessus_ERR5413681              ····a··a········g···········c·················c···
+M.abscessus_ERR5413858              ····a··a········g···········c·················c···
+M.abscessus_ERR5414259              ·c··a···t·g·····g···········c·················c···
+
+AMR_ref                             gtctctggtttgattgtgtccagtatgggcttttccagtatgatgagtgc
+M.abscessus_ERR5411997              ··a··a···········a································
+M.abscessus_ERR5412572              ······································c···········
+M.abscessus_ERR5412726              ·················a···········t········c···········
+M.abscessus_ERR5413681              ··g··a···········a····················c···········
+M.abscessus_ERR5413858              ··a··a···········a································
+M.abscessus_ERR5414259              ··a··············a································
+
+AMR_ref                             aggagtcatgggcaagctaggtgacaaggtgggcaatcatcgtctcttgg
+M.abscessus_ERR5411997              ························t········t················
+M.abscessus_ERR5412572              ······t···········································
+M.abscessus_ERR5412726              ······t·····a·················a···········c·······
+M.abscessus_ERR5413681              ····a····························t········c·······
+M.abscessus_ERR5413858              ························t········t················
+M.abscessus_ERR5414259              ························t··a········c·····c·······
+
+AMR_ref                             ttgtcgcccagttttattcagtcatcatctatctcctctgtgccaatgcc
+M.abscessus_ERR5411997              ····a·············································
+M.abscessus_ERR5412572              ·······t··············t···········t···············
+M.abscessus_ERR5412726              ····a······c·························t··········t·
+M.abscessus_ERR5413681              ····a······································t·····t
+M.abscessus_ERR5413858              ····a·············································
+M.abscessus_ERR5414259              ····a·················t···························
+
+AMR_ref                             tctagcccccttcaactaggactctatcgtttcctctttggcttgggaac
+M.abscessus_ERR5411997              ·····························a·················g··
+M.abscessus_ERR5412572              ·····t·················t·················a········
+M.abscessus_ERR5412726              ····················c········a····················
+M.abscessus_ERR5413681              ································ta················
+M.abscessus_ERR5413858              ·····························a·················g··
+M.abscessus_ERR5414259              ·····t··g····················a····················
+
+AMR_ref                             cggtgccttgattccaggggttaatgccctactcagcaaaatgactccca
+M.abscessus_ERR5411997              ···············c··a···········t········g·····a····
+M.abscessus_ERR5412572              a···········a··t·····c········t···················
+M.abscessus_ERR5412726              ······t········c··a···········t········g·····g····
+M.abscessus_ERR5413681              ···············t··a···········t········g·····a····
+M.abscessus_ERR5413858              ···············c··a···········t········g·····a····
+M.abscessus_ERR5414259              ···············t··a··c········t········g··········
+
+AMR_ref                             aagccggcatttcgagggtctttgccttcaatcaggtattcttttatctg
+M.abscessus_ERR5411997              ····t··t····················t··················t··
+M.abscessus_ERR5412572              ····t········a·························g··········
+M.abscessus_ERR5412726              ····t··t····················t······a··············
+M.abscessus_ERR5413681              ··a····a··········································
+M.abscessus_ERR5413858              ····t··t····················t··················t··
+M.abscessus_ERR5414259              ·······t·····a····································
+
+AMR_ref                             ggaggtgttgttggtcccatggcaggttctgcagtagcaggtcaatttgg
+M.abscessus_ERR5411997              ········c·········································
+M.abscessus_ERR5412572              ········c·········································
+M.abscessus_ERR5412726              ········c·········································
+M.abscessus_ERR5413681              ········c········t································
+M.abscessus_ERR5413858              ········c·········································
+M.abscessus_ERR5414259              ········c·········································
+
+AMR_ref                             ctaccatgctgtcttttatgcgacaagcctttgtgttgcctttagttgtc
+M.abscessus_ERR5411997              ·······a·a··a·····································
+M.abscessus_ERR5412572              ····t·············································
+M.abscessus_ERR5412726              ·········a········································
+M.abscessus_ERR5413681              ·········a·····c····················g·············
+M.abscessus_ERR5413858              ·······a·a··a·····································
+M.abscessus_ERR5414259              ·········a·····c··································
+
+AMR_ref                             tctttaacctgattcaatttcgaacattattaaaagtaaaggaaatctag
+M.abscessus_ERR5411997              ··········tc······································
+M.abscessus_ERR5412572              ···········c······································
+M.abscessus_ERR5412726              ···········c······································
+M.abscessus_ERR5413681              ···········c······································
+M.abscessus_ERR5413858              ··········tc······································
+M.abscessus_ERR5414259              ··········tc······································
+
+

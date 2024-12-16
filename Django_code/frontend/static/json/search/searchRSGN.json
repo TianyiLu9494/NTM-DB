@@ -1,0 +1,376 @@
+{
+  "items": [
+    {
+      "id": "ARO:3000024",
+      "text": "patA"
+    },
+    {
+      "id": "ARO:3000025",
+      "text": "patB"
+    },
+    {
+      "id": "ARO:3000026",
+      "text": "mepA"
+    },
+    {
+      "id": "ARO:3000124",
+      "text": "mecI"
+    },
+    {
+      "id": "ARO:3000166",
+      "text": "tet(B)"
+    },
+    {
+      "id": "ARO:3000167",
+      "text": "tet(C)"
+    },
+    {
+      "id": "ARO:3000178",
+      "text": "tet(K)"
+    },
+    {
+      "id": "ARO:3000181",
+      "text": "tet(V)"
+    },
+    {
+      "id": "ARO:3000190",
+      "text": "tet(O)"
+    },
+    {
+      "id": "ARO:3000194",
+      "text": "tet(W)"
+    },
+    {
+      "id": "ARO:3000196",
+      "text": "tet(32)"
+    },
+    {
+      "id": "ARO:3000245",
+      "text": "RbpA"
+    },
+    {
+      "id": "ARO:3000250",
+      "text": "ErmC"
+    },
+    {
+      "id": "ARO:3000251",
+      "text": "msrA"
+    },
+    {
+      "id": "ARO:3000300",
+      "text": "lsaA"
+    },
+    {
+      "id": "ARO:3000319",
+      "text": "mphC"
+    },
+    {
+      "id": "ARO:3000343",
+      "text": "tap"
+    },
+    {
+      "id": "ARO:3000347",
+      "text": "ErmA"
+    },
+    {
+      "id": "ARO:3000375",
+      "text": "ErmB"
+    },
+    {
+      "id": "ARO:3000391",
+      "text": "norA"
+    },
+    {
+      "id": "ARO:3000410",
+      "text": "sul1"
+    },
+    {
+      "id": "ARO:3000478",
+      "text": "tet(33)"
+    },
+    {
+      "id": "ARO:3000501",
+      "text": "rpoB2"
+    },
+    {
+      "id": "ARO:3000516",
+      "text": "emrR"
+    },
+    {
+      "id": "ARO:3000521",
+      "text": "Saur_mupA_MUP"
+    },
+    {
+      "id": "ARO:3000535",
+      "text": "macB"
+    },
+    {
+      "id": "ARO:3000565",
+      "text": "tet(38)"
+    },
+    {
+      "id": "ARO:3000596",
+      "text": "ErmX"
+    },
+    {
+      "id": "ARO:3000601",
+      "text": "Erm(38)"
+    },
+    {
+      "id": "ARO:3000602",
+      "text": "Erm(39)"
+    },
+    {
+      "id": "ARO:3000616",
+      "text": "mel"
+    },
+    {
+      "id": "ARO:3000617",
+      "text": "mecA"
+    },
+    {
+      "id": "ARO:3000621",
+      "text": "PC1_blaZ"
+    },
+    {
+      "id": "ARO:3000746",
+      "text": "mepR"
+    },
+    {
+      "id": "ARO:3000811",
+      "text": "mtrD"
+    },
+    {
+      "id": "ARO:3000815",
+      "text": "mgrA"
+    },
+    {
+      "id": "ARO:3000816",
+      "text": "mtrA"
+    },
+    {
+      "id": "ARO:3000822",
+      "text": "pmrA"
+    },
+    {
+      "id": "ARO:3000838",
+      "text": "arlR"
+    },
+    {
+      "id": "ARO:3000839",
+      "text": "arlS"
+    },
+    {
+      "id": "ARO:3000979",
+      "text": "TEM-116"
+    },
+    {
+      "id": "ARO:3001301",
+      "text": "RlmA(II)"
+    },
+    {
+      "id": "ARO:3002524",
+      "text": "AAC(2')-Ib"
+    },
+    {
+      "id": "ARO:3002525",
+      "text": "AAC(2')-Ic"
+    },
+    {
+      "id": "ARO:3002526",
+      "text": "AAC(2')-Id"
+    },
+    {
+      "id": "ARO:3002527",
+      "text": "AAC(2')-Ie"
+    },
+    {
+      "id": "ARO:3002530",
+      "text": "AAC(3)-Ib"
+    },
+    {
+      "id": "ARO:3002539",
+      "text": "AAC(3)-IVa"
+    },
+    {
+      "id": "ARO:3002556",
+      "text": "AAC(6')-Ii"
+    },
+    {
+      "id": "ARO:3002597",
+      "text": "AAC6_Ie_APH2_Ia"
+    },
+    {
+      "id": "ARO:3002609",
+      "text": "aadA9"
+    },
+    {
+      "id": "ARO:3002628",
+      "text": "aad(6)"
+    },
+    {
+      "id": "ARO:3002639",
+      "text": "APH(3'')-Ib"
+    },
+    {
+      "id": "ARO:3002640",
+      "text": "APH(3'')-Ic"
+    },
+    {
+      "id": "ARO:3002641",
+      "text": "APH(3')-Ia"
+    },
+    {
+      "id": "ARO:3002644",
+      "text": "APH(3')-IIa"
+    },
+    {
+      "id": "ARO:3002647",
+      "text": "APH(3')-IIIa"
+    },
+    {
+      "id": "ARO:3002660",
+      "text": "APH(6)-Id"
+    },
+    {
+      "id": "ARO:3002661",
+      "text": "APH(7'')-Ia"
+    },
+    {
+      "id": "ARO:3002671",
+      "text": "Lreu_cat-TC"
+    },
+    {
+      "id": "ARO:3002683",
+      "text": "catI"
+    },
+    {
+      "id": "ARO:3002699",
+      "text": "cmlB1"
+    },
+    {
+      "id": "ARO:3002841",
+      "text": "vatB"
+    },
+    {
+      "id": "ARO:3002846",
+      "text": "arr-1"
+    },
+    {
+      "id": "ARO:3002865",
+      "text": "dfrC"
+    },
+    {
+      "id": "ARO:3002875",
+      "text": "dfrE"
+    },
+    {
+      "id": "ARO:3002897",
+      "text": "SAT-4"
+    },
+    {
+      "id": "ARO:3002930",
+      "text": "vanR_in_vanO_cl"
+    },
+    {
+      "id": "ARO:3003003",
+      "text": "CfxA3"
+    },
+    {
+      "id": "ARO:3003035",
+      "text": "mfpA"
+    },
+    {
+      "id": "ARO:3003046",
+      "text": "qacA"
+    },
+    {
+      "id": "ARO:3003112",
+      "text": "lsaC"
+    },
+    {
+      "id": "ARO:3003551",
+      "text": "emeA"
+    },
+    {
+      "id": "ARO:3003552",
+      "text": "fusB"
+    },
+    {
+      "id": "ARO:3003562",
+      "text": "blaF"
+    },
+    {
+      "id": "ARO:3003710",
+      "text": "MexL"
+    },
+    {
+      "id": "ARO:3003731",
+      "text": "fusD"
+    },
+    {
+      "id": "ARO:3003905",
+      "text": "ANT(4')-Ib"
+    },
+    {
+      "id": "ARO:3003948",
+      "text": "efrA"
+    },
+    {
+      "id": "ARO:3003949",
+      "text": "efrB"
+    },
+    {
+      "id": "ARO:3003955",
+      "text": "efpA"
+    },
+    {
+      "id": "ARO:3003967",
+      "text": "lfrA"
+    },
+    {
+      "id": "ARO:3004032",
+      "text": "tetA(46)"
+    },
+    {
+      "id": "ARO:3004033",
+      "text": "tetB(46)"
+    },
+    {
+      "id": "ARO:3004035",
+      "text": "tetA(60)"
+    },
+    {
+      "id": "ARO:3004036",
+      "text": "tetB(60)"
+    },
+    {
+      "id": "ARO:3004056",
+      "text": "ArmR"
+    },
+    {
+      "id": "ARO:3004541",
+      "text": "mphK"
+    },
+    {
+      "id": "ARO:3004572",
+      "text": "Saur_LmrS"
+    },
+    {
+      "id": "ARO:3004606",
+      "text": "erm(40)"
+    },
+    {
+      "id": "ARO:3004650",
+      "text": "tet(U)"
+    },
+    {
+      "id": "ARO:3004661",
+      "text": "Saur_FosB"
+    },
+    {
+      "id": "ARO:3004667",
+      "text": "Saur_norA"
+    }
+  ]
+}

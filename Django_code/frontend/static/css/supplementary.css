@@ -1,0 +1,188 @@
+@charset "utf-8";
+
+.ag-theme-material {
+  --ag-borders-critical-color: grey;
+  --ag-odd-row-background-color: rgb(0, 0, 0, 0.03);
+  --ag-header-background-color: rgb(209, 64, 129);
+
+  --ag-font-size: 17px;
+}
+
+a {
+  text-decoration: none;
+  color: #3391b9;
+}
+
+a:hover {
+  color: #72bedf;
+}
+
+a:active {
+  color: #3391b9;
+}
+
+
+.p-lddq {
+  text-align: justify;
+  font-size: 16px;
+}
+
+.notes {
+  font-size: 13px;
+}
+
+.custom-tooltip {
+  --bs-tooltip-bg: var(--bs-primary);
+}
+
+
+.nav-img {
+  width: 100%;
+  height: auto;
+  /* background: linear-gradient(to right, rgba(255, 255, 255, 0.6) 0%, rgba(255, 255, 255, 0) 100%); */
+}
+
+
+
+.ui.inverted.menu a.item strong {
+  font-size: 18px;
+}
+
+.ui.inverted.menu a.item i.icon {
+  font-size: 18px;
+}
+
+/*
+.center {
+  display: flex;
+  align-items: center;
+   上下居中，垂直方向 */
+/* justify-content: center;  左右居中，水平方向 
+}*/
+
+/* .ag-overlay-loading-center {
+  display: block;
+  position: absolute;
+  left: 50%;
+  top: 10%;
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+  color: #888;
+  font-size: 1.5rem;
+} */
+
+
+
+/* .nav-svg {
+  margin-bottom: 3px;
+}
+
+.nav-link {
+  color: #fff;
+}
+
+.navbar-brand,
+.navbar-brand:hover {
+  color: #fff;
+}
+
+.nav-btn {
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  font-size: 17px;
+  margin-top: 1px;
+}
+
+.nav-btn:hover,
+.nav-btn:active {
+  background-color: rgb(106, 149, 189);
+  border: none;
+  color: #fff;
+} */
+
+
+/* sidebar of browse pages */
+.sidebar-subtitle {
+  font-size: 18px !important;
+  font-weight: bold !important;
+  margin-left: 11px !important;
+}
+
+.bg-color {
+  background-color: #ebebeb !important;
+  padding: 8px !important;
+  width: 60%;
+  display: inline-block;
+  margin-bottom: 9px !important;
+  min-width: 190px !important;
+}
+
+
+/* 统一元件样式 */
+
+/* .ui.button {
+  border-color: #3391b9 !important;
+} */
+
+.ui.blue.button.ntm-btn {
+  border: 1px solid;
+  border-color: #3391b9 !important;
+  background-color: rgb(255, 255, 255) !important;
+  font-size: 15px !important;
+  font-weight: bold !important;
+  color: #3391b9 !important;
+  padding: 8px !important;
+
+}
+
+.ui.blue.button.ntm-btn:hover {
+  border: 1px solid;
+  border-color: #3391b9 !important;
+  background-color: #3391b9 !important;
+  font-size: 15px !important;
+  font-weight: bold !important;
+  color: white !important;
+  padding: 8px !important;
+  /* border-collapse: separate !important; */
+}
+
+.ui.blue.button.ntm-btn2 {
+  border: 1px solid;
+  border-color: #3391b9 !important;
+  background-color: #3391b9 !important;
+  font-size: 15px !important;
+  font-weight: bold !important;
+  color: rgb(255, 255, 255) !important;
+  padding: 8px !important;
+
+}
+
+
+
+
+/* .ui.blue.button.ntm-btns {
+  border: 1px solid;
+  border-color: #3391b9 !important;
+  background-color: rgb(255, 255, 255) !important;
+  font-size: 15px !important;
+  font-weight: bold !important;
+  color: #3391b9 !important;
+  padding: 8px !important;
+  border-collapse: collapse !important;
+}
+
+.ui.blue.button.ntm-btns:hover {
+  border: 1px solid;
+  border-color: #3391b9 !important;
+  background-color: #3391b9 !important;
+  font-size: 15px !important;
+  font-weight: bold !important;
+  color: white !important;
+  padding: 8px !important;
+} */
+
+.qmark {
+  color: rgb(90, 143, 187) !important;
+  position: relative;
+}
