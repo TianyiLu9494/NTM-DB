@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+
+#singleSelect {
+    width: 88px;
+    /* 设置宽度 */
+    height: 50px;
+    /* 设置高度 */
+}
+
+#multiSelect {
+    width: 200px;
+    /* 设置宽度 */
+    height: 50px;
+    /* 设置高度 */
+}
+
+.buildTreeRadio {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+/* .buildTreeRadio+.buildTreeRadio {
+    margin-top: 20px;
+} */

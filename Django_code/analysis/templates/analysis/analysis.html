@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NTM-DB: Analysis</title>
+  {% load static %}
+  <link rel="icon" href="{%static '/image/logo/NTM_logo_light.svg'%}" />
+  <link rel="stylesheet" type="text/css" href="{% static '/module/semantic-ui/semantic.min.css'%}">
+  <link rel="stylesheet" type="text/css" href="{% static '/module/bootstrap/bootstrap.min.css'%}" />
+  <link rel="stylesheet" type="text/css" href="{% static '/module/ngdc/page.min.css'%}" />
+  <link rel="stylesheet" type="text/css" href="{% static '/css/supplementary.css'%}" />
+  <link rel="stylesheet" type="text/css" href="{% static '/module/select2/css/select2.min.css'%}" />
+  <link rel="stylesheet" type="text/css" href="{% static '/analysis_css/analysis.css'%}" />
+  <link rel="stylesheet" type="text/css" href="{% static '/analysis_css/loader.css'%}" />
+  <style>
+    .card-header {
+      color: rgb(0, 0, 0);
+      font-size: 24px;
+    }
+
+    .card-footer {
+      background-color: #ffffff;
+    }
+
+
+
+    label {
+      font-size: 16px;
+    }
+
+    .form-control-sm {
+      height: 35px;
+      font-size: 1.29rem;
+    }
+  </style>
+</head>
+
+<body>
+  {% include 'component/ngdc_header.html' %}
+  {% include 'component/nav_bar2.html' %}
+  <div id="main">
+    <!-- breadcrumb -->
+    <div class="ui basic segment">
+      <div class="ui big breadcrumb" style="margin:8px 0 35px 0 !important;">
+        <a href="/ntmdb" class="section"><i class="icon home"></i> Home</a>
+        <i class="right angle icon divider"></i>
+        <div class="active section">Analysis</div>
+      </div>
+
+
+
+      <div class="ui stackable grid row">
+        <div class="ui container">
+
+          <div class="container p-3">
+            <h2 class="title" style="color:#4C9EBF; font-weight: bold;">Analysis of NTM strain assembly</h2>
+            <hr />
+          </div>
+          <!-- card for analysis submit-->
+          <div class="form">
+            {% include 'analysis/form.html' %}
+          </div>
+          <div id='loader'></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  {% include 'component/ngdc_footer.html' %}
+  <script src="{% static '/module/jquery/jquery-3.6.4.js'%}"></script>
+  <script src="{% static '/module/bootstrap/bootstrap.bundle.min.js'%}"></script>
+  <script src="{% static '/module/semantic-ui/semantic.min.js'%}"></script>
+  <script src="{% static '/module/ag-grid/ag-grid-community.min.js'%}"></script>
+  <script src="{% static '/module/select2/js/select2.min.js'%}"></script>
+  <script src="{% static '/analysis_js/analysis_select2.js' %}"></script>
+  <script>
+    // 获取按钮和loader的引用
+    const button = document.querySelector('#submit_analysis');
+    const loaderDiv = document.getElementById('loader');
+
+    // 监听每个 checkbox 的 change 事件
+    const checkboxes = document.querySelectorAll('input[type="checkbox"]');
+    checkboxes.forEach(function (checkbox) {
+      checkbox.addEventListener('change', function () {
+        // 判断是否有任何一个 checkbox 被选中
+        const anyCheckboxChecked = Array.from(checkboxes).some(function (cb) {
+          return cb.checked;
+        });
+
+        // 根据是否有选中的 checkbox 来激活或禁用按钮
+        button.disabled = !anyCheckboxChecked;
+      });
+    });
+
+    // 监听表单提交事件
+    document.querySelector('form').addEventListener('submit', function (event) {
+      // 阻止表单默认提交行为
+      event.preventDefault();
+
+      // 判断是否有任何一个 checkbox 被选中
+      const anyCheckboxChecked = Array.from(checkboxes).some(function (checkbox) {
+        return checkbox.checked;
+      });
+
+      if (anyCheckboxChecked) {
+        // 创建loader的HTML元素
+        const loaderHTML =
+          '<div class="loader-wrapper"><span class="loader"><span class="loader-inner"></span></span><div class=loader-text>Analysing please wait...</div></div>';
+
+        // 在loaderDiv中插入loader的HTML元素
+        loaderDiv.innerHTML = loaderHTML;
+
+        // 提交表单
+        this.submit();
+      }
+    });
+  </script>
+</body>
+
+</html>

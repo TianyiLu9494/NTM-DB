@@ -1,0 +1,760 @@
+{
+  "items": [
+    {
+      "id": "36809",
+      "text": "M.abscessus"
+    },
+    {
+      "id": "36811",
+      "text": "M.agri"
+    },
+    {
+      "id": "1799",
+      "text": "M.aichiense"
+    },
+    {
+      "id": "1288388",
+      "text": "M.algericum"
+    },
+    {
+      "id": "324058",
+      "text": "M.alsense"
+    },
+    {
+      "id": "67081",
+      "text": "M.alvei"
+    },
+    {
+      "id": "470074",
+      "text": "M.angelicum"
+    },
+    {
+      "id": "1431246",
+      "text": "M.anyangense"
+    },
+    {
+      "id": "1927124",
+      "text": "M.aquaticum"
+    },
+    {
+      "id": "1286181",
+      "text": "M.arabiense"
+    },
+    {
+      "id": "318425",
+      "text": "M.aromaticivorans"
+    },
+    {
+      "id": "425468",
+      "text": "M.arosiense"
+    },
+    {
+      "id": "342002",
+      "text": "M.arupense"
+    },
+    {
+      "id": "1790",
+      "text": "M.asiaticum"
+    },
+    {
+      "id": "2341086",
+      "text": "M.attenuatum"
+    },
+    {
+      "id": "319707",
+      "text": "M.aubagnense"
+    },
+    {
+      "id": "1791",
+      "text": "M.aurum"
+    },
+    {
+      "id": "39687",
+      "text": "M.austroafricanum"
+    },
+    {
+      "id": "1764",
+      "text": "M.avium"
+    },
+    {
+      "id": "564198",
+      "text": "M.bacteremicum"
+    },
+    {
+      "id": "2094119",
+      "text": "M.basiliense"
+    },
+    {
+      "id": "146017",
+      "text": "M.boenickei"
+    },
+    {
+      "id": "56425",
+      "text": "M.bohemicum"
+    },
+    {
+      "id": "84962",
+      "text": "M.botniense"
+    },
+    {
+      "id": "1273442",
+      "text": "M.bourgelatii"
+    },
+    {
+      "id": "43348",
+      "text": "M.branderi"
+    },
+    {
+      "id": "146020",
+      "text": "M.brisbanense"
+    },
+    {
+      "id": "85968",
+      "text": "M.brumae"
+    },
+    {
+      "id": "228230",
+      "text": "M.canariasense"
+    },
+    {
+      "id": "28045",
+      "text": "M.celatum"
+    },
+    {
+      "id": "1249101",
+      "text": "M.celeriflavum"
+    },
+    {
+      "id": "1774",
+      "text": "M.chelonae"
+    },
+    {
+      "id": "1792",
+      "text": "M.chitae"
+    },
+    {
+      "id": "37916",
+      "text": "M.chlorophenolicum"
+    },
+    {
+      "id": "1800",
+      "text": "M.chubuense"
+    },
+    {
+      "id": "339268",
+      "text": "M.colombiense"
+    },
+    {
+      "id": "451644",
+      "text": "M.conceptionense"
+    },
+    {
+      "id": "28047",
+      "text": "M.confluentis"
+    },
+    {
+      "id": "44010",
+      "text": "M.conspicuum"
+    },
+    {
+      "id": "1775",
+      "text": "M.cookii"
+    },
+    {
+      "id": "258533",
+      "text": "M.cosmeticum"
+    },
+    {
+      "id": "1430326",
+      "text": "M.decipiens"
+    },
+    {
+      "id": "1801",
+      "text": "M.diernhoferi"
+    },
+    {
+      "id": "126673",
+      "text": "M.doricum"
+    },
+    {
+      "id": "39688",
+      "text": "M.duvalii"
+    },
+    {
+      "id": "2035343",
+      "text": "M.eburneum"
+    },
+    {
+      "id": "81858",
+      "text": "M.elephantis"
+    },
+    {
+      "id": "188915",
+      "text": "M.engbaekii"
+    },
+    {
+      "id": "761804",
+      "text": "M.europaeum"
+    },
+    {
+      "id": "1793",
+      "text": "M.fallax"
+    },
+    {
+      "id": "1802",
+      "text": "M.farcinogenes"
+    },
+    {
+      "id": "1776",
+      "text": "M.flavescens"
+    },
+    {
+      "id": "292462",
+      "text": "M.florentinum"
+    },
+    {
+      "id": "258505",
+      "text": "M.fluoranthenivorans"
+    },
+    {
+      "id": "1766",
+      "text": "M.fortuitum"
+    },
+    {
+      "id": "1260918",
+      "text": "M.fragae"
+    },
+    {
+      "id": "948102",
+      "text": "M.franklinii"
+    },
+    {
+      "id": "117567",
+      "text": "M.frederiksbergense"
+    },
+    {
+      "id": "1794",
+      "text": "M.gadium"
+    },
+    {
+      "id": "1777",
+      "text": "M.gastri"
+    },
+    {
+      "id": "36812",
+      "text": "M.genavense"
+    },
+    {
+      "id": "1804",
+      "text": "M.gilvum"
+    },
+    {
+      "id": "134601",
+      "text": "M.goodii"
+    },
+    {
+      "id": "1778",
+      "text": "M.gordonae"
+    },
+    {
+      "id": "1552759",
+      "text": "M.grossiae"
+    },
+    {
+      "id": "29311",
+      "text": "M.haemophilum"
+    },
+    {
+      "id": "46351",
+      "text": "M.hassiacum"
+    },
+    {
+      "id": "110505",
+      "text": "M.heckeshornense"
+    },
+    {
+      "id": "53376",
+      "text": "M.heidelbergense"
+    },
+    {
+      "id": "2592811",
+      "text": "M.helveticum"
+    },
+    {
+      "id": "1534349",
+      "text": "M.helvum"
+    },
+    {
+      "id": "512402",
+      "text": "M.heraklionense"
+    },
+    {
+      "id": "29314",
+      "text": "M.hiberniae"
+    },
+    {
+      "id": "659824",
+      "text": "M.hippocampi"
+    },
+    {
+      "id": "49897",
+      "text": "M.hodleri"
+    },
+    {
+      "id": "152142",
+      "text": "M.holsaticum"
+    },
+    {
+      "id": "146021",
+      "text": "M.houstonense"
+    },
+    {
+      "id": "83262",
+      "text": "M.immunogenum"
+    },
+    {
+      "id": "2341083",
+      "text": "M.innocens"
+    },
+    {
+      "id": "444597",
+      "text": "M.insubricum"
+    },
+    {
+      "id": "33895",
+      "text": "M.interjectum"
+    },
+    {
+      "id": "28445",
+      "text": "M.intermedium"
+    },
+    {
+      "id": "1767",
+      "text": "M.intracellulare"
+    },
+    {
+      "id": "912594",
+      "text": "M.iranicum"
+    },
+    {
+      "id": "1768",
+      "text": "M.kansasii"
+    },
+    {
+      "id": "1566885",
+      "text": "M.komaniense"
+    },
+    {
+      "id": "120959",
+      "text": "M.kubicae"
+    },
+    {
+      "id": "354243",
+      "text": "M.kumamotonense"
+    },
+    {
+      "id": "2212479",
+      "text": "M.kyogaense"
+    },
+    {
+      "id": "487514",
+      "text": "M.kyorinense"
+    },
+    {
+      "id": "169765",
+      "text": "M.lacus"
+    },
+    {
+      "id": "2048550",
+      "text": "M.lehmannii"
+    },
+    {
+      "id": "141349",
+      "text": "M.lentiflavum"
+    },
+    {
+      "id": "758802",
+      "text": "M.litorale"
+    },
+    {
+      "id": "280871",
+      "text": "M.llatzerense"
+    },
+    {
+      "id": "1108812",
+      "text": "M.longobardum"
+    },
+    {
+      "id": "1641992",
+      "text": "M.lutetiense"
+    },
+    {
+      "id": "212765",
+      "text": "M.madagascariense"
+    },
+    {
+      "id": "53462",
+      "text": "M.mageritense"
+    },
+    {
+      "id": "1566886",
+      "text": "M.malmesburyense"
+    },
+    {
+      "id": "1780",
+      "text": "M.malmoense"
+    },
+    {
+      "id": "560555",
+      "text": "M.mantenii"
+    },
+    {
+      "id": "1781",
+      "text": "M.marinum"
+    },
+    {
+      "id": "701042",
+      "text": "M.marseillense"
+    },
+    {
+      "id": "1118379",
+      "text": "M.minnesotense"
+    },
+    {
+      "id": "85693",
+      "text": "M.monacense"
+    },
+    {
+      "id": "154654",
+      "text": "M.montefiorense"
+    },
+    {
+      "id": "39691",
+      "text": "M.moriokaense"
+    },
+    {
+      "id": "56689",
+      "text": "M.mucogenicum"
+    },
+    {
+      "id": "182220",
+      "text": "M.murale"
+    },
+    {
+      "id": "244292",
+      "text": "M.nebraskense"
+    },
+    {
+      "id": "242737",
+      "text": "M.neglectum"
+    },
+    {
+      "id": "1795",
+      "text": "M.neoaurum"
+    },
+    {
+      "id": "2048551",
+      "text": "M.neumannii"
+    },
+    {
+      "id": "146018",
+      "text": "M.neworleansense"
+    },
+    {
+      "id": "1782",
+      "text": "M.nonchromogenicum"
+    },
+    {
+      "id": "459858",
+      "text": "M.noviomagense"
+    },
+    {
+      "id": "59813",
+      "text": "M.novocastrense"
+    },
+    {
+      "id": "1807",
+      "text": "M.obuense"
+    },
+    {
+      "id": "2034511",
+      "text": "M.palauense"
+    },
+    {
+      "id": "153971",
+      "text": "M.palustre"
+    },
+    {
+      "id": "767916",
+      "text": "M.paraense"
+    },
+    {
+      "id": "53378",
+      "text": "M.paraffinicum"
+    },
+    {
+      "id": "39692",
+      "text": "M.parafortuitum"
+    },
+    {
+      "id": "1389713",
+      "text": "M.paragordonae"
+    },
+    {
+      "id": "240125",
+      "text": "M.parascrofulaceum"
+    },
+    {
+      "id": "590652",
+      "text": "M.paraseoulense"
+    },
+    {
+      "id": "185642",
+      "text": "M.parmense"
+    },
+    {
+      "id": "43304",
+      "text": "M.peregrinum"
+    },
+    {
+      "id": "1487726",
+      "text": "M.persicum"
+    },
+    {
+      "id": "1771",
+      "text": "M.phlei"
+    },
+    {
+      "id": "319706",
+      "text": "M.phocaicum"
+    },
+    {
+      "id": "39693",
+      "text": "M.porcinum"
+    },
+    {
+      "id": "39694",
+      "text": "M.poriferae"
+    },
+    {
+      "id": "2341080",
+      "text": "M.pseudokansasii"
+    },
+    {
+      "id": "265949",
+      "text": "M.pseudoshottsii"
+    },
+    {
+      "id": "216929",
+      "text": "M.psychrotolerans"
+    },
+    {
+      "id": "36813",
+      "text": "M.pulveris"
+    },
+    {
+      "id": "36814",
+      "text": "M.rhodesiae"
+    },
+    {
+      "id": "486698",
+      "text": "M.riyadhense"
+    },
+    {
+      "id": "318424",
+      "text": "M.rufum"
+    },
+    {
+      "id": "370526",
+      "text": "M.rutilum"
+    },
+    {
+      "id": "404941",
+      "text": "M.salmoniphilum"
+    },
+    {
+      "id": "1578165",
+      "text": "M.saopaulense"
+    },
+    {
+      "id": "1534348",
+      "text": "M.sarraceniae"
+    },
+    {
+      "id": "220927",
+      "text": "M.saskatchewanense"
+    },
+    {
+      "id": "1783",
+      "text": "M.scrofulaceum"
+    },
+    {
+      "id": "1286180",
+      "text": "M.sediminis"
+    },
+    {
+      "id": "1796",
+      "text": "M.senegalense"
+    },
+    {
+      "id": "2775496",
+      "text": "M.senriense"
+    },
+    {
+      "id": "386913",
+      "text": "M.senuense"
+    },
+    {
+      "id": "386911",
+      "text": "M.seoulense"
+    },
+    {
+      "id": "98668",
+      "text": "M.septicum"
+    },
+    {
+      "id": "431269",
+      "text": "M.setense"
+    },
+    {
+      "id": "243061",
+      "text": "M.sherrisii"
+    },
+    {
+      "id": "722731",
+      "text": "M.shigaense"
+    },
+    {
+      "id": "29313",
+      "text": "M.shimoidei"
+    },
+    {
+      "id": "398694",
+      "text": "M.shinjukuense"
+    },
+    {
+      "id": "1784",
+      "text": "M.simiae"
+    },
+    {
+      "id": "1772",
+      "text": "M.smegmatis"
+    },
+    {
+      "id": "1786",
+      "text": "M.sphagni"
+    },
+    {
+      "id": "470076",
+      "text": "M.stomatepiae"
+    },
+    {
+      "id": "1185650",
+      "text": "M.subsp. abscessus"
+    },
+    {
+      "id": "144550",
+      "text": "M.subsp. acetamidolyticum"
+    },
+    {
+      "id": "44454",
+      "text": "M.subsp. avium"
+    },
+    {
+      "id": "319705",
+      "text": "M.subsp. bolletii"
+    },
+    {
+      "id": "2099321",
+      "text": "M.subsp. chelonae"
+    },
+    {
+      "id": "222805",
+      "text": "M.subsp. chimaera"
+    },
+    {
+      "id": "144549",
+      "text": "M.subsp. fortuitum"
+    },
+    {
+      "id": "2480908",
+      "text": "M.subsp. gwanakae"
+    },
+    {
+      "id": "35617",
+      "text": "M.subsp. intracellulare"
+    },
+    {
+      "id": "1962118",
+      "text": "M.subsp. massiliense"
+    },
+    {
+      "id": "1770",
+      "text": "M.subsp. paratuberculosis"
+    },
+    {
+      "id": "44282",
+      "text": "M.subsp. silvaticum"
+    },
+    {
+      "id": "1908205",
+      "text": "M.syngnathidarum"
+    },
+    {
+      "id": "1787",
+      "text": "M.szulgai"
+    },
+    {
+      "id": "1788",
+      "text": "M.terrae"
+    },
+    {
+      "id": "1797",
+      "text": "M.thermoresistibile"
+    },
+    {
+      "id": "701043",
+      "text": "M.timonense"
+    },
+    {
+      "id": "39695",
+      "text": "M.tokaiense"
+    },
+    {
+      "id": "47839",
+      "text": "M.triplex"
+    },
+    {
+      "id": "75922",
+      "text": "M.tusciae"
+    },
+    {
+      "id": "1809",
+      "text": "M.ulcerans"
+    },
+    {
+      "id": "1810",
+      "text": "M.vaccae"
+    },
+    {
+      "id": "1719132",
+      "text": "M.vicinigordonae"
+    },
+    {
+      "id": "1795032",
+      "text": "M.virginiense"
+    },
+    {
+      "id": "547163",
+      "text": "M.vulneris"
+    },
+    {
+      "id": "59750",
+      "text": "M.wolinskyi"
+    },
+    {
+      "id": "1789",
+      "text": "M.xenopi"
+    }
+  ]
+}

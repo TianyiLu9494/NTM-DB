@@ -1,0 +1,6 @@
+__pycache__
+migrations/__pycache__
+static/user_upload/.DS_Store
+static/user_upload
+static/.DS_Store
+.DS_Store

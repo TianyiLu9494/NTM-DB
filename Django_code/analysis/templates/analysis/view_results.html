@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>NTM-DB: Analysis</title>
+  {% load static %}
+  <link rel="icon" href="{%static '/image/logo/NTM_logo_light.svg'%}" />
+  <link rel="stylesheet" type="text/css" href="{% static '/module/semantic-ui/semantic.min.css'%}">
+  <link rel="stylesheet" type="text/css" href="{% static '/module/bootstrap/bootstrap.min.css'%}" />
+  <link rel="stylesheet" type="text/css" href="{% static '/module/ngdc/page.min.css'%}" />
+  <link rel="stylesheet" type="text/css" href="{% static '/css/supplementary.css'%}" />
+  <link rel="stylesheet" type="text/css" href="{% static '/analysis_css/analysis.css'%}" />
+  <link rel="stylesheet" type="text/css" href="{% static '/module/bootstrap-icons/font/bootstrap-icons.css'%}">
+  <style>
+    .card-footer {
+      background-color: white;
+    }
+
+    .card-head {
+      background-color: #4C9EBF !important;
+      padding: 5px 0 8px 16px !important;
+      color: aliceblue !important;
+      font-size: 24px !important;
+    }
+
+    .content.card-body {
+
+      font-size: 16px !important;
+      /* text-align: middle !important;
+      vertical-align: middle !important; */
+    }
+
+    .ui.card {
+      margin-bottom: 30px !important;
+    }
+  </style>
+</head>
+
+<body>
+  {% include 'component/ngdc_header.html' %}
+  {% include 'component/nav_bar2.html' %}
+  <div id="main">
+    <!-- breadcrumb -->
+    <div class="ui basic segment">
+      <div class="ui big breadcrumb" style="margin: 8px 0 35px 0 !important">
+        <a href="/ntmdb" class="section"><i class="icon home"></i> Home</a>
+        <i class="right angle icon divider"></i>
+        <div class="active section">Analysis</div>
+      </div>
+      <div class="ui stackable grid row">
+        <div class="ui container">
+          <div class="container p-3" style="padding-bottom:4px !important;">
+            <h2 class="title" style="color:#4C9EBF; font-weight: bold;">Result</h2>
+            <hr />
+          </div>
+          {% if query.build_tree and query.build_tree_status %}
+          <div class="ui card fluid">
+            <!-- card for analysis result-->
+            <div class="content card-head">Phylogenies</div>
+            <div class="content card-body">
+              <!-- <img src="{% static '/analysis_image/16s_example.svg' %}" width="300px" height="20px"> -->
+              <img src="{% static tree_view %}" style="width: 100%" />
+              <a href="{% url 'analysis:download' query_id=query.query_id %}?result=tree_file"><button type="button"
+                  class="ui blue button ntm-btn2">
+                  <i class="bi bi-save"></i>
+                  tree_file.nwk
+                </button></a>
+
+              <a href="{% url 'analysis:download' query_id=query.query_id %}?result=tree_visual"><button type="button"
+                  class="ui blue button ntm-btn2">
+                  <i class="bi bi-save"></i>
+                  tree_file.svg
+                </button></a>
+
+            </div>
+          </div>
+
+          {% endif %}
+          {% if query.mlst_json %}
+          <div class="ui card fluid">
+            <div class="content card-head">View MLST by allelic profile</div>
+            <div class="content card-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th>Sequence Type</th>
+                    <th>S14Z</th>
+                    <th>L35</th>
+                    <th>S19</th>
+                    <th>L19</th>
+                    <th>S12</th>
+                    <th>S8</th>
+                    <th>L16</th>
+                    <th>S7</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a target="_blank"
+                        href="https://ngdc.cncb.ac.cn/ntmdb/mlst/?st={{ mlst_json.sequence_type }}">ST-{{mlst_json.sequence_type}}
+                      </a></td>
+                    <td><a target="_blank"
+                        href="https://pubmlst.org/bigsdb?db=pubmlst_mycobacteria_seqdef&page=alleleInfo&locus=S14Z&allele_id={{mlst_json.alleles.S14Z}}">{{mlst_json.alleles.S14Z}}
+                      </a></td>
+                    <td><a target="_blank"
+                        href="https://pubmlst.org/bigsdb?db=pubmlst_mycobacteria_seqdef&page=alleleInfo&locus=L35&allele_id={{mlst_json.alleles.L35}}">{{mlst_json.alleles.L35}}
+                      </a></td>
+                    <td><a target="_blank"
+                        href="https://pubmlst.org/bigsdb?db=pubmlst_mycobacteria_seqdef&page=alleleInfo&locus=S19&allele_id={{mlst_json.alleles.S19}}">{{mlst_json.alleles.S19}}
+                      </a></td>
+                    <td><a target="_blank"
+                        href="https://pubmlst.org/bigsdb?db=pubmlst_mycobacteria_seqdef&page=alleleInfo&locus=L16&allele_id={{mlst_json.alleles.L16}}">{{mlst_json.alleles.L19}}
+                      </a></td>
+                    <td><a target="_blank"
+                        href="https://pubmlst.org/bigsdb?db=pubmlst_mycobacteria_seqdef&page=alleleInfo&locus=S12&allele_id={{mlst_json.alleles.S12}}">{{mlst_json.alleles.S12}}
+                      </a></td>
+                    <td><a target="_blank"
+                        href="https://pubmlst.org/bigsdb?db=pubmlst_mycobacteria_seqdef&page=alleleInfo&locus=S8&allele_id={{mlst_json.alleles.S8}}">{{mlst_json.alleles.S8}}
+                      </a></td>
+                    <td><a target="_blank"
+                        href="https://pubmlst.org/bigsdb?db=pubmlst_mycobacteria_seqdef&page=alleleInfo&locus=L16&allele_id={{mlst_json.alleles.L16}}">{{mlst_json.alleles.L16}}
+                      </a></td>
+                    <td><a target="_blank"
+                        href="https://pubmlst.org/bigsdb?db=pubmlst_mycobacteria_seqdef&page=alleleInfo&locus=S7&allele_id={{mlst_json.alleles.S7}}">{{mlst_json.alleles.S7}}
+                      </a></td>
+                  </tr>
+              </table>
+            </div>
+          </div>
+          {% endif %}
+          {% if query.resistance_annotation or query.virulence_annotation or query.build_tree %}
+          <div class="ui card fluid">
+            <div class="content card-head">Download annotation</div>
+            <div class="content card-body">
+              <table class="table">
+                <tbody>
+                  {% if query.AMR_tsv_path %}
+                  <tr>
+                    <td scope="col"><b>Resistance</b></td>
+                    <td>
+
+
+                      <a href="{% url 'analysis:download' query_id=query.query_id %}?result=AMR_tsv_file"><button
+                          type="button" class="ui blue button ntm-btn2">
+                          <i class="bi bi-save"></i>
+                          AMR.tsv
+                        </button></a>
+                    </td>
+                    <td>
+
+                      <a href="{% url 'analysis:download' query_id=query.query_id %}?result=AMR_fasta_file"><button
+                          type="button" class="ui blue button ntm-btn2">
+                          <i class="bi bi-save"></i>
+                          AMR.fasta
+                        </button></a>
+                    </td>
+                  </tr>
+                  {%endif%}
+                  {% if query.VFG_tsv_path %}
+                  <tr>
+                    <td scope="col"><b>Virulence</b></td>
+                    <td>
+
+                      <a href="{% url 'analysis:download' query_id=query.query_id %}?result=VFG_tsv_file"><button
+                          type="button" class="ui blue button ntm-btn2">
+                          <i class="bi bi-save"></i>
+                          VFG.tsv
+                        </button></a>
+
+                    </td>
+                    <td>
+
+                      <a href="{% url 'analysis:download' query_id=query.query_id %}?result=VFG_fasta_file"><button
+                          type="button" class="ui blue button ntm-btn2">
+                          <i class="bi bi-save"></i>
+                          VFG.fasta
+                        </button></a>
+
+
+                    </td>
+                  </tr>
+                  {%endif%}
+                  {% if query.ssu_gff_path %}
+                  <tr>
+                    <td scope="col"><b>SSU_rRNA</b></td>
+                    <td>
+
+
+
+                      <a href="{% url 'analysis:download' query_id=query.query_id %}?result=ssu_gff_file"><button
+                          type="button" class="ui blue button ntm-btn2">
+                          <i class="bi bi-save"></i>
+                          SSU_rRNA.gff
+                        </button></a>
+
+
+                    </td>
+                    <td>
+
+
+
+                      <a href="{% url 'analysis:download' query_id=query.query_id %}?result=ssu_fasta_file"><button
+                          type="button" class="ui blue button ntm-btn2">
+                          <i class="bi bi-save"></i>
+                          SSU_rRNA.fasta
+                        </button></a>
+
+
+
+                    </td>
+                  </tr>
+                  {%endif%}
+                </tbody>
+              </table>
+            </div>
+          </div>
+          {%endif%}
+        </div>
+      </div>
+    </div>
+  </div>
+
+  {% include 'component/ngdc_footer.html' %}
+  <script src="{% static '/module/jquery/jquery-3.6.4.js'%}"></script>
+  <script src="{% static '/module/bootstrap/bootstrap.bundle.min.js'%}"></script>
+  <script src="{% static '/module/semantic-ui/semantic.min.js'%}"></script>
+</body>
+
+</html>
